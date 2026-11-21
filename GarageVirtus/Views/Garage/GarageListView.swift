@@ -10,6 +10,7 @@ struct GarageListView: View {
 
     @Query private var rows: [GaragePart]
     @Query private var allParts: [GaragePart]
+    @State private var model = GarageViewModel()
 
     init(status: PartStatus) {
         self.status = status
@@ -18,13 +19,24 @@ struct GarageListView: View {
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            GarageListHeader(status: status, rows: rows)
-            Divider()
-            if status.isOwned {
-                OwnedTable(rows: rows)
-            } else {
-                WishTable(rows: rows, allParts: allParts, isNeedList: status == .need)
+        // A fixed-width editor beside the table, like the diagrams' parts panel (no `.inspector`).
+        HStack(spacing: 0) {
+            VStack(alignment: .leading, spacing: 0) {
+                GarageListHeader(status: status, rows: rows)
+                Divider()
+                if status.isOwned {
+                    OwnedTable(rows: rows, selection: $model.selectedPartID)
+                } else {
+                    WishTable(rows: rows, allParts: allParts, isNeedList: status == .need, selection: $model.selectedPartID)
+                }
+            }
+            if let part = allParts.first(where: { $0.id == model.selectedPartID }) {
+                Divider()
+                PartEditorView(part: part,
+                               coverage: part.oemKey.map { GarageStore.coverage(forOEMKey: $0, in: allParts) },
+                               onClose: model.clearSelection)
+                    .id(part.id)
+                    .frame(width: 380)
             }
         }
         .navigationTitle(status.title)
@@ -37,11 +49,10 @@ struct GarageListView: View {
     }
 
     private func addPart() {
-        if status.isOwned {
-            garage.addOwned(oemNumber: nil, name: "New part", status: status)
-        } else {
-            garage.markWanted(oemNumber: nil, name: "New part", status: status)
-        }
+        let part = status.isOwned
+            ? garage.addOwned(oemNumber: nil, name: "New part", status: status)
+            : garage.markWanted(oemNumber: nil, name: "New part", status: status)
+        model.select(part)
     }
 }
 
@@ -66,9 +77,10 @@ private struct GarageListHeader: View {
 
 private struct OwnedTable: View {
     let rows: [GaragePart]
+    @Binding var selection: UUID?
 
     var body: some View {
-        Table(rows) {
+        Table(rows, selection: $selection) {
             TableColumn("Name", value: \.name)
             TableColumn("Part number") { Text($0.oemNumber ?? "—").monospaced() }
             TableColumn("Qty") { Text("\($0.quantity)").monospacedDigit() }.width(40)
@@ -86,9 +98,10 @@ private struct WishTable: View {
     let rows: [GaragePart]
     let allParts: [GaragePart]
     let isNeedList: Bool
+    @Binding var selection: UUID?
 
     var body: some View {
-        Table(rows) {
+        Table(rows, selection: $selection) {
             TableColumn("Name", value: \.name)
             TableColumn("Part number") { Text($0.oemNumber ?? "—").monospaced() }
             TableColumn("Qty") { Text("\($0.quantity)").monospacedDigit() }.width(40)
