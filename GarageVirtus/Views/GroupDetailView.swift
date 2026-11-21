@@ -53,7 +53,7 @@ private struct GroupContentView: View {
                 Divider()
                 SchemaStackView(model: model, file: file)
             }
-            if model.showAssistant {
+            if FeatureFlags.isAskAIEnabled, model.showAssistant {
                 Divider()
                 AssistantPanel(model: model)
                     .frame(width: 380)
@@ -66,10 +66,12 @@ private struct GroupContentView: View {
         }
         .toolbar {
             ToolbarItemGroup {
-                Toggle(isOn: $model.showAssistant) {
-                    Label("Ask AI", systemImage: "sparkles")
+                if FeatureFlags.isAskAIEnabled {
+                    Toggle(isOn: $model.showAssistant) {
+                        Label("Ask AI", systemImage: "sparkles")
+                    }
+                    .help("Chat with Claude about the parts in this section")
                 }
-                .help("Chat with Claude about the parts in this section")
                 Toggle(isOn: $model.showHotspots) {
                     Label("Hotspots", systemImage: "square.dashed")
                 }

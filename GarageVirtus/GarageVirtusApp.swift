@@ -42,7 +42,9 @@ struct GarageVirtusApp: App {
         .modelContainer(container)
 
         Settings {
-            AssistantSettingsView()
+            if FeatureFlags.isAskAIEnabled {
+                AssistantSettingsView()
+            }
         }
     }
 }

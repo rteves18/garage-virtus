@@ -23,7 +23,9 @@ Track your own parts alongside the catalogue. Statuses: **Need**, **Want**, **In
 
 The car picker at the top of **My garage** in the sidebar switches cars. The app remembers your choice. **Manage cars** (the car icon) adds, renames, or deletes cars. Deleting a car deletes its parts. Lists, badges, and the overview always show the current car. **Overview** shows counts per status, total spent, and the needs still short.
 
-## Ask AI
+## Ask AI (hidden for now)
+
+Turned off by `FeatureFlags.isAskAIEnabled` in favour of the MCP server (below). The code is kept. To turn it back on, set the flag to `true` and add `com.apple.security.network.client` back to the entitlements.
 
 In a schema group, turn on **Ask AI** in the toolbar to chat with Claude (`claude-opus-5-5`) about the diagrams on screen. For example: "What hardware do I need?" or "Which of these are discontinued?"
 
