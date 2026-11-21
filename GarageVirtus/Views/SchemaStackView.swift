@@ -8,7 +8,8 @@ struct SchemaStackView: View {
     @Bindable var model: GroupDetailViewModel
     let file: SchemaGroupFile
 
-    @State private var zoom: CGFloat = 1
+    /// Starts at 80% of the visible width: at 100% a single diagram fills most of the window.
+    @State private var zoom: CGFloat = 0.8
     @GestureState private var pinch: CGFloat = 1
 
     private let minZoom: CGFloat = 0.5
@@ -30,6 +31,8 @@ struct SchemaStackView: View {
             .padding(padding)
         }
         .scrollPosition(id: $model.currentSchemaID, anchor: .top)
+        // Always reserve the scroll bar's width, so the space for diagrams doesn't change when the bar appears.
+        .scrollIndicators(.visible)
         .background(Color.secondary.opacity(0.08))
         .gesture(
             MagnifyGesture()
@@ -87,7 +90,6 @@ struct DiagramCanvas: View {
     let schema: Schema
     let schemaIndex: Int
 
-    @State private var size: CGSize = .zero
     @State private var localHover: String?
 
     private let pad: CGFloat = 3
@@ -118,25 +120,31 @@ struct DiagramCanvas: View {
             }
         }
         .background(Color.white)
-        .onGeometryChange(for: CGSize.self) { $0.size } action: { size = $0 }
-        .gesture(SpatialTapGesture().onEnded { tap(at: $0.location) })
-        .onContinuousHover { phase in
-            switch phase {
-            case .active(let location): hover(callout(at: location)?.pnc)
-            case .ended: hover(nil)
+        .overlay {
+            // Reads the drawn size for hit-testing without storing it, so nothing feeds back into layout.
+            GeometryReader { geo in
+                Color.clear
+                    .contentShape(Rectangle())
+                    .gesture(SpatialTapGesture().onEnded { tap(at: $0.location, in: geo.size) })
+                    .onContinuousHover { phase in
+                        switch phase {
+                        case .active(let location): hover(callout(at: location, in: geo.size)?.pnc)
+                        case .ended: hover(nil)
+                        }
+                    }
             }
         }
         .help(hovered.flatMap { pnc in schema.callouts.first { $0.pnc == pnc } }.map { "\($0.pnc) – \($0.displayName)" } ?? "")
     }
 
-    private func callout(at location: CGPoint) -> Callout? {
+    private func callout(at location: CGPoint, in size: CGSize) -> Callout? {
         guard size.width > 0, size.height > 0 else { return nil }
         return schema.callout(at: CGPoint(x: location.x / size.width, y: location.y / size.height),
                               tolerance: pad / size.width)
     }
 
-    private func tap(at location: CGPoint) {
-        if let callout = callout(at: location) {
+    private func tap(at location: CGPoint, in size: CGSize) {
+        if let callout = callout(at: location, in: size) {
             model.selectCallout(callout.pnc, inSchemaAt: schemaIndex)
         } else {
             model.selectedPNC = nil
