@@ -53,4 +53,19 @@ struct DecodingTests {
         let schema = try decode(SchemaGroupFile.self, "schema-group").schemas[0]
         #expect(schema.callout(at: CGPoint(x: 0.9, y: 0.9)) == nil)
     }
+
+    private func callout(pnc: String, oems: [String]) throws -> Callout {
+        let parts = oems.map { #"{"oem": "\#($0)", "applies": [], "details": {}, "price": {"currency": "USD"}, "replacements": []}"# }
+        let json = #"{"pnc": "\#(pnc)", "hotspots": [], "parts": [\#(parts.joined(separator: ","))]}"#
+        return try CatalogueStore.makeDecoder().decode(Callout.self, from: Data(json.utf8))
+    }
+
+    @Test func labelMatchingEveryPartNumberIsRedundant() throws {
+        #expect(try callout(pnc: "089116401A", oems: ["08911-6401A"]).isLabelledByPartNumber)
+    }
+
+    @Test(arguments: [("10102", ["10102-50F50", "10102-50F52"]), ("089116401A", ["08911-6401A", "08911-6401B"])])
+    func labelDifferentFromAnyPartNumberIsKept(pnc: String, oems: [String]) throws {
+        #expect(try callout(pnc: pnc, oems: oems).isLabelledByPartNumber == false)
+    }
 }

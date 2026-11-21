@@ -76,6 +76,12 @@ public struct Callout: Codable, Identifiable {
     public var id: String { pnc }
     public var displayName: String { (name ?? "").localizedCapitalized }
 
+    /// True when the diagram label is just the part number of every part listed (common for bolts and nuts in
+    /// Megazip data), so showing the label next to the part number would repeat it.
+    public var isLabelledByPartNumber: Bool {
+        !parts.isEmpty && parts.allSatisfy { CatalogueStore.normalize($0.oem) == CatalogueStore.normalize(pnc) }
+    }
+
     public func contains(oem: String) -> Bool {
         parts.contains { $0.matches(oem) }
     }
