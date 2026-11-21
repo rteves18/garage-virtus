@@ -92,4 +92,27 @@ struct GroupDetailViewModelTests {
     func manySchemasUseMenuPicker(count: Int) {
         #expect(GroupDetailViewModel.fitsSegmentedPicker(schemaCount: count) == false)
     }
+
+    @Test func selectingCalloutOnAnotherSchemaMakesItCurrent() {
+        model.selectCallout("R10102", inSchemaAt: 1)
+        #expect(model.schemaIndex == 1)
+        #expect(model.selectedPNC == "R10102")
+    }
+
+    @Test func scrollingToSchemaMakesItCurrent() {
+        model.currentSchemaID = "101B_001_1"
+        #expect(model.schemaIndex == 1)
+        #expect(model.currentSchemaID == "101B_001_1")
+    }
+
+    @Test func scrollingToUnknownSchemaKeepsCurrent() {
+        model.currentSchemaID = "not-a-schema"
+        #expect(model.schemaIndex == 0)
+    }
+
+    @Test func calloutIsHighlightedOnlyOnCurrentSchema() {
+        model.selectCallout("10102", inSchemaAt: 1)
+        #expect(model.isSelected("10102", inSchemaAt: 1))
+        #expect(model.isSelected("10102", inSchemaAt: 0) == false)
+    }
 }

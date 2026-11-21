@@ -44,18 +44,9 @@ private struct GroupContentView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            if let schema = model.schema {
-                GroupHeader(model: model, file: file, schema: schema)
-                Divider()
-                if let image = model.image {
-                    DiagramView(image: image, imageSize: model.imageSize, callouts: schema.callouts,
-                                showHotspots: model.showHotspots,
-                                selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC)
-                } else {
-                    ContentUnavailableView("Diagram missing", systemImage: "photo",
-                                           description: Text("Expected _images/\(schema.image)"))
-                }
-            }
+            GroupHeader(model: model, file: file)
+            Divider()
+            SchemaStackView(model: model, file: file)
         }
         .inspector(isPresented: $model.showInspector) {
             if let schema = model.schema {
@@ -83,10 +74,10 @@ private struct GroupContentView: View {
     }
 }
 
+/// Group title, vehicle, source link, and a picker that jumps to a schema in the stack.
 private struct GroupHeader: View {
     @Bindable var model: GroupDetailViewModel
     let file: SchemaGroupFile
-    let schema: Schema
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -121,9 +112,6 @@ private struct GroupHeader: View {
                     .frame(maxWidth: 360, alignment: .leading)
                 }
             }
-            Text(model.label(for: schema))
-                .font(.callout)
-                .lineLimit(1)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)

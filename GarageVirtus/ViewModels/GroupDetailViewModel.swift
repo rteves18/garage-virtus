@@ -60,13 +60,15 @@ final class GroupDetailViewModel {
         return schemas[min(max(schemaIndex, 0), schemas.count - 1)]
     }
 
-    var image: NSImage? {
-        schema.flatMap { store.image(named: $0.image, for: group) }
+    /// The schema's diagram image.
+    func image(for schema: Schema) -> NSImage? {
+        store.image(named: schema.image, for: group)
     }
 
     /// Diagram size from the scraped image info, then the image itself, then 1280×640.
-    var imageSize: CGSize {
-        let info = schema.flatMap { file?.images[$0.image] }
+    func imageSize(for schema: Schema) -> CGSize {
+        let info = file?.images[schema.image]
+        let image = info == nil ? image(for: schema) : nil
         return CGSize(width: info?.width ?? image?.size.width ?? 1280,
                       height: info?.height ?? image?.size.height ?? 640)
     }
@@ -78,6 +80,32 @@ final class GroupDetailViewModel {
                        vehicle.options.joined(separator: " ")]
             .compactMap { $0 }.filter { !$0.isEmpty }.joined(separator: " · ")
         return summary + (vehicle.period.map { " · " + $0.display } ?? "")
+    }
+
+    /// The id of the current schema, for scroll position: scrolling a schema into view makes it current, and
+    /// making a schema current (picker, search jump) scrolls to it. Unknown ids are ignored.
+    var currentSchemaID: String? {
+        get { schema?.id }
+        set {
+            guard let newValue, let index = file?.schemas.firstIndex(where: { $0.id == newValue }) else { return }
+            if index != schemaIndex { schemaIndex = index }
+        }
+    }
+
+    /// Selects a callout on any schema in the stack, making that schema current.
+    func selectCallout(_ pnc: String, inSchemaAt index: Int) {
+        schemaIndex = index
+        selectedPNC = pnc
+    }
+
+    /// True for the selected callout on the current schema (callout labels repeat across schemas).
+    func isSelected(_ pnc: String, inSchemaAt index: Int) -> Bool {
+        index == schemaIndex && pnc == selectedPNC
+    }
+
+    /// True for the hovered callout on the current schema.
+    func isHovered(_ pnc: String, inSchemaAt index: Int) -> Bool {
+        index == schemaIndex && pnc == hoveredPNC
     }
 
     /// True when the schemas fit a segmented picker next to the inspector at the minimum window width.
