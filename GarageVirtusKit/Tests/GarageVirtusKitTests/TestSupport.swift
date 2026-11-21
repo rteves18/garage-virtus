@@ -2,21 +2,17 @@ import Foundation
 import Testing
 @testable import GarageVirtusKit
 
-/// A throwaway directory and UserDefaults suite per test.
+/// A throwaway directory per test.
 final class TempSpace {
     let root: URL
-    let defaults: UserDefaults
-    private let suiteName = "GarageVirtusKitTests.\(UUID().uuidString)"
 
     init() throws {
         root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
         try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
-        defaults = try #require(UserDefaults(suiteName: suiteName))
     }
 
     deinit {
         try? FileManager.default.removeItem(at: root)
-        defaults.removePersistentDomain(forName: suiteName)
     }
 
     func makeFolder(_ name: String) throws -> URL {
@@ -41,9 +37,6 @@ final class TempSpace {
         return catalogue
     }
 
-    func makeAccess() -> CatalogueFolderAccess {
-        CatalogueFolderAccess(defaults: defaults, bookmarkOptions: [])
-    }
 }
 
 extension URL {

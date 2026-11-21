@@ -1,12 +1,14 @@
 import AppKit
 import Observation
 
+/// The scraped catalogue: its folder tree, part index and search, read from a folder of JSON and diagram images.
 @MainActor
 @Observable
 public final class CatalogueStore {
-    public private(set) var root: URL?
+    /// The catalogue folder (holding make folders), or nil when there is none.
+    public let root: URL?
     public private(set) var frames: [FrameNode] = []
-    /// False when no folder is chosen or the chosen folder has no make/model/frame folders.
+    /// False when there's no folder or it has no make/model/frame folders.
     public var hasCatalogue: Bool { !frames.isEmpty }
     public private(set) var totalCount = 0
     public private(set) var scrapedCount = 0
@@ -18,7 +20,6 @@ public final class CatalogueStore {
     @ObservationIgnored private var imageCache: [URL: NSImage] = [:]
     @ObservationIgnored private var partsDirs: [URL] = []
     @ObservationIgnored private var partPageCache: [String: PartPage?] = [:]
-    @ObservationIgnored private let folderAccess: CatalogueFolderAccess
 
     static let fileName = "schema-group.json"
     static let categoryOrder = ["engine", "body", "trans", "electric", "misc"]
@@ -30,36 +31,14 @@ public final class CatalogueStore {
         "misc": "Accessories",
     ]
 
-    /// The repo's `catalogue/` folder when this build came from the repo, used only as the open panel's
-    /// starting folder: <repo>/GarageVirtusKit/Sources/GarageVirtusKit/Store/CatalogueStore.swift -> <repo>/catalogue
-    public static var suggestedFolder: URL? {
-        var url = URL(fileURLWithPath: #filePath)
-        for _ in 0..<5 { url.deleteLastPathComponent() }
-        let catalogue = url.appendingPathComponent("catalogue", isDirectory: true)
-        return FileManager.default.fileExists(atPath: catalogue.path) ? catalogue : nil
-    }
-
-    /// Creates a store that reopens the catalogue folder chosen in a previous launch.
-    public convenience init() {
-        self.init(folderAccess: CatalogueFolderAccess())
-    }
-
-    /// Creates a store that reopens the folder `folderAccess` remembers, if any.
-    public init(folderAccess: CatalogueFolderAccess) {
-        self.folderAccess = folderAccess
-        root = folderAccess.restore()
+    /// Creates a store that reads the catalogue in `folder`.
+    public init(folder: URL?) {
+        root = folder
         reload()
     }
 
     /// The schema group with folder path `id`, if it's in the current catalogue.
     public func group(id: String) -> GroupNode? { groupsByID[id] }
-
-    /// Remembers `folder` (keeping access across relaunches) and loads it. On failure the current folder stays.
-    public func open(folder: URL) throws {
-        try folderAccess.remember(folder)
-        root = folder
-        reload()
-    }
 
     /// Rereads the folder tree and rebuilds the part index.
     public func reload() {

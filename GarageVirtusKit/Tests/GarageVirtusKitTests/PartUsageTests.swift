@@ -9,8 +9,7 @@ struct PartUsageTests {
 
     init() throws {
         space = try TempSpace()
-        store = CatalogueStore(folderAccess: space.makeAccess())
-        try store.open(folder: try space.makeCatalogue())
+        store = CatalogueStore(folder: try space.makeCatalogue())
     }
 
     @Test func usedInListsOnlyDirectUses() {

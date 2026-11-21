@@ -8,7 +8,7 @@ share the core later.
 
 ## Goals
 - `GarageVirtus.xcodeproj` with a macOS app target that builds, signs (run locally) and launches from Xcode.
-- App Sandbox on. The catalogue folder is chosen by the user once and remembered with a security-scoped bookmark.
+- App Sandbox on. The catalogue loads automatically from a copy bundled into the app at build time.
 - Existing behaviour unchanged: sidebar, diagram, inspector, search, part details, ⌘O / ⌘R.
 - Core code in a local package so a future iOS target can depend on it, with unit tests.
 
@@ -63,15 +63,14 @@ catalogue/, tools/                  unchanged
   with `swift test`.
 - Remove the `setActivationPolicy` / `NSApp.activate` workaround.
 
-**Sandbox and catalogue access**
-- Entitlements: `com.apple.security.app-sandbox`, `com.apple.security.files.user-selected.read-only`,
-  `com.apple.security.files.bookmarks.app-scope`. No network entitlement: links open in the browser.
-- `CatalogueStore` stores a security-scoped bookmark (read-only) of the chosen folder in UserDefaults, resolves it
-  at launch, and calls `startAccessingSecurityScopedResource` (stopping the previous one when the folder changes).
-  A stale bookmark is recreated, and an unresolvable one clears the saved folder.
-- Remove the `#filePath` default and the old path-string default.
-- With no folder chosen, the detail area shows "Choose your catalogue folder" with a **Choose Catalogue Folder…**
-  button (same as ⌘O). The open panel starts in the repo's `catalogue/` when that folder exists.
+**Sandbox and catalogue access** (revised 2026-11-21: Ryan wants no folder picking, everything loads automatically)
+- The repo's `catalogue/` is a folder reference in the app target's Resources, so every build copies it into
+  `GarageVirtus.app/Contents/Resources/catalogue`. `CatalogueViewModel` opens `CatalogueStore(folder:)` on that copy.
+- Entitlements: `com.apple.security.app-sandbox` only. The app reads its own bundle, so no file-access entitlements.
+- No open panel, no bookmarks, no ⌘O / ⌘R commands. New scrapes appear after the next build.
+- If the bundled folder is missing or has no make/model/frame folders, the detail area says so and tells you to
+  scrape a group and build again.
+- Later the JSON folder tree is replaced by a database. `CatalogueStore` is the seam for that.
 
 **Build settings (builder's calls, listed here)**
 - Bundle ID `com.rteves.GarageVirtus`, macOS 14.0 deployment target, hardened runtime, automatic signing with

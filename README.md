@@ -7,9 +7,8 @@ with clickable callouts, every OEM part per callout, and part-number search. Bui
 
 Open `GarageVirtus.xcodeproj` in Xcode (27+) and press ⌘R. Requires macOS 14+.
 
-The app is sandboxed. On first launch it asks for your catalogue folder. Choose this repo's `catalogue/` folder.
-It remembers the folder (read-only access) across launches. **File → Open Catalogue Folder… (⌘O)** switches folders.
-**File → Reload Catalogue (⌘R)** picks up newly scraped groups.
+The app loads the catalogue automatically: every build copies this repo's `catalogue/` folder into the app,
+and the app reads that copy (read-only, sandboxed). After scraping more groups, build and run again (⌘R in Xcode).
 
 ## Project layout (Model / ViewModel / View)
 
@@ -18,7 +17,7 @@ GarageVirtus/            macOS app target
   ViewModels/            @Observable view models: CatalogueViewModel, GroupDetailViewModel
   Views/                 SwiftUI views (render view-model state, forward actions)
 GarageVirtusTests/       view-model tests (Swift Testing)
-GarageVirtusKit/         Swift package: catalogue models, loading, search, folder access (shared with a future iOS app)
+GarageVirtusKit/         Swift package: catalogue models, loading, search (shared with a future iOS app)
 catalogue/               scraped data (see catalogue/README.md)
 tools/amayama/           browser scrapers that write catalogue/
 ```

@@ -23,43 +23,24 @@ struct ContentView: View {
                 GroupDetailView(group: group, store: model.store)
                     .id(group.id)
             } else {
-                CatalogueEmptyView(state: model.emptyState, chooseFolder: model.chooseCatalogueFolder)
+                CatalogueEmptyView(state: model.emptyState)
             }
         }
     }
 }
 
-/// The detail area when no group is selected: first launch, wrong folder, or a summary.
+/// The detail area when no group is selected: a summary, or why there's nothing to show.
 private struct CatalogueEmptyView: View {
     let state: CatalogueViewModel.EmptyState
-    let chooseFolder: () -> Void
 
     var body: some View {
         switch state {
-        case .chooseFolder:
-            ContentUnavailableView {
-                Label("Choose your catalogue folder", systemImage: "folder.badge.questionmark")
-            } description: {
-                Text("Garage Virtus reads diagrams and parts from your garage-virtus/catalogue folder.")
-            } actions: {
-                chooseFolderButton
-            }
-        case .noCatalogue(let path):
-            ContentUnavailableView {
-                Label("No catalogue found", systemImage: "tray")
-            } description: {
-                Text("\(path) has no make/model/frame folders.")
-            } actions: {
-                chooseFolderButton
-            }
+        case .noCatalogue:
+            ContentUnavailableView("No catalogue in this build", systemImage: "tray",
+                                   description: Text("The app copies garage-virtus/catalogue in when it's built. Scrape at least one group, then build and run again."))
         case .ready(let summary):
             ContentUnavailableView("Select a schema group", systemImage: "wrench.and.screwdriver",
                                    description: Text(summary))
         }
-    }
-
-    private var chooseFolderButton: some View {
-        Button("Choose Catalogue Folder…", action: chooseFolder)
-            .buttonStyle(.borderedProminent)
     }
 }

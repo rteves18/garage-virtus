@@ -1,15 +1,14 @@
-import AppKit
+import Foundation
 import GarageVirtusKit
 import Observation
 
-/// App-wide browsing state: the chosen catalogue, sidebar selection and search, and jumps to parts.
+/// App-wide browsing state: the catalogue, sidebar selection and search, and jumps to parts.
 @MainActor
 @Observable
 final class CatalogueViewModel {
     /// What the detail area shows when no group is selected.
     enum EmptyState: Equatable {
-        case chooseFolder
-        case noCatalogue(path: String)
+        case noCatalogue
         case ready(summary: String)
     }
 
@@ -27,7 +26,8 @@ final class CatalogueViewModel {
     /// The latest jump request. Group detail screens apply it when it targets them.
     private(set) var focus: PartFocus?
 
-    init(store: CatalogueStore = CatalogueStore()) {
+    /// - Parameter store: defaults to the catalogue copied into the app from the repo's `catalogue/` folder at build time.
+    init(store: CatalogueStore = CatalogueStore(folder: Bundle.main.url(forResource: "catalogue", withExtension: nil))) {
         self.store = store
     }
 
@@ -38,9 +38,8 @@ final class CatalogueViewModel {
     var isSidebarEmpty: Bool { store.scrapedCount == 0 && !showUnscraped }
 
     var emptyState: EmptyState {
-        guard let root = store.root else { return .chooseFolder }
-        guard store.hasCatalogue else { return .noCatalogue(path: root.path) }
-        return .ready(summary: "\(store.scrapedCount) of \(store.totalCount) groups scraped · \(store.indexedPartCount) part numbers\n\(root.path)")
+        guard store.hasCatalogue else { return .noCatalogue }
+        return .ready(summary: "\(store.scrapedCount) of \(store.totalCount) groups scraped · \(store.indexedPartCount) part numbers")
     }
 
     /// The variant's categories, each with the groups that are scraped (or all, with `showUnscraped`) and match the search.
@@ -53,35 +52,10 @@ final class CatalogueViewModel {
         }
     }
 
-    /// Asks for the catalogue folder and opens it. Cancelling keeps the current folder.
-    func chooseCatalogueFolder() {
-        let panel = NSOpenPanel()
-        panel.canChooseDirectories = true
-        panel.canChooseFiles = false
-        panel.directoryURL = store.root ?? CatalogueStore.suggestedFolder
-        panel.message = "Choose the garage-virtus/catalogue folder"
-        guard panel.runModal() == .OK, let url = panel.url else { return }
-        openFolder(url)
-    }
-
-    /// Opens `url` as the catalogue. If it can't be opened, the current catalogue and selection stay.
-    func openFolder(_ url: URL) {
-        do {
-            try store.open(folder: url)
-            selection = nil
-        } catch {
-            // Keep the current folder. The open panel only offers folders the app may read.
-        }
-    }
-
     /// Selects the part's group and asks it to show the part's schema and callout.
     func open(_ ref: PartRef) {
         focus = PartFocus(groupID: ref.groupID, schemaId: ref.schemaId, pnc: ref.pnc, oem: ref.oem)
         selection = ref.groupID
-    }
-
-    func reload() {
-        store.reload()
     }
 
     private func matchesSearch(_ group: GroupNode) -> Bool {
