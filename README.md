@@ -19,6 +19,18 @@ Track your own parts alongside the catalogue. Statuses: **Need**, **Want**, **In
 - **Quantities:** need/want is one row per part number, with the quantity you need. Owned parts are one row per purchase or bundle, so duplicates are fine. "Have X of Y" compares them, and installed parts count as owned.
 - **Storage:** data is kept with SwiftData in the app's container (`~/Library/Containers/com.rteves.GarageVirtus/Data/Library/Application Support/default.store`), separate from the bundled catalogue. Rebuilds and re-scrapes never touch it, and Time Machine backs it up.
 
+## Cars
+
+The car picker at the top of **My garage** in the sidebar switches cars. The app remembers your choice. **Manage cars** (the car icon) adds, renames, or deletes cars. Deleting a car deletes its parts. Lists, badges, and the overview always show the current car. **Overview** shows counts per status, total spent, and the needs still short.
+
+## Ask AI
+
+In a schema group, turn on **Ask AI** in the toolbar to chat with Claude (`claude-opus-5-5`) about the diagrams on screen. For example: "What hardware do I need?" or "Which of these are discontinued?"
+
+- **Lists and totals:** when Claude builds a parts list, the app prices it from the catalogue and shows the total, so totals are never made up. **Add all to Need** records the list in My garage.
+- **What Claude sees:** the visible schemas (the current year window), their parts, prices, and what you have or need for the current car.
+- **Setup:** add your Anthropic API key in **Settings (⌘,)**. It's stored in your Keychain. Each question is a paid API request.
+
 ## Project layout (Model / ViewModel / View)
 
 ```
