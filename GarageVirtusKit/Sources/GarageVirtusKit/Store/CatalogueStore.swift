@@ -69,7 +69,7 @@ struct PartFocus: Equatable {
 
 @MainActor
 @Observable
-final class CatalogueStore {
+public final class CatalogueStore {
     private(set) var root: URL
     private(set) var frames: [FrameNode] = []
     private(set) var totalCount = 0
@@ -103,7 +103,7 @@ final class CatalogueStore {
         return url.appendingPathComponent("catalogue", isDirectory: true)
     }
 
-    init() {
+    public init() {
         if let saved = UserDefaults.standard.string(forKey: Self.rootKey),
            FileManager.default.fileExists(atPath: saved) {
             root = URL(fileURLWithPath: saved, isDirectory: true)
@@ -115,7 +115,7 @@ final class CatalogueStore {
 
     func group(id: String) -> GroupNode? { groupsByID[id] }
 
-    func chooseRoot() {
+    public func chooseRoot() {
         let panel = NSOpenPanel()
         panel.canChooseDirectories = true
         panel.canChooseFiles = false
@@ -127,7 +127,7 @@ final class CatalogueStore {
         reload()
     }
 
-    func reload() {
+    public func reload() {
         imageCache.removeAll()
         partPageCache.removeAll()
         var byID: [String: GroupNode] = [:]
@@ -243,7 +243,7 @@ final class CatalogueStore {
         return partIndex.keys.filter { $0.contains(n) }.sorted().prefix(25).flatMap { refs(for: $0) }
     }
 
-    static func parseAmayamaPartURL(_ string: String) -> (oem: String, schemaId: String?, pnc: String?)? {
+    nonisolated static func parseAmayamaPartURL(_ string: String) -> (oem: String, schemaId: String?, pnc: String?)? {
         guard let comps = URLComponents(string: string), comps.host?.contains("amayama") == true else { return nil }
         let pieces = comps.path.split(separator: "/")
         guard let partIdx = pieces.firstIndex(of: "part"), pieces.count > partIdx + 2 else { return nil }
@@ -261,11 +261,16 @@ final class CatalogueStore {
         focus = PartFocus(groupID: ref.groupID, schemaId: ref.schemaId, pnc: ref.pnc, oem: ref.oem)
     }
 
-    func load(_ group: GroupNode) throws -> SchemaGroupFile {
-        guard let url = group.jsonURL else { throw CocoaError(.fileNoSuchFile) }
+    /// Decoder for catalogue JSON (snake_case keys).
+    nonisolated static func makeDecoder() -> JSONDecoder {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
-        return try decoder.decode(SchemaGroupFile.self, from: Data(contentsOf: url))
+        return decoder
+    }
+
+    func load(_ group: GroupNode) throws -> SchemaGroupFile {
+        guard let url = group.jsonURL else { throw CocoaError(.fileNoSuchFile) }
+        return try Self.makeDecoder().decode(SchemaGroupFile.self, from: Data(contentsOf: url))
     }
 
     /// `path` is the schema's image key, e.g. "imgjp16/RS13/101B_001.png" (v2) or "101B_001.png" (v1).
@@ -288,8 +293,7 @@ final class CatalogueStore {
     func partPage(for oem: String) -> PartPage? {
         let key = Self.normalize(oem)
         if let cached = partPageCache[key] { return cached }
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        let decoder = Self.makeDecoder()
         var page: PartPage?
         for dir in partsDirs {
             let url = dir.appendingPathComponent(String(key.prefix(2))).appendingPathComponent("\(key).json")
@@ -317,7 +321,7 @@ final class CatalogueStore {
 
     /// "101_Bearing-and-short-engine-assembly" -> ("101", "Bearing and short engine assembly")
     /// "6976_1994-1998_TYPE-RX_MT_4WS" -> ("6976", "1994-1998 TYPE-RX MT 4WS")
-    static func splitCodeName(_ folder: String) -> (String, String) {
+    nonisolated static func splitCodeName(_ folder: String) -> (String, String) {
         guard let underscore = folder.firstIndex(of: "_") else { return (folder, folder) }
         let code = String(folder[..<underscore])
         var rest = String(folder[folder.index(after: underscore)...])

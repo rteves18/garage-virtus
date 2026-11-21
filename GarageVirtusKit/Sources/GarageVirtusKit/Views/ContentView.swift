@@ -1,12 +1,14 @@
 import SwiftUI
 
-struct ContentView: View {
+public struct ContentView: View {
     @Environment(CatalogueStore.self) private var store
     @State private var selection: String?
     @State private var showUnscraped = false
     @State private var search = ""
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         NavigationSplitView {
             SidebarView(selection: $selection, showUnscraped: showUnscraped, search: search)
                 .navigationSplitViewColumnWidth(min: 260, ideal: 310)
