@@ -48,6 +48,10 @@ final class GroupDetailViewModel {
     }
     var highlightedOEM: String?
     var showInspector = true
+    /// True when the right-hand panel shows the AI chat instead of the parts list.
+    var showAssistant = false
+    /// The chat about this group, created the first time it's opened (needs the API key).
+    var assistant: PartsAssistant?
     var showHotspots = true
 
     @ObservationIgnored private let store: CatalogueStore
@@ -146,6 +150,30 @@ final class GroupDetailViewModel {
         if !schema.applies.isEmpty { parts.append(schema.applies.joined(separator: ", ")) }
         if let period = schema.period { parts.append(period.display) }
         return parts.joined(separator: " · ")
+    }
+
+    /// Every part (and replacement) on the visible schemas, with catalogue prices, for pricing the assistant's lists.
+    func assistantParts() -> [PartsListBuilder.CataloguePart] {
+        visibleSchemas.flatMap { entry in
+            entry.schema.callouts.flatMap { callout in
+                callout.parts.flatMap { part in
+                    [PartsListBuilder.CataloguePart(oem: part.oem, name: callout.name ?? "", price: part.price)]
+                        + part.replacements.map { .init(oem: $0.oem, name: callout.name ?? "", price: $0.price) }
+                }
+            }
+        }
+    }
+
+    /// What the assistant is told about this group: the visible schemas, their parts, and My garage coverage.
+    func assistantContext(coverage: [String: Coverage]) -> String {
+        guard let file else { return "" }
+        return SectionContext.describe(file: file, schemas: visibleSchemas.map(\.schema), coverage: coverage)
+    }
+
+    /// Starts a new chat about the visible schemas.
+    func startAssistant(apiKey: String, coverage: [String: Coverage]) {
+        assistant = PartsAssistant(client: ClaudeClient(apiKey: apiKey), context: assistantContext(coverage: coverage),
+                                   parts: assistantParts())
     }
 
     /// Reads the group's schema-group.json.

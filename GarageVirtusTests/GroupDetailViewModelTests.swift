@@ -152,4 +152,24 @@ struct GroupDetailViewModelTests {
         model.selectDefaultYearWindow(buildMonth: "1992-06")
         #expect(model.selectedYearWindow?.title == "01.1991 – 01.1994")
     }
+
+    @Test func assistantPartsCoverVisibleSchemasAndReplacements() throws {
+        let window = try #require(model.yearWindows.last)
+        model.selectedYearWindow = window
+        let oems = Set(model.assistantParts().map(\.oem))
+        #expect(oems.contains("10102-50FR2"))
+        #expect(oems.contains("10102-50FM2"))     // a replacement part is priceable too
+    }
+
+    @Test func assistantContextDescribesOnlyVisibleSchemas() throws {
+        let window = try #require(model.yearWindows.last)
+        model.selectedYearWindow = window
+        let context = model.assistantContext(coverage: [:])
+        #expect(context.contains("101B_001_1"))
+        #expect(context.contains("101B_001_0") == false)
+    }
+
+    @Test func assistantStartsHidden() {
+        #expect(model.showAssistant == false)
+    }
 }

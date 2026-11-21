@@ -30,5 +30,9 @@ struct GarageVirtusApp: App {
                 .frame(minWidth: 1000, minHeight: 640)
         }
         .modelContainer(container)
+
+        Settings {
+            AssistantSettingsView()
+        }
     }
 }

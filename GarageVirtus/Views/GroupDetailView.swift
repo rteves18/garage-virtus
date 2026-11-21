@@ -53,7 +53,11 @@ private struct GroupContentView: View {
                 Divider()
                 SchemaStackView(model: model, file: file)
             }
-            if model.showInspector, let schema = model.schema {
+            if model.showAssistant {
+                Divider()
+                AssistantPanel(model: model)
+                    .frame(width: 380)
+            } else if model.showInspector, let schema = model.schema {
                 Divider()
                 PartsInspector(schema: schema, groupCode: model.group.code, selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC,
                                highlightedOEM: $model.highlightedOEM)
@@ -62,6 +66,10 @@ private struct GroupContentView: View {
         }
         .toolbar {
             ToolbarItemGroup {
+                Toggle(isOn: $model.showAssistant) {
+                    Label("Ask AI", systemImage: "sparkles")
+                }
+                .help("Chat with Claude about the parts in this section")
                 Toggle(isOn: $model.showHotspots) {
                     Label("Hotspots", systemImage: "square.dashed")
                 }
