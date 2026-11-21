@@ -73,25 +73,13 @@ struct GroupDetailViewModelTests {
         #expect(model.vehicleSummary.hasPrefix("180SX KRPS13"))
     }
 
-    @Test func segmentTitlesNameOnlyTheSchemaNumber() throws {
-        let schemas = try #require(model.file?.schemas)
-        #expect(schemas.map(model.segmentTitle(for:)) == ["Schema 1", "Schema 2"])
-    }
 
     @Test func labelDescribesEngineAndPeriod() throws {
         let schema = try #require(model.file?.schemas.last)
         #expect(model.label(for: schema) == "Schema 2 · SR20DET · 1994-01 – 1998-12")
     }
 
-    @Test(arguments: [2, 5])
-    func fewSchemasFitSegmentedPicker(count: Int) {
-        #expect(GroupDetailViewModel.fitsSegmentedPicker(schemaCount: count))
-    }
 
-    @Test(arguments: [6, 20])
-    func manySchemasUseMenuPicker(count: Int) {
-        #expect(GroupDetailViewModel.fitsSegmentedPicker(schemaCount: count) == false)
-    }
 
     @Test func selectingCalloutOnAnotherSchemaMakesItCurrent() {
         model.selectCallout("R10102", inSchemaAt: 1)

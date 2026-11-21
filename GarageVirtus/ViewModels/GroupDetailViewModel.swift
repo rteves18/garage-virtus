@@ -108,18 +108,6 @@ final class GroupDetailViewModel {
         index == schemaIndex && pnc == hoveredPNC
     }
 
-    /// True when the schemas fit a segmented picker next to the inspector at the minimum window width.
-    /// Larger groups (some have 20 schemas) use a menu, because segments can't shrink and would trigger a layout loop.
-    static func fitsSegmentedPicker(schemaCount: Int) -> Bool {
-        schemaCount <= 5
-    }
-
-    /// Short title for the schema picker's segment. Segmented pickers can't truncate, so long titles would force
-    /// the detail column wider than the window allows next to the inspector.
-    func segmentTitle(for schema: Schema) -> String {
-        "Schema \(schema.index)"
-    }
-
     /// Full description of a schema: number, engines it applies to, and production period.
     func label(for schema: Schema) -> String {
         var parts = ["Schema \(schema.index)"]

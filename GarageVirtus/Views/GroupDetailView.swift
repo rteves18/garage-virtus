@@ -92,25 +92,15 @@ private struct GroupHeader: View {
                 .font(.callout).foregroundStyle(.secondary)
 
             if file.schemas.count > 1 {
-                if GroupDetailViewModel.fitsSegmentedPicker(schemaCount: file.schemas.count) {
-                    Picker("Schema", selection: $model.schemaIndex) {
-                        ForEach(file.schemas.indices, id: \.self) { index in
-                            Text(model.segmentTitle(for: file.schemas[index])).tag(index)
-                        }
+                // A menu, not a segmented control: segments can't shrink, and resizing the window with them on
+                // screen sends NSSplitView into a constraint loop that AppKit kills the app for.
+                Picker("Jump to schema", selection: $model.schemaIndex) {
+                    ForEach(file.schemas.indices, id: \.self) { index in
+                        Text(model.label(for: file.schemas[index])).tag(index)
                     }
-                    .pickerStyle(.segmented)
-                    .labelsHidden()
-                    .fixedSize()
-                } else {
-                    Picker("Schema", selection: $model.schemaIndex) {
-                        ForEach(file.schemas.indices, id: \.self) { index in
-                            Text(model.label(for: file.schemas[index])).tag(index)
-                        }
-                    }
-                    .pickerStyle(.menu)
-                    .labelsHidden()
-                    .frame(maxWidth: 360, alignment: .leading)
                 }
+                .pickerStyle(.menu)
+                .frame(minWidth: 120, maxWidth: 420, alignment: .leading)
             }
         }
         .padding(.horizontal, 16)
