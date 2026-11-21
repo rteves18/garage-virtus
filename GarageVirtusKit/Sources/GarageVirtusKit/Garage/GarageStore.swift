@@ -75,6 +75,45 @@ public final class GarageStore {
         return (try? context.fetch(descriptor)) ?? []
     }
 
+    /// Records buying `quantity` of a needed or wanted part: a new owned row in storage. The need row stays, so
+    /// coverage shows how much is still short.
+    @discardableResult
+    public func markBought(_ need: GaragePart, quantity: Int) -> GaragePart {
+        addOwned(oemNumber: need.oemNumber, name: need.name, status: .inStorage, quantity: quantity,
+                 groupCode: need.groupCode, pnc: need.pnc)
+    }
+
+    public func addPhoto(_ data: Data, to part: GaragePart) {
+        let photo = PartPhoto(imageData: data)
+        context.insert(photo)
+        photo.part = part
+        save(touching: part)
+    }
+
+    public func removePhoto(_ photo: PartPhoto) {
+        context.delete(photo)
+        save()
+    }
+
+    public func coverage(forOEMKey key: String) -> Coverage {
+        Self.coverage(forOEMKey: key, in: parts(withOEMKey: key))
+    }
+
+    /// Coverage computed from rows already fetched (e.g. a view's `@Query`).
+    public static func coverage(forOEMKey key: String, in parts: [GaragePart]) -> Coverage {
+        let rows = parts.filter { $0.oemKey == key }
+        let needed = rows.first { $0.status == .need }?.quantity ?? 0
+        let owned = rows.filter(\.status.isOwned).reduce(0) { $0 + $1.quantity }
+        return Coverage(needed: needed, owned: owned)
+    }
+
+    public func summary() -> GarageSummary {
+        let rows = (try? context.fetch(FetchDescriptor<GaragePart>())) ?? []
+        let counts = Dictionary(grouping: rows, by: \.status).mapValues(\.count)
+        let spent = rows.filter(\.status.isOwned).compactMap(\.cost).reduce(Decimal.zero, +)
+        return GarageSummary(counts: counts, totalSpent: spent)
+    }
+
     /// Saves pending edits (editors call this after changing fields).
     public func save() {
         try? context.save()

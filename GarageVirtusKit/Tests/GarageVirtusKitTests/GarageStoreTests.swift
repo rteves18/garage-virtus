@@ -41,4 +41,59 @@ struct GarageStoreTests {
     @Test func partsAreStoredWithOEMKey() {
         #expect(store.addOwned(oemNumber: "10102-50FR2", name: "Engine assembly").oemKey == "1010250FR2")
     }
+
+    @Test func noOwnedMeansFullyShort() {
+        store.markWanted(oemNumber: "16600-1", name: "Injector", status: .need, quantity: 4)
+        #expect(store.coverage(forOEMKey: "166001") == Coverage(needed: 4, owned: 0))
+    }
+
+    @Test func markBoughtKeepsNeedAndCoversIt() {
+        let need = store.markWanted(oemNumber: "16600-1", name: "Injector", status: .need, quantity: 4)
+        let bought = store.markBought(need, quantity: 2)
+        #expect(need.status == .need)
+        #expect(bought.status == .inStorage)
+        #expect(bought.oemNumber == "16600-1")
+        #expect(store.coverage(forOEMKey: "166001").short == 2)
+    }
+
+    @Test func installedCountsAsOwned() {
+        store.markWanted(oemNumber: "A-1", name: "a", status: .need, quantity: 1)
+        store.addOwned(oemNumber: "A-1", name: "a", status: .installed)
+        #expect(store.coverage(forOEMKey: "A1").short == 0)
+    }
+
+    @Test func overCoveredNeedIsNotShort() {
+        store.markWanted(oemNumber: "B-1", name: "b", status: .need, quantity: 4)
+        store.addOwned(oemNumber: "B-1", name: "b", quantity: 5)
+        #expect(store.coverage(forOEMKey: "B1") == Coverage(needed: 4, owned: 5))
+        #expect(store.coverage(forOEMKey: "B1").short == 0)
+    }
+
+    @Test func partWithoutOEMIsIgnoredByCoverage() {
+        store.markWanted(oemNumber: "C-1", name: "c", status: .need, quantity: 1)
+        store.addOwned(oemNumber: nil, name: "custom", quantity: 3)
+        #expect(store.coverage(forOEMKey: "C1").owned == 0)
+    }
+
+    @Test func summaryCountsRowsAndSumsOwnedCost() {
+        let a = store.addOwned(oemNumber: nil, name: "a")
+        a.cost = 80
+        let b = store.addOwned(oemNumber: nil, name: "b", status: .installed)
+        b.cost = Decimal(string: "20.5")
+        let w = store.markWanted(oemNumber: "W-1", name: "w", status: .want)
+        w.targetPrice = 999
+        store.save()
+        let summary = store.summary()
+        #expect(summary.totalSpent == Decimal(string: "100.5"))
+        #expect(summary.counts[.inStorage] == 1)
+        #expect(summary.counts[.want] == 1)
+    }
+
+    @Test func deletingPartDeletesPhotos() throws {
+        let part = store.addOwned(oemNumber: nil, name: "p")
+        store.addPhoto(Data([1, 2, 3]), to: part)
+        #expect(try container.mainContext.fetchCount(FetchDescriptor<PartPhoto>()) == 1)
+        store.delete(part)
+        #expect(try container.mainContext.fetchCount(FetchDescriptor<PartPhoto>()) == 0)
+    }
 }
