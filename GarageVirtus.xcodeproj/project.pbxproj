@@ -10,32 +10,42 @@
 		6A0000000000000000000B01 /* GarageVirtusKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6A0000000000000000000D01 /* GarageVirtusKit */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6A0000000000000000001E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0000000000000000000A01;
+			remoteInfo = GarageVirtus;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6A0000000000000000001F01 /* GarageVirtusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarageVirtusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0000000000000000000F01 /* GarageVirtus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageVirtus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6A0000000000000000000E01 /* Exceptions for "GarageVirtus" folder in "GarageVirtus" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				GarageVirtus.entitlements,
-			);
-			target = 6A0000000000000000000A01 /* GarageVirtus */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A0000000000000000001501 /* GarageVirtusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GarageVirtusTests;
+			sourceTree = "<group>";
+		};
 		6A0000000000000000000501 /* GarageVirtus */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6A0000000000000000000E01 /* Exceptions for "GarageVirtus" folder in "GarageVirtus" target */,
-			);
 			path = GarageVirtus;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A0000000000000000001802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A0000000000000000000802 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				6A0000000000000000000501 /* GarageVirtus */,
+				6A0000000000000000001501 /* GarageVirtusTests */,
 				6A0000000000000000000602 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				6A0000000000000000000F01 /* GarageVirtus.app */,
+				6A0000000000000000001F01 /* GarageVirtusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +78,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6A0000000000000000001A01 /* GarageVirtusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0000000000000000001701 /* Build configuration list for PBXNativeTarget "GarageVirtusTests" */;
+			buildPhases = (
+				6A0000000000000000001801 /* Sources */,
+				6A0000000000000000001802 /* Frameworks */,
+				6A0000000000000000001803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0000000000000000001D01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A0000000000000000001501 /* GarageVirtusTests */,
+			);
+			name = GarageVirtusTests;
+			productName = GarageVirtusTests;
+			productReference = 6A0000000000000000001F01 /* GarageVirtusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6A0000000000000000000A01 /* GarageVirtus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0000000000000000000702 /* Build configuration list for PBXNativeTarget "GarageVirtus" */;
@@ -102,6 +135,10 @@
 					6A0000000000000000000A01 = {
 						CreatedOnToolsVersion = 27.2;
 					};
+					6A0000000000000000001A01 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 6A0000000000000000000A01;
+					};
 				};
 			};
 			buildConfigurationList = 6A0000000000000000000701 /* Build configuration list for PBXProject "GarageVirtus" */;
@@ -122,11 +159,19 @@
 			projectRoot = "";
 			targets = (
 				6A0000000000000000000A01 /* GarageVirtus */,
+				6A0000000000000000001A01 /* GarageVirtusTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A0000000000000000001803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A0000000000000000000803 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +182,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A0000000000000000001801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A0000000000000000000801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +198,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6A0000000000000000001D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0000000000000000000A01 /* GarageVirtus */;
+			targetProxy = 6A0000000000000000001E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6A0000000000000000001C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rteves.GarageVirtusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GarageVirtus.app/Contents/MacOS/GarageVirtus";
+			};
+			name = Debug;
+		};
+		6A0000000000000000001C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rteves.GarageVirtusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GarageVirtus.app/Contents/MacOS/GarageVirtus";
+			};
+			name = Release;
+		};
 		6A0000000000000000000C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -255,6 +353,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A0000000000000000001701 /* Build configuration list for PBXNativeTarget "GarageVirtusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0000000000000000001C01 /* Debug */,
+				6A0000000000000000001C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6A0000000000000000000701 /* Build configuration list for PBXProject "GarageVirtus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

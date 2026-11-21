@@ -1,63 +1,65 @@
+import GarageVirtusKit
 import SwiftUI
 
-public struct ContentView: View {
-    @Environment(CatalogueStore.self) private var store
-    @State private var selection: String?
-    @State private var showUnscraped = false
-    @State private var search = ""
+struct ContentView: View {
+    @Environment(CatalogueViewModel.self) private var model
 
-    public init() {}
-
-    public var body: some View {
+    var body: some View {
+        @Bindable var model = model
         NavigationSplitView {
-            SidebarView(selection: $selection, showUnscraped: showUnscraped, search: search)
+            SidebarView()
                 .navigationSplitViewColumnWidth(min: 260, ideal: 310)
-                .searchable(text: $search, placement: .sidebar, prompt: "Group, OEM number or Amayama link")
+                .searchable(text: $model.search, placement: .sidebar, prompt: "Group, OEM number or Amayama link")
                 .toolbar {
                     ToolbarItem {
-                        Toggle(isOn: $showUnscraped) {
+                        Toggle(isOn: $model.showUnscraped) {
                             Label("Show unscraped", systemImage: "circle.dashed")
                         }
                         .help("Show groups that haven't been scraped yet")
                     }
                 }
         } detail: {
-            if let id = selection, let group = store.group(id: id) {
-                GroupDetailView(group: group)
+            if let id = model.selection, let group = model.store.group(id: id) {
+                GroupDetailView(group: group, store: model.store)
                     .id(group.id)
-            } else if let root = store.root {
-                if store.hasCatalogue {
-                    ContentUnavailableView(
-                        "Select a schema group",
-                        systemImage: "wrench.and.screwdriver",
-                        description: Text("\(store.scrapedCount) of \(store.totalCount) groups scraped · \(store.indexedPartCount) part numbers\n\(root.path)")
-                    )
-                } else {
-                    ContentUnavailableView {
-                        Label("No catalogue found", systemImage: "tray")
-                    } description: {
-                        Text("\(root.path) has no make/model/frame folders.")
-                    } actions: {
-                        chooseFolderButton
-                    }
-                }
             } else {
-                ContentUnavailableView {
-                    Label("Choose your catalogue folder", systemImage: "folder.badge.questionmark")
-                } description: {
-                    Text("Garage Virtus reads diagrams and parts from your garage-virtus/catalogue folder.")
-                } actions: {
-                    chooseFolderButton
-                }
+                CatalogueEmptyView(state: model.emptyState, chooseFolder: model.chooseCatalogueFolder)
             }
         }
-        .onChange(of: store.focus) { _, focus in
-            if let focus { selection = focus.groupID }
+    }
+}
+
+/// The detail area when no group is selected: first launch, wrong folder, or a summary.
+private struct CatalogueEmptyView: View {
+    let state: CatalogueViewModel.EmptyState
+    let chooseFolder: () -> Void
+
+    var body: some View {
+        switch state {
+        case .chooseFolder:
+            ContentUnavailableView {
+                Label("Choose your catalogue folder", systemImage: "folder.badge.questionmark")
+            } description: {
+                Text("Garage Virtus reads diagrams and parts from your garage-virtus/catalogue folder.")
+            } actions: {
+                chooseFolderButton
+            }
+        case .noCatalogue(let path):
+            ContentUnavailableView {
+                Label("No catalogue found", systemImage: "tray")
+            } description: {
+                Text("\(path) has no make/model/frame folders.")
+            } actions: {
+                chooseFolderButton
+            }
+        case .ready(let summary):
+            ContentUnavailableView("Select a schema group", systemImage: "wrench.and.screwdriver",
+                                   description: Text(summary))
         }
     }
 
     private var chooseFolderButton: some View {
-        Button("Choose Catalogue Folder…") { store.chooseCatalogueFolder() }
+        Button("Choose Catalogue Folder…", action: chooseFolder)
             .buttonStyle(.borderedProminent)
     }
 }

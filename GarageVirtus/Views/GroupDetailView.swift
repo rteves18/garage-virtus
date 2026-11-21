@@ -1,113 +1,95 @@
+import GarageVirtusKit
 import SwiftUI
 
 struct GroupDetailView: View {
-    @Environment(CatalogueStore.self) private var store
-    let group: GroupNode
+    @Environment(CatalogueViewModel.self) private var catalogue
+    @State private var model: GroupDetailViewModel
 
-    @State private var file: SchemaGroupFile?
-    @State private var loadError: String?
-    @State private var schemaIndex = 0
-    @State private var selectedPNC: String?
-    @State private var hoveredPNC: String?
-    @State private var highlightedOEM: String?
-    @State private var showInspector = true
-    @State private var showHotspots = true
+    init(group: GroupNode, store: CatalogueStore) {
+        _model = State(initialValue: GroupDetailViewModel(group: group, store: store))
+    }
 
     var body: some View {
         Group {
-            if let file, !file.schemas.isEmpty {
-                content(file)
-            } else if let loadError {
-                ContentUnavailableView("Couldn't read schema-group.json", systemImage: "exclamationmark.triangle",
-                                       description: Text(loadError))
-            } else if !group.isScraped {
-                ContentUnavailableView("Not scraped yet", systemImage: "circle.dashed",
-                                       description: Text(group.folder.lastPathComponent))
-            } else if file != nil {
-                ContentUnavailableView("No schemas on this page", systemImage: "doc")
-            } else {
+            switch model.content {
+            case .loading:
                 ProgressView()
+            case .notScraped:
+                ContentUnavailableView("Not scraped yet", systemImage: "circle.dashed",
+                                       description: Text(model.group.folder.lastPathComponent))
+            case .failed(let message):
+                ContentUnavailableView("Couldn't read schema-group.json", systemImage: "exclamationmark.triangle",
+                                       description: Text(message))
+            case .noSchemas:
+                ContentUnavailableView("No schemas on this page", systemImage: "doc")
+            case .loaded(let file):
+                GroupContentView(model: model, file: file)
             }
         }
-        .navigationTitle("\(group.code) · \(group.name)")
+        .navigationTitle(model.title)
         .task {
-            guard group.isScraped else { return }
-            do { file = try store.load(group) } catch { loadError = String(describing: error) }
-            applyFocus()
+            model.load()
+            model.apply(catalogue.focus)
         }
-        .onChange(of: store.focus) { _, _ in applyFocus() }
-    }
-
-    /// Jump to the schema / callout / part requested by search or a part page.
-    private func applyFocus() {
-        guard let focus = store.focus, focus.groupID == group.id, let file else { return }
-        if let sid = focus.schemaId, let i = file.schemas.firstIndex(where: { $0.id == sid }) {
-            schemaIndex = i
+        .onChange(of: catalogue.focus) { _, focus in
+            model.apply(focus)
         }
-        selectedPNC = focus.pnc
-        highlightedOEM = focus.oem
-        showInspector = true
     }
+}
 
-    @ViewBuilder
-    private func content(_ file: SchemaGroupFile) -> some View {
-        let schema = file.schemas[min(schemaIndex, file.schemas.count - 1)]
-        let info = file.images[schema.image]
-        let image = store.image(named: schema.image, for: group)
-        let size = CGSize(width: info?.width ?? image?.size.width ?? 1280,
-                          height: info?.height ?? image?.size.height ?? 640)
+/// Header, diagram and parts inspector for a loaded group.
+private struct GroupContentView: View {
+    @Bindable var model: GroupDetailViewModel
+    let file: SchemaGroupFile
 
+    var body: some View {
         VStack(spacing: 0) {
-            header(file, schema: schema)
-            Divider()
-            if let image {
-                DiagramView(image: image, imageSize: size, callouts: schema.callouts,
-                            showHotspots: showHotspots,
-                            selectedPNC: $selectedPNC, hoveredPNC: $hoveredPNC)
-            } else {
-                ContentUnavailableView("Diagram missing", systemImage: "photo",
-                                       description: Text("Expected _images/\(schema.image)"))
+            if let schema = model.schema {
+                GroupHeader(model: model, file: file, schema: schema)
+                Divider()
+                if let image = model.image {
+                    DiagramView(image: image, imageSize: model.imageSize, callouts: schema.callouts,
+                                showHotspots: model.showHotspots,
+                                selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC)
+                } else {
+                    ContentUnavailableView("Diagram missing", systemImage: "photo",
+                                           description: Text("Expected _images/\(schema.image)"))
+                }
             }
         }
-        .inspector(isPresented: $showInspector) {
-            PartsInspector(schema: schema, selectedPNC: $selectedPNC, hoveredPNC: $hoveredPNC,
-                           highlightedOEM: $highlightedOEM)
-                .inspectorColumnWidth(min: 320, ideal: 420, max: 640)
+        .inspector(isPresented: $model.showInspector) {
+            if let schema = model.schema {
+                PartsInspector(schema: schema, selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC,
+                               highlightedOEM: $model.highlightedOEM)
+                    .inspectorColumnWidth(min: 320, ideal: 420, max: 640)
+            }
         }
         .toolbar {
             ToolbarItemGroup {
-                Toggle(isOn: $showHotspots) {
+                Toggle(isOn: $model.showHotspots) {
                     Label("Hotspots", systemImage: "square.dashed")
                 }
                 .help("Outline every clickable callout on the diagram")
-                Button {
-                    showInspector.toggle()
-                } label: {
+                Button(action: toggleInspector) {
                     Label("Inspector", systemImage: "sidebar.right")
                 }
                 .keyboardShortcut("i", modifiers: [.command, .option])
             }
         }
-        .onChange(of: selectedPNC) { old, new in
-            if new != nil { showInspector = true }
-            let current = file.schemas[min(schemaIndex, file.schemas.count - 1)]
-            if old != new, let oem = highlightedOEM,
-               !current.callouts.contains(where: { $0.pnc == new && $0.contains(oem: oem) }) {
-                highlightedOEM = nil
-            }
-        }
-        .onChange(of: schemaIndex) { _, _ in
-            let pncs = Set(file.schemas[min(schemaIndex, file.schemas.count - 1)].callouts.map(\.pnc))
-            if let sel = selectedPNC, !pncs.contains(sel) { selectedPNC = nil }
-        }
     }
 
-    private func header(_ file: SchemaGroupFile, schema: Schema) -> some View {
-        let v = file.vehicle
-        let summary = [v.model + " " + v.frame, v.grade, v.transmission, v.engine, v.options.joined(separator: " ")]
-            .compactMap { $0 }.filter { !$0.isEmpty }.joined(separator: " · ")
+    private func toggleInspector() {
+        model.showInspector.toggle()
+    }
+}
 
-        return VStack(alignment: .leading, spacing: 8) {
+private struct GroupHeader: View {
+    @Bindable var model: GroupDetailViewModel
+    let file: SchemaGroupFile
+    let schema: Schema
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .firstTextBaseline) {
                 Text(file.group.name.localizedCapitalized).font(.title3.weight(.semibold))
                 Spacer()
@@ -115,29 +97,22 @@ struct GroupDetailView: View {
                     Link("View on Amayama", destination: url).font(.callout)
                 }
             }
-            Text(summary + (v.period.map { " · " + $0.display } ?? ""))
+            Text(model.vehicleSummary)
                 .font(.callout).foregroundStyle(.secondary)
 
             if file.schemas.count > 1 {
-                Picker("Schema", selection: $schemaIndex) {
-                    ForEach(file.schemas.indices, id: \.self) { i in
-                        Text(label(for: file.schemas[i])).tag(i)
+                Picker("Schema", selection: $model.schemaIndex) {
+                    ForEach(file.schemas.indices, id: \.self) { index in
+                        Text(model.label(for: file.schemas[index])).tag(index)
                     }
                 }
                 .pickerStyle(.segmented)
                 .labelsHidden()
             } else {
-                Text(label(for: schema)).font(.callout)
+                Text(model.label(for: schema)).font(.callout)
             }
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
-    }
-
-    private func label(for schema: Schema) -> String {
-        var parts = ["Schema \(schema.index)"]
-        if !schema.applies.isEmpty { parts.append(schema.applies.joined(separator: ", ")) }
-        if let p = schema.period { parts.append(p.display) }
-        return parts.joined(separator: " · ")
     }
 }

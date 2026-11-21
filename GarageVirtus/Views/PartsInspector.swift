@@ -1,3 +1,4 @@
+import GarageVirtusKit
 import SwiftUI
 
 /// Right-hand inspector: every callout on the current schema with its OEM parts.
@@ -65,7 +66,7 @@ private struct CalloutCard: View {
                     .foregroundStyle(isSelected ? Color.white : Color.primary)
                 Text(callout.displayName).font(.headline)
                 Spacer()
-                Text("\(callout.parts.count) part\(callout.parts.count == 1 ? "" : "s")")
+                Text("Parts: \(callout.parts.count)")
                     .font(.caption).foregroundStyle(.secondary)
             }
             .contentShape(Rectangle())
@@ -90,7 +91,7 @@ private struct CalloutCard: View {
 }
 
 private struct PartRow: View {
-    @Environment(CatalogueStore.self) private var store
+    @Environment(CatalogueViewModel.self) private var catalogue
     let part: Part
     let calloutName: String
     let highlightedOEM: String?
@@ -112,7 +113,7 @@ private struct PartRow: View {
                     .popover(isPresented: $showDetail, arrowEdge: .trailing) {  // opens leftward, over the diagram
                         PartDetailView(oem: part.oem, name: calloutName, price: part.price,
                                        url: part.url, replacedBy: part.replacements)
-                            .environment(store)
+                            .environment(catalogue)
                     }
                 Spacer()
                 PriceLabel(price: part.price)
@@ -155,7 +156,7 @@ private struct PartRow: View {
 
 /// In-app version of Amayama's part page: every place this OEM number appears, and its replacement chain.
 struct PartDetailView: View {
-    @Environment(CatalogueStore.self) private var store
+    @Environment(CatalogueViewModel.self) private var catalogue
     @Environment(\.dismiss) private var dismiss
     let oem: String
     let name: String
@@ -170,10 +171,9 @@ struct PartDetailView: View {
     }
 
     private var details: some View {
-        let refs = store.refs(for: oem)
-        let usedIn = refs.filter { $0.replacementOf == nil }
-        let replaces = Array(Set(refs.compactMap(\.replacementOf))).sorted()
-        let page = store.partPage(for: oem)
+        let usage = catalogue.store.usage(of: oem)
+        let usedIn = usage.usedIn
+        let page = usage.page
 
         return VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
@@ -235,14 +235,14 @@ struct PartDetailView: View {
                     ForEach(replacedBy.map(\.oem), id: \.self) { CopyableOEM(oem: $0, font: .system(.body, design: .monospaced)) }
                 }
             }
-            if !replaces.isEmpty {
+            if !usage.replaces.isEmpty {
                 section("Replaces") {
-                    ForEach(replaces, id: \.self) { CopyableOEM(oem: $0, font: .system(.body, design: .monospaced)) }
+                    ForEach(usage.replaces, id: \.self) { CopyableOEM(oem: $0, font: .system(.body, design: .monospaced)) }
                 }
             }
             section("Used in (\(usedIn.count))") {
                 ForEach(usedIn) { ref in
-                    Button { dismiss(); store.open(ref) } label: {
+                    Button { dismiss(); catalogue.open(ref) } label: {
                         VStack(alignment: .leading, spacing: 1) {
                             Text("\(ref.groupCode) \(ref.groupName) · Schema \(ref.schemaIndex) · \(ref.pnc)")
                             Text("Variant \(ref.variantId) · \(ref.variantTitle)").font(.caption).foregroundStyle(.secondary)
@@ -253,16 +253,12 @@ struct PartDetailView: View {
                     .buttonStyle(.plain)
                 }
             }
-            if let page {
-                let local = Set(usedIn.map { "\($0.variantId)|\($0.groupCode)" })
-                let elsewhere = page.diagrams.filter { !local.contains("\($0.variantId)|\($0.group)") }
-                if !elsewhere.isEmpty {
-                    section("Also on Amayama (\(elsewhere.count), not scraped)") {
-                        ForEach(elsewhere, id: \.self) { ref in
-                            if let link = URL(string: ref.url) {
-                                Link("\(ref.model.uppercased()) \(ref.frame) · \(ref.variantId) · \(ref.category)/\(ref.group)", destination: link)
-                                    .font(.callout)
-                            }
+            if !usage.elsewhere.isEmpty {
+                section("Also on Amayama (\(usage.elsewhere.count), not scraped)") {
+                    ForEach(usage.elsewhere, id: \.self) { ref in
+                        if let link = URL(string: ref.url) {
+                            Link("\(ref.model.uppercased()) \(ref.frame) · \(ref.variantId) · \(ref.category)/\(ref.group)", destination: link)
+                                .font(.callout)
                         }
                     }
                 }

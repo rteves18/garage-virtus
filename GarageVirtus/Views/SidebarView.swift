@@ -1,28 +1,26 @@
+import GarageVirtusKit
 import SwiftUI
 
 struct SidebarView: View {
-    @Environment(CatalogueStore.self) private var store
-    @Binding var selection: String?
-    let showUnscraped: Bool
-    let search: String
-
+    @Environment(CatalogueViewModel.self) private var model
     @State private var collapsed: Set<String> = []
 
     var body: some View {
-        List(selection: $selection) {
-            let partHits = store.searchParts(search)
+        @Bindable var model = model
+        List(selection: $model.selection) {
+            let partHits = model.partHits
             if !partHits.isEmpty {
                 Section("Parts (\(partHits.count))") {
                     ForEach(partHits) { ref in
-                        Button { store.open(ref) } label: { PartHitRow(ref: ref) }
+                        Button { model.open(ref) } label: { PartHitRow(ref: ref) }
                             .buttonStyle(.plain)
                     }
                 }
             }
-            ForEach(store.frames) { frame in
+            ForEach(model.store.frames) { frame in
                 Section(frame.title) {
                     ForEach(frame.variants) { variant in
-                        let categories = visibleCategories(variant)
+                        let categories = model.visibleCategories(for: variant)
                         if !categories.isEmpty {
                             DisclosureGroup(isExpanded: expanded(variant.id)) {
                                 ForEach(categories) { visible in
@@ -47,32 +45,11 @@ struct SidebarView: View {
             }
         }
         .overlay {
-            if store.scrapedCount == 0 && !showUnscraped {
+            if model.isSidebarEmpty {
                 ContentUnavailableView("Nothing scraped yet", systemImage: "tray",
                                        description: Text("Turn on “Show unscraped” to browse the folder tree."))
             }
         }
-    }
-
-    private struct VisibleCategory: Identifiable {
-        let category: CategoryNode
-        let groups: [GroupNode]
-        var id: String { category.id }
-    }
-
-    private func visibleCategories(_ variant: VariantNode) -> [VisibleCategory] {
-        variant.categories.compactMap { category in
-            let groups = category.groups.filter { group in
-                (showUnscraped || group.isScraped) && matches(group)
-            }
-            return groups.isEmpty ? nil : VisibleCategory(category: category, groups: groups)
-        }
-    }
-
-    private func matches(_ group: GroupNode) -> Bool {
-        let q = search.trimmingCharacters(in: .whitespaces)
-        guard !q.isEmpty else { return true }
-        return group.code.localizedCaseInsensitiveContains(q) || group.name.localizedCaseInsensitiveContains(q)
     }
 
     private func expanded(_ id: String) -> Binding<Bool> {
