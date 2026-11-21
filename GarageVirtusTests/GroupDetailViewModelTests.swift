@@ -142,4 +142,14 @@ struct GroupDetailViewModelTests {
         #expect(model.selectedYearWindow == nil)
         #expect(model.schemaIndex == 0)
     }
+
+    @Test func defaultYearWindowStartsAtVehicleProduction() {
+        model.selectDefaultYearWindow(buildMonth: nil)
+        #expect(model.selectedYearWindow?.title == "01.1994 – 12.1998")
+    }
+
+    @Test func pickedBuildMonthWinsOverVehicleProduction() {
+        model.selectDefaultYearWindow(buildMonth: "1992-06")
+        #expect(model.selectedYearWindow?.title == "01.1991 – 01.1994")
+    }
 }

@@ -29,7 +29,7 @@ struct GroupDetailView: View {
         .navigationTitle(model.title)
         .task {
             model.load()
-            model.selectYearWindow(containing: catalogue.buildMonth)
+            model.selectDefaultYearWindow(buildMonth: catalogue.buildMonth)
             model.apply(catalogue.focus)
         }
         .onChange(of: catalogue.focus) { _, focus in

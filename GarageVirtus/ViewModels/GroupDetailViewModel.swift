@@ -103,6 +103,12 @@ final class GroupDetailViewModel {
         return schemas.filter { entry in entry.schema.period.map(window.overlaps) ?? true }
     }
 
+    /// Opens on a section of years rather than all years: the window containing the month last picked in any
+    /// group (`buildMonth`), or else the vehicle's production start.
+    func selectDefaultYearWindow(buildMonth: String?) {
+        selectYearWindow(containing: buildMonth ?? file?.vehicle.period?.from)
+    }
+
     /// Selects this group's year window containing `month` ("YYYY-MM"), or all years when none does.
     func selectYearWindow(containing month: String?) {
         selectedYearWindow = month.flatMap { month in yearWindows.first { $0.contains(month: month) } }

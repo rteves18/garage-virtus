@@ -1,59 +1,36 @@
 import GarageVirtusKit
 import SwiftUI
 
-/// The group's schemas for the selected year window, stacked in one scroll view. The schema most in view is the current one (the inspector
-/// lists its parts). Picking a schema or jumping to a part scrolls to it. Zoom applies to all diagrams: 100% fits the
-/// width, and larger zooms scroll sideways.
+/// The group's schemas for the selected year window, stacked in one vertical scroll view, each diagram filling the
+/// column's width. The schema most in view is the current one (the parts panel lists its parts); picking a schema or
+/// jumping to a part scrolls to it.
 struct SchemaStackView: View {
     @Bindable var model: GroupDetailViewModel
     let file: SchemaGroupFile
 
-    /// Starts at 80% of the visible width: at 100% a single diagram fills most of the window.
-    @State private var zoom: CGFloat = 0.8
-    @GestureState private var pinch: CGFloat = 1
-
-    private let minZoom: CGFloat = 0.5
-    private let maxZoom: CGFloat = 6
-    private let padding: CGFloat = 16
-
     var body: some View {
-        let scale = clamp(zoom * pinch)
-        // Vertical only at 100%: if the content could also scroll sideways, a vertical scroll bar taking width would
-        // add a horizontal one, change the layout, and flip back, looping layout until AppKit kills the app.
-        ScrollView(scale > 1 ? [.horizontal, .vertical] : .vertical) {
+        ScrollView(.vertical) {
             VStack(alignment: .leading, spacing: 24) {
                 ForEach(model.visibleSchemas, id: \.schema.id) { entry in
-                    SchemaSection(model: model, schema: entry.schema, index: entry.index, scale: scale, padding: padding)
+                    SchemaSection(model: model, schema: entry.schema, index: entry.index)
                         .id(entry.schema.id)
                 }
             }
             .scrollTargetLayout()
-            .padding(padding)
+            .padding(16)
         }
         .scrollPosition(id: $model.currentSchemaID, anchor: .top)
         // Always reserve the scroll bar's width, so the space for diagrams doesn't change when the bar appears.
         .scrollIndicators(.visible)
         .background(Color.secondary.opacity(0.08))
-        .gesture(
-            MagnifyGesture()
-                .updating($pinch) { value, state, _ in state = value.magnification }
-                .onEnded { value in zoom = clamp(zoom * value.magnification) }
-        )
-        .overlay(alignment: .bottomTrailing) {
-            ZoomControls(zoom: $zoom, clamp: clamp).padding(12)
-        }
     }
-
-    private func clamp(_ value: CGFloat) -> CGFloat { min(max(value, minZoom), maxZoom) }
 }
 
-/// One schema: its title and its diagram, as wide as the scroll view's visible width times `scale`.
+/// One schema: its title and its diagram, filling the available width at the diagram's aspect ratio.
 private struct SchemaSection: View {
     let model: GroupDetailViewModel
     let schema: Schema
     let index: Int
-    let scale: CGFloat
-    let padding: CGFloat
 
     var body: some View {
         let isCurrent = index == model.schemaIndex
@@ -65,9 +42,6 @@ private struct SchemaSection: View {
                 let size = model.imageSize(for: schema)
                 DiagramCanvas(model: model, image: image, schema: schema, schemaIndex: index)
                     .aspectRatio(size.width / size.height, contentMode: .fit)
-                    .containerRelativeFrame(.horizontal, alignment: .leading) { length, _ in
-                        max(length - padding * 2, 100) * scale
-                    }
                     .clipShape(RoundedRectangle(cornerRadius: 6))
                     .overlay(RoundedRectangle(cornerRadius: 6)
                         .stroke(isCurrent ? Color.accentColor.opacity(0.6) : Color.secondary.opacity(0.2),
@@ -157,30 +131,4 @@ struct DiagramCanvas: View {
         guard schemaIndex == model.schemaIndex, model.hoveredPNC != pnc else { return }
         model.hoveredPNC = pnc
     }
-}
-
-private struct ZoomControls: View {
-    @Binding var zoom: CGFloat
-    let clamp: (CGFloat) -> CGFloat
-
-    var body: some View {
-        HStack(spacing: 2) {
-            Button(action: zoomOut) { Image(systemName: "minus.magnifyingglass") }
-                .keyboardShortcut("-", modifiers: .command)
-                .help("Zoom out")
-            Button(action: fit) { Text("\(Int((zoom * 100).rounded()))%").monospacedDigit().frame(minWidth: 44) }
-                .keyboardShortcut("0", modifiers: .command)
-                .help("Fit to width")
-            Button(action: zoomIn) { Image(systemName: "plus.magnifyingglass") }
-                .keyboardShortcut("=", modifiers: .command)
-                .help("Zoom in")
-        }
-        .buttonStyle(.borderless)
-        .padding(6)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 8))
-    }
-
-    private func zoomOut() { zoom = clamp(zoom / 1.25) }
-    private func zoomIn() { zoom = clamp(zoom * 1.25) }
-    private func fit() { zoom = 1 }
 }
