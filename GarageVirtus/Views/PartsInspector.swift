@@ -79,7 +79,7 @@ private struct CalloutCard: View {
         .padding(12)
         .background(
             RoundedRectangle(cornerRadius: 10)
-                .fill(isSelected ? Color.accentColor.opacity(0.10) : Color(nsColor: .controlBackgroundColor))
+                .fill(isSelected ? AnyShapeStyle(Color.accentColor.opacity(0.10)) : AnyShapeStyle(.background))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 10)

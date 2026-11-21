@@ -21,11 +21,19 @@ struct CatalogueViewModelTests {
         #expect(model.emptyState == .ready(summary: "1 of 1 groups scraped · \(catalogue.store.indexedPartCount) part numbers"))
     }
 
-    @Test func defaultStoreReadsCatalogueBundledInApp() throws {
+    @Test func defaultStoreReadsCatalogueBundledInApp() async throws {
         let bundled = try #require(Bundle.main.url(forResource: "catalogue", withExtension: nil))
         let model = CatalogueViewModel()
         #expect(model.store.root == bundled)
+        await model.load()
         #expect(model.store.hasCatalogue)
+    }
+
+    @Test func catalogueShowsLoadingUntilLoaded() async throws {
+        let model = CatalogueViewModel()
+        #expect(model.emptyState == .loading)
+        await model.load()
+        #expect(model.emptyState != .loading)
     }
 
     @Test func searchFindsPartsByPartialNumber() throws {

@@ -1,7 +1,7 @@
 import Foundation
 
 /// One place an OEM number appears in the catalogue.
-public struct PartRef: Identifiable, Hashable {
+public struct PartRef: Identifiable, Hashable, Sendable {
     public var id: String { "\(groupID)|\(schemaId)|\(pnc)|\(oem)|\(replacementOf ?? "")" }
     public let oem: String
     public let groupID: String

@@ -29,6 +29,7 @@ struct GroupDetailView: View {
         .navigationTitle(model.title)
         .task {
             model.load()
+            model.selectYearWindow(containing: catalogue.buildMonth)
             model.apply(catalogue.focus)
         }
         .onChange(of: catalogue.focus) { _, focus in
@@ -43,16 +44,20 @@ private struct GroupContentView: View {
     let file: SchemaGroupFile
 
     var body: some View {
-        VStack(spacing: 0) {
-            GroupHeader(model: model, file: file)
-            Divider()
-            SchemaStackView(model: model, file: file)
-        }
-        .inspector(isPresented: $model.showInspector) {
-            if let schema = model.schema {
+        // A plain side panel at a fixed width, not `.inspector`: inside NavigationSplitView's detail column the
+        // inspector adds another split-view column whose size SwiftUI keeps renegotiating, which looped layout
+        // until AppKit killed the app whenever a group opened.
+        HStack(spacing: 0) {
+            VStack(spacing: 0) {
+                GroupHeader(model: model, file: file)
+                Divider()
+                SchemaStackView(model: model, file: file)
+            }
+            if model.showInspector, let schema = model.schema {
+                Divider()
                 PartsInspector(schema: schema, selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC,
                                highlightedOEM: $model.highlightedOEM)
-                    .inspectorColumnWidth(min: 320, ideal: 420, max: 640)
+                    .frame(width: 380)
             }
         }
         .toolbar {
@@ -62,7 +67,7 @@ private struct GroupContentView: View {
                 }
                 .help("Outline every clickable callout on the diagram")
                 Button(action: toggleInspector) {
-                    Label("Inspector", systemImage: "sidebar.right")
+                    Label("Parts", systemImage: "sidebar.right")
                 }
                 .keyboardShortcut("i", modifiers: [.command, .option])
             }
@@ -91,19 +96,50 @@ private struct GroupHeader: View {
             Text(model.vehicleSummary)
                 .font(.callout).foregroundStyle(.secondary)
 
-            if file.schemas.count > 1 {
-                // A menu, not a segmented control: segments can't shrink, and resizing the window with them on
-                // screen sends NSSplitView into a constraint loop that AppKit kills the app for.
-                Picker("Jump to schema", selection: $model.schemaIndex) {
-                    ForEach(file.schemas.indices, id: \.self) { index in
-                        Text(model.label(for: file.schemas[index])).tag(index)
-                    }
+            HStack(spacing: 12) {
+                if !model.yearWindows.isEmpty {
+                    YearWindowPicker(model: model)
                 }
-                .pickerStyle(.menu)
-                .frame(minWidth: 120, maxWidth: 420, alignment: .leading)
+                if model.visibleSchemas.count > 1 {
+                    // Menus, not segmented controls: segments can't shrink, and resizing the window with them on
+                    // screen sends NSSplitView into a constraint loop that AppKit kills the app for.
+                    Picker("Jump to schema", selection: $model.schemaIndex) {
+                        ForEach(model.visibleSchemas, id: \.schema.id) { entry in
+                            Text(model.label(for: entry.schema)).tag(entry.index)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                    .frame(minWidth: 120, maxWidth: 420, alignment: .leading)
+                }
             }
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
+    }
+}
+
+/// Picks the build period to show schemas for. The choice carries over to other groups.
+private struct YearWindowPicker: View {
+    @Environment(CatalogueViewModel.self) private var catalogue
+    let model: GroupDetailViewModel
+
+    var body: some View {
+        Picker("Years", selection: selection) {
+            Text("All years").tag(YearWindow?.none)
+            ForEach(model.yearWindows) { window in
+                Text(window.title).tag(YearWindow?.some(window))
+            }
+        }
+        .pickerStyle(.menu)
+        .frame(minWidth: 120, maxWidth: 240, alignment: .leading)
+    }
+
+    private var selection: Binding<YearWindow?> {
+        Binding(
+            get: { model.selectedYearWindow },
+            set: { window in
+                model.selectedYearWindow = window
+                catalogue.buildMonth = window?.from
+            })
     }
 }

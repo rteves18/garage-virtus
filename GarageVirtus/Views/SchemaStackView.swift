@@ -1,7 +1,7 @@
 import GarageVirtusKit
 import SwiftUI
 
-/// Every schema in the group, stacked in one scroll view. The schema most in view is the current one (the inspector
+/// The group's schemas for the selected year window, stacked in one scroll view. The schema most in view is the current one (the inspector
 /// lists its parts). Picking a schema or jumping to a part scrolls to it. Zoom applies to all diagrams: 100% fits the
 /// width, and larger zooms scroll sideways.
 struct SchemaStackView: View {
@@ -16,27 +16,26 @@ struct SchemaStackView: View {
     private let padding: CGFloat = 16
 
     var body: some View {
-        GeometryReader { geo in
-            let width = max(geo.size.width - padding * 2, 100) * clamp(zoom * pinch)
-            ScrollView([.horizontal, .vertical]) {
-                VStack(alignment: .leading, spacing: 24) {
-                    ForEach(Array(file.schemas.enumerated()), id: \.element.id) { index, schema in
-                        SchemaSection(model: model, schema: schema, index: index, width: width)
-                            .id(schema.id)
-                    }
+        let scale = clamp(zoom * pinch)
+        // Vertical only at 100%: if the content could also scroll sideways, a vertical scroll bar taking width would
+        // add a horizontal one, change the layout, and flip back, looping layout until AppKit kills the app.
+        ScrollView(scale > 1 ? [.horizontal, .vertical] : .vertical) {
+            VStack(alignment: .leading, spacing: 24) {
+                ForEach(model.visibleSchemas, id: \.schema.id) { entry in
+                    SchemaSection(model: model, schema: entry.schema, index: entry.index, scale: scale, padding: padding)
+                        .id(entry.schema.id)
                 }
-                .scrollTargetLayout()
-                .padding(padding)
-                .frame(minWidth: geo.size.width, alignment: .leading)
             }
-            .scrollPosition(id: $model.currentSchemaID, anchor: .top)
-            .background(Color(nsColor: .underPageBackgroundColor))
-            .gesture(
-                MagnifyGesture()
-                    .updating($pinch) { value, state, _ in state = value.magnification }
-                    .onEnded { value in zoom = clamp(zoom * value.magnification) }
-            )
+            .scrollTargetLayout()
+            .padding(padding)
         }
+        .scrollPosition(id: $model.currentSchemaID, anchor: .top)
+        .background(Color.secondary.opacity(0.08))
+        .gesture(
+            MagnifyGesture()
+                .updating($pinch) { value, state, _ in state = value.magnification }
+                .onEnded { value in zoom = clamp(zoom * value.magnification) }
+        )
         .overlay(alignment: .bottomTrailing) {
             ZoomControls(zoom: $zoom, clamp: clamp).padding(12)
         }
@@ -45,12 +44,13 @@ struct SchemaStackView: View {
     private func clamp(_ value: CGFloat) -> CGFloat { min(max(value, minZoom), maxZoom) }
 }
 
-/// One schema: its title and its diagram at `width`.
+/// One schema: its title and its diagram, as wide as the scroll view's visible width times `scale`.
 private struct SchemaSection: View {
     let model: GroupDetailViewModel
     let schema: Schema
     let index: Int
-    let width: CGFloat
+    let scale: CGFloat
+    let padding: CGFloat
 
     var body: some View {
         let isCurrent = index == model.schemaIndex
@@ -60,8 +60,11 @@ private struct SchemaSection: View {
                 .foregroundStyle(isCurrent ? .primary : .secondary)
             if let image = model.image(for: schema) {
                 let size = model.imageSize(for: schema)
-                DiagramCanvas(model: model, image: image, callouts: schema.callouts, schemaIndex: index,
-                              size: CGSize(width: width, height: width * size.height / size.width))
+                DiagramCanvas(model: model, image: image, schema: schema, schemaIndex: index)
+                    .aspectRatio(size.width / size.height, contentMode: .fit)
+                    .containerRelativeFrame(.horizontal, alignment: .leading) { length, _ in
+                        max(length - padding * 2, 100) * scale
+                    }
                     .clipShape(RoundedRectangle(cornerRadius: 6))
                     .overlay(RoundedRectangle(cornerRadius: 6)
                         .stroke(isCurrent ? Color.accentColor.opacity(0.6) : Color.secondary.opacity(0.2),
@@ -69,73 +72,82 @@ private struct SchemaSection: View {
             } else {
                 ContentUnavailableView("Diagram missing", systemImage: "photo",
                                        description: Text("Expected _images/\(schema.image)"))
-                    .frame(width: width, height: 200)
+                    .frame(maxWidth: .infinity, minHeight: 200)
             }
         }
     }
 }
 
-/// A diagram drawn at `size`, with clickable callout hotspots. Hotspots use normalized (0...1) rects, so they line up
-/// at any size. Highlights apply only on the current schema, because callout labels repeat across schemas.
+/// A diagram and its callout hotspots, drawn in one Canvas: a group with hundreds of hotspots stays one view per
+/// diagram. Taps and hover are hit-tested against the hotspots' 0...1 rects. Highlights apply only on the current
+/// schema, because callout labels repeat across schemas.
 struct DiagramCanvas: View {
     let model: GroupDetailViewModel
-    let image: NSImage
-    let callouts: [Callout]
+    let image: CGImage
+    let schema: Schema
     let schemaIndex: Int
-    let size: CGSize
 
+    @State private var size: CGSize = .zero
     @State private var localHover: String?
 
-    var body: some View {
-        ZStack(alignment: .topLeading) {
-            Image(nsImage: image)
-                .resizable()
-                .interpolation(.high)
-                .frame(width: size.width, height: size.height)
-                .background(Color.white)
-                .onTapGesture { model.selectedPNC = nil }
+    private let pad: CGFloat = 3
 
-            ForEach(callouts) { callout in
-                ForEach(Array(callout.hotspots.enumerated()), id: \.offset) { _, hotspot in
-                    hotspotView(callout, hotspot)
+    var body: some View {
+        let isCurrent = schemaIndex == model.schemaIndex
+        let selected = isCurrent ? model.selectedPNC : nil
+        let hovered = (isCurrent ? model.hoveredPNC : nil) ?? localHover
+        let showsHotspots = model.showHotspots
+        Canvas { context, size in
+            context.draw(Image(decorative: image, scale: 1), in: CGRect(origin: .zero, size: size))
+            for callout in schema.callouts {
+                let isSelected = callout.pnc == selected
+                let isHovered = callout.pnc == hovered
+                guard isSelected || isHovered || showsHotspots else { continue }
+                for hotspot in callout.hotspots {
+                    let norm = hotspot.norm.rect
+                    let rect = CGRect(x: norm.minX * size.width, y: norm.minY * size.height,
+                                      width: norm.width * size.width, height: norm.height * size.height)
+                        .insetBy(dx: -pad, dy: -pad)
+                    let path = Path(roundedRect: rect, cornerRadius: 3)
+                    if isSelected || isHovered {
+                        context.fill(path, with: .color(.accentColor.opacity(isSelected ? 0.28 : 0.12)))
+                    }
+                    let stroke: Color = isSelected ? .accentColor : isHovered ? .accentColor.opacity(0.8) : .blue.opacity(0.35)
+                    context.stroke(path, with: .color(stroke), lineWidth: isSelected ? 2 : 1)
                 }
             }
         }
-        .frame(width: size.width, height: size.height)
+        .background(Color.white)
+        .onGeometryChange(for: CGSize.self) { $0.size } action: { size = $0 }
+        .gesture(SpatialTapGesture().onEnded { tap(at: $0.location) })
+        .onContinuousHover { phase in
+            switch phase {
+            case .active(let location): hover(callout(at: location)?.pnc)
+            case .ended: hover(nil)
+            }
+        }
+        .help(hovered.flatMap { pnc in schema.callouts.first { $0.pnc == pnc } }.map { "\($0.pnc) – \($0.displayName)" } ?? "")
     }
 
-    @ViewBuilder
-    private func hotspotView(_ callout: Callout, _ hotspot: Hotspot) -> some View {
-        let isSelected = model.isSelected(callout.pnc, inSchemaAt: schemaIndex)
-        let isHovered = model.isHovered(callout.pnc, inSchemaAt: schemaIndex) || localHover == callout.pnc
-        let pad: CGFloat = 3
-        let rect = CGRect(
-            x: hotspot.norm.x1 * size.width - pad,
-            y: hotspot.norm.y1 * size.height - pad,
-            width: (hotspot.norm.x2 - hotspot.norm.x1) * size.width + pad * 2,
-            height: (hotspot.norm.y2 - hotspot.norm.y1) * size.height + pad * 2)
-        let stroke: Color = isSelected ? .accentColor
-            : isHovered ? .accentColor.opacity(0.8)
-            : model.showHotspots ? .blue.opacity(0.35) : .clear
+    private func callout(at location: CGPoint) -> Callout? {
+        guard size.width > 0, size.height > 0 else { return nil }
+        return schema.callout(at: CGPoint(x: location.x / size.width, y: location.y / size.height),
+                              tolerance: pad / size.width)
+    }
 
-        RoundedRectangle(cornerRadius: 3)
-            .fill(isSelected ? Color.accentColor.opacity(0.28)
-                  : isHovered ? Color.accentColor.opacity(0.12) : Color.clear)
-            .overlay(RoundedRectangle(cornerRadius: 3).stroke(stroke, lineWidth: isSelected ? 2 : 1))
-            .frame(width: rect.width, height: rect.height)
-            .contentShape(Rectangle())
-            .onTapGesture { model.selectCallout(callout.pnc, inSchemaAt: schemaIndex) }
-            .onHover { inside in hover(callout.pnc, inside: inside) }
-            .help("\(callout.pnc) – \(callout.displayName)")
-            .position(x: rect.midX, y: rect.midY)
-            .animation(.easeOut(duration: 0.12), value: isSelected)
+    private func tap(at location: CGPoint) {
+        if let callout = callout(at: location) {
+            model.selectCallout(callout.pnc, inSchemaAt: schemaIndex)
+        } else {
+            model.selectedPNC = nil
+        }
     }
 
     /// Hovering the current schema drives the inspector's hover link. Other schemas only highlight locally.
-    private func hover(_ pnc: String, inside: Bool) {
-        if inside { localHover = pnc } else if localHover == pnc { localHover = nil }
-        guard schemaIndex == model.schemaIndex else { return }
-        if inside { model.hoveredPNC = pnc } else if model.hoveredPNC == pnc { model.hoveredPNC = nil }
+    private func hover(_ pnc: String?) {
+        if localHover != pnc { localHover = pnc }
+        guard schemaIndex == model.schemaIndex, model.hoveredPNC != pnc else { return }
+        model.hoveredPNC = pnc
     }
 }
 

@@ -19,13 +19,20 @@ struct ContentView: View {
                     }
                 }
         } detail: {
-            if let id = model.selection, let group = model.store.group(id: id) {
-                GroupDetailView(group: group, store: model.store)
-                    .id(group.id)
-            } else {
-                CatalogueEmptyView(state: model.emptyState)
+            Group {
+                if let id = model.selection, let group = model.store.group(id: id) {
+                    GroupDetailView(group: group, store: model.store)
+                        .id(group.id)
+                } else {
+                    CatalogueEmptyView(state: model.emptyState)
+                }
             }
+            // A constant minimum size for the detail column. Left to SwiftUI, it's recomputed from the content
+            // (header, menus, parts panel, spinner) and every change re-runs NSSplitView's constraint pass; when the
+            // value flips, layout loops until AppKit kills the app. Room for the 380 pt parts panel plus a diagram.
+            .frame(minWidth: 520, maxWidth: .infinity, minHeight: 300, maxHeight: .infinity)
         }
+        .task { await model.load() }
     }
 }
 
@@ -35,6 +42,8 @@ private struct CatalogueEmptyView: View {
 
     var body: some View {
         switch state {
+        case .loading:
+            ProgressView("Loading catalogue…")
         case .noCatalogue:
             ContentUnavailableView("No catalogue in this build", systemImage: "tray",
                                    description: Text("The app copies garage-virtus/catalogue in when it's built. Scrape at least one group, then build and run again."))

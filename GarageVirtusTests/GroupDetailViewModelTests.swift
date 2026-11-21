@@ -103,4 +103,43 @@ struct GroupDetailViewModelTests {
         #expect(model.isSelected("10102", inSchemaAt: 1))
         #expect(model.isSelected("10102", inSchemaAt: 0) == false)
     }
+
+    @Test func yearWindowsComeFromSchemaDateRanges() {
+        #expect(model.yearWindows.map(\.title) == ["01.1991 – 01.1994", "01.1994 – 12.1998"])
+    }
+
+    @Test func noYearWindowShowsEverySchema() {
+        #expect(model.visibleSchemas.map(\.schema.id) == ["101B_001_0", "101B_001_1"])
+    }
+
+    @Test func yearWindowShowsOnlyOverlappingSchemas() throws {
+        let window = try #require(model.yearWindows.last)
+        model.selectedYearWindow = window
+        #expect(model.visibleSchemas.map(\.schema.id) == ["101B_001_1"])
+        #expect(model.visibleSchemas.map(\.index) == [1])
+    }
+
+    @Test func yearWindowMovesCurrentSchemaIntoView() throws {
+        let window = try #require(model.yearWindows.last)
+        model.selectedYearWindow = window
+        #expect(model.schemaIndex == 1)
+    }
+
+    @Test func buildMonthPicksWindowContainingIt() {
+        model.selectYearWindow(containing: "1995-03")
+        #expect(model.selectedYearWindow?.title == "01.1994 – 12.1998")
+    }
+
+    @Test func buildMonthOutsideEveryWindowShowsAllYears() {
+        model.selectYearWindow(containing: "1985-01")
+        #expect(model.selectedYearWindow == nil)
+    }
+
+    @Test func jumpToHiddenSchemaShowsAllYears() throws {
+        let window = try #require(model.yearWindows.last)
+        model.selectedYearWindow = window
+        model.apply(try focus(schemaId: "101B_001_0", pnc: "10102", oem: "10102-50F50"))
+        #expect(model.selectedYearWindow == nil)
+        #expect(model.schemaIndex == 0)
+    }
 }

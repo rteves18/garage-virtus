@@ -8,6 +8,7 @@ import Observation
 final class CatalogueViewModel {
     /// What the detail area shows when no group is selected.
     enum EmptyState: Equatable {
+        case loading
         case noCatalogue
         case ready(summary: String)
     }
@@ -23,11 +24,15 @@ final class CatalogueViewModel {
     var selection: String?
     var search = ""
     var showUnscraped = false
+    /// The start month ("YYYY-MM") of the year window last picked in any group, so each group opens on the matching
+    /// window. Set only when the user picks a window, so a group with no matching window doesn't clear it.
+    var buildMonth: String?
     /// The latest jump request. Group detail screens apply it when it targets them.
     private(set) var focus: PartFocus?
 
     /// - Parameter store: defaults to the catalogue copied into the app from the repo's `catalogue/` folder at build time.
-    init(store: CatalogueStore = CatalogueStore(folder: Bundle.main.url(forResource: "catalogue", withExtension: nil))) {
+    init(store: CatalogueStore = CatalogueStore(folder: Bundle.main.url(forResource: "catalogue", withExtension: nil),
+                                                isLoadedImmediately: false)) {
         self.store = store
     }
 
@@ -38,6 +43,7 @@ final class CatalogueViewModel {
     var isSidebarEmpty: Bool { store.scrapedCount == 0 && !showUnscraped }
 
     var emptyState: EmptyState {
+        guard store.isLoaded else { return .loading }
         guard store.hasCatalogue else { return .noCatalogue }
         return .ready(summary: "\(store.scrapedCount) of \(store.totalCount) groups scraped · \(store.indexedPartCount) part numbers")
     }
@@ -50,6 +56,12 @@ final class CatalogueViewModel {
             }
             return groups.isEmpty ? nil : VisibleCategory(category: category, groups: groups)
         }
+    }
+
+    /// Reads the catalogue off the main thread (the app calls this once at launch).
+    func load() async {
+        guard !store.isLoaded else { return }
+        await store.loadInBackground()
     }
 
     /// Selects the part's group and asks it to show the part's schema and callout.

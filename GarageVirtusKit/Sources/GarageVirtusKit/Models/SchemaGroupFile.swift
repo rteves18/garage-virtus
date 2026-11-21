@@ -1,3 +1,4 @@
+import CoreGraphics
 import Foundation
 
 /// Mirrors `schema-group.json` written by tools/amayama/scrape_page.js (format_version 1).
@@ -127,3 +128,19 @@ public struct Price: Codable {
     public let currency: String
     public let raw: String?
 }
+
+extension Schema {
+    /// The callout whose hotspot contains `point`, in 0...1 fractions of the diagram's width and height.
+    /// `tolerance` (also a fraction) widens each hotspot so small labels are easy to hit.
+    public func callout(at point: CGPoint, tolerance: CGFloat = 0) -> Callout? {
+        callouts.first { callout in
+            callout.hotspots.contains { $0.norm.rect.insetBy(dx: -tolerance, dy: -tolerance).contains(point) }
+        }
+    }
+}
+
+extension HotspotRect {
+    /// The rect as a CGRect, in the same units (pixels for `rect`, 0...1 fractions for `norm`).
+    public var rect: CGRect { CGRect(x: x1, y: y1, width: x2 - x1, height: y2 - y1) }
+}
+

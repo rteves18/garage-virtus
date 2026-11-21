@@ -1,3 +1,4 @@
+import CoreGraphics
 import Foundation
 import Testing
 @testable import GarageVirtusKit
@@ -46,5 +47,20 @@ struct RepoCatalogueTests {
         #expect((store?.indexedPartCount ?? 0) > 5_000)
         #expect(elapsed < .seconds(3), "Loading took \(elapsed)")
         print("Catalogue load: \(elapsed), \(store?.indexedPartCount ?? 0) part numbers")
+    }
+
+    @Test @MainActor func diagramDecodesToCGImageAtFullSize() throws {
+        let store = CatalogueStore(folder: Self.catalogue)
+        let group = try #require(store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups)
+            .first { $0.code == "101" && $0.isScraped })
+        let image: CGImage = try #require(store.image(named: "imgjp16/RS13/101B_001.png", for: group))
+        #expect(image.width == 1280)
+        #expect(image.height == 639)
+    }
+
+    @Test @MainActor func missingDiagramIsNil() throws {
+        let store = CatalogueStore(folder: Self.catalogue)
+        let group = try #require(store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups).first { $0.isScraped })
+        #expect(store.image(named: "nope/missing.png", for: group) == nil)
     }
 }

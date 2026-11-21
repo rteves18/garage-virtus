@@ -1,3 +1,4 @@
+import CoreGraphics
 import Foundation
 import Testing
 @testable import GarageVirtusKit
@@ -35,5 +36,21 @@ struct DecodingTests {
     @Test(arguments: [("amayama", "Amayama"), ("megazip", "Megazip")])
     func sourceNamesTheSiteForLinks(site: String, expected: String) {
         #expect(Source(site: site, url: "https://example.com", scrapedAt: nil).siteName == expected)
+    }
+
+    @Test(arguments: [(0.62, 0.23, "10102"), (0.62, 0.26, "R10102"), (0.25, 0.37, "10103")])
+    func pointInsideHotspotFindsCallout(x: Double, y: Double, pnc: String) throws {
+        let schema = try decode(SchemaGroupFile.self, "schema-group").schemas[0]
+        #expect(schema.callout(at: CGPoint(x: x, y: y))?.pnc == pnc)
+    }
+
+    @Test func pointJustOutsideHotspotWithinToleranceFindsCallout() throws {
+        let schema = try decode(SchemaGroupFile.self, "schema-group").schemas[0]
+        #expect(schema.callout(at: CGPoint(x: 0.2290, y: 0.37), tolerance: 0.002)?.pnc == "10103")
+    }
+
+    @Test func pointAwayFromHotspotsFindsNothing() throws {
+        let schema = try decode(SchemaGroupFile.self, "schema-group").schemas[0]
+        #expect(schema.callout(at: CGPoint(x: 0.9, y: 0.9)) == nil)
     }
 }

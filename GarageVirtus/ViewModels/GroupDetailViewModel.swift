@@ -1,4 +1,4 @@
-import AppKit
+import CoreGraphics
 import GarageVirtusKit
 import Observation
 
@@ -37,6 +37,15 @@ final class GroupDetailViewModel {
     }
 
     var hoveredPNC: String?
+
+    /// The build period to show schemas for, or nil for all years. Choosing one moves the current schema into view.
+    var selectedYearWindow: YearWindow? {
+        didSet {
+            guard selectedYearWindow != oldValue,
+                  let first = visibleSchemas.first, !visibleSchemas.contains(where: { $0.index == schemaIndex }) else { return }
+            schemaIndex = first.index
+        }
+    }
     var highlightedOEM: String?
     var showInspector = true
     var showHotspots = true
@@ -61,16 +70,15 @@ final class GroupDetailViewModel {
     }
 
     /// The schema's diagram image.
-    func image(for schema: Schema) -> NSImage? {
+    func image(for schema: Schema) -> CGImage? {
         store.image(named: schema.image, for: group)
     }
 
     /// Diagram size from the scraped image info, then the image itself, then 1280×640.
     func imageSize(for schema: Schema) -> CGSize {
-        let info = file?.images[schema.image]
-        let image = info == nil ? image(for: schema) : nil
-        return CGSize(width: info?.width ?? image?.size.width ?? 1280,
-                      height: info?.height ?? image?.size.height ?? 640)
+        if let info = file?.images[schema.image] { return CGSize(width: info.width, height: info.height) }
+        if let image = image(for: schema) { return CGSize(width: image.width, height: image.height) }
+        return CGSize(width: 1280, height: 640)
     }
 
     /// "180SX KRPS13 · grade · transmission · engine · options · period" for the header.
@@ -80,6 +88,24 @@ final class GroupDetailViewModel {
                        vehicle.options.joined(separator: " ")]
             .compactMap { $0 }.filter { !$0.isEmpty }.joined(separator: " · ")
         return summary + (vehicle.period.map { " · " + $0.display } ?? "")
+    }
+
+    /// The group's build periods, from where its schemas' date ranges start and end. Empty when they don't vary.
+    var yearWindows: [YearWindow] {
+        let windows = YearWindow.windows(for: file?.schemas.compactMap(\.period) ?? [])
+        return windows.count > 1 ? windows : []
+    }
+
+    /// Schemas for the selected year window (all schemas without one), with their index in the file.
+    var visibleSchemas: [(index: Int, schema: Schema)] {
+        let schemas = Array((file?.schemas ?? []).enumerated()).map { (index: $0.offset, schema: $0.element) }
+        guard let window = selectedYearWindow else { return schemas }
+        return schemas.filter { entry in entry.schema.period.map(window.overlaps) ?? true }
+    }
+
+    /// Selects this group's year window containing `month` ("YYYY-MM"), or all years when none does.
+    func selectYearWindow(containing month: String?) {
+        selectedYearWindow = month.flatMap { month in yearWindows.first { $0.contains(month: month) } }
     }
 
     /// The id of the current schema, for scroll position: scrolling a schema into view makes it current, and
@@ -131,6 +157,7 @@ final class GroupDetailViewModel {
     func apply(_ focus: PartFocus?) {
         guard let focus, focus.groupID == group.id, let file else { return }
         if let schemaId = focus.schemaId, let index = file.schemas.firstIndex(where: { $0.id == schemaId }) {
+            if !visibleSchemas.contains(where: { $0.index == index }) { selectedYearWindow = nil }
             schemaIndex = index
         }
         selectedPNC = focus.pnc
