@@ -36,6 +36,17 @@ final class CatalogueViewModel {
         self.store = store
     }
 
+    /// Sidebar tag for a My garage status row.
+    static func garageTag(_ status: PartStatus) -> String {
+        "garage:" + status.rawValue
+    }
+
+    /// The My garage status selected in the sidebar, or nil when a catalogue group (or nothing) is selected.
+    var selectedGarageStatus: PartStatus? {
+        guard let selection, selection.hasPrefix("garage:") else { return nil }
+        return PartStatus(rawValue: String(selection.dropFirst("garage:".count)))
+    }
+
     /// Parts matching the search text (OEM number in any form, or an Amayama part link).
     var partHits: [PartRef] { store.searchParts(search) }
 

@@ -20,7 +20,10 @@ struct ContentView: View {
                 }
         } detail: {
             Group {
-                if let id = model.selection, let group = model.store.group(id: id) {
+                if let status = model.selectedGarageStatus {
+                    GarageListView(status: status)
+                        .id(status)
+                } else if let id = model.selection, let group = model.store.group(id: id) {
                     GroupDetailView(group: group, store: model.store)
                         .id(group.id)
                 } else {

@@ -1,4 +1,5 @@
 import GarageVirtusKit
+import SwiftData
 import SwiftUI
 
 struct SidebarView: View {
@@ -17,6 +18,7 @@ struct SidebarView: View {
                     }
                 }
             }
+            MyGarageSection()
             ForEach(model.store.frames) { frame in
                 Section(frame.title) {
                     ForEach(frame.variants) { variant in
@@ -106,5 +108,36 @@ private struct PartHitRow: View {
                 .font(.caption2).foregroundStyle(.tertiary).lineLimit(1)
         }
         .contentShape(Rectangle())
+    }
+}
+
+/// My garage: one row per status, with how many rows each has.
+private struct MyGarageSection: View {
+    @Query private var parts: [GaragePart]
+
+    var body: some View {
+        let counts = Dictionary(grouping: parts, by: \.statusRaw).mapValues(\.count)
+        Section("My garage") {
+            ForEach(PartStatus.allCases, id: \.self) { status in
+                HStack {
+                    Label(status.title, systemImage: icon(status))
+                    Spacer()
+                    Text("\(counts[status.rawValue] ?? 0)")
+                        .monospacedDigit()
+                        .foregroundStyle(.secondary)
+                }
+                .tag(CatalogueViewModel.garageTag(status))
+            }
+        }
+    }
+
+    private func icon(_ status: PartStatus) -> String {
+        switch status {
+        case .need: "exclamationmark.circle"
+        case .want: "star"
+        case .inStorage: "shippingbox"
+        case .waitingToInstall: "clock"
+        case .installed: "checkmark.circle"
+        }
     }
 }

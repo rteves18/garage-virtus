@@ -77,4 +77,17 @@ struct CatalogueViewModelTests {
         #expect(model.focus?.oem == "10102-50FR2")
     }
 
+
+    @Test func garageSelectionParsesStatus() throws {
+        let model = CatalogueViewModel(store: try TestCatalogue().store)
+        model.selection = CatalogueViewModel.garageTag(.need)
+        #expect(model.selectedGarageStatus == .need)
+    }
+
+    @Test func groupSelectionIsNotGarage() throws {
+        let catalogue = try TestCatalogue()
+        let model = CatalogueViewModel(store: catalogue.store)
+        model.selection = try catalogue.group.id
+        #expect(model.selectedGarageStatus == nil)
+    }
 }
