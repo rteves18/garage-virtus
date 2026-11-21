@@ -7,6 +7,8 @@ import SwiftData
 @Observable
 public final class GarageStore {
     @ObservationIgnored public let container: ModelContainer
+    /// The car new parts are recorded against. Nil means the first car (the 180SX).
+    public var currentCar: Car?
     @ObservationIgnored private var context: ModelContext { container.mainContext }
 
     public init(container: ModelContainer) {
@@ -31,13 +33,40 @@ public final class GarageStore {
         return car
     }
 
+    /// Ryan's cars, oldest first.
+    public func cars() -> [Car] {
+        _ = defaultCar()
+        return (try? context.fetch(FetchDescriptor<Car>(sortBy: [SortDescriptor(\.createdAt)]))) ?? []
+    }
+
+    @discardableResult
+    public func addCar(name: String, frame: String, variantID: String) -> Car {
+        _ = defaultCar()
+        let car = Car(name: name, frame: frame, variantID: variantID)
+        context.insert(car)
+        save()
+        return car
+    }
+
+    /// Deletes a car and every part recorded for it. The first remaining car becomes current.
+    public func delete(_ car: Car) {
+        if currentCar?.id == car.id { currentCar = nil }
+        context.delete(car)
+        save()
+        currentCar = cars().first
+    }
+
+    /// The car parts are recorded against now.
+    public var activeCar: Car { currentCar ?? defaultCar() }
+
     /// Records a part Ryan needs or wants. A part number has at most one need/want row; marking it again updates it.
     @discardableResult
     public func markWanted(oemNumber: String?, name: String, status: PartStatus, quantity: Int = 1,
                            groupCode: String? = nil, pnc: String? = nil) -> GaragePart {
         precondition(!status.isOwned, "markWanted takes .need or .want")
         let existing = oemNumber.flatMap { number in
-            parts(withOEMKey: CatalogueStore.normalize(number)).first { !$0.status.isOwned }
+            let carID = activeCar.id
+            return parts(withOEMKey: CatalogueStore.normalize(number)).first { !$0.status.isOwned && $0.car?.id == carID }
         }
         let part = existing ?? insertPart(name: name, oemNumber: oemNumber, status: status, quantity: quantity,
                                           groupCode: groupCode, pnc: pnc)
@@ -130,7 +159,7 @@ public final class GarageStore {
         part.groupCode = groupCode
         part.pnc = pnc
         context.insert(part)
-        part.car = defaultCar()
+        part.car = activeCar
         return part
     }
 }

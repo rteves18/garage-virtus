@@ -96,4 +96,33 @@ struct GarageStoreTests {
         store.delete(part)
         #expect(try container.mainContext.fetchCount(FetchDescriptor<PartPhoto>()) == 0)
     }
+
+    @Test func addedCarsAreListedByCreation() {
+        let first = store.defaultCar()
+        let s2000 = store.addCar(name: "2005 Honda S2000", frame: "AP2", variantID: "")
+        #expect(store.cars().map(\.id) == [first.id, s2000.id])
+    }
+
+    @Test func newPartsBelongToTheCurrentCar() {
+        let s2000 = store.addCar(name: "2005 Honda S2000", frame: "AP2", variantID: "")
+        store.currentCar = s2000
+        #expect(store.addOwned(oemNumber: nil, name: "Soft top").car?.id == s2000.id)
+        #expect(store.markWanted(oemNumber: "X-1", name: "x", status: .need).car?.id == s2000.id)
+    }
+
+    @Test func needsAreTrackedPerCar() {
+        store.markWanted(oemNumber: "X-1", name: "x", status: .need, quantity: 1)
+        store.currentCar = store.addCar(name: "4Runner", frame: "UZN215", variantID: "")
+        store.markWanted(oemNumber: "X-1", name: "x", status: .need, quantity: 3)
+        #expect(store.parts(withOEMKey: "X1").count == 2)
+    }
+
+    @Test func deletingCarDeletesItsParts() throws {
+        let car = store.addCar(name: "Model 3", frame: "", variantID: "")
+        store.currentCar = car
+        store.addOwned(oemNumber: nil, name: "Floor mats")
+        store.delete(car)
+        #expect(try container.mainContext.fetchCount(FetchDescriptor<GaragePart>()) == 0)
+        #expect(store.currentCar?.id == store.defaultCar().id)
+    }
 }
