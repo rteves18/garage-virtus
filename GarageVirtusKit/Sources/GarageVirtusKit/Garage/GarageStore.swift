@@ -22,6 +22,19 @@ public final class GarageStore {
                            configurations: ModelConfiguration(isStoredInMemoryOnly: isStoredInMemoryOnly))
     }
 
+    /// A container for the garage store file at `url` (the MCP server opens the app's store this way).
+    public static func makeContainer(url: URL) throws -> ModelContainer {
+        try ModelContainer(for: SwiftData.Schema(versionedSchema: GarageSchemaV1.self),
+                           migrationPlan: GarageMigrationPlan.self,
+                           configurations: ModelConfiguration(url: url))
+    }
+
+    /// Every part recorded for `car`.
+    public func parts(for car: Car) -> [GaragePart] {
+        let all = (try? context.fetch(FetchDescriptor<GaragePart>(sortBy: [SortDescriptor(\.name)]))) ?? []
+        return all.filter { $0.car?.id == car.id }
+    }
+
     /// The car parts are recorded against: the 180SX, created on first use.
     public func defaultCar() -> Car {
         if let car = try? context.fetch(FetchDescriptor<Car>(sortBy: [SortDescriptor(\.createdAt)])).first {

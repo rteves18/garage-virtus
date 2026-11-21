@@ -23,6 +23,53 @@ Track your own parts alongside the catalogue. Statuses: **Need**, **Want**, **In
 
 The car picker at the top of **My garage** in the sidebar switches cars. The app remembers your choice. **Manage cars** (the car icon) adds, renames, or deletes cars. Deleting a car deletes its parts. Lists, badges, and the overview always show the current car. **Overview** shows counts per status, total spent, and the needs still short.
 
+## Claude via MCP (uses your Claude subscription)
+
+`garage-virtus-mcp` is a local MCP server. It lets Claude Desktop or Claude Code look up the catalogue and My garage, so you can ask, for example, "What hardware do I need for the rear suspension?", and Claude prices the list from the catalogue with a total. It runs on your Claude subscription, with no API key.
+
+Tools:
+
+- `search_parts`: find a part number
+- `list_groups`: list the schema groups
+- `get_section`: one group's diagrams, parts, prices, and have/need. Takes an optional build year.
+- `build_parts_list`: priced lines and a total
+- `garage_status`: counts, total spent, and needs still short
+- `add_to_garage`: record needs or wants for the current car
+
+Build it once (and again after pulling changes):
+
+```sh
+cd GarageVirtusKit && swift build -c release --product garage-virtus-mcp
+```
+
+The server reads the repo's `catalogue/` folder directly, so new scrapes show up without rebuilding. It also reads the app's garage store. Open the app once first so the store exists.
+
+**Claude Desktop:** add this to `~/Library/Application Support/Claude/claude_desktop_config.json`, then restart Claude Desktop. Use your real paths.
+
+```json
+{
+  "mcpServers": {
+    "garage-virtus": {
+      "command": "/Users/rteves/Documents/dev/personal/garage-virtus/GarageVirtusKit/.build/release/garage-virtus-mcp",
+      "args": ["--catalogue", "/Users/rteves/Documents/dev/personal/garage-virtus/catalogue"]
+    }
+  }
+}
+```
+
+**Claude Code:**
+
+```sh
+claude mcp add -s user garage-virtus -- \
+  /Users/rteves/Documents/dev/personal/garage-virtus/GarageVirtusKit/.build/release/garage-virtus-mcp \
+  --catalogue /Users/rteves/Documents/dev/personal/garage-virtus/catalogue
+```
+
+Notes:
+
+- The first time, macOS may ask whether Claude can access data from other apps (the garage store lives in the app's container). Allow it.
+- Parts added with `add_to_garage` appear in the app after you reopen it.
+
 ## Ask AI (hidden for now)
 
 Turned off by `FeatureFlags.isAskAIEnabled` in favour of the MCP server (below). The code is kept. To turn it back on, set the flag to `true` and add `com.apple.security.network.client` back to the entitlements.
