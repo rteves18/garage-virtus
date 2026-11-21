@@ -103,14 +103,16 @@ private struct GroupHeader: View {
             if file.schemas.count > 1 {
                 Picker("Schema", selection: $model.schemaIndex) {
                     ForEach(file.schemas.indices, id: \.self) { index in
-                        Text(model.label(for: file.schemas[index])).tag(index)
+                        Text(model.segmentTitle(for: file.schemas[index])).tag(index)
                     }
                 }
                 .pickerStyle(.segmented)
                 .labelsHidden()
-            } else {
-                Text(model.label(for: schema)).font(.callout)
+                .fixedSize()
             }
+            Text(model.label(for: schema))
+                .font(.callout)
+                .lineLimit(1)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)

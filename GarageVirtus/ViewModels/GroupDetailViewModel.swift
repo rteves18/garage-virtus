@@ -80,6 +80,13 @@ final class GroupDetailViewModel {
         return summary + (vehicle.period.map { " · " + $0.display } ?? "")
     }
 
+    /// Short title for the schema picker's segment. Segmented pickers can't truncate, so long titles would force
+    /// the detail column wider than the window allows next to the inspector.
+    func segmentTitle(for schema: Schema) -> String {
+        "Schema \(schema.index)"
+    }
+
+    /// Full description of a schema: number, engines it applies to, and production period.
     func label(for schema: Schema) -> String {
         var parts = ["Schema \(schema.index)"]
         if !schema.applies.isEmpty { parts.append(schema.applies.joined(separator: ", ")) }

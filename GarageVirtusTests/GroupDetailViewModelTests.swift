@@ -72,4 +72,14 @@ struct GroupDetailViewModelTests {
     @Test func vehicleSummaryNamesModelAndFrame() {
         #expect(model.vehicleSummary.hasPrefix("180SX KRPS13"))
     }
+
+    @Test func segmentTitlesNameOnlyTheSchemaNumber() throws {
+        let schemas = try #require(model.file?.schemas)
+        #expect(schemas.map(model.segmentTitle(for:)) == ["Schema 1", "Schema 2"])
+    }
+
+    @Test func labelDescribesEngineAndPeriod() throws {
+        let schema = try #require(model.file?.schemas.last)
+        #expect(model.label(for: schema) == "Schema 2 · SR20DET · 1994-01 – 1998-12")
+    }
 }
