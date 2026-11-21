@@ -58,15 +58,12 @@ private struct CalloutCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .firstTextBaseline, spacing: 8) {
-                // Skip the label when it's just the part number shown in the row below.
-                if !callout.isLabelledByPartNumber {
-                    Text(callout.pnc)
-                        .font(.system(.headline, design: .monospaced))
-                        .padding(.horizontal, 6).padding(.vertical, 2)
-                        .background(isSelected ? Color.accentColor : Color.secondary.opacity(0.15),
-                                    in: RoundedRectangle(cornerRadius: 4))
-                        .foregroundStyle(isSelected ? Color.white : Color.primary)
-                }
+                Text(callout.pnc)
+                    .font(.system(.headline, design: .monospaced))
+                    .padding(.horizontal, 6).padding(.vertical, 2)
+                    .background(isSelected ? Color.accentColor : Color.secondary.opacity(0.15),
+                                in: RoundedRectangle(cornerRadius: 4))
+                    .foregroundStyle(isSelected ? Color.white : Color.primary)
                 Text(callout.displayName).font(.headline)
                 Spacer()
                 Text("Parts: \(callout.parts.count)")
