@@ -22,8 +22,8 @@ share the core later.
 - Requiring extra tools (XcodeGen, Tuist) to open or build the project.
 
 ## Approaches
-- **A. Xcode app + local package `GarageVirtusKit` (chosen).** Thin app target; models, store and views live in
-  the package. Shares cleanly with iOS later and makes the code testable with `swift test`. Costs a little
+- **A. Xcode app + local package `GarageVirtusKit` (chosen).** Data in the package, views and view models in the
+  app (revised from "views in the package" once it was clear the AppKit views won't be shared with iOS). Shares cleanly with iOS later and makes the code testable with `swift test`. Costs a little
   structure and `public` on the few types the app touches.
 - **B. Xcode app only.** Move sources into the app target, delete `Package.swift`. Simplest today, but the split
   has to happen anyway for iOS.
@@ -32,19 +32,35 @@ share the core later.
 Ryan picked **A with sandbox on**.
 
 ## Design
-**Layout**
+**Layout (Model / ViewModel / View; revised 2026-11-21, Ryan picked "views in app, data in Kit")**
 ```
-GarageVirtus.xcodeproj            app project (synchronized folder for GarageVirtus/)
-GarageVirtus/                     app target: GarageVirtusApp.swift, Assets.xcassets (AppIcon, AccentColor),
-                                  GarageVirtus.entitlements
-GarageVirtusKit/                  local Swift package
-  Package.swift                   macOS 14, library product GarageVirtusKit
-  Sources/GarageVirtusKit/        Models/, Store/, Views/ (moved from GarageVirtus/Sources/GarageVirtus)
-  Tests/GarageVirtusKitTests/     Swift Testing
-catalogue/, tools/                unchanged
+GarageVirtus.xcodeproj              app project (synchronized folders), shared scheme
+GarageVirtus/                       app target
+  GarageVirtusApp.swift             @main, scene, commands
+  ViewModels/                       @Observable @MainActor UI state + logic
+    CatalogueViewModel.swift        owns CatalogueStore; selection, search text, showUnscraped, focus,
+                                    part hits, visible sidebar tree, empty state, open panel (NSOpenPanel)
+    GroupDetailViewModel.swift      loads a group; schema index, selected/hovered callout, highlighted OEM,
+                                    inspector/hotspot toggles; the focus and selection rules now in GroupDetailView
+  Views/                            SwiftUI only: render view-model state, forward user actions
+    ContentView, SidebarView, GroupDetailView, DiagramView, PartsInspector (+ PartDetailView),
+    CopyableOEM                     (pure UI state like hover, zoom, "copied" tick may stay in views)
+  Assets.xcassets, GarageVirtus.entitlements
+GarageVirtusTests/                  Xcode unit-test target (Swift Testing), view-model tests
+GarageVirtusKit/                    local Swift package: models and data only, no SwiftUI
+  Sources/GarageVirtusKit/
+    Models/                         SchemaGroupFile, PartPage, catalogue tree (FrameNode…GroupNode), PartRef,
+                                    PartUsage
+    Catalogue/                      CatalogueStore (tree, index, search, refs, load, images, part pages,
+                                    open(folder:), reload), CatalogueFolderAccess
+  Tests/GarageVirtusKitTests/       swift test
+catalogue/, tools/                  unchanged
 ```
-- The app target holds only `@main` + scene/commands. `ContentView`, `CatalogueStore` and the methods the
-  commands call become `public`. Everything else stays internal.
+- The Kit has no SwiftUI and no UI state. `PartFocus`, `open(_ ref:)`, and the open panel move out of
+  `CatalogueStore` into `CatalogueViewModel`. Kit types and members the app uses are `public`.
+- "Where is this part used / what does it replace / which other Amayama pages list it", computed inside
+  `PartDetailView` today, becomes a Kit query, `CatalogueStore.usage(of:) -> PartUsage`, so it's tested
+  with `swift test`.
 - Remove the `setActivationPolicy` / `NSApp.activate` workaround.
 
 **Sandbox and catalogue access**
@@ -64,12 +80,15 @@ catalogue/, tools/                unchanged
   past small fixes, stay on Swift 5 mode and note it.
 - AppIcon is an empty placeholder set. Art comes later.
 
-**Tests (GarageVirtusKitTests)**
-- `normalize`, `splitCodeName` (group and variant folders), `parseAmayamaPartURL` (with/without `sid`, non-Amayama URL).
+**Tests**
+- Kit (`swift test`): folder access, store loading, `usage(of:)`, plus `normalize`, `splitCodeName` (group and variant folders), `parseAmayamaPartURL` (with/without `sid`, non-Amayama URL).
 - Decoding the checked-in `schema-group.json` and `_parts/10/1010250FR2.json` samples (copied as test fixtures).
+- App (`xcodebuild test`): `CatalogueViewModel` (empty states, search hits, sidebar filtering, focus → selection)
+  and `GroupDetailViewModel` (focus picks schema and callout, changing schema clears a callout not on it,
+  selecting another callout clears a highlight it doesn't contain).
 
 **Done when**
-- `xcodebuild -scheme GarageVirtus build` and `swift test` in `GarageVirtusKit/` pass.
+- `xcodebuild -scheme GarageVirtus build test` and `swift test` in `GarageVirtusKit/` pass.
 - The app launches as a signed, sandboxed bundle, asks for the catalogue folder, browses the KRPS13 group,
   and remembers the folder after relaunch.
 - README updated (open `GarageVirtus.xcodeproj`, first-launch folder prompt).

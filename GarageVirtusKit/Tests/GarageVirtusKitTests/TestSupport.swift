@@ -1,4 +1,5 @@
 import Foundation
+import Testing
 @testable import GarageVirtusKit
 
 /// A throwaway directory and UserDefaults suite per test.
@@ -10,7 +11,7 @@ final class TempSpace {
     init() throws {
         root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
         try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
-        defaults = UserDefaults(suiteName: suiteName)!
+        defaults = try #require(UserDefaults(suiteName: suiteName))
     }
 
     deinit {
@@ -31,7 +32,7 @@ final class TempSpace {
             "nissan/180sx/KRPS13/6976_1994-1998_TYPE-RX_MT_4WS/engine/101_Bearing-and-short-engine-assembly",
             isDirectory: true)
         try FileManager.default.createDirectory(at: group, withIntermediateDirectories: true)
-        let fixture = Bundle.module.url(forResource: "schema-group", withExtension: "json", subdirectory: "Fixtures")!
+        let fixture = try #require(Bundle.module.url(forResource: "schema-group", withExtension: "json", subdirectory: "Fixtures"))
         try FileManager.default.copyItem(at: fixture, to: group.appendingPathComponent("schema-group.json"))
         return catalogue
     }

@@ -11,7 +11,7 @@ struct CatalogueStoreFolderTests {
     @Test func noSavedFolderMeansNoRoot() {
         let store = CatalogueStore(folderAccess: space.makeAccess())
         #expect(store.root == nil)
-        #expect(!store.hasCatalogue)
+        #expect(store.hasCatalogue == false)
     }
 
     @Test func openingCatalogueFolderLoadsTree() throws {
@@ -26,7 +26,7 @@ struct CatalogueStoreFolderTests {
         let store = CatalogueStore(folderAccess: space.makeAccess())
         try store.open(folder: try space.makeFolder("empty"))
         #expect(store.root != nil)
-        #expect(!store.hasCatalogue)
+        #expect(store.hasCatalogue == false)
     }
 
     @Test func reopenedStoreRestoresFolder() throws {
