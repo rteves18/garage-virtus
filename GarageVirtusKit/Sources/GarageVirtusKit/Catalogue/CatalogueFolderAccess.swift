@@ -2,17 +2,18 @@ import Foundation
 
 /// Remembers the user-chosen catalogue folder as a read-only bookmark and holds its security scope open,
 /// so the sandboxed app can read it again after relaunch.
-final class CatalogueFolderAccess {
+public final class CatalogueFolderAccess {
     private static let bookmarkKey = "catalogueBookmark"
 
     private let defaults: UserDefaults
     private let bookmarkOptions: URL.BookmarkCreationOptions
     private var isAccessingCurrentFolder = false
 
-    private(set) var currentFolder: URL?
+    /// The folder currently open, if any.
+    public private(set) var currentFolder: URL?
 
     /// Tests pass `bookmarkOptions: []` because a non-sandboxed test process can't use security scope.
-    init(
+    public init(
         defaults: UserDefaults = .standard,
         bookmarkOptions: URL.BookmarkCreationOptions = [.withSecurityScope, .securityScopeAllowOnlyReadAccess]
     ) {
@@ -26,7 +27,7 @@ final class CatalogueFolderAccess {
 
     /// Resolves the saved bookmark and starts access. Recreates a stale bookmark.
     /// Clears it and returns nil if it can't resolve or the folder is gone.
-    func restore() -> URL? {
+    public func restore() -> URL? {
         guard let data = defaults.data(forKey: Self.bookmarkKey) else { return nil }
         var isStale = false
         guard let url = try? URL(resolvingBookmarkData: data, options: resolutionOptions,
@@ -43,14 +44,15 @@ final class CatalogueFolderAccess {
     }
 
     /// Stops access to any current folder, saves a bookmark for `url`, starts access to it.
-    func remember(_ url: URL) throws {
+    public func remember(_ url: URL) throws {
         let data = try bookmarkData(for: url)
         stopAccessing()
         defaults.set(data, forKey: Self.bookmarkKey)
         startAccessing(url)
     }
 
-    func forget() {
+    /// Stops access and deletes the saved bookmark.
+    public func forget() {
         stopAccessing()
         defaults.removeObject(forKey: Self.bookmarkKey)
     }

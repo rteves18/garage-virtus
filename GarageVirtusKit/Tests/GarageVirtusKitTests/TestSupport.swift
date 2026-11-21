@@ -25,7 +25,7 @@ final class TempSpace {
         return url
     }
 
-    /// A catalogue folder holding the KRPS13 group-101 fixture.
+    /// A catalogue folder holding the KRPS13 group-101 fixture and the 10102-50FR2 part page.
     func makeCatalogue() throws -> URL {
         let catalogue = try makeFolder("catalogue")
         let group = catalogue.appendingPathComponent(
@@ -34,6 +34,10 @@ final class TempSpace {
         try FileManager.default.createDirectory(at: group, withIntermediateDirectories: true)
         let fixture = try #require(Bundle.module.url(forResource: "schema-group", withExtension: "json", subdirectory: "Fixtures"))
         try FileManager.default.copyItem(at: fixture, to: group.appendingPathComponent("schema-group.json"))
+        let parts = catalogue.appendingPathComponent("nissan/_parts/10", isDirectory: true)
+        try FileManager.default.createDirectory(at: parts, withIntermediateDirectories: true)
+        let partFixture = try #require(Bundle.module.url(forResource: "1010250FR2", withExtension: "json", subdirectory: "Fixtures"))
+        try FileManager.default.copyItem(at: partFixture, to: parts.appendingPathComponent("1010250FR2.json"))
         return catalogue
     }
 

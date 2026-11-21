@@ -1,85 +1,17 @@
 import AppKit
 import Observation
 
-/// Folder tree on disk (format v2):
-/// catalogue/<make>/_images/<path on Amayama image server>     e.g. imgjp16/RS13/101B_001.png  (shared across frames)
-/// catalogue/<make>/_parts/<key[0..<2]>/<key>.json              e.g. 10/1010250FR2.json        (one file per OEM number)
-/// catalogue/<make>/<model>/<frame>/<variant>/<category>/<group>/schema-group.json
-struct FrameNode: Identifiable {
-    let id: String
-    let title: String
-    let imagesDir: URL
-    let variants: [VariantNode]
-}
-
-struct VariantNode: Identifiable {
-    let id: String
-    let variantId: String
-    let title: String
-    let categories: [CategoryNode]
-}
-
-struct CategoryNode: Identifiable {
-    let id: String
-    let key: String
-    let title: String
-    let groups: [GroupNode]
-}
-
-struct GroupNode: Identifiable, Hashable {
-    let id: String          // folder path
-    let code: String
-    let name: String
-    let folder: URL
-    let jsonURL: URL?       // nil until scraped
-    let imagesDir: URL        // catalogue/<make>/_images
-    let legacyImagesDir: URL  // v1: catalogue/<make>/<model>/<frame>/_images
-    let variantId: String
-    let variantTitle: String
-
-    var isScraped: Bool { jsonURL != nil }
-}
-
-/// One place an OEM number appears in the catalogue.
-struct PartRef: Identifiable, Hashable {
-    var id: String { "\(groupID)|\(schemaId)|\(pnc)|\(oem)|\(replacementOf ?? "")" }
-    let oem: String
-    let groupID: String
-    let groupCode: String
-    let groupName: String
-    let variantId: String
-    let variantTitle: String
-    let schemaId: String
-    let schemaIndex: Int
-    let pnc: String
-    let calloutName: String
-    /// Set when this OEM is listed as a replacement for another part number.
-    let replacementOf: String?
-    let priceText: String
-}
-
-/// A request to open a group on a specific schema / callout / part (from search or a part page).
-struct PartFocus: Equatable {
-    let token = UUID()
-    let groupID: String
-    let schemaId: String?
-    let pnc: String?
-    let oem: String?
-}
-
 @MainActor
 @Observable
 public final class CatalogueStore {
     public private(set) var root: URL?
-    private(set) var frames: [FrameNode] = []
+    public private(set) var frames: [FrameNode] = []
     /// False when no folder is chosen or the chosen folder has no make/model/frame folders.
     public var hasCatalogue: Bool { !frames.isEmpty }
-    private(set) var totalCount = 0
-    private(set) var scrapedCount = 0
+    public private(set) var totalCount = 0
+    public private(set) var scrapedCount = 0
 
-    private(set) var indexedPartCount = 0
-    /// Set to jump the UI to a group/schema/callout/part.
-    var focus: PartFocus?
+    public private(set) var indexedPartCount = 0
 
     @ObservationIgnored private var groupsByID: [String: GroupNode] = [:]
     @ObservationIgnored private var partIndex: [String: [PartRef]] = [:]
@@ -100,43 +32,36 @@ public final class CatalogueStore {
 
     /// The repo's `catalogue/` folder when this build came from the repo, used only as the open panel's
     /// starting folder: <repo>/GarageVirtusKit/Sources/GarageVirtusKit/Store/CatalogueStore.swift -> <repo>/catalogue
-    static var suggestedFolder: URL? {
+    public static var suggestedFolder: URL? {
         var url = URL(fileURLWithPath: #filePath)
         for _ in 0..<5 { url.deleteLastPathComponent() }
         let catalogue = url.appendingPathComponent("catalogue", isDirectory: true)
         return FileManager.default.fileExists(atPath: catalogue.path) ? catalogue : nil
     }
 
+    /// Creates a store that reopens the catalogue folder chosen in a previous launch.
     public convenience init() {
         self.init(folderAccess: CatalogueFolderAccess())
     }
 
-    init(folderAccess: CatalogueFolderAccess) {
+    /// Creates a store that reopens the folder `folderAccess` remembers, if any.
+    public init(folderAccess: CatalogueFolderAccess) {
         self.folderAccess = folderAccess
         root = folderAccess.restore()
         reload()
     }
 
-    func group(id: String) -> GroupNode? { groupsByID[id] }
-
-    /// Asks for the catalogue folder and opens it. Cancelling keeps the current folder.
-    public func chooseCatalogueFolder() {
-        let panel = NSOpenPanel()
-        panel.canChooseDirectories = true
-        panel.canChooseFiles = false
-        panel.directoryURL = root ?? Self.suggestedFolder
-        panel.message = "Choose the garage-virtus/catalogue folder"
-        guard panel.runModal() == .OK, let url = panel.url else { return }
-        try? open(folder: url)
-    }
+    /// The schema group with folder path `id`, if it's in the current catalogue.
+    public func group(id: String) -> GroupNode? { groupsByID[id] }
 
     /// Remembers `folder` (keeping access across relaunches) and loads it. On failure the current folder stays.
-    func open(folder: URL) throws {
+    public func open(folder: URL) throws {
         try folderAccess.remember(folder)
         root = folder
         reload()
     }
 
+    /// Rereads the folder tree and rebuilds the part index.
     public func reload() {
         imageCache.removeAll()
         partPageCache.removeAll()
@@ -190,7 +115,7 @@ public final class CatalogueStore {
     // MARK: part index & search
 
     /// "10102-50FR2", "1010250fr2" -> "1010250FR2"
-    nonisolated static func normalize(_ oem: String) -> String {
+    public nonisolated static func normalize(_ oem: String) -> String {
         oem.uppercased().filter { $0.isLetter || $0.isNumber }
     }
 
@@ -231,13 +156,13 @@ public final class CatalogueStore {
     }
 
     /// Every place an OEM number appears.
-    func refs(for oem: String) -> [PartRef] {
+    public func refs(for oem: String) -> [PartRef] {
         (partIndex[Self.normalize(oem)] ?? []).sorted { ($0.variantId, $0.groupCode, $0.schemaIndex) < ($1.variantId, $1.groupCode, $1.schemaIndex) }
     }
 
     /// Accepts an OEM number (any dash/case form, partial ok) or an Amayama part URL
     /// like https://www.amayama.com/en/part/nissan/1010250fr2?sid=101B_001_1.R10102
-    func searchParts(_ query: String) -> [PartRef] {
+    public func searchParts(_ query: String) -> [PartRef] {
         let q = query.trimmingCharacters(in: .whitespacesAndNewlines)
         if let parsed = Self.parseAmayamaPartURL(q) {
             let all = refs(for: parsed.oem)
@@ -251,6 +176,17 @@ public final class CatalogueStore {
         guard n.count >= 4, n.contains(where: \.isNumber) else { return [] }
         if let exact = partIndex[n] { return refs(for: exact[0].oem) }
         return partIndex.keys.filter { $0.contains(n) }.sorted().prefix(25).flatMap { refs(for: $0) }
+    }
+
+    /// Where `oem` is used, what it replaces, and its scraped part page.
+    public func usage(of oem: String) -> PartUsage {
+        let refs = refs(for: oem)
+        let usedIn = refs.filter { $0.replacementOf == nil }
+        let replaces = Array(Set(refs.compactMap(\.replacementOf))).sorted()
+        let page = partPage(for: oem)
+        let local = Set(usedIn.map { "\($0.variantId)|\($0.groupCode)" })
+        let elsewhere = page?.diagrams.filter { !local.contains("\($0.variantId)|\($0.group)") } ?? []
+        return PartUsage(usedIn: usedIn, replaces: replaces, page: page, elsewhere: elsewhere)
     }
 
     nonisolated static func parseAmayamaPartURL(_ string: String) -> (oem: String, schemaId: String?, pnc: String?)? {
@@ -267,10 +203,6 @@ public final class CatalogueStore {
         return (oem, schemaId, pnc)
     }
 
-    func open(_ ref: PartRef) {
-        focus = PartFocus(groupID: ref.groupID, schemaId: ref.schemaId, pnc: ref.pnc, oem: ref.oem)
-    }
-
     /// Decoder for catalogue JSON (snake_case keys).
     nonisolated static func makeDecoder() -> JSONDecoder {
         let decoder = JSONDecoder()
@@ -278,13 +210,15 @@ public final class CatalogueStore {
         return decoder
     }
 
-    func load(_ group: GroupNode) throws -> SchemaGroupFile {
+    /// Decodes the group's `schema-group.json`.
+    /// - Throws: `CocoaError(.fileNoSuchFile)` for an unscraped group, or a decoding error.
+    public func load(_ group: GroupNode) throws -> SchemaGroupFile {
         guard let url = group.jsonURL else { throw CocoaError(.fileNoSuchFile) }
         return try Self.makeDecoder().decode(SchemaGroupFile.self, from: Data(contentsOf: url))
     }
 
     /// `path` is the schema's image key, e.g. "imgjp16/RS13/101B_001.png" (v2) or "101B_001.png" (v1).
-    func image(named path: String, for group: GroupNode) -> NSImage? {
+    public func image(named path: String, for group: GroupNode) -> NSImage? {
         let candidates = [
             group.imagesDir.appendingPathComponent(path),
             group.legacyImagesDir.appendingPathComponent((path as NSString).lastPathComponent),
@@ -300,7 +234,7 @@ public final class CatalogueStore {
     }
 
     /// Scraped Amayama part page for an OEM number, if present: _parts/<key[0..<2]>/<key>.json
-    func partPage(for oem: String) -> PartPage? {
+    public func partPage(for oem: String) -> PartPage? {
         let key = Self.normalize(oem)
         if let cached = partPageCache[key] { return cached }
         let decoder = Self.makeDecoder()
