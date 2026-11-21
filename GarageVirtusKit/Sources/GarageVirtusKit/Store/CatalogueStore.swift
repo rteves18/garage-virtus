@@ -70,8 +70,10 @@ struct PartFocus: Equatable {
 @MainActor
 @Observable
 public final class CatalogueStore {
-    private(set) var root: URL
+    public private(set) var root: URL?
     private(set) var frames: [FrameNode] = []
+    /// False when no folder is chosen or the chosen folder has no make/model/frame folders.
+    public var hasCatalogue: Bool { !frames.isEmpty }
     private(set) var totalCount = 0
     private(set) var scrapedCount = 0
 
@@ -84,8 +86,8 @@ public final class CatalogueStore {
     @ObservationIgnored private var imageCache: [URL: NSImage] = [:]
     @ObservationIgnored private var partsDirs: [URL] = []
     @ObservationIgnored private var partPageCache: [String: PartPage?] = [:]
+    @ObservationIgnored private let folderAccess: CatalogueFolderAccess
 
-    private static let rootKey = "catalogueRoot"
     static let fileName = "schema-group.json"
     static let categoryOrder = ["engine", "body", "trans", "electric", "misc"]
     static let categoryTitles = [
@@ -96,34 +98,42 @@ public final class CatalogueStore {
         "misc": "Accessories",
     ]
 
-    /// <repo>/GarageVirtus/Sources/GarageVirtus/Store/CatalogueStore.swift -> <repo>/catalogue
-    static var defaultRoot: URL {
+    /// The repo's `catalogue/` folder when this build came from the repo, used only as the open panel's
+    /// starting folder: <repo>/GarageVirtusKit/Sources/GarageVirtusKit/Store/CatalogueStore.swift -> <repo>/catalogue
+    static var suggestedFolder: URL? {
         var url = URL(fileURLWithPath: #filePath)
         for _ in 0..<5 { url.deleteLastPathComponent() }
-        return url.appendingPathComponent("catalogue", isDirectory: true)
+        let catalogue = url.appendingPathComponent("catalogue", isDirectory: true)
+        return FileManager.default.fileExists(atPath: catalogue.path) ? catalogue : nil
     }
 
-    public init() {
-        if let saved = UserDefaults.standard.string(forKey: Self.rootKey),
-           FileManager.default.fileExists(atPath: saved) {
-            root = URL(fileURLWithPath: saved, isDirectory: true)
-        } else {
-            root = Self.defaultRoot
-        }
+    public convenience init() {
+        self.init(folderAccess: CatalogueFolderAccess())
+    }
+
+    init(folderAccess: CatalogueFolderAccess) {
+        self.folderAccess = folderAccess
+        root = folderAccess.restore()
         reload()
     }
 
     func group(id: String) -> GroupNode? { groupsByID[id] }
 
-    public func chooseRoot() {
+    /// Asks for the catalogue folder and opens it. Cancelling keeps the current folder.
+    public func chooseCatalogueFolder() {
         let panel = NSOpenPanel()
         panel.canChooseDirectories = true
         panel.canChooseFiles = false
-        panel.directoryURL = root
+        panel.directoryURL = root ?? Self.suggestedFolder
         panel.message = "Choose the garage-virtus/catalogue folder"
         guard panel.runModal() == .OK, let url = panel.url else { return }
-        root = url
-        UserDefaults.standard.set(url.path, forKey: Self.rootKey)
+        try? open(folder: url)
+    }
+
+    /// Remembers `folder` (keeping access across relaunches) and loads it. On failure the current folder stays.
+    func open(folder: URL) throws {
+        try folderAccess.remember(folder)
+        root = folder
         reload()
     }
 
@@ -134,7 +144,7 @@ public final class CatalogueStore {
         var result: [FrameNode] = []
         var parts: [URL] = []
 
-        for make in subdirs(root) {
+        for make in root.map(subdirs) ?? [] {
             let imagesDir = make.appendingPathComponent("_images", isDirectory: true)
             parts.append(make.appendingPathComponent("_parts", isDirectory: true))
             for model in subdirs(make) {
