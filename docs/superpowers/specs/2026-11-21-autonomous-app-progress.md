@@ -36,3 +36,4 @@ Ryan opted out of questions for this run. The calls below are Claude's, recorded
 
 ## Progress ledger
 (appended as work lands)
+- AI assistant done: Kit client, tool loop, list builder, context (40 Kit tests); Keychain key store; Settings; Ask AI panel. Launch check: group 101 with panel idle, network.client present. No live API call made (needs Ryan's key).
