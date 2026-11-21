@@ -20,7 +20,9 @@ struct ContentView: View {
                 }
         } detail: {
             Group {
-                if let status = model.selectedGarageStatus {
+                if model.isGarageOverviewSelected {
+                    GarageOverviewView()
+                } else if let status = model.selectedGarageStatus {
                     GarageListView(status: status)
                         .id(status)
                 } else if let id = model.selection, let group = model.store.group(id: id) {
@@ -36,6 +38,16 @@ struct ContentView: View {
             .frame(minWidth: 520, maxWidth: .infinity, minHeight: 300, maxHeight: .infinity)
         }
         .task { await model.load() }
+        .safeAreaInset(edge: .top, spacing: 0) {
+            if let warning = model.garageStoreWarning {
+                Label(warning, systemImage: "exclamationmark.triangle.fill")
+                    .font(.callout)
+                    .padding(8)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.red.opacity(0.85))
+                    .foregroundStyle(.white)
+            }
+        }
     }
 }
 

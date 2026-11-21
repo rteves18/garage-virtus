@@ -36,6 +36,14 @@ final class CatalogueViewModel {
         self.store = store
     }
 
+    /// Sidebar tag for the My garage overview row.
+    static let garageOverviewTag = "garage-overview"
+
+    var isGarageOverviewSelected: Bool { selection == Self.garageOverviewTag }
+
+    /// Shown above the window when the garage store couldn't be opened (changes won't be saved).
+    var garageStoreWarning: String?
+
     /// Sidebar tag for a My garage status row.
     static func garageTag(_ status: PartStatus) -> String {
         "garage:" + status.rawValue

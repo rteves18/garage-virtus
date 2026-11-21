@@ -15,9 +15,11 @@ struct PartsInspector: View {
     @State private var selectedFromInspector = false
     /// One query for the whole panel (not one per row); rows get their tracked entries by part number.
     @Query private var garageParts: [GaragePart]
+    @Environment(GarageStore.self) private var garage
 
     var body: some View {
-        let trackedByKey = Dictionary(grouping: garageParts.filter { $0.oemKey != nil }) { $0.oemKey ?? "" }
+        let carID = garage.activeCar.id
+        let trackedByKey = Dictionary(grouping: garageParts.filter { $0.oemKey != nil && $0.car?.id == carID }) { $0.oemKey ?? "" }
         ScrollViewReader { proxy in
             ScrollView {
                 // Eager VStack (not Lazy): a LazyVStack that's been programmatically scrolled can report

@@ -90,4 +90,17 @@ struct CatalogueViewModelTests {
         model.selection = try catalogue.group.id
         #expect(model.selectedGarageStatus == nil)
     }
+
+    @Test func overviewTagSelectsGarageOverview() throws {
+        let model = CatalogueViewModel(store: try TestCatalogue().store)
+        model.selection = CatalogueViewModel.garageOverviewTag
+        #expect(model.isGarageOverviewSelected)
+        #expect(model.selectedGarageStatus == nil)
+    }
+
+    @Test func statusTagIsNotOverview() throws {
+        let model = CatalogueViewModel(store: try TestCatalogue().store)
+        model.selection = CatalogueViewModel.garageTag(.installed)
+        #expect(model.isGarageOverviewSelected == false)
+    }
 }

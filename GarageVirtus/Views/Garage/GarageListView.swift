@@ -19,6 +19,9 @@ struct GarageListView: View {
     }
 
     var body: some View {
+        let carID = garage.activeCar.id
+        let rows = rows.filter { $0.car?.id == carID }
+        let allParts = allParts.filter { $0.car?.id == carID }
         // A fixed-width editor beside the table, like the diagrams' parts panel (no `.inspector`).
         HStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 0) {
@@ -39,7 +42,7 @@ struct GarageListView: View {
                     .frame(width: 380)
             }
         }
-        .navigationTitle(status.title)
+        .navigationTitle("\(status.title) · \(garage.activeCar.name)")
         .toolbar {
             ToolbarItem {
                 Button(action: addPart) { Label("Add part", systemImage: "plus") }

@@ -111,13 +111,20 @@ private struct PartHitRow: View {
     }
 }
 
-/// My garage: one row per status, with how many rows each has.
+/// My garage: the car switcher, the overview, and one row per status with the current car's counts.
 private struct MyGarageSection: View {
+    @Environment(GarageStore.self) private var garage
     @Query private var parts: [GaragePart]
+    @Query(sort: \Car.createdAt) private var cars: [Car]
+    @AppStorage("currentCarID") private var currentCarID = ""
+    @State private var isManagingCars = false
 
     var body: some View {
-        let counts = Dictionary(grouping: parts, by: \.statusRaw).mapValues(\.count)
-        Section("My garage") {
+        let carID = garage.activeCar.id
+        let counts = Dictionary(grouping: parts.filter { $0.car?.id == carID }, by: \.statusRaw).mapValues(\.count)
+        Section {
+            Label("Overview", systemImage: "house")
+                .tag(CatalogueViewModel.garageOverviewTag)
             ForEach(PartStatus.allCases, id: \.self) { status in
                 HStack {
                     Label(status.title, systemImage: icon(status))
@@ -128,7 +135,27 @@ private struct MyGarageSection: View {
                 }
                 .tag(CatalogueViewModel.garageTag(status))
             }
+        } header: {
+            HStack {
+                Picker("Car", selection: carSelection) {
+                    ForEach(cars) { Text($0.name).tag($0.id) }
+                }
+                .labelsHidden()
+                .frame(minWidth: 0, maxWidth: 220, alignment: .leading)
+                Button { isManagingCars = true } label: { Image(systemName: "car.2") }
+                    .buttonStyle(.borderless)
+                    .help("Manage cars")
+            }
         }
+        .sheet(isPresented: $isManagingCars) { CarsView() }
+    }
+
+    private var carSelection: Binding<UUID> {
+        Binding(get: { garage.activeCar.id },
+                set: { id in
+                    garage.currentCar = cars.first { $0.id == id }
+                    currentCarID = id.uuidString
+                })
     }
 
     private func icon(_ status: PartStatus) -> String {

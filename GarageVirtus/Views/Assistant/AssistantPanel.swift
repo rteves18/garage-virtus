@@ -6,6 +6,7 @@ import SwiftUI
 struct AssistantPanel: View {
     let model: GroupDetailViewModel
     @Query private var garageParts: [GaragePart]
+    @Environment(GarageStore.self) private var garage
 
     var body: some View {
         if let assistant = model.assistant {
@@ -26,8 +27,10 @@ struct AssistantPanel: View {
     private func startChat() {
         guard let key = APIKeyStore().read() else { return }
         var coverage: [String: Coverage] = [:]
-        for key in Set(garageParts.compactMap(\.oemKey)) {
-            coverage[key] = GarageStore.coverage(forOEMKey: key, in: garageParts)
+        let carID = garage.activeCar.id
+        let carParts = garageParts.filter { $0.car?.id == carID }
+        for key in Set(carParts.compactMap(\.oemKey)) {
+            coverage[key] = GarageStore.coverage(forOEMKey: key, in: carParts)
         }
         model.startAssistant(apiKey: key, coverage: coverage)
     }
