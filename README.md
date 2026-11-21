@@ -10,6 +10,15 @@ Open `GarageVirtus.xcodeproj` in Xcode (27+) and press ⌘R. Requires macOS 14+.
 The app loads the catalogue automatically: every build copies this repo's `catalogue/` folder into the app,
 and the app reads that copy (read-only, sandboxed). After scraping more groups, build and run again (⌘R in Xcode).
 
+## My garage
+
+Track your own parts alongside the catalogue. Statuses: **Need**, **Want**, **In storage**, **Waiting to install**, and **Installed**.
+
+- **Right-click a part** in a diagram's parts panel to mark it: Need it, Want it, Have it, Waiting to install, or Installed. A badge then shows where the part stands, e.g. "Need · have 2 of 4". Click the badge to open the list.
+- **My garage in the sidebar** lists parts by status, with counts and total spent. Select a row to edit what you paid, the seller, condition, storage location, notes, and photos (add from Photos or drop image files).
+- **Quantities:** need/want is one row per part number, with the quantity you need. Owned parts are one row per purchase or bundle, so duplicates are fine. "Have X of Y" compares them, and installed parts count as owned.
+- **Storage:** data is kept with SwiftData in the app's container (`~/Library/Containers/com.rteves.GarageVirtus/Data/Library/Application Support/default.store`), separate from the bundled catalogue. Rebuilds and re-scrapes never touch it, and Time Machine backs it up.
+
 ## Project layout (Model / ViewModel / View)
 
 ```

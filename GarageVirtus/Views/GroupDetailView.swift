@@ -55,7 +55,7 @@ private struct GroupContentView: View {
             }
             if model.showInspector, let schema = model.schema {
                 Divider()
-                PartsInspector(schema: schema, selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC,
+                PartsInspector(schema: schema, groupCode: model.group.code, selectedPNC: $model.selectedPNC, hoveredPNC: $model.hoveredPNC,
                                highlightedOEM: $model.highlightedOEM)
                     .frame(width: 380)
             }

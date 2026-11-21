@@ -1,17 +1,23 @@
 import GarageVirtusKit
+import SwiftData
 import SwiftUI
 
 /// Right-hand inspector: every callout on the current schema with its OEM parts.
 /// Selecting a hotspot scrolls here and highlights; hovering a card highlights the diagram.
 struct PartsInspector: View {
-    let schema: Schema
+    let schema: GarageVirtusKit.Schema
+    /// The schema group's code, recorded with parts marked from here.
+    let groupCode: String
     @Binding var selectedPNC: String?
     @Binding var hoveredPNC: String?
     @Binding var highlightedOEM: String?
     /// Selections made here (clicking a card header) shouldn't scroll the list out from under the cursor.
     @State private var selectedFromInspector = false
+    /// One query for the whole panel (not one per row); rows get their tracked entries by part number.
+    @Query private var garageParts: [GaragePart]
 
     var body: some View {
+        let trackedByKey = Dictionary(grouping: garageParts.filter { $0.oemKey != nil }) { $0.oemKey ?? "" }
         ScrollViewReader { proxy in
             ScrollView {
                 // Eager VStack (not Lazy): a LazyVStack that's been programmatically scrolled can report
@@ -22,6 +28,8 @@ struct PartsInspector: View {
                                     isSelected: callout.pnc == selectedPNC,
                                     isHovered: callout.pnc == hoveredPNC,
                                     highlightedOEM: highlightedOEM,
+                                    groupCode: groupCode,
+                                    trackedByKey: trackedByKey,
                                     onSelect: {
                                         selectedFromInspector = true
                                         selectedPNC = (selectedPNC == callout.pnc) ? nil : callout.pnc
@@ -53,6 +61,8 @@ private struct CalloutCard: View {
     let isSelected: Bool
     let isHovered: Bool
     let highlightedOEM: String?
+    let groupCode: String
+    let trackedByKey: [String: [GaragePart]]
     let onSelect: () -> Void
 
     var body: some View {
@@ -73,7 +83,9 @@ private struct CalloutCard: View {
             .onTapGesture(perform: onSelect)   // only the header selects, so the ⓘ buttons don't
             ForEach(Array(callout.parts.enumerated()), id: \.offset) { index, part in
                 if index > 0 { Divider() }
-                PartRow(part: part, calloutName: callout.displayName, highlightedOEM: highlightedOEM)
+                PartRow(part: part, calloutName: callout.displayName, highlightedOEM: highlightedOEM,
+                        groupCode: groupCode, pnc: callout.pnc,
+                        tracked: trackedByKey[CatalogueStore.normalize(part.oem)] ?? [])
             }
         }
         .padding(12)
@@ -92,9 +104,14 @@ private struct CalloutCard: View {
 
 private struct PartRow: View {
     @Environment(CatalogueViewModel.self) private var catalogue
+    @Environment(GarageStore.self) private var garage
     let part: Part
     let calloutName: String
     let highlightedOEM: String?
+    let groupCode: String
+    let pnc: String
+    /// My garage rows for this part number.
+    let tracked: [GaragePart]
     @State private var showDetail = false
 
     private var isHighlighted: Bool {
@@ -116,6 +133,9 @@ private struct PartRow: View {
                             .environment(catalogue)
                     }
                 Spacer()
+                if !tracked.isEmpty {
+                    GarageBadge(tracked: tracked) { catalogue.selection = CatalogueViewModel.garageTag($0) }
+                }
                 PriceLabel(price: part.price)
             }
 
@@ -151,6 +171,7 @@ private struct PartRow: View {
         .padding(4)
         .background(isHighlighted ? Color.yellow.opacity(0.35) : Color.clear, in: RoundedRectangle(cornerRadius: 6))
         .animation(.easeOut(duration: 0.2), value: isHighlighted)
+        .contextMenu { GarageMenu(oem: part.oem, name: calloutName, groupCode: groupCode, pnc: pnc, tracked: tracked) }
     }
 }
 
@@ -297,6 +318,66 @@ struct PriceLabel: View {
         } else {
             Text(price.status ?? "—")
                 .foregroundStyle(price.status == "Discontinued" ? Color.red.opacity(0.85) : Color.secondary)
+        }
+    }
+}
+
+/// Where a part number stands in My garage: "Need · have 2 of 4", "Want", or "Have 3". Clicking opens that list.
+private struct GarageBadge: View {
+    let tracked: [GaragePart]
+    let open: (PartStatus) -> Void
+
+    var body: some View {
+        let wish = tracked.first { !$0.status.isOwned }
+        let owned = tracked.filter(\.status.isOwned).reduce(0) { $0 + $1.quantity }
+        let status = wish?.status ?? tracked.first?.status ?? .inStorage
+        Button { open(status) } label: {
+            Text(label(wish: wish, owned: owned))
+                .font(.caption.weight(.medium))
+                .padding(.horizontal, 6).padding(.vertical, 2)
+                .background(color(wish: wish, owned: owned).opacity(0.18), in: Capsule())
+                .foregroundStyle(color(wish: wish, owned: owned))
+        }
+        .buttonStyle(.plain)
+        .help("Open in My garage")
+    }
+
+    private func label(wish: GaragePart?, owned: Int) -> String {
+        switch wish?.status {
+        case .need: "Need · have \(owned) of \(wish?.quantity ?? 0)"
+        case .want: owned > 0 ? "Want · have \(owned)" : "Want"
+        default: "Have \(owned)"
+        }
+    }
+
+    private func color(wish: GaragePart?, owned: Int) -> Color {
+        switch wish?.status {
+        case .need: owned >= (wish?.quantity ?? 0) ? .green : .orange
+        case .want: .purple
+        default: .green
+        }
+    }
+}
+
+/// Right-click actions to record a catalogue part in My garage.
+private struct GarageMenu: View {
+    @Environment(GarageStore.self) private var garage
+    let oem: String
+    let name: String
+    let groupCode: String
+    let pnc: String
+    let tracked: [GaragePart]
+
+    var body: some View {
+        Button("Need it") { garage.markWanted(oemNumber: oem, name: name, status: .need, groupCode: groupCode, pnc: pnc) }
+        Button("Want it") { garage.markWanted(oemNumber: oem, name: name, status: .want, groupCode: groupCode, pnc: pnc) }
+        Divider()
+        Button("Have it (in storage)") { garage.addOwned(oemNumber: oem, name: name, status: .inStorage, groupCode: groupCode, pnc: pnc) }
+        Button("Have it, waiting to install") { garage.addOwned(oemNumber: oem, name: name, status: .waitingToInstall, groupCode: groupCode, pnc: pnc) }
+        Button("Installed") { garage.addOwned(oemNumber: oem, name: name, status: .installed, groupCode: groupCode, pnc: pnc) }
+        if let wish = tracked.first(where: { !$0.status.isOwned }) {
+            Divider()
+            Button("Stop tracking \(wish.status.title.lowercased())") { garage.delete(wish) }
         }
     }
 }
