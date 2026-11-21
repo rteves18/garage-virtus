@@ -121,7 +121,7 @@ public struct Replacement: Codable {
     public let price: Price
 }
 
-public struct Price: Codable {
+public struct Price: Codable, Sendable {
     /// "Available", or the site's own wording, e.g. "Discontinued", "Not available".
     public let status: String?
     public let amount: Double?
