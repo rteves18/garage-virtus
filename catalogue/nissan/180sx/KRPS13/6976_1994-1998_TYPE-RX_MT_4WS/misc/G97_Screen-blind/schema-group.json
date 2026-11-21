@@ -1,0 +1,219 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "G97",
+    "name": "screen blind",
+    "title_raw": "screen blind (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/G97_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/c5e7d416857cdb2b7ca65f22587cbe68.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/G97_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/9f3cc4147085bd4135d398947c5ef95f.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "G97_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/G97_001.png",
+      "callouts": [
+        {
+          "pnc": "KG9714",
+          "name": "rear window screen",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 581,
+                "y1": 178,
+                "x2": 635,
+                "y2": 193
+              },
+              "norm": {
+                "x1": 0.5678,
+                "y1": 0.348,
+                "x2": 0.6205,
+                "y2": 0.3773
+              },
+              "title": "rear window screen"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "J0310-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/j031040f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "J0310-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/j031040f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰｼｮｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰｼｮｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "J0310-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/j031040f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰｼｮｸ,ｼｬﾒｲｲﾘ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰｼｮｸ,ｼｬﾒｲｲﾘ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G97_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/G97_002.png",
+      "callouts": [
+        {
+          "pnc": "KH3300",
+          "name": "sun shade, side",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 742,
+                "y1": 144,
+                "x2": 799,
+                "y2": 159
+              },
+              "norm": {
+                "x1": 0.7248,
+                "y1": 0.2809,
+                "x2": 0.7805,
+                "y2": 0.3102
+              },
+              "title": "sun shade, side"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G9805-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/g980551f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1998-12",
+                "raw": "01.1991 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

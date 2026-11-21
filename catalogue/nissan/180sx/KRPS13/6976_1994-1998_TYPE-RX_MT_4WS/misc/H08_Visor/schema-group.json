@@ -1,0 +1,338 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "H08",
+    "name": "visor",
+    "title_raw": "visor (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/H08_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/13ef81acf7a5809fe79b69d2c684cfbb.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "H08_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/H08_001.png",
+      "callouts": [
+        {
+          "pnc": "KG3800",
+          "name": "roof visor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 323,
+                "y1": 241,
+                "x2": 380,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.315,
+                "y1": 0.4707,
+                "x2": 0.3707,
+                "y2": 0.5
+              },
+              "title": "roof visor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G3810-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381040f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 310.27,
+                "currency": "USD",
+                "raw": "310.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            },
+            {
+              "oem": "G3810-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381040f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 310.27,
+                "currency": "USD",
+                "raw": "310.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KG3810",
+          "name": "visor, roof rh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 758,
+                "y1": 316,
+                "x2": 812,
+                "y2": 331
+              },
+              "norm": {
+                "x1": 0.7404,
+                "y1": 0.6176,
+                "x2": 0.7932,
+                "y2": 0.6469
+              },
+              "title": "visor, roof rh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G3811-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381140f00",
+              "applies": [],
+              "details": {
+                "specification": "OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 111.58,
+                "currency": "USD",
+                "raw": "111.58"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  G381040F00[K504], App. model: HB"
+            },
+            {
+              "oem": "G3811-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381140f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 111.58,
+                "currency": "USD",
+                "raw": "111.58"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KG3811",
+          "name": "visor, roof lh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 758,
+                "y1": 333,
+                "x2": 809,
+                "y2": 348
+              },
+              "norm": {
+                "x1": 0.7404,
+                "y1": 0.6496,
+                "x2": 0.7902,
+                "y2": 0.6789
+              },
+              "title": "visor, roof lh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G3815-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381540f00",
+              "applies": [],
+              "details": {
+                "specification": "OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 111.58,
+                "currency": "USD",
+                "raw": "111.58"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  G381040F00[K504], App. model: HB"
+            },
+            {
+              "oem": "G3815-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381540f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 111.58,
+                "currency": "USD",
+                "raw": "111.58"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KG3812",
+          "name": "attachment",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 484,
+                "y1": 125,
+                "x2": 538,
+                "y2": 140
+              },
+              "norm": {
+                "x1": 0.4725,
+                "y1": 0.2449,
+                "x2": 0.5252,
+                "y2": 0.2742
+              },
+              "title": "attachment"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G3819-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381940f00",
+              "applies": [],
+              "details": {
+                "specification": "OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.06,
+                "currency": "USD",
+                "raw": "22.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  G381040F00[K504], App. model: HB"
+            },
+            {
+              "oem": "G3819-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/g381940f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.06,
+                "currency": "USD",
+                "raw": "22.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾟﾗｽﾁｯｸｾｲ,ﾛﾝｸﾞﾀｲﾌﾟ,OYA  G381040F00[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

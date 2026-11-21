@@ -1,0 +1,3174 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "body",
+    "code": "625",
+    "name": "front apron & radiator core support",
+    "title_raw": "front apron & radiator core support (body) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/625_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/a9969e58cdf378344c3662d2ec267271.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "625_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/625_001.png",
+      "callouts": [
+        {
+          "pnc": "62500",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 133,
+                "y1": 241,
+                "x2": 181,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.1299,
+                "y1": 0.4715,
+                "x2": 0.1768,
+                "y2": 0.5008
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/6250060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62511",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 83,
+                "x2": 316,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.1613,
+                "x2": 0.3088,
+                "y2": 0.1906
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62515",
+          "name": "stay-hood lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 324,
+                "x2": 319,
+                "y2": 339
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.6324,
+                "x2": 0.3117,
+                "y2": 0.6617
+              },
+              "title": "stay-hood lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62522",
+          "name": "suppopt-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 168,
+                "x2": 322,
+                "y2": 183
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.3277,
+                "x2": 0.3146,
+                "y2": 0.357
+              },
+              "title": "suppopt-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62523",
+          "name": "support-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 412,
+                "x2": 322,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.8043,
+                "x2": 0.3146,
+                "y2": 0.8336
+              },
+              "title": "support-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62560",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 241,
+                "x2": 322,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.4715,
+                "x2": 0.3146,
+                "y2": 0.5008
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62561",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 377,
+                "x2": 319,
+                "y2": 392
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.7371,
+                "x2": 0.3117,
+                "y2": 0.7664
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62530M",
+          "name": "support, radiator core",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 265,
+                "x2": 331,
+                "y2": 280
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.5168,
+                "x2": 0.3234,
+                "y2": 0.5461
+              },
+              "title": "support, radiator core"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253060f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "083636165D",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 503,
+                "y1": 83,
+                "x2": 602,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4912,
+                "y1": 0.1613,
+                "x2": 0.5879,
+                "y2": 0.1906
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6165D",
+              "url": "https://www.amayama.com/en/part/nissan/083636165d",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "08360-6165D",
+                  "url": "https://www.amayama.com/en/part/nissan/083606165d",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.74,
+                    "currency": "USD",
+                    "raw": "1.74"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083638162C",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 291,
+                "x2": 373,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.2674,
+                "y1": 0.5684,
+                "x2": 0.3641,
+                "y2": 0.5977
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-8162C",
+              "url": "https://www.amayama.com/en/part/nissan/083638162c",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08360-8162C",
+                  "url": "https://www.amayama.com/en/part/nissan/083608162c",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.28,
+                    "currency": "USD",
+                    "raw": "2.28"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "625_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/625_001.png",
+      "callouts": [
+        {
+          "pnc": "62500",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 133,
+                "y1": 241,
+                "x2": 181,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.1299,
+                "y1": 0.4715,
+                "x2": 0.1768,
+                "y2": 0.5008
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/6250060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62511",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 83,
+                "x2": 316,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.1613,
+                "x2": 0.3088,
+                "y2": 0.1906
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62515",
+          "name": "stay-hood lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 324,
+                "x2": 319,
+                "y2": 339
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.6324,
+                "x2": 0.3117,
+                "y2": 0.6617
+              },
+              "title": "stay-hood lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62522",
+          "name": "suppopt-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 168,
+                "x2": 322,
+                "y2": 183
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.3277,
+                "x2": 0.3146,
+                "y2": 0.357
+              },
+              "title": "suppopt-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62523",
+          "name": "support-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 412,
+                "x2": 322,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.8043,
+                "x2": 0.3146,
+                "y2": 0.8336
+              },
+              "title": "support-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62560",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 241,
+                "x2": 322,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.4715,
+                "x2": 0.3146,
+                "y2": 0.5008
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62561",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 377,
+                "x2": 319,
+                "y2": 392
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.7371,
+                "x2": 0.3117,
+                "y2": 0.7664
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62530M",
+          "name": "support, radiator core",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 265,
+                "x2": 331,
+                "y2": 280
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.5168,
+                "x2": 0.3234,
+                "y2": 0.5461
+              },
+              "title": "support, radiator core"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253060f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "083636165D",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 503,
+                "y1": 83,
+                "x2": 602,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4912,
+                "y1": 0.1613,
+                "x2": 0.5879,
+                "y2": 0.1906
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6165D",
+              "url": "https://www.amayama.com/en/part/nissan/083636165d",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "08360-6165D",
+                  "url": "https://www.amayama.com/en/part/nissan/083606165d",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.74,
+                    "currency": "USD",
+                    "raw": "1.74"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083638162C",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 291,
+                "x2": 373,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.2674,
+                "y1": 0.5684,
+                "x2": 0.3641,
+                "y2": 0.5977
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-8162C",
+              "url": "https://www.amayama.com/en/part/nissan/083638162c",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08360-8162C",
+                  "url": "https://www.amayama.com/en/part/nissan/083608162c",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.28,
+                    "currency": "USD",
+                    "raw": "2.28"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "625_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/625_001.png",
+      "callouts": [
+        {
+          "pnc": "62500",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 133,
+                "y1": 241,
+                "x2": 181,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.1299,
+                "y1": 0.4715,
+                "x2": 0.1768,
+                "y2": 0.5008
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6250053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62500-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/6250060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62511",
+          "name": "radiator support",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 83,
+                "x2": 316,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.1613,
+                "x2": 0.3088,
+                "y2": 0.1906
+              },
+              "title": "radiator support"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62510-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6251053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62510-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6251053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 197.97,
+                    "currency": "USD",
+                    "raw": "197.97"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62515",
+          "name": "stay-hood lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 324,
+                "x2": 319,
+                "y2": 339
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.6324,
+                "x2": 0.3117,
+                "y2": 0.6617
+              },
+              "title": "stay-hood lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62552-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/6255235f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62552-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6255253f00",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62522",
+          "name": "suppopt-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 168,
+                "x2": 322,
+                "y2": 183
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.3277,
+                "x2": 0.3146,
+                "y2": 0.357
+              },
+              "title": "suppopt-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62520-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252053f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62523",
+          "name": "support-radiato",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 412,
+                "x2": 322,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.8043,
+                "x2": 0.3146,
+                "y2": 0.8336
+              },
+              "title": "support-radiato"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62521-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/6252153f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62560",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 241,
+                "x2": 322,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.4715,
+                "x2": 0.3146,
+                "y2": 0.5008
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62560-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256053f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "62560-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256053f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 109.46,
+                    "currency": "USD",
+                    "raw": "109.46"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62561",
+          "name": "bracket, headlamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 377,
+                "x2": 319,
+                "y2": 392
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.7371,
+                "x2": 0.3117,
+                "y2": 0.7664
+              },
+              "title": "bracket, headlamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62561-53F10",
+              "url": "https://www.amayama.com/en/part/nissan/6256153f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.71,
+                "currency": "USD",
+                "raw": "86.71"
+              },
+              "replacements": [
+                {
+                  "oem": "62561-53F00",
+                  "url": "https://www.amayama.com/en/part/nissan/6256153f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 75.92,
+                    "currency": "USD",
+                    "raw": "75.92"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "62530M",
+          "name": "support, radiator core",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 265,
+                "x2": 331,
+                "y2": 280
+              },
+              "norm": {
+                "x1": 0.2678,
+                "y1": 0.5168,
+                "x2": 0.3234,
+                "y2": 0.5461
+              },
+              "title": "support, radiator core"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253035f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "62530-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/6253060f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "083636165D",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 503,
+                "y1": 83,
+                "x2": 602,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4912,
+                "y1": 0.1613,
+                "x2": 0.5879,
+                "y2": 0.1906
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6165D",
+              "url": "https://www.amayama.com/en/part/nissan/083636165d",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "08360-6165D",
+                  "url": "https://www.amayama.com/en/part/nissan/083606165d",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.74,
+                    "currency": "USD",
+                    "raw": "1.74"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083638162C",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 291,
+                "x2": 373,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.2674,
+                "y1": 0.5684,
+                "x2": 0.3641,
+                "y2": 0.5977
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-8162C",
+              "url": "https://www.amayama.com/en/part/nissan/083638162c",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08360-8162C",
+                  "url": "https://www.amayama.com/en/part/nissan/083608162c",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.28,
+                    "currency": "USD",
+                    "raw": "2.28"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

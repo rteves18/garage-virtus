@@ -1,0 +1,105 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "G98",
+    "name": "rear finisher",
+    "title_raw": "rear finisher (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/G98_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/d991458ec2c6427bca11f2cd3d79426c.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "G98_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/G98_001.png",
+      "callouts": [
+        {
+          "pnc": "KK0810",
+          "name": "back door",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 725,
+                "y1": 239,
+                "x2": 779,
+                "y2": 254
+              },
+              "norm": {
+                "x1": 0.7076,
+                "y1": 0.4668,
+                "x2": 0.7604,
+                "y2": 0.4961
+              },
+              "title": "back door"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K0810-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k081060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 253.38,
+                "currency": "USD",
+                "raw": "253.38"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

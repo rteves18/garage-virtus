@@ -82,4 +82,14 @@ struct GroupDetailViewModelTests {
         let schema = try #require(model.file?.schemas.last)
         #expect(model.label(for: schema) == "Schema 2 · SR20DET · 1994-01 – 1998-12")
     }
+
+    @Test(arguments: [2, 5])
+    func fewSchemasFitSegmentedPicker(count: Int) {
+        #expect(GroupDetailViewModel.fitsSegmentedPicker(schemaCount: count))
+    }
+
+    @Test(arguments: [6, 20])
+    func manySchemasUseMenuPicker(count: Int) {
+        #expect(GroupDetailViewModel.fitsSegmentedPicker(schemaCount: count) == false)
+    }
 }

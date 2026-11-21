@@ -1,0 +1,4751 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "460",
+    "name": "brake master cylinder chassis",
+    "title_raw": "brake master cylinder chassis (trans) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/460_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/94dca7ce41def5bd5c60f16ac57ecfc9.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/460_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/62f34be89c466d2f968fa762b13772da.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "460_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/460_001.png",
+      "callouts": [
+        {
+          "pnc": "46010",
+          "name": "master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 112,
+                "y1": 33,
+                "x2": 157,
+                "y2": 48
+              },
+              "norm": {
+                "x1": 0.1096,
+                "y1": 0.0645,
+                "x2": 0.1535,
+                "y2": 0.0938
+              },
+              "title": "master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46010-60F21",
+              "url": "https://www.amayama.com/en/part/nissan/4601060f21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 719.85,
+                "currency": "USD",
+                "raw": "719.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46020",
+          "name": "cap assy-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 229,
+                "y1": 231,
+                "x2": 277,
+                "y2": 246
+              },
+              "norm": {
+                "x1": 0.224,
+                "y1": 0.4512,
+                "x2": 0.2709,
+                "y2": 0.4805
+              },
+              "title": "cap assy-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46045",
+          "name": "seal-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 715,
+                "y1": 165,
+                "x2": 763,
+                "y2": 180
+              },
+              "norm": {
+                "x1": 0.6982,
+                "y1": 0.3223,
+                "x2": 0.7451,
+                "y2": 0.3516
+              },
+              "title": "seal-reservoir"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 507,
+                "y1": 293,
+                "x2": 555,
+                "y2": 308
+              },
+              "norm": {
+                "x1": 0.4951,
+                "y1": 0.5715,
+                "x2": 0.542,
+                "y2": 0.6008
+              },
+              "title": "seal-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "46047",
+          "name": "froat-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 267,
+                "y1": 400,
+                "x2": 315,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.2607,
+                "y1": 0.7809,
+                "x2": 0.3076,
+                "y2": 0.8102
+              },
+              "title": "froat-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46048",
+          "name": "indicator assy-",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 781,
+                "y1": 214,
+                "x2": 829,
+                "y2": 229
+              },
+              "norm": {
+                "x1": 0.7631,
+                "y1": 0.4184,
+                "x2": 0.81,
+                "y2": 0.4477
+              },
+              "title": "indicator assy-"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46071",
+          "name": "ring-snap",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 957,
+                "y1": 256,
+                "x2": 1002,
+                "y2": 271
+              },
+              "norm": {
+                "x1": 0.9342,
+                "y1": 0.4996,
+                "x2": 0.9781,
+                "y2": 0.5289
+              },
+              "title": "ring-snap"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46090",
+          "name": "tank-oil reserv",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 711,
+                "y1": 99,
+                "x2": 759,
+                "y2": 114
+              },
+              "norm": {
+                "x1": 0.6939,
+                "y1": 0.1941,
+                "x2": 0.7408,
+                "y2": 0.2234
+              },
+              "title": "tank-oil reserv"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46093",
+          "name": "strainer-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 222,
+                "y1": 331,
+                "x2": 270,
+                "y2": 346
+              },
+              "norm": {
+                "x1": 0.217,
+                "y1": 0.6465,
+                "x2": 0.2639,
+                "y2": 0.6758
+              },
+              "title": "strainer-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46010K",
+          "name": "repair kit b/m",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 866,
+                "y1": 384,
+                "x2": 920,
+                "y2": 399
+              },
+              "norm": {
+                "x1": 0.8455,
+                "y1": 0.7504,
+                "x2": 0.8982,
+                "y2": 0.7797
+              },
+              "title": "repair kit b/m"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46011-70T27",
+              "url": "https://www.amayama.com/en/part/nissan/4601170t27",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 106.67,
+                "currency": "USD",
+                "raw": "106.67"
+              },
+              "replacements": [
+                {
+                  "oem": "D6011-70T27",
+                  "url": "https://www.amayama.com/en/part/nissan/d601170t27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 156.09,
+                    "currency": "USD",
+                    "raw": "156.09"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089111082G",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 77,
+                "y1": 179,
+                "x2": 170,
+                "y2": 194
+              },
+              "norm": {
+                "x1": 0.0752,
+                "y1": 0.3496,
+                "x2": 0.166,
+                "y2": 0.3789
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.53,
+                "currency": "USD",
+                "raw": "0.53"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "460_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/460_001.png",
+      "callouts": [
+        {
+          "pnc": "46010",
+          "name": "master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 112,
+                "y1": 33,
+                "x2": 157,
+                "y2": 48
+              },
+              "norm": {
+                "x1": 0.1096,
+                "y1": 0.0645,
+                "x2": 0.1535,
+                "y2": 0.0938
+              },
+              "title": "master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46010-60F21",
+              "url": "https://www.amayama.com/en/part/nissan/4601060f21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 719.85,
+                "currency": "USD",
+                "raw": "719.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46020",
+          "name": "cap assy-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 229,
+                "y1": 231,
+                "x2": 277,
+                "y2": 246
+              },
+              "norm": {
+                "x1": 0.224,
+                "y1": 0.4512,
+                "x2": 0.2709,
+                "y2": 0.4805
+              },
+              "title": "cap assy-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46045",
+          "name": "seal-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 715,
+                "y1": 165,
+                "x2": 763,
+                "y2": 180
+              },
+              "norm": {
+                "x1": 0.6982,
+                "y1": 0.3223,
+                "x2": 0.7451,
+                "y2": 0.3516
+              },
+              "title": "seal-reservoir"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 507,
+                "y1": 293,
+                "x2": 555,
+                "y2": 308
+              },
+              "norm": {
+                "x1": 0.4951,
+                "y1": 0.5715,
+                "x2": 0.542,
+                "y2": 0.6008
+              },
+              "title": "seal-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "46047",
+          "name": "froat-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 267,
+                "y1": 400,
+                "x2": 315,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.2607,
+                "y1": 0.7809,
+                "x2": 0.3076,
+                "y2": 0.8102
+              },
+              "title": "froat-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46048",
+          "name": "indicator assy-",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 781,
+                "y1": 214,
+                "x2": 829,
+                "y2": 229
+              },
+              "norm": {
+                "x1": 0.7631,
+                "y1": 0.4184,
+                "x2": 0.81,
+                "y2": 0.4477
+              },
+              "title": "indicator assy-"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46071",
+          "name": "ring-snap",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 957,
+                "y1": 256,
+                "x2": 1002,
+                "y2": 271
+              },
+              "norm": {
+                "x1": 0.9342,
+                "y1": 0.4996,
+                "x2": 0.9781,
+                "y2": 0.5289
+              },
+              "title": "ring-snap"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46090",
+          "name": "tank-oil reserv",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 711,
+                "y1": 99,
+                "x2": 759,
+                "y2": 114
+              },
+              "norm": {
+                "x1": 0.6939,
+                "y1": 0.1941,
+                "x2": 0.7408,
+                "y2": 0.2234
+              },
+              "title": "tank-oil reserv"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46093",
+          "name": "strainer-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 222,
+                "y1": 331,
+                "x2": 270,
+                "y2": 346
+              },
+              "norm": {
+                "x1": 0.217,
+                "y1": 0.6465,
+                "x2": 0.2639,
+                "y2": 0.6758
+              },
+              "title": "strainer-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46010K",
+          "name": "repair kit b/m",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 866,
+                "y1": 384,
+                "x2": 920,
+                "y2": 399
+              },
+              "norm": {
+                "x1": 0.8455,
+                "y1": 0.7504,
+                "x2": 0.8982,
+                "y2": 0.7797
+              },
+              "title": "repair kit b/m"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46011-70T27",
+              "url": "https://www.amayama.com/en/part/nissan/4601170t27",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 106.67,
+                "currency": "USD",
+                "raw": "106.67"
+              },
+              "replacements": [
+                {
+                  "oem": "D6011-70T27",
+                  "url": "https://www.amayama.com/en/part/nissan/d601170t27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 156.09,
+                    "currency": "USD",
+                    "raw": "156.09"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089111082G",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 77,
+                "y1": 179,
+                "x2": 170,
+                "y2": 194
+              },
+              "norm": {
+                "x1": 0.0752,
+                "y1": 0.3496,
+                "x2": 0.166,
+                "y2": 0.3789
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.53,
+                "currency": "USD",
+                "raw": "0.53"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "460_002_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "SR20DE",
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/460_002.png",
+      "callouts": [
+        {
+          "pnc": "46010",
+          "name": "master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 129,
+                "y1": 47,
+                "x2": 174,
+                "y2": 62
+              },
+              "norm": {
+                "x1": 0.126,
+                "y1": 0.091,
+                "x2": 0.1699,
+                "y2": 0.1203
+              },
+              "title": "master cylinder"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 885,
+                "y1": 251,
+                "x2": 930,
+                "y2": 266
+              },
+              "norm": {
+                "x1": 0.8646,
+                "y1": 0.4902,
+                "x2": 0.9086,
+                "y2": 0.5195
+              },
+              "title": "master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [
+                {
+                  "oem": "46010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 586.0,
+                    "currency": "USD",
+                    "raw": "586.00"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/4601050f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46010-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/4601052f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 586.0,
+                "currency": "USD",
+                "raw": "586.00"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46010-60F21",
+              "url": "https://www.amayama.com/en/part/nissan/4601060f21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 719.85,
+                "currency": "USD",
+                "raw": "719.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46020",
+          "name": "cap assy-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 381,
+                "y1": 53,
+                "x2": 429,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.3717,
+                "y1": 0.1043,
+                "x2": 0.4186,
+                "y2": 0.1336
+              },
+              "title": "cap assy-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46020-58E21",
+              "url": "https://www.amayama.com/en/part/nissan/4602058e21",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.62,
+                "currency": "USD",
+                "raw": "22.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46020-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46020v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.12,
+                "currency": "USD",
+                "raw": "17.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46045",
+          "name": "seal-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 443,
+                "y1": 283,
+                "x2": 491,
+                "y2": 298
+              },
+              "norm": {
+                "x1": 0.4322,
+                "y1": 0.5527,
+                "x2": 0.4791,
+                "y2": 0.582
+              },
+              "title": "seal-reservoir"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 390,
+                "y1": 317,
+                "x2": 438,
+                "y2": 332
+              },
+              "norm": {
+                "x1": 0.3811,
+                "y1": 0.6199,
+                "x2": 0.4279,
+                "y2": 0.6492
+              },
+              "title": "seal-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1010",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.08,
+                "currency": "USD",
+                "raw": "3.08"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "46045-W1300",
+              "url": "https://www.amayama.com/en/part/nissan/46045w1300",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 5.27,
+                "currency": "USD",
+                "raw": "5.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "46047",
+          "name": "froat-reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 534,
+                "y1": 82,
+                "x2": 582,
+                "y2": 97
+              },
+              "norm": {
+                "x1": 0.5213,
+                "y1": 0.1605,
+                "x2": 0.5682,
+                "y2": 0.1898
+              },
+              "title": "froat-reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46047-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604701f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.34,
+                "currency": "USD",
+                "raw": "6.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46047-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46047v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 12.53,
+                "currency": "USD",
+                "raw": "12.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46048",
+          "name": "indicator assy-",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 272,
+                "y1": 341,
+                "x2": 320,
+                "y2": 356
+              },
+              "norm": {
+                "x1": 0.2658,
+                "y1": 0.6668,
+                "x2": 0.3127,
+                "y2": 0.6961
+              },
+              "title": "indicator assy-"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46048-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4604801f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.6,
+                "currency": "USD",
+                "raw": "42.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46048-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46048v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 51.31,
+                "currency": "USD",
+                "raw": "51.31"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46070",
+          "name": "screw-stopper",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 275,
+                "y1": 364,
+                "x2": 323,
+                "y2": 379
+              },
+              "norm": {
+                "x1": 0.2682,
+                "y1": 0.7113,
+                "x2": 0.315,
+                "y2": 0.7406
+              },
+              "title": "screw-stopper"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46032-58E20",
+              "url": "https://www.amayama.com/en/part/nissan/4603258e20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.56,
+                "currency": "USD",
+                "raw": "4.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46071",
+          "name": "ring-snap",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 700,
+                "y1": 195,
+                "x2": 745,
+                "y2": 210
+              },
+              "norm": {
+                "x1": 0.6834,
+                "y1": 0.3816,
+                "x2": 0.7273,
+                "y2": 0.4109
+              },
+              "title": "ring-snap"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-01A11",
+              "url": "https://www.amayama.com/en/part/nissan/4608201a11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "46082-01A1A",
+                  "url": "https://www.amayama.com/en/part/nissan/4608201a1a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46082-R9000",
+              "url": "https://www.amayama.com/en/part/nissan/46082r9000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.66,
+                "currency": "USD",
+                "raw": "3.66"
+              },
+              "replacements": [
+                {
+                  "oem": "46082-R900A",
+                  "url": "https://www.amayama.com/en/part/nissan/46082r900a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.28,
+                    "currency": "USD",
+                    "raw": "3.28"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46090",
+          "name": "tank-oil reserv",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 174,
+                "x2": 667,
+                "y2": 189
+              },
+              "norm": {
+                "x1": 0.6041,
+                "y1": 0.3395,
+                "x2": 0.651,
+                "y2": 0.3688
+              },
+              "title": "tank-oil reserv"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46091-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/4609135f20",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.74,
+                "currency": "USD",
+                "raw": "40.74"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46093",
+          "name": "strainer-oil",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 267,
+                "y1": 241,
+                "x2": 315,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.2607,
+                "y1": 0.4707,
+                "x2": 0.3076,
+                "y2": 0.5
+              },
+              "title": "strainer-oil"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46093-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/4609301f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.93,
+                "currency": "USD",
+                "raw": "16.93"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46093-V5010",
+              "url": "https://www.amayama.com/en/part/nissan/46093v5010",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.86,
+                "currency": "USD",
+                "raw": "11.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46010K",
+          "name": "repair kit b/m",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 573,
+                "y1": 472,
+                "x2": 627,
+                "y2": 487
+              },
+              "norm": {
+                "x1": 0.56,
+                "y1": 0.9215,
+                "x2": 0.6127,
+                "y2": 0.9508
+              },
+              "title": "repair kit b/m"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 141.85,
+                "currency": "USD",
+                "raw": "141.85"
+              },
+              "replacements": [
+                {
+                  "oem": "46011-04F27",
+                  "url": "https://www.amayama.com/en/part/nissan/4601104f27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DT"
+            },
+            {
+              "oem": "46011-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601150f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 188.15,
+                "currency": "USD",
+                "raw": "188.15"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 15/16 ｹﾞﾝﾌﾞﾂ ｶｸﾆﾝ, App. model: SR20DET"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DT"
+            },
+            {
+              "oem": "46011-52F26",
+              "url": "https://www.amayama.com/en/part/nissan/4601152f26",
+              "applies": [],
+              "details": {
+                "specification": "ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 248.11,
+                "currency": "USD",
+                "raw": "248.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄｷｺ 1 ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *SR20DET"
+            },
+            {
+              "oem": "46011-70T27",
+              "url": "https://www.amayama.com/en/part/nissan/4601170t27",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 106.67,
+                "currency": "USD",
+                "raw": "106.67"
+              },
+              "replacements": [
+                {
+                  "oem": "D6011-70T27",
+                  "url": "https://www.amayama.com/en/part/nissan/d601170t27",
+                  "price": {
+                    "status": "Available",
+                    "amount": 156.09,
+                    "currency": "USD",
+                    "raw": "156.09"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 23.81(15/16), App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "46070A",
+          "name": "ring 0",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 341,
+                "y1": 413,
+                "x2": 398,
+                "y2": 428
+              },
+              "norm": {
+                "x1": 0.333,
+                "y1": 0.8066,
+                "x2": 0.3887,
+                "y2": 0.8359
+              },
+              "title": "ring 0"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46079-1P220",
+              "url": "https://www.amayama.com/en/part/nissan/460791p220",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE +SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089111082G",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 130,
+                "y1": 215,
+                "x2": 223,
+                "y2": 230
+              },
+              "norm": {
+                "x1": 0.1268,
+                "y1": 0.4207,
+                "x2": 0.2176,
+                "y2": 0.45
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.53,
+                "currency": "USD",
+                "raw": "0.53"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

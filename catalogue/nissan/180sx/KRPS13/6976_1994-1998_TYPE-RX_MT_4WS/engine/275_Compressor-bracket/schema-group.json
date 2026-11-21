@@ -1,0 +1,5666 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "275",
+    "name": "compressor bracket",
+    "title_raw": "compressor bracket (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/275_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/36e8714f8a71838cbe59f1543173a391.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "275_001_0",
+      "index": 1,
+      "of": 4,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/275_001.png",
+      "callouts": [
+        {
+          "pnc": "11910",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 390,
+                "x2": 658,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.6049,
+                "y1": 0.7613,
+                "x2": 0.643,
+                "y2": 0.7906
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "name": "shaft",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 195,
+                "y1": 278,
+                "x2": 237,
+                "y2": 293
+              },
+              "norm": {
+                "x1": 0.19,
+                "y1": 0.5426,
+                "x2": 0.2311,
+                "y2": 0.5719
+              },
+              "title": "shaft"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "name": "pulley-idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 343,
+                "y1": 343,
+                "x2": 385,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.3346,
+                "y1": 0.6707,
+                "x2": 0.3756,
+                "y2": 0.7
+              },
+              "title": "pulley-idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "name": "cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 28,
+                "y1": 404,
+                "x2": 70,
+                "y2": 419
+              },
+              "norm": {
+                "x1": 0.0275,
+                "y1": 0.7895,
+                "x2": 0.0686,
+                "y2": 0.8187
+              },
+              "title": "cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "name": "spacer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 365,
+                "x2": 98,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0572,
+                "y1": 0.7129,
+                "x2": 0.0953,
+                "y2": 0.7422
+              },
+              "title": "spacer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "name": "coller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 143,
+                "y1": 309,
+                "x2": 185,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.14,
+                "y1": 0.6035,
+                "x2": 0.1811,
+                "y2": 0.6328
+              },
+              "title": "coller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 230,
+                "x2": 859,
+                "y2": 245
+              },
+              "norm": {
+                "x1": 0.7916,
+                "y1": 0.4488,
+                "x2": 0.8385,
+                "y2": 0.4781
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "name": "bolt compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 742,
+                "y1": 149,
+                "x2": 799,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.7244,
+                "y1": 0.291,
+                "x2": 0.7801,
+                "y2": 0.3203
+              },
+              "title": "bolt compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 461,
+                "x2": 955,
+                "y2": 476
+              },
+              "norm": {
+                "x1": 0.8768,
+                "y1": 0.9004,
+                "x2": 0.9324,
+                "y2": 0.9297
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 749,
+                "y1": 480,
+                "x2": 806,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.7314,
+                "y1": 0.9379,
+                "x2": 0.7871,
+                "y2": 0.9672
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 322,
+                "y1": 412,
+                "x2": 373,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.3143,
+                "y1": 0.8051,
+                "x2": 0.3641,
+                "y2": 0.8344
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192852f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11948-65F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.54,
+                    "currency": "USD",
+                    "raw": "17.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "name": "pulley assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 378,
+                "x2": 481,
+                "y2": 393
+              },
+              "norm": {
+                "x1": 0.4197,
+                "y1": 0.7379,
+                "x2": 0.4695,
+                "y2": 0.7672
+              },
+              "title": "pulley assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192552f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 206.15,
+                "currency": "USD",
+                "raw": "206.15"
+              },
+              "replacements": [
+                {
+                  "oem": "11925-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192565f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 210.67,
+                    "currency": "USD",
+                    "raw": "210.67"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089113401A",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 47,
+                "y1": 463,
+                "x2": 140,
+                "y2": 478
+              },
+              "norm": {
+                "x1": 0.0463,
+                "y1": 0.9035,
+                "x2": 0.1371,
+                "y2": 0.9328
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.56,
+                "currency": "USD",
+                "raw": "0.56"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "275_001_1",
+      "index": 2,
+      "of": 4,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "megazip/RS13/275_001.png",
+      "callouts": [
+        {
+          "pnc": "11910",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 390,
+                "x2": 658,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.6049,
+                "y1": 0.7613,
+                "x2": 0.643,
+                "y2": 0.7906
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "name": "shaft",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 195,
+                "y1": 278,
+                "x2": 237,
+                "y2": 293
+              },
+              "norm": {
+                "x1": 0.19,
+                "y1": 0.5426,
+                "x2": 0.2311,
+                "y2": 0.5719
+              },
+              "title": "shaft"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "name": "pulley-idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 343,
+                "y1": 343,
+                "x2": 385,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.3346,
+                "y1": 0.6707,
+                "x2": 0.3756,
+                "y2": 0.7
+              },
+              "title": "pulley-idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "name": "cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 28,
+                "y1": 404,
+                "x2": 70,
+                "y2": 419
+              },
+              "norm": {
+                "x1": 0.0275,
+                "y1": 0.7895,
+                "x2": 0.0686,
+                "y2": 0.8187
+              },
+              "title": "cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "name": "spacer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 365,
+                "x2": 98,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0572,
+                "y1": 0.7129,
+                "x2": 0.0953,
+                "y2": 0.7422
+              },
+              "title": "spacer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "name": "coller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 143,
+                "y1": 309,
+                "x2": 185,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.14,
+                "y1": 0.6035,
+                "x2": 0.1811,
+                "y2": 0.6328
+              },
+              "title": "coller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 230,
+                "x2": 859,
+                "y2": 245
+              },
+              "norm": {
+                "x1": 0.7916,
+                "y1": 0.4488,
+                "x2": 0.8385,
+                "y2": 0.4781
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "name": "bolt compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 742,
+                "y1": 149,
+                "x2": 799,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.7244,
+                "y1": 0.291,
+                "x2": 0.7801,
+                "y2": 0.3203
+              },
+              "title": "bolt compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 461,
+                "x2": 955,
+                "y2": 476
+              },
+              "norm": {
+                "x1": 0.8768,
+                "y1": 0.9004,
+                "x2": 0.9324,
+                "y2": 0.9297
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 749,
+                "y1": 480,
+                "x2": 806,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.7314,
+                "y1": 0.9379,
+                "x2": 0.7871,
+                "y2": 0.9672
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 322,
+                "y1": 412,
+                "x2": 373,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.3143,
+                "y1": 0.8051,
+                "x2": 0.3641,
+                "y2": 0.8344
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192852f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11948-65F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.54,
+                    "currency": "USD",
+                    "raw": "17.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "name": "pulley assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 378,
+                "x2": 481,
+                "y2": 393
+              },
+              "norm": {
+                "x1": 0.4197,
+                "y1": 0.7379,
+                "x2": 0.4695,
+                "y2": 0.7672
+              },
+              "title": "pulley assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192552f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 206.15,
+                "currency": "USD",
+                "raw": "206.15"
+              },
+              "replacements": [
+                {
+                  "oem": "11925-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192565f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 210.67,
+                    "currency": "USD",
+                    "raw": "210.67"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089113401A",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 47,
+                "y1": 463,
+                "x2": 140,
+                "y2": 478
+              },
+              "norm": {
+                "x1": 0.0463,
+                "y1": 0.9035,
+                "x2": 0.1371,
+                "y2": 0.9328
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.56,
+                "currency": "USD",
+                "raw": "0.56"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "275_001_2",
+      "index": 3,
+      "of": 4,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/275_001.png",
+      "callouts": [
+        {
+          "pnc": "11910",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 390,
+                "x2": 658,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.6049,
+                "y1": 0.7613,
+                "x2": 0.643,
+                "y2": 0.7906
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "name": "shaft",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 195,
+                "y1": 278,
+                "x2": 237,
+                "y2": 293
+              },
+              "norm": {
+                "x1": 0.19,
+                "y1": 0.5426,
+                "x2": 0.2311,
+                "y2": 0.5719
+              },
+              "title": "shaft"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "name": "pulley-idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 343,
+                "y1": 343,
+                "x2": 385,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.3346,
+                "y1": 0.6707,
+                "x2": 0.3756,
+                "y2": 0.7
+              },
+              "title": "pulley-idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "name": "cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 28,
+                "y1": 404,
+                "x2": 70,
+                "y2": 419
+              },
+              "norm": {
+                "x1": 0.0275,
+                "y1": 0.7895,
+                "x2": 0.0686,
+                "y2": 0.8187
+              },
+              "title": "cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "name": "spacer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 365,
+                "x2": 98,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0572,
+                "y1": 0.7129,
+                "x2": 0.0953,
+                "y2": 0.7422
+              },
+              "title": "spacer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "name": "coller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 143,
+                "y1": 309,
+                "x2": 185,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.14,
+                "y1": 0.6035,
+                "x2": 0.1811,
+                "y2": 0.6328
+              },
+              "title": "coller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 230,
+                "x2": 859,
+                "y2": 245
+              },
+              "norm": {
+                "x1": 0.7916,
+                "y1": 0.4488,
+                "x2": 0.8385,
+                "y2": 0.4781
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "name": "bolt compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 742,
+                "y1": 149,
+                "x2": 799,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.7244,
+                "y1": 0.291,
+                "x2": 0.7801,
+                "y2": 0.3203
+              },
+              "title": "bolt compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 461,
+                "x2": 955,
+                "y2": 476
+              },
+              "norm": {
+                "x1": 0.8768,
+                "y1": 0.9004,
+                "x2": 0.9324,
+                "y2": 0.9297
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 749,
+                "y1": 480,
+                "x2": 806,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.7314,
+                "y1": 0.9379,
+                "x2": 0.7871,
+                "y2": 0.9672
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 322,
+                "y1": 412,
+                "x2": 373,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.3143,
+                "y1": 0.8051,
+                "x2": 0.3641,
+                "y2": 0.8344
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192852f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11948-65F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.54,
+                    "currency": "USD",
+                    "raw": "17.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "name": "pulley assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 378,
+                "x2": 481,
+                "y2": 393
+              },
+              "norm": {
+                "x1": 0.4197,
+                "y1": 0.7379,
+                "x2": 0.4695,
+                "y2": 0.7672
+              },
+              "title": "pulley assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192552f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 206.15,
+                "currency": "USD",
+                "raw": "206.15"
+              },
+              "replacements": [
+                {
+                  "oem": "11925-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192565f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 210.67,
+                    "currency": "USD",
+                    "raw": "210.67"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089113401A",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 47,
+                "y1": 463,
+                "x2": 140,
+                "y2": 478
+              },
+              "norm": {
+                "x1": 0.0463,
+                "y1": 0.9035,
+                "x2": 0.1371,
+                "y2": 0.9328
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.56,
+                "currency": "USD",
+                "raw": "0.56"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "275_001_3",
+      "index": 4,
+      "of": 4,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "megazip/RS13/275_001.png",
+      "callouts": [
+        {
+          "pnc": "11910",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 390,
+                "x2": 658,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.6049,
+                "y1": 0.7613,
+                "x2": 0.643,
+                "y2": 0.7906
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 488.06,
+                "currency": "USD",
+                "raw": "488.06"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "name": "shaft",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 195,
+                "y1": 278,
+                "x2": 237,
+                "y2": 293
+              },
+              "norm": {
+                "x1": 0.19,
+                "y1": 0.5426,
+                "x2": 0.2311,
+                "y2": 0.5719
+              },
+              "title": "shaft"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 15.54,
+                    "currency": "USD",
+                    "raw": "15.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "name": "pulley-idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 343,
+                "y1": 343,
+                "x2": 385,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.3346,
+                "y1": 0.6707,
+                "x2": 0.3756,
+                "y2": 0.7
+              },
+              "title": "pulley-idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.94,
+                "currency": "USD",
+                "raw": "127.94"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 116.33,
+                    "currency": "USD",
+                    "raw": "116.33"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "name": "cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 28,
+                "y1": 404,
+                "x2": 70,
+                "y2": 419
+              },
+              "norm": {
+                "x1": 0.0275,
+                "y1": 0.7895,
+                "x2": 0.0686,
+                "y2": 0.8187
+              },
+              "title": "cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.53,
+                "currency": "USD",
+                "raw": "13.53"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "name": "spacer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 365,
+                "x2": 98,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0572,
+                "y1": 0.7129,
+                "x2": 0.0953,
+                "y2": 0.7422
+              },
+              "title": "spacer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.41,
+                "currency": "USD",
+                "raw": "6.41"
+              },
+              "replacements": [
+                {
+                  "oem": "11931-F270A",
+                  "url": "https://www.amayama.com/en/part/nissan/11931f270a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "name": "coller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 143,
+                "y1": 309,
+                "x2": 185,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.14,
+                "y1": 0.6035,
+                "x2": 0.1811,
+                "y2": 0.6328
+              },
+              "title": "coller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.98,
+                "currency": "USD",
+                "raw": "5.98"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 230,
+                "x2": 859,
+                "y2": 245
+              },
+              "norm": {
+                "x1": 0.7916,
+                "y1": 0.4488,
+                "x2": 0.8385,
+                "y2": 0.4781
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 3 pcs"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "name": "bolt compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 742,
+                "y1": 149,
+                "x2": 799,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.7244,
+                "y1": 0.291,
+                "x2": 0.7801,
+                "y2": 0.3203
+              },
+              "title": "bolt compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 461,
+                "x2": 955,
+                "y2": 476
+              },
+              "norm": {
+                "x1": 0.8768,
+                "y1": 0.9004,
+                "x2": 0.9324,
+                "y2": 0.9297
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.3,
+                "currency": "USD",
+                "raw": "4.30"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "name": "bolt-compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 749,
+                "y1": 480,
+                "x2": 806,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.7314,
+                "y1": 0.9379,
+                "x2": 0.7871,
+                "y2": 0.9672
+              },
+              "title": "bolt-compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.36,
+                "currency": "USD",
+                "raw": "3.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 322,
+                "y1": 412,
+                "x2": 373,
+                "y2": 427
+              },
+              "norm": {
+                "x1": 0.3143,
+                "y1": 0.8051,
+                "x2": 0.3641,
+                "y2": 0.8344
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192852f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [
+                {
+                  "oem": "11948-65F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.54,
+                    "currency": "USD",
+                    "raw": "17.54"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.54,
+                "currency": "USD",
+                "raw": "17.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "name": "pulley assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 378,
+                "x2": 481,
+                "y2": 393
+              },
+              "norm": {
+                "x1": 0.4197,
+                "y1": 0.7379,
+                "x2": 0.4695,
+                "y2": 0.7672
+              },
+              "title": "pulley assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192552f00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-09",
+                "raw": "01.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 206.15,
+                "currency": "USD",
+                "raw": "206.15"
+              },
+              "replacements": [
+                {
+                  "oem": "11925-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192565f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 210.67,
+                    "currency": "USD",
+                    "raw": "210.67"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾐ ｵ-ﾄ ｴｱｺﾝ ｼﾖｳ, App. model: *SR20DT"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｲﾌﾟX, App. model: *SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｲﾌﾟX, App. model: *SR20DET"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "089113401A",
+          "name": "nut-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 47,
+                "y1": 463,
+                "x2": 140,
+                "y2": 478
+              },
+              "norm": {
+                "x1": 0.0463,
+                "y1": 0.9035,
+                "x2": 0.1371,
+                "y2": 0.9328
+              },
+              "title": "nut-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.56,
+                "currency": "USD",
+                "raw": "0.56"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B79",
+    "name": "puretron other air conditioning devices",
+    "title_raw": "puretron other air conditioning devices (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B79_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/fb55d89140d1ff482714eec3f273d491.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B79_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B79_001.png",
+      "callouts": [
+        {
+          "pnc": "KB7400",
+          "name": "puretron sr-1b",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 783,
+                "y1": 363,
+                "x2": 840,
+                "y2": 378
+              },
+              "norm": {
+                "x1": 0.7646,
+                "y1": 0.709,
+                "x2": 0.8203,
+                "y2": 0.7383
+              },
+              "title": "puretron sr-1b"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B7400-89990",
+              "url": "https://www.amayama.com/en/part/nissan/b740089990",
+              "applies": [],
+              "details": {
+                "specification": "SR-1B,12V[B421], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 489.04,
+                "currency": "USD",
+                "raw": "489.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: SR-1B,12V[B421], App. model: HB"
+            },
+            {
+              "oem": "B7400-89990",
+              "url": "https://www.amayama.com/en/part/nissan/b740089990",
+              "applies": [],
+              "details": {
+                "specification": "12V[B421], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 489.04,
+                "currency": "USD",
+                "raw": "489.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 12V[B421], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB7494",
+          "name": "filter, cassette",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 523,
+                "y1": 382,
+                "x2": 580,
+                "y2": 397
+              },
+              "norm": {
+                "x1": 0.5104,
+                "y1": 0.7457,
+                "x2": 0.566,
+                "y2": 0.775
+              },
+              "title": "filter, cassette"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B7164-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b716489900",
+              "applies": [],
+              "details": {
+                "specification": "SR-1B, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.37,
+                "currency": "USD",
+                "raw": "13.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: SR-1B, App. model: HB"
+            },
+            {
+              "oem": "B7164-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b716489900",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.37,
+                "currency": "USD",
+                "raw": "13.37"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

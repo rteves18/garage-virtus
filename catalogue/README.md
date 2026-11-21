@@ -32,3 +32,31 @@ catalogue/
 
 Dates written as `...` on the site are stored as `1998-12` (end of 180SX production); the original text is kept in `raw`.
 Status wording such as "Discontinued" or "Not available" is kept exactly as the site shows it.
+
+## Megazip data (converted)
+
+Most of the KRPS13 variant 6976 data comes from a Megazip (partsbooster EPC) scrape, converted into the Amayama format
+by `tools/megazip/convert_to_catalogue.py`. It follows the Amayama conventions, with two exceptions that keep the origin clear:
+
+| | Amayama | Megazip, converted |
+|---|---|---|
+| `source.site` | `amayama` | `megazip` (the converter only overwrites files with this value) |
+| Diagram images | `_images/imgjp16/RS13/101B_001.png` | `_images/megazip/RS13/110_001.png` (`<group code>_<sheet>`) |
+
+Everything else matches the Amayama format:
+- Group folders: Amayama's own placeholder folder for each code.
+- Schema ids: `<image name>_<n>`.
+- `vehicle.catalog`: `nissan-japan`.
+- Dates: `MM.YYYY - ...`.
+- `qty_raw`: two digits.
+- Links: part `url`s point at Amayama part pages, and part-page `diagrams` link Amayama group pages.
+
+Amayama data always wins. A group or part page already scraped from Amayama is never overwritten.
+
+Re-run after a new Megazip scrape:
+
+```sh
+python3 -I tools/megazip/convert_to_catalogue.py \
+  ~/Documents/dev/partsCollect/out/nissan-180sx-krps13-hb-sr20det-mt-typer_x-4ws \
+  --catalogue catalogue --variant 6976_1994-1998_TYPE-RX_MT_4WS
+```

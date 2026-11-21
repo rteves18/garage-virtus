@@ -1,0 +1,196 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "C41",
+    "name": "shift knob m t",
+    "title_raw": "shift knob m t (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/C41_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/1fb2085155334f644abc33c50e1fa949.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/C41_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/a118d7b49dc18c6019c8b5907c4b34bc.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "C41_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/C41_001.png",
+      "callouts": [
+        {
+          "pnc": "KC286V",
+          "name": "shift knob kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 795,
+                "y1": 233,
+                "x2": 852,
+                "y2": 248
+              },
+              "norm": {
+                "x1": 0.7764,
+                "y1": 0.4551,
+                "x2": 0.832,
+                "y2": 0.4844
+              },
+              "title": "shift knob kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "C286V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c286v52f00",
+              "applies": [],
+              "details": {
+                "specification": "M/T,M/Tﾖｳ[K504], App. model: MT +AT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: M/T,M/Tﾖｳ[K504], App. model: MT +AT"
+            },
+            {
+              "oem": "C286V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c286v52f00",
+              "applies": [],
+              "details": {
+                "specification": "M/Tﾖｳ[K504], App. model: MT +AT"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: M/Tﾖｳ[K504], App. model: MT +AT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C41_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/C41_002.png",
+      "callouts": [
+        {
+          "pnc": "KC2865",
+          "name": "shift knob mt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 712,
+                "y1": 41,
+                "x2": 769,
+                "y2": 56
+              },
+              "norm": {
+                "x1": 0.6955,
+                "y1": 0.0801,
+                "x2": 0.7512,
+                "y2": 0.1094
+              },
+              "title": "shift knob mt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "C2865-26U00",
+              "url": "https://www.amayama.com/en/part/nissan/c286526u00",
+              "applies": [],
+              "details": {
+                "specification": "M/Tｼｬﾖｳ,ｶｰﾎﾞﾝｼﾌﾄﾉﾌﾞ[K504], App. model: MT +AT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: M/Tｼｬﾖｳ,ｶｰﾎﾞﾝｼﾌﾄﾉﾌﾞ[K504], App. model: MT +AT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

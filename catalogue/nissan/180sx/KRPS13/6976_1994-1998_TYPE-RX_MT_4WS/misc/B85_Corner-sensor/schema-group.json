@@ -1,0 +1,3051 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B85",
+    "name": "corner sensor",
+    "title_raw": "corner sensor (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B85_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/1e9bc46e02d7dac9efa162c1cbcd2b59.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B85_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/af2cc98ab7d29dc9312ed23daf0d7b2a.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B85_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B85_001.png",
+      "callouts": [
+        {
+          "pnc": "KB8510",
+          "name": "corner sensor kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 660,
+                "y1": 44,
+                "x2": 714,
+                "y2": 59
+              },
+              "norm": {
+                "x1": 0.6447,
+                "y1": 0.0855,
+                "x2": 0.6975,
+                "y2": 0.1148
+              },
+              "title": "corner sensor kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9810-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 391.75,
+                "currency": "USD",
+                "raw": "391.75"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F30",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f30",
+                  "price": {
+                    "status": "Available",
+                    "amount": 391.75,
+                    "currency": "USD",
+                    "raw": "391.75"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 391.75,
+                "currency": "USD",
+                "raw": "391.75"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F30",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f30",
+                  "price": {
+                    "status": "Available",
+                    "amount": 391.75,
+                    "currency": "USD",
+                    "raw": "391.75"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f26",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 470.1,
+                "currency": "USD",
+                "raw": "470.10"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F31",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f31",
+                  "price": {
+                    "status": "Available",
+                    "amount": 391.75,
+                    "currency": "USD",
+                    "raw": "391.75"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f27",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 470.1,
+                "currency": "USD",
+                "raw": "470.10"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F32",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f32",
+                  "price": {
+                    "status": "Available",
+                    "amount": 391.75,
+                    "currency": "USD",
+                    "raw": "391.75"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F30",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f30",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 391.75,
+                "currency": "USD",
+                "raw": "391.75"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B9810-50F31",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f31",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 391.75,
+                "currency": "USD",
+                "raw": "391.75"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f85",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 767.18,
+                "currency": "USD",
+                "raw": "767.18"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F90",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 920.62,
+                    "currency": "USD",
+                    "raw": "920.62"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ, App. model: HB"
+            },
+            {
+              "oem": "B9810-50F86",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f86",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 920.62,
+                "currency": "USD",
+                "raw": "920.62"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F91",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f91",
+                  "price": {
+                    "status": "Available",
+                    "amount": 767.18,
+                    "currency": "USD",
+                    "raw": "767.18"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F87",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f87",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 920.62,
+                "currency": "USD",
+                "raw": "920.62"
+              },
+              "replacements": [
+                {
+                  "oem": "B9810-50F92",
+                  "url": "https://www.amayama.com/en/part/nissan/b981050f92",
+                  "price": {
+                    "status": "Available",
+                    "amount": 767.18,
+                    "currency": "USD",
+                    "raw": "767.18"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F90",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f90",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 920.62,
+                "currency": "USD",
+                "raw": "920.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9810-50F91",
+              "url": "https://www.amayama.com/en/part/nissan/b981050f91",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 767.18,
+                "currency": "USD",
+                "raw": "767.18"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8512",
+          "name": "sensor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 476,
+                "y1": 363,
+                "x2": 530,
+                "y2": 378
+              },
+              "norm": {
+                "x1": 0.4646,
+                "y1": 0.7098,
+                "x2": 0.5174,
+                "y2": 0.7391
+              },
+              "title": "sensor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f27",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f27",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8515",
+          "name": "controller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 808,
+                "y1": 87,
+                "x2": 862,
+                "y2": 102
+              },
+              "norm": {
+                "x1": 0.7889,
+                "y1": 0.1707,
+                "x2": 0.8416,
+                "y2": 0.2
+              },
+              "title": "controller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｾｯﾄﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｾｯﾄﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ｻﾕｳｾｯﾄﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ｻﾕｳｾｯﾄﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8518",
+          "name": "buzzer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 429,
+                "y1": 159,
+                "x2": 483,
+                "y2": 174
+              },
+              "norm": {
+                "x1": 0.4186,
+                "y1": 0.3105,
+                "x2": 0.4713,
+                "y2": 0.3398
+              },
+              "title": "buzzer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=2650mm､ｸﾛｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=2650mm､ｸﾛｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#326)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B85_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B85_002.png",
+      "callouts": [
+        {
+          "pnc": "KB8511",
+          "name": "sensor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 108,
+                "x2": 949,
+                "y2": 123
+              },
+              "norm": {
+                "x1": 0.8771,
+                "y1": 0.2113,
+                "x2": 0.927,
+                "y2": 0.2406
+              },
+              "title": "sensor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9811-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f85",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f85",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B9811-50F86",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f86",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F86",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f86",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F87",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f87",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾐｷﾞﾖｳ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8512",
+          "name": "sensor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 470,
+                "y1": 367,
+                "x2": 524,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.4588,
+                "y1": 0.7176,
+                "x2": 0.5115,
+                "y2": 0.7469
+              },
+              "title": "sensor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0),ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f26",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f27",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9811-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/b981150f27",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.71,
+                "currency": "USD",
+                "raw": "122.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0),ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8515",
+          "name": "controller",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 793,
+                "y1": 83,
+                "x2": 847,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.7744,
+                "y1": 0.1621,
+                "x2": 0.8271,
+                "y2": 0.1914
+              },
+              "title": "controller"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6),ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-0P030",
+              "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+              "applies": [],
+              "details": {
+                "specification": "(#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326),ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｾｯﾄﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ,ﾋﾀﾞﾘｾｯﾄﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50C25",
+              "url": "https://www.amayama.com/en/part/nissan/b981250c25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.7,
+                "currency": "USD",
+                "raw": "212.70"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ｻﾕｳｾｯﾄﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,ｻﾕｳｾｯﾄﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9812-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981250f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 261.17,
+                "currency": "USD",
+                "raw": "261.17"
+              },
+              "replacements": [
+                {
+                  "oem": "B9812-0P030",
+                  "url": "https://www.amayama.com/en/part/nissan/b98120p030",
+                  "price": {
+                    "status": "Available",
+                    "amount": 212.7,
+                    "currency": "USD",
+                    "raw": "212.70"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8517",
+          "name": "buzzer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 663,
+                "y1": 55,
+                "x2": 717,
+                "y2": 70
+              },
+              "norm": {
+                "x1": 0.6479,
+                "y1": 0.1082,
+                "x2": 0.7006,
+                "y2": 0.1375
+              },
+              "title": "buzzer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=900mm､ﾊｲｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=900mm､ﾊｲｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F85",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f85",
+              "applies": [],
+              "details": {
+                "specification": "(#326)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326)[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8518",
+          "name": "buzzer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 507,
+                "y1": 196,
+                "x2": 561,
+                "y2": 211
+              },
+              "norm": {
+                "x1": 0.4955,
+                "y1": 0.3832,
+                "x2": 0.5482,
+                "y2": 0.4125
+              },
+              "title": "buzzer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#AG2,#TH1,#KG2,#KH3,#DH0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KG4,#WK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KG4,#WK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#LK0)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#LK0)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=2650mm､ｸﾛｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ｻﾕｳｾｯﾄ,L=2650mm､ｸﾛｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ｻﾕｳｾｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#KH3,#LN1,#AJ4,#BN6)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "(#326)[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: (#326)[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "B9814-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b981450f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,ﾋﾀﾞﾘｶﾞﾜﾖｳ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

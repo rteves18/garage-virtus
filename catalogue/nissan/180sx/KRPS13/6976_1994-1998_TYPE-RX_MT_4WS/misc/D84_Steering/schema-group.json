@@ -1,0 +1,349 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "D84",
+    "name": "steering",
+    "title_raw": "steering (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/D84_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/bb81aa4a52b23e306b01114f0298c82c.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/D84_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/b86ac16da8347de3794e60e07aff810b.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "D84_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/D84_001.png",
+      "callouts": [
+        {
+          "pnc": "KD840V",
+          "name": "steering wheel kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 379,
+                "y1": 436,
+                "x2": 436,
+                "y2": 451
+              },
+              "norm": {
+                "x1": 0.3697,
+                "y1": 0.852,
+                "x2": 0.4254,
+                "y2": 0.8812
+              },
+              "title": "steering wheel kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D840V-11100",
+              "url": "https://www.amayama.com/en/part/nissan/d840v11100",
+              "applies": [],
+              "details": {
+                "specification": "ﾋｮｳｼﾞｭﾝﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 701.89,
+                "currency": "USD",
+                "raw": "701.89"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋｮｳｼﾞｭﾝﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "D840V-11130",
+              "url": "https://www.amayama.com/en/part/nissan/d840v11130",
+              "applies": [],
+              "details": {
+                "specification": "ｽｰﾊﾟｰHICASﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 701.89,
+                "currency": "USD",
+                "raw": "701.89"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｽｰﾊﾟｰHICASﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD842V",
+          "name": "horn pad assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 662,
+                "y1": 271,
+                "x2": 719,
+                "y2": 286
+              },
+              "norm": {
+                "x1": 0.6467,
+                "y1": 0.5293,
+                "x2": 0.7023,
+                "y2": 0.5586
+              },
+              "title": "horn pad assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D842V-11100",
+              "url": "https://www.amayama.com/en/part/nissan/d842v11100",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 127.62,
+                "currency": "USD",
+                "raw": "127.62"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D84_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/D84_002.png",
+      "callouts": [
+        {
+          "pnc": "K48433A",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 867,
+                "y1": 309,
+                "x2": 933,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.8471,
+                "y1": 0.6035,
+                "x2": 0.9115,
+                "y2": 0.6328
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01141-00411",
+              "url": "https://www.amayama.com/en/part/nissan/0114100411",
+              "applies": [],
+              "details": {
+                "specification": "MOMOｽﾃﾖｳ ｳｯﾄﾞｽﾃｱﾘﾝｸﾞ, App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: MOMOｽﾃﾖｳ ｳｯﾄﾞｽﾃｱﾘﾝｸﾞ, App. model: HB Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KD8400",
+          "name": "steering wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 307,
+                "y1": 31,
+                "x2": 364,
+                "y2": 46
+              },
+              "norm": {
+                "x1": 0.3002,
+                "y1": 0.0613,
+                "x2": 0.3559,
+                "y2": 0.0906
+              },
+              "title": "steering wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D8400-C9901",
+              "url": "https://www.amayama.com/en/part/nissan/d8400c9901",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾝｶﾞﾜ 4ﾎﾞﾝｽﾎﾟｰｸ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1171.34,
+                "currency": "USD",
+                "raw": "1,171.34"
+              },
+              "replacements": [
+                {
+                  "oem": "D8400-C9921",
+                  "url": "https://www.amayama.com/en/part/nissan/d8400c9921",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1405.61,
+                    "currency": "USD",
+                    "raw": "1,405.61"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾝｶﾞﾜ 4ﾎﾞﾝｽﾎﾟｰｸ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD8465",
+          "name": "steering lid",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 455,
+                "y1": 400,
+                "x2": 512,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.4439,
+                "y1": 0.7816,
+                "x2": 0.4996,
+                "y2": 0.8109
+              },
+              "title": "steering lid"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D8465-C9900",
+              "url": "https://www.amayama.com/en/part/nissan/d8465c9900",
+              "applies": [],
+              "details": {
+                "specification": "MOMOｳｯﾄﾞ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: MOMOｳｯﾄﾞ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B00",
+    "name": "exhaust finisher",
+    "title_raw": "exhaust finisher (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B00_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/2891e206ed89258272e8f032d3326cfb.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B00_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/B00_001.png",
+      "callouts": [
+        {
+          "pnc": "K20692M",
+          "name": "gasket (nismo)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 109,
+                "y1": 327,
+                "x2": 175,
+                "y2": 342
+              },
+              "norm": {
+                "x1": 0.1061,
+                "y1": 0.6387,
+                "x2": 0.1705,
+                "y2": 0.668
+              },
+              "title": "gasket (nismo)"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 591,
+                "y1": 339,
+                "x2": 657,
+                "y2": 354
+              },
+              "norm": {
+                "x1": 0.5771,
+                "y1": 0.6613,
+                "x2": 0.6416,
+                "y2": 0.6906
+              },
+              "title": "gasket (nismo)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "20692-RN075",
+              "url": "https://www.amayama.com/en/part/nissan/20692rn075",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,OYA  B0100RN521, App. model: SR20DET.MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,OYA  B0100RN521, App. model: SR20DET.MT Required: 2 pcs"
+            },
+            {
+              "oem": "20692-RN075",
+              "url": "https://www.amayama.com/en/part/nissan/20692rn075",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,OYA  B0100RN521, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,OYA  B0100RN521, App. model: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KB0100",
+          "name": "sports muffler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 417,
+                "y1": 427,
+                "x2": 471,
+                "y2": 442
+              },
+              "norm": {
+                "x1": 0.4076,
+                "y1": 0.834,
+                "x2": 0.4604,
+                "y2": 0.8633
+              },
+              "title": "sports muffler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B0100-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/b0100rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1469.07,
+                "currency": "USD",
+                "raw": "1,469.07"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "B0100-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/b0100rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1469.07,
+                "currency": "USD",
+                "raw": "1,469.07"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "KB0300",
+          "name": "center tube muffler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 440,
+                "y1": 102,
+                "x2": 497,
+                "y2": 117
+              },
+              "norm": {
+                "x1": 0.4295,
+                "y1": 0.1996,
+                "x2": 0.4852,
+                "y2": 0.2289
+              },
+              "title": "center tube muffler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B0300-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/b0300rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 587.63,
+                "currency": "USD",
+                "raw": "587.63"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "B0300-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/b0300rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 587.63,
+                "currency": "USD",
+                "raw": "587.63"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ, App. model: SR20DET"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

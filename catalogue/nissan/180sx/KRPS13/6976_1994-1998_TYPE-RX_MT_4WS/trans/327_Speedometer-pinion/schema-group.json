@@ -1,0 +1,1383 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "327",
+    "name": "speedometer pinion",
+    "title_raw": "speedometer pinion (trans) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/327_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/bd972be3ebafb51331a16938e911abcd.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "327_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/327_001.png",
+      "callouts": [
+        {
+          "pnc": "32703",
+          "name": "pinion speedo",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 172,
+                "x2": 394,
+                "y2": 187
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3355,
+                "x2": 0.385,
+                "y2": 0.3648
+              },
+              "title": "pinion speedo"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-71T20",
+              "url": "https://www.amayama.com/en/part/nissan/3274371t20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.47,
+                "currency": "USD",
+                "raw": "35.47"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32710",
+          "name": "seal-o ring spe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 458,
+                "y1": 101,
+                "x2": 503,
+                "y2": 116
+              },
+              "norm": {
+                "x1": 0.4471,
+                "y1": 0.1965,
+                "x2": 0.491,
+                "y2": 0.2258
+              },
+              "title": "seal-o ring spe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "25010Y",
+          "name": "sensor-speed",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 335,
+                "y1": 123,
+                "x2": 389,
+                "y2": 138
+              },
+              "norm": {
+                "x1": 0.3268,
+                "y1": 0.2402,
+                "x2": 0.3795,
+                "y2": 0.2695
+              },
+              "title": "sensor-speed"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/2501071t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 323.2,
+                "currency": "USD",
+                "raw": "323.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32703E",
+          "name": "ring-lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 195,
+                "x2": 403,
+                "y2": 210
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3816,
+                "x2": 0.3937,
+                "y2": 0.4109
+              },
+              "title": "ring-lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/3274471t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.08,
+                "currency": "USD",
+                "raw": "2.08"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 79,
+                "x2": 306,
+                "y2": 94
+              },
+              "norm": {
+                "x1": 0.2025,
+                "y1": 0.1551,
+                "x2": 0.2992,
+                "y2": 0.1844
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "327_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/327_001.png",
+      "callouts": [
+        {
+          "pnc": "32703",
+          "name": "pinion speedo",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 172,
+                "x2": 394,
+                "y2": 187
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3355,
+                "x2": 0.385,
+                "y2": 0.3648
+              },
+              "title": "pinion speedo"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-71T20",
+              "url": "https://www.amayama.com/en/part/nissan/3274371t20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.47,
+                "currency": "USD",
+                "raw": "35.47"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32710",
+          "name": "seal-o ring spe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 458,
+                "y1": 101,
+                "x2": 503,
+                "y2": 116
+              },
+              "norm": {
+                "x1": 0.4471,
+                "y1": 0.1965,
+                "x2": 0.491,
+                "y2": 0.2258
+              },
+              "title": "seal-o ring spe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "25010Y",
+          "name": "sensor-speed",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 335,
+                "y1": 123,
+                "x2": 389,
+                "y2": 138
+              },
+              "norm": {
+                "x1": 0.3268,
+                "y1": 0.2402,
+                "x2": 0.3795,
+                "y2": 0.2695
+              },
+              "title": "sensor-speed"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/2501071t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 323.2,
+                "currency": "USD",
+                "raw": "323.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32703E",
+          "name": "ring-lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 195,
+                "x2": 403,
+                "y2": 210
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3816,
+                "x2": 0.3937,
+                "y2": 0.4109
+              },
+              "title": "ring-lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/3274471t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.08,
+                "currency": "USD",
+                "raw": "2.08"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 79,
+                "x2": 306,
+                "y2": 94
+              },
+              "norm": {
+                "x1": 0.2025,
+                "y1": 0.1551,
+                "x2": 0.2992,
+                "y2": 0.1844
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "327_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/327_001.png",
+      "callouts": [
+        {
+          "pnc": "32703",
+          "name": "pinion speedo",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 172,
+                "x2": 394,
+                "y2": 187
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3355,
+                "x2": 0.385,
+                "y2": 0.3648
+              },
+              "title": "pinion speedo"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-35F20",
+              "url": "https://www.amayama.com/en/part/nissan/3274335f20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.56,
+                "currency": "USD",
+                "raw": "22.56"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            },
+            {
+              "oem": "32743-71T20",
+              "url": "https://www.amayama.com/en/part/nissan/3274371t20",
+              "applies": [],
+              "details": {
+                "specification": "20T, App. model: MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.47,
+                "currency": "USD",
+                "raw": "35.47"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 20T, App. model: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32710",
+          "name": "seal-o ring spe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 458,
+                "y1": 101,
+                "x2": 503,
+                "y2": 116
+              },
+              "norm": {
+                "x1": 0.4471,
+                "y1": 0.1965,
+                "x2": 0.491,
+                "y2": 0.2258
+              },
+              "title": "seal-o ring spe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32710-14600",
+              "url": "https://www.amayama.com/en/part/nissan/3271014600",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.82,
+                "currency": "USD",
+                "raw": "3.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "25010Y",
+          "name": "sensor-speed",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 335,
+                "y1": 123,
+                "x2": 389,
+                "y2": 138
+              },
+              "norm": {
+                "x1": 0.3268,
+                "y1": 0.2402,
+                "x2": 0.3795,
+                "y2": 0.2695
+              },
+              "title": "sensor-speed"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2501035f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 315.03,
+                "currency": "USD",
+                "raw": "315.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "25010-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/2501071t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 323.2,
+                "currency": "USD",
+                "raw": "323.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32703E",
+          "name": "ring-lock",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 346,
+                "y1": 195,
+                "x2": 403,
+                "y2": 210
+              },
+              "norm": {
+                "x1": 0.3381,
+                "y1": 0.3816,
+                "x2": 0.3937,
+                "y2": 0.4109
+              },
+              "title": "ring-lock"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/3274435f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "32744-71T00",
+              "url": "https://www.amayama.com/en/part/nissan/3274471t00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.08,
+                "currency": "USD",
+                "raw": "2.08"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 79,
+                "x2": 306,
+                "y2": 94
+              },
+              "norm": {
+                "x1": 0.2025,
+                "y1": 0.1551,
+                "x2": 0.2992,
+                "y2": 0.1844
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

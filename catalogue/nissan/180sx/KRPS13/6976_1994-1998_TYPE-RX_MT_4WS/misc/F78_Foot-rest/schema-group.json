@@ -1,0 +1,242 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F78",
+    "name": "foot rest",
+    "title_raw": "foot rest (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/F78_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/4560c97dd07df72f6d53195f83266662.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/F78_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/558947f87821f24b32605da320440003.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "F78_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F78_001.png",
+      "callouts": [
+        {
+          "pnc": "KF7840",
+          "name": "foot rest",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 707,
+                "y1": 115,
+                "x2": 764,
+                "y2": 130
+              },
+              "norm": {
+                "x1": 0.6904,
+                "y1": 0.2246,
+                "x2": 0.7461,
+                "y2": 0.2539
+              },
+              "title": "foot rest"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F7840-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/f784050f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            },
+            {
+              "oem": "F7840-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/f784050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾗｲﾊﾞｰｶﾞﾜ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄﾞﾗｲﾊﾞｰｶﾞﾜ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F78_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F78_002.png",
+      "callouts": [
+        {
+          "pnc": "KF7500",
+          "name": "ni-rest",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 665,
+                "y1": 453,
+                "x2": 722,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.6498,
+                "y1": 0.8855,
+                "x2": 0.7055,
+                "y2": 0.9148
+              },
+              "title": "ni-rest"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB.TYPE2/3"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB.TYPE2/3"
+            },
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            },
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾗｲﾊﾞｰﾖｳｾｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄﾞﾗｲﾊﾞｰﾖｳｾｯﾄ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

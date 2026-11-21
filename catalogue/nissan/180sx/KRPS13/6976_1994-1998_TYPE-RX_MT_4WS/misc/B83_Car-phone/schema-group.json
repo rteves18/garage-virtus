@@ -1,0 +1,290 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B83",
+    "name": "car phone",
+    "title_raw": "car phone (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B83_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/c8b0b57051d49ab7eba32d3efe44db4c.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B83_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/a59476473c1de356cf0d79b255689124.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B83_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B83_001.png",
+      "callouts": [
+        {
+          "pnc": "KB8300",
+          "name": "telephone kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 573,
+                "y1": 451,
+                "x2": 630,
+                "y2": 466
+              },
+              "norm": {
+                "x1": 0.5596,
+                "y1": 0.8816,
+                "x2": 0.6152,
+                "y2": 0.9109
+              },
+              "title": "telephone kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8300-89928",
+              "url": "https://www.amayama.com/en/part/nissan/b830089928",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾙｿﾆｯｸ,ﾊﾝﾖｳﾊﾝﾄﾞｾｯﾄ,ﾊﾝﾖｳｼﾞｭﾜｷｾｯﾄ,ﾒｲﾝｷｯﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 783.51,
+                "currency": "USD",
+                "raw": "783.51"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾙｿﾆｯｸ,ﾊﾝﾖｳﾊﾝﾄﾞｾｯﾄ,ﾊﾝﾖｳｼﾞｭﾜｷｾｯﾄ,ﾒｲﾝｷｯﾄ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8301",
+          "name": "telephone kit, sub",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 800,
+                "y1": 435,
+                "x2": 854,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.7814,
+                "y1": 0.8504,
+                "x2": 0.8342,
+                "y2": 0.8797
+              },
+              "title": "telephone kit, sub"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8301-52F50",
+              "url": "https://www.amayama.com/en/part/nissan/b830152f50",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾙｿﾆｯｸ,ﾊﾝﾖｳﾊﾝﾄﾞｾｯﾄ,ｻﾌﾞｷｯﾄ[B517], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 254.64,
+                "currency": "USD",
+                "raw": "254.64"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾙｿﾆｯｸ,ﾊﾝﾖｳﾊﾝﾄﾞｾｯﾄ,ｻﾌﾞｷｯﾄ[B517], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B83_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1997-02",
+        "to": "1998-12",
+        "raw": "02.1997 - ..."
+      },
+      "image": "megazip/RS13/B83_002.png",
+      "callouts": [
+        {
+          "pnc": "KB8311",
+          "name": "handfree main kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 747,
+                "y1": 189,
+                "x2": 798,
+                "y2": 204
+              },
+              "norm": {
+                "x1": 0.7291,
+                "y1": 0.3699,
+                "x2": 0.7789,
+                "y2": 0.3992
+              },
+              "title": "handfree main kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8311-89910",
+              "url": "https://www.amayama.com/en/part/nissan/b831189910",
+              "applies": [],
+              "details": {
+                "specification": "ﾊﾝﾄﾞﾌﾘｰﾕﾆｯﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 227.42,
+                "currency": "USD",
+                "raw": "227.42"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾊﾝﾄﾞﾌﾘｰﾕﾆｯﾄ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8331",
+          "name": "attachment, telephone",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 281,
+                "y1": 225,
+                "x2": 335,
+                "y2": 240
+              },
+              "norm": {
+                "x1": 0.274,
+                "y1": 0.4387,
+                "x2": 0.3268,
+                "y2": 0.468
+              },
+              "title": "attachment, telephone"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8331-3H000",
+              "url": "https://www.amayama.com/en/part/nissan/b83313h000",
+              "applies": [],
+              "details": {
+                "specification": "ｹｲﾀｲﾃﾞﾝﾜｵｷﾀﾞｲ, App. model: HB"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹｲﾀｲﾃﾞﾝﾜｵｷﾀﾞｲ, App. model: HB"
+            },
+            {
+              "oem": "B8331-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b833189900",
+              "applies": [],
+              "details": {
+                "specification": "ｺﾝｿｰﾙﾘｯﾄﾞﾄﾘﾂｹﾍﾞﾙﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.12,
+                "currency": "USD",
+                "raw": "7.12"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺﾝｿｰﾙﾘｯﾄﾞﾄﾘﾂｹﾍﾞﾙﾄ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

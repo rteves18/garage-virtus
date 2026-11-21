@@ -1,0 +1,2493 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B63",
+    "name": "fog lamp",
+    "title_raw": "fog lamp (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B63_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/3d2999ebbb155f949b6c8cfdb2866b52.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B63_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/b9092e6706e96720da89b64f32e87b33.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B63_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B63_001.png",
+      "callouts": [
+        {
+          "pnc": "K25230",
+          "name": "relay,2m",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 57,
+                "y1": 9,
+                "x2": 114,
+                "y2": 24
+              },
+              "norm": {
+                "x1": 0.0561,
+                "y1": 0.0168,
+                "x2": 0.1117,
+                "y2": 0.0461
+              },
+              "title": "relay,2m"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25230-C9963",
+              "url": "https://www.amayama.com/en/part/nissan/25230c9963",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "25230-79964",
+                  "url": "https://www.amayama.com/en/part/nissan/2523079964",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "25230-79963",
+                  "url": "https://www.amayama.com/en/part/nissan/2523079963",
+                  "price": {
+                    "status": "Available",
+                    "amount": 29.12,
+                    "currency": "USD",
+                    "raw": "29.12"
+                  }
+                },
+                {
+                  "oem": "25230-7996A",
+                  "url": "https://www.amayama.com/en/part/nissan/252307996a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 21.9,
+                    "currency": "USD",
+                    "raw": "21.90"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25230-C9963",
+              "url": "https://www.amayama.com/en/part/nissan/25230c9963",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "25230-79964",
+                  "url": "https://www.amayama.com/en/part/nissan/2523079964",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "25230-79963",
+                  "url": "https://www.amayama.com/en/part/nissan/2523079963",
+                  "price": {
+                    "status": "Available",
+                    "amount": 29.12,
+                    "currency": "USD",
+                    "raw": "29.12"
+                  }
+                },
+                {
+                  "oem": "25230-7996A",
+                  "url": "https://www.amayama.com/en/part/nissan/252307996a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 21.9,
+                    "currency": "USD",
+                    "raw": "21.90"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "K26719",
+          "name": "bulb(12v55w)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 360,
+                "y1": 481,
+                "x2": 414,
+                "y2": 496
+              },
+              "norm": {
+                "x1": 0.3518,
+                "y1": 0.9395,
+                "x2": 0.4045,
+                "y2": 0.9688
+              },
+              "title": "bulb(12v55w)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[B113], App. model: HB"
+            },
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[B113], App. model: HB"
+            },
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[B113], App. model: HB"
+            },
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[B113], App. model: HB"
+            },
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｷｲﾛ[B113], App. model: HB"
+            },
+            {
+              "oem": "26719-26500",
+              "url": "https://www.amayama.com/en/part/nissan/2671926500",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.39,
+                "currency": "USD",
+                "raw": "23.39"
+              },
+              "replacements": [
+                {
+                  "oem": "B671K-26500",
+                  "url": "https://www.amayama.com/en/part/nissan/b671k26500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 23.39,
+                    "currency": "USD",
+                    "raw": "23.39"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ[B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB5370",
+          "name": "sw fog lamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 481,
+                "y1": 77,
+                "x2": 538,
+                "y2": 92
+              },
+              "norm": {
+                "x1": 0.4701,
+                "y1": 0.1504,
+                "x2": 0.5258,
+                "y2": 0.1797
+              },
+              "title": "sw fog lamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ, App. model: HB"
+            },
+            {
+              "oem": "B5370-89960",
+              "url": "https://www.amayama.com/en/part/nissan/b537089960",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6150",
+          "name": "fog lamp kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 446,
+                "x2": 581,
+                "y2": 461
+              },
+              "norm": {
+                "x1": 0.5143,
+                "y1": 0.8707,
+                "x2": 0.567,
+                "y2": 0.9
+              },
+              "title": "fog lamp kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6150-24U00",
+              "url": "https://www.amayama.com/en/part/nissan/b615024u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-24U10",
+              "url": "https://www.amayama.com/en/part/nissan/b615024u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f00",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F25[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F25[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F26[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "B6150-35F03",
+                  "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 241.65,
+                    "currency": "USD",
+                    "raw": "241.65"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F26[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615035F27[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615035F27[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,OYA  B615035F27[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,OYA  B615035F27[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615035F28[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615035F28[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,OYA  B615035F28[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,OYA  B615035F28[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6150S",
+          "name": "fog lamp set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 431,
+                "x2": 590,
+                "y2": 446
+              },
+              "norm": {
+                "x1": 0.5143,
+                "y1": 0.8426,
+                "x2": 0.5758,
+                "y2": 0.8719
+              },
+              "title": "fog lamp set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6150-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f25",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F26",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f26",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F27",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f27",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F27",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f27",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F28",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f28",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F28",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f28",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615060f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1041.41,
+                "currency": "USD",
+                "raw": "1,041.41"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6151",
+          "name": "lens, fog lamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 285,
+                "y1": 436,
+                "x2": 336,
+                "y2": 451
+              },
+              "norm": {
+                "x1": 0.2783,
+                "y1": 0.8512,
+                "x2": 0.3281,
+                "y2": 0.8805
+              },
+              "title": "lens, fog lamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6151-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f00",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [
+                {
+                  "oem": "B6151-35F01",
+                  "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 24.06,
+                    "currency": "USD",
+                    "raw": "24.06"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6151-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f00",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [
+                {
+                  "oem": "B6151-35F01",
+                  "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 24.06,
+                    "currency": "USD",
+                    "raw": "24.06"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6151-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6151-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6151-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6151-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615135f01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 24.06,
+                "currency": "USD",
+                "raw": "24.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6152",
+          "name": "lens, fog lamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 309,
+                "y1": 411,
+                "x2": 363,
+                "y2": 426
+              },
+              "norm": {
+                "x1": 0.3014,
+                "y1": 0.8035,
+                "x2": 0.3541,
+                "y2": 0.8328
+              },
+              "title": "lens, fog lamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6152-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f00",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6152-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f00",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6152-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f00",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6152-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6152-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6152-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615235f01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 78.53,
+                "currency": "USD",
+                "raw": "78.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6153K",
+          "name": "attachment kit, fog",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 412,
+                "y1": 245,
+                "x2": 475,
+                "y2": 260
+              },
+              "norm": {
+                "x1": 0.4021,
+                "y1": 0.4777,
+                "x2": 0.4637,
+                "y2": 0.507
+              },
+              "title": "attachment kit, fog"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6153-51F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615351f25",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 107.98,
+                "currency": "USD",
+                "raw": "107.98"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B63_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/B63_002.png",
+      "callouts": [
+        {
+          "pnc": "KB5370",
+          "name": "sw fog lamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 820,
+                "y1": 42,
+                "x2": 877,
+                "y2": 57
+              },
+              "norm": {
+                "x1": 0.8006,
+                "y1": 0.0816,
+                "x2": 0.8562,
+                "y2": 0.1109
+              },
+              "title": "sw fog lamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-02",
+                "raw": "01.1991 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,OYA  B615351F25, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,OYA  B615351F25, App. model: HB"
+            },
+            {
+              "oem": "25370-50M01",
+              "url": "https://www.amayama.com/en/part/nissan/2537050m01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 71.17,
+                "currency": "USD",
+                "raw": "71.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ, App. model: HB"
+            },
+            {
+              "oem": "B5370-89960",
+              "url": "https://www.amayama.com/en/part/nissan/b537089960",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6150",
+          "name": "fog lamp kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 82,
+                "y1": 357,
+                "x2": 136,
+                "y2": 372
+              },
+              "norm": {
+                "x1": 0.0799,
+                "y1": 0.6965,
+                "x2": 0.1326,
+                "y2": 0.7258
+              },
+              "title": "fog lamp kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 108,
+                "y1": 459,
+                "x2": 162,
+                "y2": 474
+              },
+              "norm": {
+                "x1": 0.1053,
+                "y1": 0.8957,
+                "x2": 0.158,
+                "y2": 0.925
+              },
+              "title": "fog lamp kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6150-24U00",
+              "url": "https://www.amayama.com/en/part/nissan/b615024u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-24U10",
+              "url": "https://www.amayama.com/en/part/nissan/b615024u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f00",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F25[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F25[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f01",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F26[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "B6150-35F03",
+                  "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 241.65,
+                    "currency": "USD",
+                    "raw": "241.65"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ,OYA  B615035F26[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615035F27[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615035F27[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F02",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f02",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,OYA  B615035F27[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,OYA  B615035F27[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "OYA  B615035F28[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: OYA  B615035F28[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F03",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f03",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,OYA  B615035F28[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 241.65,
+                "currency": "USD",
+                "raw": "241.65"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,OYA  B615035F28[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6150S",
+          "name": "fog lamp set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 137,
+                "y1": 42,
+                "x2": 200,
+                "y2": 57
+              },
+              "norm": {
+                "x1": 0.1338,
+                "y1": 0.0824,
+                "x2": 0.1953,
+                "y2": 0.1117
+              },
+              "title": "fog lamp set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6150-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f25",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F26",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f26",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1993-02",
+                "raw": "03.1989 - 02.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ﾌﾟﾛｼﾞｪｸﾀｰﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F27",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f27",
+              "applies": [],
+              "details": {
+                "specification": "ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｲｴﾛｰﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F27",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f27",
+              "applies": [],
+              "details": {
+                "specification": "ｷｲﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｷｲﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F28",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f28",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄﾚﾝｽﾞ,ﾌﾟﾛｼﾞｪｸﾀｰﾌｫｸﾞﾗﾝﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-35F28",
+              "url": "https://www.amayama.com/en/part/nissan/b615035f28",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6150-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/b615060f25",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1041.41,
+                "currency": "USD",
+                "raw": "1,041.41"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6155",
+          "name": "cornering lamp",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 82,
+                "y1": 373,
+                "x2": 136,
+                "y2": 388
+              },
+              "norm": {
+                "x1": 0.0799,
+                "y1": 0.7293,
+                "x2": 0.1326,
+                "y2": 0.7586
+              },
+              "title": "cornering lamp"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 108,
+                "y1": 475,
+                "x2": 162,
+                "y2": 490
+              },
+              "norm": {
+                "x1": 0.1053,
+                "y1": 0.9277,
+                "x2": 0.158,
+                "y2": 0.957
+              },
+              "title": "cornering lamp"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6155-24U00",
+              "url": "https://www.amayama.com/en/part/nissan/b615524u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞRH,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6155-24U10",
+              "url": "https://www.amayama.com/en/part/nissan/b615524u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 196.33,
+                "currency": "USD",
+                "raw": "196.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾌｫｸﾞLH,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB6730",
+          "name": "fog lamp kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 367,
+                "y1": 479,
+                "x2": 424,
+                "y2": 494
+              },
+              "norm": {
+                "x1": 0.358,
+                "y1": 0.9348,
+                "x2": 0.4137,
+                "y2": 0.9641
+              },
+              "title": "fog lamp kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B6730-24U00",
+              "url": "https://www.amayama.com/en/part/nissan/b673024u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾊﾞﾙﾌﾞ,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 114.53,
+                "currency": "USD",
+                "raw": "114.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾊﾞﾙﾌﾞ,ｼｮｰﾄﾚﾝｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "B6730-24U01",
+              "url": "https://www.amayama.com/en/part/nissan/b673024u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ,ﾊﾞﾙﾌﾞ,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 114.53,
+                "currency": "USD",
+                "raw": "114.53"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ,ﾊﾞﾙﾌﾞ,ﾛﾝｸﾞﾚﾝｼﾞ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8583",
+          "name": "reducer, head",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 76,
+                "y1": 194,
+                "x2": 133,
+                "y2": 209
+              },
+              "norm": {
+                "x1": 0.074,
+                "y1": 0.3793,
+                "x2": 0.1297,
+                "y2": 0.4086
+              },
+              "title": "reducer, head"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8583-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b858389900",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.04,
+                "currency": "USD",
+                "raw": "16.04"
+              },
+              "replacements": [
+                {
+                  "oem": "B5230-79981",
+                  "url": "https://www.amayama.com/en/part/nissan/b523079981",
+                  "price": {
+                    "status": "Available",
+                    "amount": 13.37,
+                    "currency": "USD",
+                    "raw": "13.37"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾏﾙﾁﾌﾚｯｸｽ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

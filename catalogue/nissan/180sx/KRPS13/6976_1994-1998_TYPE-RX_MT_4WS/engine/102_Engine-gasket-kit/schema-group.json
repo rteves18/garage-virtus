@@ -1,0 +1,561 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "102",
+    "name": "engine gasket kit",
+    "title_raw": "engine gasket kit (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/102_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/b33af54e217d2e0441d0c6ddb952471f.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/102_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/f9c83a4c14b865eafd1720d741288408.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "102_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/102_001.png",
+      "callouts": [
+        {
+          "pnc": "11011K",
+          "name": "gasket kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 391,
+                "y1": 15,
+                "x2": 436,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.3814,
+                "y1": 0.0301,
+                "x2": 0.4254,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 15,
+                "x2": 945,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.8787,
+                "y1": 0.0301,
+                "x2": 0.9227,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10101-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/1010150f25",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 759.02,
+                "currency": "USD",
+                "raw": "759.02"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10101-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/1010150f27",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 325.64,
+                "currency": "USD",
+                "raw": "325.64"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10101-60F26",
+              "url": "https://www.amayama.com/en/part/nissan/1010160f26",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 773.71,
+                "currency": "USD",
+                "raw": "773.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11042K",
+          "name": "gasket kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 447,
+                "y1": 15,
+                "x2": 498,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.4369,
+                "y1": 0.0301,
+                "x2": 0.4867,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 957,
+                "y1": 15,
+                "x2": 1008,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.9342,
+                "y1": 0.0301,
+                "x2": 0.984,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11042-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/1104250f25",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 475.0,
+                "currency": "USD",
+                "raw": "475.00"
+              },
+              "replacements": [
+                {
+                  "oem": "11042-50F26",
+                  "url": "https://www.amayama.com/en/part/nissan/1104250f26",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "11042-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/1104250f26",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 484.79,
+                "currency": "USD",
+                "raw": "484.79"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "11042-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/1104260f25",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 484.79,
+                "currency": "USD",
+                "raw": "484.79"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "102_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "megazip/RS13/102_002.png",
+      "callouts": [
+        {
+          "pnc": "11011K",
+          "name": "gasket kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 391,
+                "y1": 15,
+                "x2": 436,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.3814,
+                "y1": 0.0301,
+                "x2": 0.4254,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 15,
+                "x2": 945,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.8787,
+                "y1": 0.0301,
+                "x2": 0.9227,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10101-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/1010150f25",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 759.02,
+                "currency": "USD",
+                "raw": "759.02"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10101-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/1010150f27",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 325.64,
+                "currency": "USD",
+                "raw": "325.64"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10101-60F26",
+              "url": "https://www.amayama.com/en/part/nissan/1010160f26",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 773.71,
+                "currency": "USD",
+                "raw": "773.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11042K",
+          "name": "gasket kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 447,
+                "y1": 15,
+                "x2": 498,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.4369,
+                "y1": 0.0301,
+                "x2": 0.4867,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 957,
+                "y1": 15,
+                "x2": 1008,
+                "y2": 30
+              },
+              "norm": {
+                "x1": 0.9342,
+                "y1": 0.0301,
+                "x2": 0.984,
+                "y2": 0.0594
+              },
+              "title": "gasket kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11042-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/1104250f25",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 475.0,
+                "currency": "USD",
+                "raw": "475.00"
+              },
+              "replacements": [
+                {
+                  "oem": "11042-50F26",
+                  "url": "https://www.amayama.com/en/part/nissan/1104250f26",
+                  "price": {
+                    "status": "Available",
+                    "amount": 484.79,
+                    "currency": "USD",
+                    "raw": "484.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "11042-50F26",
+              "url": "https://www.amayama.com/en/part/nissan/1104250f26",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 484.79,
+                "currency": "USD",
+                "raw": "484.79"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "11042-60F25",
+              "url": "https://www.amayama.com/en/part/nissan/1104260f25",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 484.79,
+                "currency": "USD",
+                "raw": "484.79"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

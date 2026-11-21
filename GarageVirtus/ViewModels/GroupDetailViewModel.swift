@@ -80,6 +80,12 @@ final class GroupDetailViewModel {
         return summary + (vehicle.period.map { " · " + $0.display } ?? "")
     }
 
+    /// True when the schemas fit a segmented picker next to the inspector at the minimum window width.
+    /// Larger groups (some have 20 schemas) use a menu, because segments can't shrink and would trigger a layout loop.
+    static func fitsSegmentedPicker(schemaCount: Int) -> Bool {
+        schemaCount <= 5
+    }
+
     /// Short title for the schema picker's segment. Segmented pickers can't truncate, so long titles would force
     /// the detail column wider than the window allows next to the inspector.
     func segmentTitle(for schema: Schema) -> String {

@@ -1,0 +1,670 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "117",
+    "name": "fan compressor & power steering belt",
+    "title_raw": "fan compressor & power steering belt (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/117_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/81bf5210a290e24fbb7cdd7069fb83b8.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "117_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/117_001.png",
+      "callouts": [
+        {
+          "pnc": "11720N",
+          "name": "poly v belt 5pk935",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 244,
+                "x2": 110,
+                "y2": 259
+              },
+              "norm": {
+                "x1": 0.058,
+                "y1": 0.4762,
+                "x2": 0.1078,
+                "y2": 0.5055
+              },
+              "title": "poly v belt 5pk935"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 466,
+                "y1": 244,
+                "x2": 517,
+                "y2": 259
+              },
+              "norm": {
+                "x1": 0.4549,
+                "y1": 0.4762,
+                "x2": 0.5047,
+                "y2": 0.5055
+              },
+              "title": "poly v belt 5pk935"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 47.28,
+                "currency": "USD",
+                "raw": "47.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 47.28,
+                "currency": "USD",
+                "raw": "47.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11920N",
+          "name": "poly v belt 4pk880",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 872,
+                "y1": 374,
+                "x2": 923,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.8518,
+                "y1": 0.7301,
+                "x2": 0.9016,
+                "y2": 0.7594
+              },
+              "title": "poly v belt 4pk880"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11950N",
+          "name": "poly v belt 4pk880",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 790,
+                "y1": 286,
+                "x2": 841,
+                "y2": 301
+              },
+              "norm": {
+                "x1": 0.7713,
+                "y1": 0.5582,
+                "x2": 0.8211,
+                "y2": 0.5875
+              },
+              "title": "poly v belt 4pk880"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 326,
+                "y1": 350,
+                "x2": 377,
+                "y2": 365
+              },
+              "norm": {
+                "x1": 0.3182,
+                "y1": 0.684,
+                "x2": 0.368,
+                "y2": 0.7133
+              },
+              "title": "poly v belt 4pk880"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "117_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "megazip/RS13/117_001.png",
+      "callouts": [
+        {
+          "pnc": "11720N",
+          "name": "poly v belt 5pk935",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 59,
+                "y1": 244,
+                "x2": 110,
+                "y2": 259
+              },
+              "norm": {
+                "x1": 0.058,
+                "y1": 0.4762,
+                "x2": 0.1078,
+                "y2": 0.5055
+              },
+              "title": "poly v belt 5pk935"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 466,
+                "y1": 244,
+                "x2": 517,
+                "y2": 259
+              },
+              "norm": {
+                "x1": 0.4549,
+                "y1": 0.4762,
+                "x2": 0.5047,
+                "y2": 0.5055
+              },
+              "title": "poly v belt 5pk935"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 47.28,
+                "currency": "USD",
+                "raw": "47.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 47.28,
+                "currency": "USD",
+                "raw": "47.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11920N",
+          "name": "poly v belt 4pk880",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 872,
+                "y1": 374,
+                "x2": 923,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.8518,
+                "y1": 0.7301,
+                "x2": 0.9016,
+                "y2": 0.7594
+              },
+              "title": "poly v belt 4pk880"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11950N",
+          "name": "poly v belt 4pk880",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 790,
+                "y1": 286,
+                "x2": 841,
+                "y2": 301
+              },
+              "norm": {
+                "x1": 0.7713,
+                "y1": 0.5582,
+                "x2": 0.8211,
+                "y2": 0.5875
+              },
+              "title": "poly v belt 4pk880"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 326,
+                "y1": 350,
+                "x2": 377,
+                "y2": 365
+              },
+              "norm": {
+                "x1": 0.3182,
+                "y1": 0.684,
+                "x2": 0.368,
+                "y2": 0.7133
+              },
+              "title": "poly v belt 4pk880"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "AY140-40880-0A",
+                  "url": "https://www.amayama.com/en/part/nissan/ay140408800a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 22.72,
+                    "currency": "USD",
+                    "raw": "22.72"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

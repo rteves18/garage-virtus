@@ -154,7 +154,7 @@ private struct PartRow: View {
     }
 }
 
-/// In-app version of Amayama's part page: every place this OEM number appears, and its replacement chain.
+/// In-app part page: every place this OEM number appears, and its replacement chain.
 struct PartDetailView: View {
     @Environment(CatalogueViewModel.self) private var catalogue
     @Environment(\.dismiss) private var dismiss
@@ -254,7 +254,7 @@ struct PartDetailView: View {
                 }
             }
             if !usage.elsewhere.isEmpty {
-                section("Also on Amayama (\(usage.elsewhere.count), not scraped)") {
+                section("Also on \(usage.page?.source.siteName ?? "the source site") (\(usage.elsewhere.count), not in this catalogue)") {
                     ForEach(usage.elsewhere, id: \.self) { ref in
                         if let link = URL(string: ref.url) {
                             Link("\(ref.model.uppercased()) \(ref.frame) · \(ref.variantId) · \(ref.category)/\(ref.group)", destination: link)
@@ -268,11 +268,11 @@ struct PartDetailView: View {
                 Text("Part page scraped \(page.source.scrapedAt ?? "?"). Offers change often.")
                     .font(.caption).foregroundStyle(.secondary)
             } else {
-                Text("Weight, offers and fitment come from Amayama's part page, which hasn't been scraped for this part yet.")
+                Text("Weight, offers and fitment come from the part's page on the source site, which hasn't been scraped for this part yet.")
                     .font(.caption).foregroundStyle(.secondary)
             }
             if let link = URL(string: page?.source.url ?? url ?? "") {
-                Link("Open part page on Amayama", destination: link).font(.callout)
+                Link("View on \(page?.source.siteName ?? "Amayama")", destination: link).font(.callout)
             }
         }
         .padding(16)

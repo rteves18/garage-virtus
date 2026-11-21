@@ -1,0 +1,314 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F80",
+    "name": "instrument panel surroundings parts",
+    "title_raw": "instrument panel surroundings parts (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/F80_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/9c6e166166a492da16aa1f94cfdb13c8.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/F80_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/d39bda95451697d8abc0f1492b6dc09e.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "F80_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F80_001.png",
+      "callouts": [
+        {
+          "pnc": "KF8810",
+          "name": "box, smoker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 815,
+                "y1": 167,
+                "x2": 869,
+                "y2": 182
+              },
+              "norm": {
+                "x1": 0.7963,
+                "y1": 0.3262,
+                "x2": 0.849,
+                "y2": 0.3555
+              },
+              "title": "box, smoker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G8820-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/g882035f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1998-12",
+                "raw": "03.1989 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F80_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/F80_002.png",
+      "callouts": [
+        {
+          "pnc": "KF8260",
+          "name": "panel, carbon",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 716,
+                "y1": 75,
+                "x2": 773,
+                "y2": 90
+              },
+              "norm": {
+                "x1": 0.6994,
+                "y1": 0.1457,
+                "x2": 0.7551,
+                "y2": 0.175
+              },
+              "title": "panel, carbon"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F8260-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/f826060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 434.37,
+                "currency": "USD",
+                "raw": "434.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF8262",
+          "name": "panel, carbon",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 725,
+                "y1": 435,
+                "x2": 782,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.7084,
+                "y1": 0.8504,
+                "x2": 0.7641,
+                "y2": 0.8797
+              },
+              "title": "panel, carbon"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F8262-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/f826260f00",
+              "applies": [],
+              "details": {
+                "specification": "ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 484.79,
+                "currency": "USD",
+                "raw": "484.79"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF8821",
+          "name": "panel, carbon",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 820,
+                "y1": 121,
+                "x2": 874,
+                "y2": 136
+              },
+              "norm": {
+                "x1": 0.8006,
+                "y1": 0.2355,
+                "x2": 0.8533,
+                "y2": 0.2648
+              },
+              "title": "panel, carbon"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6510-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k651060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 171.04,
+                "currency": "USD",
+                "raw": "171.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KG6941",
+          "name": "panel, carbon",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 273,
+                "x2": 954,
+                "y2": 288
+              },
+              "norm": {
+                "x1": 0.8787,
+                "y1": 0.5332,
+                "x2": 0.9314,
+                "y2": 0.5625
+              },
+              "title": "panel, carbon"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6910-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k691060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 310.27,
+                "currency": "USD",
+                "raw": "310.27"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶｰﾎﾞﾝｹﾌﾞﾗｰﾁｮｳ,ﾊﾘﾂｹﾀｲﾌﾟ,OYA  F826260F00, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

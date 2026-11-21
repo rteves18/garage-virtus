@@ -1,0 +1,162 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B87",
+    "name": "rear wiper",
+    "title_raw": "rear wiper (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B87_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/4912d116548948884cea6326164f6da1.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B87_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B87_001.png",
+      "callouts": [
+        {
+          "pnc": "KB8790",
+          "name": "blade-w/wiper",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 469,
+                "y1": 367,
+                "x2": 526,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.4576,
+                "y1": 0.7168,
+                "x2": 0.5133,
+                "y2": 0.7461
+              },
+              "title": "blade-w/wiper"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY000-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u500s",
+              "applies": [],
+              "details": {
+                "specification": "L=500, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 80.99,
+                "currency": "USD",
+                "raw": "80.99"
+              },
+              "replacements": [],
+              "description_raw": "Specification: L=500, App. model: HB"
+            },
+            {
+              "oem": "AY000-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u500s",
+              "applies": [],
+              "details": {
+                "specification": "RR:500MM,L=500, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 80.99,
+                "currency": "USD",
+                "raw": "80.99"
+              },
+              "replacements": [],
+              "description_raw": "Specification: RR:500MM,L=500, App. model: HB"
+            },
+            {
+              "oem": "B6365-89935",
+              "url": "https://www.amayama.com/en/part/nissan/b636589935",
+              "applies": [],
+              "details": {
+                "specification": "500mm,Uﾌｯｸ[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 86.67,
+                "currency": "USD",
+                "raw": "86.67"
+              },
+              "replacements": [
+                {
+                  "oem": "AY000-U475S",
+                  "url": "https://www.amayama.com/en/part/nissan/ay000u475s",
+                  "price": {
+                    "status": "Available",
+                    "amount": 70.03,
+                    "currency": "USD",
+                    "raw": "70.03"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 500mm,Uﾌｯｸ[B113], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2969 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B84",
+    "name": "speaker",
+    "title_raw": "speaker (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B84_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/e3f39ed2dc179bb740ab8f4c7f71ef63.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/4ec7f20f23eb988bd1731765b0bf3a6d.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_003.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/60dbb0716859460e4f7a43343086ec39.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_004.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/9db06e1ecd742ef4be468663b84d1045.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_005.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/1e745ef2ffa597b6f92cf37803adf7c8.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_006.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/7d14b34bd9c6a2ce0e2983097b21337a.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B84_007.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/981af8ba1a766cc55d004b4ebe23d115.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B84_001_0",
+      "index": 1,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_001.png",
+      "callouts": [
+        {
+          "pnc": "KB9350N",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 177,
+                "y1": 24,
+                "x2": 243,
+                "y2": 39
+              },
+              "norm": {
+                "x1": 0.1732,
+                "y1": 0.0473,
+                "x2": 0.2377,
+                "y2": 0.0766
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_002_1",
+      "index": 2,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_002.png",
+      "callouts": [
+        {
+          "pnc": "KB9350N",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 442,
+                "y1": 218,
+                "x2": 508,
+                "y2": 233
+              },
+              "norm": {
+                "x1": 0.4314,
+                "y1": 0.4262,
+                "x2": 0.4959,
+                "y2": 0.4555
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_003_2",
+      "index": 3,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_003.png",
+      "callouts": [
+        {
+          "pnc": "KB9350N",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 274,
+                "y1": 53,
+                "x2": 340,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.2674,
+                "y1": 0.1027,
+                "x2": 0.3318,
+                "y2": 0.132
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB"
+            },
+            {
+              "oem": "B9350-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9350n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRT4610[A403], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRT4610[A403], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_004_3",
+      "index": 4,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_004.png",
+      "callouts": [
+        {
+          "pnc": "KB9340N",
+          "name": "rear speaker kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 782,
+                "y1": 156,
+                "x2": 848,
+                "y2": 171
+              },
+              "norm": {
+                "x1": 0.7635,
+                "y1": 0.3043,
+                "x2": 0.8279,
+                "y2": 0.3336
+              },
+              "title": "rear speaker kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 252,
+                "y1": 183,
+                "x2": 318,
+                "y2": 198
+              },
+              "norm": {
+                "x1": 0.2463,
+                "y1": 0.3566,
+                "x2": 0.3107,
+                "y2": 0.3859
+              },
+              "title": "rear speaker kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9340-N9270",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9270",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9271",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9271",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9370",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9370",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 457.04,
+                "currency": "USD",
+                "raw": "457.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9380",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9380",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 514.18,
+                "currency": "USD",
+                "raw": "514.18"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9381",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9381",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9570",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9570",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 424.4,
+                "currency": "USD",
+                "raw": "424.40"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9680",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9680",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 359.11,
+                "currency": "USD",
+                "raw": "359.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9880",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9880",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+            },
+            {
+              "oem": "B9341-C9978",
+              "url": "https://www.amayama.com/en/part/nissan/b9341c9978",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9343-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9343c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 486.43,
+                "currency": "USD",
+                "raw": "486.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_005_4",
+      "index": 5,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_005.png",
+      "callouts": [
+        {
+          "pnc": "KB8163N",
+          "name": "rear speaker attachment",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 827,
+                "y1": 7,
+                "x2": 890,
+                "y2": 22
+              },
+              "norm": {
+                "x1": 0.808,
+                "y1": 0.0137,
+                "x2": 0.8695,
+                "y2": 0.043
+              },
+              "title": "rear speaker attachment"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8163-89990",
+              "url": "https://www.amayama.com/en/part/nissan/b816389990",
+              "applies": [],
+              "details": {
+                "specification": "ｻﾌﾞｳｰﾊｰﾄﾘﾂｹﾖｳ[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 106.35,
+                "currency": "USD",
+                "raw": "106.35"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｻﾌﾞｳｰﾊｰﾄﾘﾂｹﾖｳ[A112], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB9330N",
+          "name": "chain-up speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 831,
+                "y1": 307,
+                "x2": 897,
+                "y2": 322
+              },
+              "norm": {
+                "x1": 0.8115,
+                "y1": 0.5988,
+                "x2": 0.876,
+                "y2": 0.6281
+              },
+              "title": "chain-up speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9330-N9690",
+              "url": "https://www.amayama.com/en/part/nissan/b9330n9690",
+              "applies": [],
+              "details": {
+                "specification": "PWMｱﾝﾌﾟﾅｲｿﾞｳ14cmｳｰﾊｰ[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1999-03",
+                "raw": "08.1996 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 486.43,
+                "currency": "USD",
+                "raw": "486.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: PWMｱﾝﾌﾟﾅｲｿﾞｳ14cmｳｰﾊｰ[A112], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB9340N",
+          "name": "rear speaker kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 289,
+                "y1": 298,
+                "x2": 355,
+                "y2": 313
+              },
+              "norm": {
+                "x1": 0.2826,
+                "y1": 0.5824,
+                "x2": 0.3471,
+                "y2": 0.6117
+              },
+              "title": "rear speaker kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9340-N9270",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9270",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9271",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9271",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9370",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9370",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 457.04,
+                "currency": "USD",
+                "raw": "457.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9380",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9380",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 514.18,
+                "currency": "USD",
+                "raw": "514.18"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9381",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9381",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9570",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9570",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 424.4,
+                "currency": "USD",
+                "raw": "424.40"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9680",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9680",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 359.11,
+                "currency": "USD",
+                "raw": "359.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9880",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9880",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+            },
+            {
+              "oem": "B9341-C9978",
+              "url": "https://www.amayama.com/en/part/nissan/b9341c9978",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9343-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9343c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 486.43,
+                "currency": "USD",
+                "raw": "486.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_006_5",
+      "index": 6,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_006.png",
+      "callouts": [
+        {
+          "pnc": "KB9340N",
+          "name": "rear speaker kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 640,
+                "y1": 309,
+                "x2": 706,
+                "y2": 324
+              },
+              "norm": {
+                "x1": 0.6248,
+                "y1": 0.6035,
+                "x2": 0.6893,
+                "y2": 0.6328
+              },
+              "title": "rear speaker kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 170,
+                "y1": 310,
+                "x2": 236,
+                "y2": 325
+              },
+              "norm": {
+                "x1": 0.1658,
+                "y1": 0.6059,
+                "x2": 0.2303,
+                "y2": 0.6352
+              },
+              "title": "rear speaker kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9340-N9270",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9270",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-525,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9271",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9271",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-424,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9370",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9370",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 457.04,
+                "currency": "USD",
+                "raw": "457.04"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-555,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9380",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9380",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 514.18,
+                "currency": "USD",
+                "raw": "514.18"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-277,ﾊﾝｳﾒｺﾐｶﾞﾀ,3WAY,3SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9381",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9381",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-404,ｽｴｵｷｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9570",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9570",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 424.4,
+                "currency": "USD",
+                "raw": "424.40"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄSRB500,ｽｴｵｷｶﾞﾀ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9680",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9680",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC550[A207], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9770",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9770",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 359.11,
+                "currency": "USD",
+                "raw": "359.11"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄ,SRB401[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-N9880",
+              "url": "https://www.amayama.com/en/part/nissan/b9340n9880",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 339.52,
+                "currency": "USD",
+                "raw": "339.52"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KSC-550S[A207], App. model: HB"
+            },
+            {
+              "oem": "B9341-C9978",
+              "url": "https://www.amayama.com/en/part/nissan/b9341c9978",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 473.37,
+                "currency": "USD",
+                "raw": "473.37"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,R-505,ｽｴｵｷｶﾞﾀ,3WAY,3SP[A403], App. model: HB"
+            },
+            {
+              "oem": "B9343-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9343c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 486.43,
+                "currency": "USD",
+                "raw": "486.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-A770,ﾊﾝｳﾒｺﾐｶﾞﾀ,4WAY,4SP[A207], App. model: HB"
+            },
+            {
+              "oem": "B9345-C9960",
+              "url": "https://www.amayama.com/en/part/nissan/b9345c9960",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 142.34,
+                "currency": "USD",
+                "raw": "142.34"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS210,4\"X6\",2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-C9975",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9975",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾗﾘｵﾝ,F-117MS,4\"X6\",ｺｱｷｼｬﾙ2WAY,P-Pｺ-ﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-C9980",
+              "url": "https://www.amayama.com/en/part/nissan/b9355c9980",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469,4\"X6\",ｺｱｷｼｬﾙ2WAYｸﾛｽｶｰﾎﾞﾝ, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9390",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9390",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS213S,4\"X6\",ｺｱｷｼｬﾙ2WAY[A112], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9662",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9662",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 274.23,
+                "currency": "USD",
+                "raw": "274.23"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS4688, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9672",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9672",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 244.85,
+                "currency": "USD",
+                "raw": "244.85"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄF-117MS[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9682",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9682",
+              "applies": [],
+              "details": {
+                "specification": "ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｹﾝｳｯﾄﾞ,KFC-469[A207], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9691",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9691",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 158.7,
+                "currency": "USD",
+                "raw": "158.70"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾊﾟｲﾝ,NS630[A112], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KB9355N",
+          "name": "tweeter",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 81,
+                "y1": 354,
+                "x2": 147,
+                "y2": 369
+              },
+              "norm": {
+                "x1": 0.0787,
+                "y1": 0.691,
+                "x2": 0.1432,
+                "y2": 0.7203
+              },
+              "title": "tweeter"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 560,
+                "y1": 354,
+                "x2": 626,
+                "y2": 369
+              },
+              "norm": {
+                "x1": 0.5471,
+                "y1": 0.691,
+                "x2": 0.6115,
+                "y2": 0.7203
+              },
+              "title": "tweeter"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9355-N9663",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9663",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾛｯﾂｴﾘｱ,TS-T22, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 229.06,
+                "currency": "USD",
+                "raw": "229.06"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾛｯﾂｴﾘｱ,TS-T22, App. model: HB"
+            },
+            {
+              "oem": "B9355-N9673",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9673",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄ ﾂｲｰﾀｰ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 155.43,
+                "currency": "USD",
+                "raw": "155.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄ ﾂｲｰﾀｰ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-N9771",
+              "url": "https://www.amayama.com/en/part/nissan/b9355n9771",
+              "applies": [],
+              "details": {
+                "specification": "ｱｾﾞｽﾄ,SRH201[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1998-09",
+                "to": "1999-03",
+                "raw": "09.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 155.43,
+                "currency": "USD",
+                "raw": "155.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱｾﾞｽﾄ,SRH201[A403], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B84_007_6",
+      "index": 7,
+      "of": 7,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B84_007.png",
+      "callouts": [
+        {
+          "pnc": "KB9340",
+          "name": "rear speaker kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 773,
+                "y1": 70,
+                "x2": 830,
+                "y2": 85
+              },
+              "norm": {
+                "x1": 0.7545,
+                "y1": 0.1371,
+                "x2": 0.8102,
+                "y2": 0.1664
+              },
+              "title": "rear speaker kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9340-47F00",
+              "url": "https://www.amayama.com/en/part/nissan/b934047f00",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾃﾞｨｵﾚｽｼｬﾖｳ,4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾃﾞｨｵﾚｽｼｬﾖｳ,4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-47F00",
+              "url": "https://www.amayama.com/en/part/nissan/b934047f00",
+              "applies": [],
+              "details": {
+                "specification": "4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9340-47F00",
+              "url": "https://www.amayama.com/en/part/nissan/b934047f00",
+              "applies": [],
+              "details": {
+                "specification": "4*6ｲﾝﾁ､2ｺ[A403], App. model: HB.SR20DET"
+              },
+              "period": {
+                "from": "1996-12",
+                "to": "1998-12",
+                "raw": "12.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 4*6ｲﾝﾁ､2ｺ[A403], App. model: HB.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "KB9350",
+          "name": "front speaker kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 67,
+                "y1": 71,
+                "x2": 124,
+                "y2": 86
+              },
+              "norm": {
+                "x1": 0.0654,
+                "y1": 0.1379,
+                "x2": 0.1211,
+                "y2": 0.1672
+              },
+              "title": "front speaker kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B9355-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b935535f00",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾃﾞｨｵﾚｽｼｬﾖｳ,4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 73.63,
+                "currency": "USD",
+                "raw": "73.63"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾃﾞｨｵﾚｽｼｬﾖｳ,4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b935535f00",
+              "applies": [],
+              "details": {
+                "specification": "4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 73.63,
+                "currency": "USD",
+                "raw": "73.63"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 4*6ｲﾝﾁ､2ｺ[A403], App. model: HB"
+            },
+            {
+              "oem": "B9355-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b935535f00",
+              "applies": [],
+              "details": {
+                "specification": "4*6ｲﾝﾁ､2ｺ[A403], App. model: HB.SR20DET"
+              },
+              "period": {
+                "from": "1996-12",
+                "to": "1998-12",
+                "raw": "12.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 73.63,
+                "currency": "USD",
+                "raw": "73.63"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 4*6ｲﾝﾁ､2ｺ[A403], App. model: HB.SR20DET"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

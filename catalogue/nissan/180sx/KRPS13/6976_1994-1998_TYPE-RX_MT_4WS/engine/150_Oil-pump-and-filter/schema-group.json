@@ -1,0 +1,2468 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "150",
+    "name": "oil pump & filter",
+    "title_raw": "oil pump & filter (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/150_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/e3621d631528e5623ea2da6a648cd297.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "150_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/150_001.png",
+      "callouts": [
+        {
+          "pnc": "15050",
+          "name": "oil strainer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 440,
+                "x2": 572,
+                "y2": 455
+              },
+              "norm": {
+                "x1": 0.5143,
+                "y1": 0.8598,
+                "x2": 0.5582,
+                "y2": 0.8891
+              },
+              "title": "oil strainer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15050-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1505052f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1991-04",
+                "raw": "01.1991 - 04.1991"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 52.36,
+                "currency": "USD",
+                "raw": "52.36"
+              },
+              "replacements": [
+                {
+                  "oem": "15050-52F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1505052f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 52.36,
+                    "currency": "USD",
+                    "raw": "52.36"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505052f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-04",
+                "to": "1993-09",
+                "raw": "04.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 52.36,
+                "currency": "USD",
+                "raw": "52.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505065f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 63.97,
+                "currency": "USD",
+                "raw": "63.97"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505065f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 63.97,
+                "currency": "USD",
+                "raw": "63.97"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15208",
+          "name": "oil element",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 115,
+                "y1": 459,
+                "x2": 160,
+                "y2": 474
+              },
+              "norm": {
+                "x1": 0.1119,
+                "y1": 0.8965,
+                "x2": 0.1559,
+                "y2": 0.9258
+              },
+              "title": "oil element"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY100-NS005",
+              "url": "https://www.amayama.com/en/part/nissan/ay100ns005",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.21,
+                "currency": "USD",
+                "raw": "19.21"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY100-NS005",
+              "url": "https://www.amayama.com/en/part/nissan/ay100ns005",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.21,
+                "currency": "USD",
+                "raw": "19.21"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15238",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 158,
+                "y1": 148,
+                "x2": 203,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.1545,
+                "y1": 0.2895,
+                "x2": 0.1984,
+                "y2": 0.3187
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15238-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1523852f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15238-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1523852f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15300",
+          "name": "relief valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 303,
+                "y1": 253,
+                "x2": 348,
+                "y2": 268
+              },
+              "norm": {
+                "x1": 0.2959,
+                "y1": 0.4949,
+                "x2": 0.3398,
+                "y2": 0.5242
+              },
+              "title": "relief valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15300-76200",
+              "url": "https://www.amayama.com/en/part/nissan/1530076200",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.27,
+                "currency": "USD",
+                "raw": "4.27"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15300-76200",
+              "url": "https://www.amayama.com/en/part/nissan/1530076200",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.27,
+                "currency": "USD",
+                "raw": "4.27"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15303",
+          "name": "plug-oil cooler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 192,
+                "y1": 197,
+                "x2": 237,
+                "y2": 212
+              },
+              "norm": {
+                "x1": 0.1877,
+                "y1": 0.3855,
+                "x2": 0.2316,
+                "y2": 0.4148
+              },
+              "title": "plug-oil cooler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15303-61503",
+              "url": "https://www.amayama.com/en/part/nissan/1530361503",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.73,
+                "currency": "USD",
+                "raw": "23.73"
+              },
+              "replacements": [
+                {
+                  "oem": "15134-6150A",
+                  "url": "https://www.amayama.com/en/part/nissan/151346150a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.55,
+                    "currency": "USD",
+                    "raw": "19.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15303-61503",
+              "url": "https://www.amayama.com/en/part/nissan/1530361503",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.73,
+                "currency": "USD",
+                "raw": "23.73"
+              },
+              "replacements": [
+                {
+                  "oem": "15134-6150A",
+                  "url": "https://www.amayama.com/en/part/nissan/151346150a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.55,
+                    "currency": "USD",
+                    "raw": "19.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15304",
+          "name": "packing-oil coo",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 197,
+                "y1": 216,
+                "x2": 242,
+                "y2": 231
+              },
+              "norm": {
+                "x1": 0.192,
+                "y1": 0.4215,
+                "x2": 0.2359,
+                "y2": 0.4508
+              },
+              "title": "packing-oil coo"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15304-61501",
+              "url": "https://www.amayama.com/en/part/nissan/1530461501",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.04,
+                "currency": "USD",
+                "raw": "5.04"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15304-61501",
+              "url": "https://www.amayama.com/en/part/nissan/1530461501",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.04,
+                "currency": "USD",
+                "raw": "5.04"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15050A",
+          "name": "bolt-oil pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 228,
+                "y1": 401,
+                "x2": 282,
+                "y2": 416
+              },
+              "norm": {
+                "x1": 0.2225,
+                "y1": 0.7832,
+                "x2": 0.2752,
+                "y2": 0.8125
+              },
+              "title": "bolt-oil pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "16122-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1612252f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT Required: 4 pcs"
+            },
+            {
+              "oem": "16122-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1612252f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "15053M",
+          "name": "gasket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 687,
+                "y1": 381,
+                "x2": 741,
+                "y2": 396
+              },
+              "norm": {
+                "x1": 0.6713,
+                "y1": 0.7434,
+                "x2": 0.724,
+                "y2": 0.7727
+              },
+              "title": "gasket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15053-1E400",
+              "url": "https://www.amayama.com/en/part/nissan/150531e400",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.73,
+                "currency": "USD",
+                "raw": "1.73"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "15059-V5001",
+              "url": "https://www.amayama.com/en/part/nissan/15059v5001",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.28,
+                "currency": "USD",
+                "raw": "3.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            }
+          ]
+        },
+        {
+          "pnc": "15200F",
+          "name": "ring-o",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 395,
+                "y1": 182,
+                "x2": 449,
+                "y2": 197
+              },
+              "norm": {
+                "x1": 0.3857,
+                "y1": 0.3551,
+                "x2": 0.4385,
+                "y2": 0.3844
+              },
+              "title": "ring-o"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 479,
+                "y1": 246,
+                "x2": 533,
+                "y2": 261
+              },
+              "norm": {
+                "x1": 0.4682,
+                "y1": 0.4801,
+                "x2": 0.5209,
+                "y2": 0.5094
+              },
+              "title": "ring-o"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15066-0M300",
+              "url": "https://www.amayama.com/en/part/nissan/150660m300",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G01",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g01",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G01",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g01",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G11",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 6.55,
+                "currency": "USD",
+                "raw": "6.55"
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G11",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 6.55,
+                "currency": "USD",
+                "raw": "6.55"
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "15301M",
+          "name": "valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 194,
+                "y1": 234,
+                "x2": 245,
+                "y2": 249
+              },
+              "norm": {
+                "x1": 0.1896,
+                "y1": 0.4566,
+                "x2": 0.2395,
+                "y2": 0.4859
+              },
+              "title": "valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15243-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1524352f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.56,
+                "currency": "USD",
+                "raw": "3.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15243-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1524352f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.56,
+                "currency": "USD",
+                "raw": "3.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "009331141A",
+          "name": "plug",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 115,
+                "y1": 255,
+                "x2": 208,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.1127,
+                "y1": 0.4973,
+                "x2": 0.2035,
+                "y2": 0.5266
+              },
+              "title": "plug"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 384,
+                "y1": 329,
+                "x2": 477,
+                "y2": 344
+              },
+              "norm": {
+                "x1": 0.3748,
+                "y1": 0.6418,
+                "x2": 0.4656,
+                "y2": 0.6711
+              },
+              "title": "plug"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "00933-1141A",
+              "url": "https://www.amayama.com/en/part/nissan/009331141a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081208201E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 514,
+                "y1": 473,
+                "x2": 610,
+                "y2": 488
+              },
+              "norm": {
+                "x1": 0.5018,
+                "y1": 0.923,
+                "x2": 0.5955,
+                "y2": 0.9523
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08120-8201E",
+              "url": "https://www.amayama.com/en/part/nissan/081208201e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0812061228",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 759,
+                "y1": 450,
+                "x2": 855,
+                "y2": 465
+              },
+              "norm": {
+                "x1": 0.7412,
+                "y1": 0.8785,
+                "x2": 0.835,
+                "y2": 0.9078
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08120-61228",
+              "url": "https://www.amayama.com/en/part/nissan/0812061228",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "150_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "megazip/RS13/150_001.png",
+      "callouts": [
+        {
+          "pnc": "15050",
+          "name": "oil strainer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 440,
+                "x2": 572,
+                "y2": 455
+              },
+              "norm": {
+                "x1": 0.5143,
+                "y1": 0.8598,
+                "x2": 0.5582,
+                "y2": 0.8891
+              },
+              "title": "oil strainer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15050-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1505052f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1991-04",
+                "raw": "01.1991 - 04.1991"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 52.36,
+                "currency": "USD",
+                "raw": "52.36"
+              },
+              "replacements": [
+                {
+                  "oem": "15050-52F01",
+                  "url": "https://www.amayama.com/en/part/nissan/1505052f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 52.36,
+                    "currency": "USD",
+                    "raw": "52.36"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505052f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-04",
+                "to": "1993-09",
+                "raw": "04.1991 - 09.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 52.36,
+                "currency": "USD",
+                "raw": "52.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505065f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 63.97,
+                "currency": "USD",
+                "raw": "63.97"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15050-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1505065f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 63.97,
+                "currency": "USD",
+                "raw": "63.97"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15208",
+          "name": "oil element",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 115,
+                "y1": 459,
+                "x2": 160,
+                "y2": 474
+              },
+              "norm": {
+                "x1": 0.1119,
+                "y1": 0.8965,
+                "x2": 0.1559,
+                "y2": 0.9258
+              },
+              "title": "oil element"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY100-NS005",
+              "url": "https://www.amayama.com/en/part/nissan/ay100ns005",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.21,
+                "currency": "USD",
+                "raw": "19.21"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY100-NS005",
+              "url": "https://www.amayama.com/en/part/nissan/ay100ns005",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.21,
+                "currency": "USD",
+                "raw": "19.21"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15238",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 158,
+                "y1": 148,
+                "x2": 203,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.1545,
+                "y1": 0.2895,
+                "x2": 0.1984,
+                "y2": 0.3187
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15238-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1523852f01",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15238-52F01",
+              "url": "https://www.amayama.com/en/part/nissan/1523852f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15300",
+          "name": "relief valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 303,
+                "y1": 253,
+                "x2": 348,
+                "y2": 268
+              },
+              "norm": {
+                "x1": 0.2959,
+                "y1": 0.4949,
+                "x2": 0.3398,
+                "y2": 0.5242
+              },
+              "title": "relief valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15300-76200",
+              "url": "https://www.amayama.com/en/part/nissan/1530076200",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.27,
+                "currency": "USD",
+                "raw": "4.27"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15300-76200",
+              "url": "https://www.amayama.com/en/part/nissan/1530076200",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.27,
+                "currency": "USD",
+                "raw": "4.27"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15303",
+          "name": "plug-oil cooler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 192,
+                "y1": 197,
+                "x2": 237,
+                "y2": 212
+              },
+              "norm": {
+                "x1": 0.1877,
+                "y1": 0.3855,
+                "x2": 0.2316,
+                "y2": 0.4148
+              },
+              "title": "plug-oil cooler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15303-61503",
+              "url": "https://www.amayama.com/en/part/nissan/1530361503",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.73,
+                "currency": "USD",
+                "raw": "23.73"
+              },
+              "replacements": [
+                {
+                  "oem": "15134-6150A",
+                  "url": "https://www.amayama.com/en/part/nissan/151346150a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.55,
+                    "currency": "USD",
+                    "raw": "19.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15303-61503",
+              "url": "https://www.amayama.com/en/part/nissan/1530361503",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 23.73,
+                "currency": "USD",
+                "raw": "23.73"
+              },
+              "replacements": [
+                {
+                  "oem": "15134-6150A",
+                  "url": "https://www.amayama.com/en/part/nissan/151346150a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.55,
+                    "currency": "USD",
+                    "raw": "19.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15304",
+          "name": "packing-oil coo",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 197,
+                "y1": 216,
+                "x2": 242,
+                "y2": 231
+              },
+              "norm": {
+                "x1": 0.192,
+                "y1": 0.4215,
+                "x2": 0.2359,
+                "y2": 0.4508
+              },
+              "title": "packing-oil coo"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15304-61501",
+              "url": "https://www.amayama.com/en/part/nissan/1530461501",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.04,
+                "currency": "USD",
+                "raw": "5.04"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15304-61501",
+              "url": "https://www.amayama.com/en/part/nissan/1530461501",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.04,
+                "currency": "USD",
+                "raw": "5.04"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "15050A",
+          "name": "bolt-oil pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 228,
+                "y1": 401,
+                "x2": 282,
+                "y2": 416
+              },
+              "norm": {
+                "x1": 0.2225,
+                "y1": 0.7832,
+                "x2": 0.2752,
+                "y2": 0.8125
+              },
+              "title": "bolt-oil pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "16122-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1612252f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT Required: 4 pcs"
+            },
+            {
+              "oem": "16122-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1612252f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "15053M",
+          "name": "gasket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 687,
+                "y1": 381,
+                "x2": 741,
+                "y2": 396
+              },
+              "norm": {
+                "x1": 0.6713,
+                "y1": 0.7434,
+                "x2": 0.724,
+                "y2": 0.7727
+              },
+              "title": "gasket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15053-1E400",
+              "url": "https://www.amayama.com/en/part/nissan/150531e400",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.73,
+                "currency": "USD",
+                "raw": "1.73"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "15059-V5001",
+              "url": "https://www.amayama.com/en/part/nissan/15059v5001",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.28,
+                "currency": "USD",
+                "raw": "3.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            }
+          ]
+        },
+        {
+          "pnc": "15200F",
+          "name": "ring-o",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 395,
+                "y1": 182,
+                "x2": 449,
+                "y2": 197
+              },
+              "norm": {
+                "x1": 0.3857,
+                "y1": 0.3551,
+                "x2": 0.4385,
+                "y2": 0.3844
+              },
+              "title": "ring-o"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 479,
+                "y1": 246,
+                "x2": 533,
+                "y2": 261
+              },
+              "norm": {
+                "x1": 0.4682,
+                "y1": 0.4801,
+                "x2": 0.5209,
+                "y2": 0.5094
+              },
+              "title": "ring-o"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15066-0M300",
+              "url": "https://www.amayama.com/en/part/nissan/150660m300",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G01",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g01",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G01",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g01",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DET Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G11",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 6.55,
+                "currency": "USD",
+                "raw": "6.55"
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NOK, App. model: SR20DT Required: 2 pcs"
+            },
+            {
+              "oem": "15066-85G11",
+              "url": "https://www.amayama.com/en/part/nissan/1506685g11",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DET",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 6.55,
+                "currency": "USD",
+                "raw": "6.55"
+              },
+              "replacements": [
+                {
+                  "oem": "15066-0M300",
+                  "url": "https://www.amayama.com/en/part/nissan/150660m300",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E500",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e500",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "15066-5E510",
+                  "url": "https://www.amayama.com/en/part/nissan/150665e510",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.19,
+                    "currency": "USD",
+                    "raw": "4.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾄﾞﾁﾗﾃﾞﾓ ｼﾖｳｶ NDK, App. model: SR20DET Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "15301M",
+          "name": "valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 194,
+                "y1": 234,
+                "x2": 245,
+                "y2": 249
+              },
+              "norm": {
+                "x1": 0.1896,
+                "y1": 0.4566,
+                "x2": 0.2395,
+                "y2": 0.4859
+              },
+              "title": "valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "15243-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1524352f00",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.56,
+                "currency": "USD",
+                "raw": "3.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "15243-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1524352f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.56,
+                "currency": "USD",
+                "raw": "3.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "009331141A",
+          "name": "plug",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 115,
+                "y1": 255,
+                "x2": 208,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.1127,
+                "y1": 0.4973,
+                "x2": 0.2035,
+                "y2": 0.5266
+              },
+              "title": "plug"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 384,
+                "y1": 329,
+                "x2": 477,
+                "y2": 344
+              },
+              "norm": {
+                "x1": 0.3748,
+                "y1": 0.6418,
+                "x2": 0.4656,
+                "y2": 0.6711
+              },
+              "title": "plug"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "00933-1141A",
+              "url": "https://www.amayama.com/en/part/nissan/009331141a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081208201E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 514,
+                "y1": 473,
+                "x2": 610,
+                "y2": 488
+              },
+              "norm": {
+                "x1": 0.5018,
+                "y1": 0.923,
+                "x2": 0.5955,
+                "y2": 0.9523
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08120-8201E",
+              "url": "https://www.amayama.com/en/part/nissan/081208201e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0812061228",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 759,
+                "y1": 450,
+                "x2": 855,
+                "y2": 465
+              },
+              "norm": {
+                "x1": 0.7412,
+                "y1": 0.8785,
+                "x2": 0.835,
+                "y2": 0.9078
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08120-61228",
+              "url": "https://www.amayama.com/en/part/nissan/0812061228",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

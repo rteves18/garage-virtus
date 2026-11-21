@@ -1,0 +1,511 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "K62",
+    "name": "number plate rim",
+    "title_raw": "number plate rim (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/K62_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/b83f186b6b408d8d52dd48474428b9e8.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/K62_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/2b8defc7d170825a41bde2d439c71f24.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "K62_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/K62_001.png",
+      "callouts": [
+        {
+          "pnc": "KK6210",
+          "name": "number plate rim",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 275,
+                "y1": 168,
+                "x2": 329,
+                "y2": 183
+              },
+              "norm": {
+                "x1": 0.2686,
+                "y1": 0.3277,
+                "x2": 0.3213,
+                "y2": 0.357
+              },
+              "title": "number plate rim"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6210-79960",
+              "url": "https://www.amayama.com/en/part/nissan/k621079960",
+              "applies": [],
+              "details": {
+                "specification": "ﾒﾀﾘｯｸ,ﾌﾛﾝﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.9,
+                "currency": "USD",
+                "raw": "40.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾒﾀﾘｯｸ,ﾌﾛﾝﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6210-79960",
+              "url": "https://www.amayama.com/en/part/nissan/k621079960",
+              "applies": [],
+              "details": {
+                "specification": "ﾒﾀﾘｯｸ,ﾘﾔ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.9,
+                "currency": "USD",
+                "raw": "40.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾒﾀﾘｯｸ,ﾘﾔ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KK6211",
+          "name": "number plate rim",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 275,
+                "y1": 184,
+                "x2": 326,
+                "y2": 199
+              },
+              "norm": {
+                "x1": 0.2686,
+                "y1": 0.3598,
+                "x2": 0.3184,
+                "y2": 0.3891
+              },
+              "title": "number plate rim"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B1170-89961",
+              "url": "https://www.amayama.com/en/part/nissan/b117089961",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79900",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079900",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.88,
+                    "currency": "USD",
+                    "raw": "17.88"
+                  }
+                },
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "B1170-89965",
+              "url": "https://www.amayama.com/en/part/nissan/b117089965",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79900",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079900",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.88,
+                    "currency": "USD",
+                    "raw": "17.88"
+                  }
+                },
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｸﾞﾚｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6210-79900",
+              "url": "https://www.amayama.com/en/part/nissan/k621079900",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｸﾞﾚｰ,ﾋｮｳｼﾞｭﾝ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.88,
+                "currency": "USD",
+                "raw": "17.88"
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀﾞｰｸｸﾞﾚｰ,ﾋｮｳｼﾞｭﾝ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K62_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/K62_002.png",
+      "callouts": [
+        {
+          "pnc": "KK6210",
+          "name": "number plate rim",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 393,
+                "y1": 372,
+                "x2": 447,
+                "y2": 387
+              },
+              "norm": {
+                "x1": 0.3834,
+                "y1": 0.7262,
+                "x2": 0.4361,
+                "y2": 0.7555
+              },
+              "title": "number plate rim"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6210-79960",
+              "url": "https://www.amayama.com/en/part/nissan/k621079960",
+              "applies": [],
+              "details": {
+                "specification": "ﾒﾀﾘｯｸ,ﾌﾛﾝﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.9,
+                "currency": "USD",
+                "raw": "40.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾒﾀﾘｯｸ,ﾌﾛﾝﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6210-79960",
+              "url": "https://www.amayama.com/en/part/nissan/k621079960",
+              "applies": [],
+              "details": {
+                "specification": "ﾒﾀﾘｯｸ,ﾘﾔ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.9,
+                "currency": "USD",
+                "raw": "40.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾒﾀﾘｯｸ,ﾘﾔ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KK6211",
+          "name": "number plate rim",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 393,
+                "y1": 387,
+                "x2": 444,
+                "y2": 402
+              },
+              "norm": {
+                "x1": 0.3834,
+                "y1": 0.7566,
+                "x2": 0.4332,
+                "y2": 0.7859
+              },
+              "title": "number plate rim"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B1170-89961",
+              "url": "https://www.amayama.com/en/part/nissan/b117089961",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79900",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079900",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.88,
+                    "currency": "USD",
+                    "raw": "17.88"
+                  }
+                },
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "B1170-89965",
+              "url": "https://www.amayama.com/en/part/nissan/b117089965",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.71,
+                "currency": "USD",
+                "raw": "16.71"
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79900",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079900",
+                  "price": {
+                    "status": "Available",
+                    "amount": 17.88,
+                    "currency": "USD",
+                    "raw": "17.88"
+                  }
+                },
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｸﾞﾚｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6210-79900",
+              "url": "https://www.amayama.com/en/part/nissan/k621079900",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｸﾞﾚｰ,ﾋｮｳｼﾞｭﾝ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 17.88,
+                "currency": "USD",
+                "raw": "17.88"
+              },
+              "replacements": [
+                {
+                  "oem": "K6210-79970",
+                  "url": "https://www.amayama.com/en/part/nissan/k621079970",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.71,
+                    "currency": "USD",
+                    "raw": "16.71"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾀﾞｰｸｸﾞﾚｰ,ﾋｮｳｼﾞｭﾝ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

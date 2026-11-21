@@ -1,0 +1,4134 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "body",
+    "code": "969",
+    "name": "console box trim",
+    "title_raw": "console box trim (body) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/969_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/39e571250e0f638b6312cfe4aa5bef70.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "969_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/969_001.png",
+      "callouts": [
+        {
+          "pnc": "96515",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 600,
+                "y1": 71,
+                "x2": 645,
+                "y2": 86
+              },
+              "norm": {
+                "x1": 0.5857,
+                "y1": 0.1395,
+                "x2": 0.6297,
+                "y2": 0.1688
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96510-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1991-12",
+                "raw": "01.1991 - 12.1991"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.28,
+                "currency": "USD",
+                "raw": "65.28"
+              },
+              "replacements": [
+                {
+                  "oem": "96510-52F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 61.68,
+                    "currency": "USD",
+                    "raw": "61.68"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-12",
+                "to": "1994-01",
+                "raw": "12.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96910",
+          "name": "console box",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 727,
+                "y1": 23,
+                "x2": 772,
+                "y2": 38
+              },
+              "norm": {
+                "x1": 0.71,
+                "y1": 0.0441,
+                "x2": 0.7539,
+                "y2": 0.0734
+              },
+              "title": "console box"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96921",
+          "name": "lid assy-floor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 779,
+                "y1": 208,
+                "x2": 824,
+                "y2": 223
+              },
+              "norm": {
+                "x1": 0.7604,
+                "y1": 0.4059,
+                "x2": 0.8043,
+                "y2": 0.4352
+              },
+              "title": "lid assy-floor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96935",
+          "name": "boot console",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 345,
+                "y1": 279,
+                "x2": 393,
+                "y2": 294
+              },
+              "norm": {
+                "x1": 0.3373,
+                "y1": 0.5449,
+                "x2": 0.3842,
+                "y2": 0.5742
+              },
+              "title": "boot console"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "96940",
+          "name": "indicator assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 450,
+                "x2": 255,
+                "y2": 465
+              },
+              "norm": {
+                "x1": 0.2021,
+                "y1": 0.8793,
+                "x2": 0.249,
+                "y2": 0.9086
+              },
+              "title": "indicator assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96940-44F00",
+              "url": "https://www.amayama.com/en/part/nissan/9694044f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1992-09",
+                "raw": "01.1991 - 09.1992"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96511M",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 84,
+                "x2": 862,
+                "y2": 99
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1637,
+                "x2": 0.8418,
+                "y2": 0.193
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96512P",
+          "name": "brkt-ash tray",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 844,
+                "y1": 141,
+                "x2": 898,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.824,
+                "y1": 0.2762,
+                "x2": 0.8768,
+                "y2": 0.3055
+              },
+              "title": "brkt-ash tray"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96515P",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 494,
+                "y1": 75,
+                "x2": 548,
+                "y2": 90
+              },
+              "norm": {
+                "x1": 0.4822,
+                "y1": 0.1457,
+                "x2": 0.535,
+                "y2": 0.175
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96912A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 912,
+                "y1": 83,
+                "x2": 966,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.8908,
+                "y1": 0.1629,
+                "x2": 0.9436,
+                "y2": 0.1922
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 688,
+                "y1": 91,
+                "x2": 742,
+                "y2": 106
+              },
+              "norm": {
+                "x1": 0.6717,
+                "y1": 0.177,
+                "x2": 0.7244,
+                "y2": 0.2062
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 538,
+                "y1": 92,
+                "x2": 592,
+                "y2": 107
+              },
+              "norm": {
+                "x1": 0.5252,
+                "y1": 0.1793,
+                "x2": 0.5779,
+                "y2": 0.2086
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 146,
+                "x2": 787,
+                "y2": 161
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.2855,
+                "x2": 0.7689,
+                "y2": 0.3148
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 146,
+                "y1": 344,
+                "x2": 200,
+                "y2": 359
+              },
+              "norm": {
+                "x1": 0.1428,
+                "y1": 0.6723,
+                "x2": 0.1955,
+                "y2": 0.7016
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96915A",
+          "name": "grommet-screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 364,
+                "y1": 349,
+                "x2": 418,
+                "y2": 364
+              },
+              "norm": {
+                "x1": 0.3553,
+                "y1": 0.6816,
+                "x2": 0.408,
+                "y2": 0.7109
+              },
+              "title": "grommet-screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96944C",
+          "name": "bulb(12v-1.4w)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 543,
+                "y1": 374,
+                "x2": 600,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.5303,
+                "y1": 0.7301,
+                "x2": 0.5859,
+                "y2": 0.7594
+              },
+              "title": "bulb(12v-1.4w)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96991Q",
+          "name": "sunroof brkt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 818,
+                "y1": 445,
+                "x2": 872,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.7986,
+                "y1": 0.8684,
+                "x2": 0.8514,
+                "y2": 0.8977
+              },
+              "title": "sunroof brkt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "0836361648",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 621,
+                "y1": 435,
+                "x2": 720,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.6064,
+                "y1": 0.8488,
+                "x2": 0.7031,
+                "y2": 0.8781
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-61648",
+              "url": "https://www.amayama.com/en/part/nissan/0836361648",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08363-6162H",
+                  "url": "https://www.amayama.com/en/part/nissan/083636162h",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.15,
+                    "currency": "USD",
+                    "raw": "2.15"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051210",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 478,
+                "y1": 400,
+                "x2": 574,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.4666,
+                "y1": 0.7809,
+                "x2": 0.5604,
+                "y2": 0.8102
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51210",
+              "url": "https://www.amayama.com/en/part/nissan/0854051210",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051212",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 379,
+                "x2": 277,
+                "y2": 394
+              },
+              "norm": {
+                "x1": 0.1764,
+                "y1": 0.7402,
+                "x2": 0.2701,
+                "y2": 0.7695
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0854051212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "969_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/969_001.png",
+      "callouts": [
+        {
+          "pnc": "96515",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 600,
+                "y1": 71,
+                "x2": 645,
+                "y2": 86
+              },
+              "norm": {
+                "x1": 0.5857,
+                "y1": 0.1395,
+                "x2": 0.6297,
+                "y2": 0.1688
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96510-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1991-12",
+                "raw": "01.1991 - 12.1991"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.28,
+                "currency": "USD",
+                "raw": "65.28"
+              },
+              "replacements": [
+                {
+                  "oem": "96510-52F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 61.68,
+                    "currency": "USD",
+                    "raw": "61.68"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-12",
+                "to": "1994-01",
+                "raw": "12.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96910",
+          "name": "console box",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 727,
+                "y1": 23,
+                "x2": 772,
+                "y2": 38
+              },
+              "norm": {
+                "x1": 0.71,
+                "y1": 0.0441,
+                "x2": 0.7539,
+                "y2": 0.0734
+              },
+              "title": "console box"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96921",
+          "name": "lid assy-floor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 779,
+                "y1": 208,
+                "x2": 824,
+                "y2": 223
+              },
+              "norm": {
+                "x1": 0.7604,
+                "y1": 0.4059,
+                "x2": 0.8043,
+                "y2": 0.4352
+              },
+              "title": "lid assy-floor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96935",
+          "name": "boot console",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 345,
+                "y1": 279,
+                "x2": 393,
+                "y2": 294
+              },
+              "norm": {
+                "x1": 0.3373,
+                "y1": 0.5449,
+                "x2": 0.3842,
+                "y2": 0.5742
+              },
+              "title": "boot console"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "96940",
+          "name": "indicator assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 450,
+                "x2": 255,
+                "y2": 465
+              },
+              "norm": {
+                "x1": 0.2021,
+                "y1": 0.8793,
+                "x2": 0.249,
+                "y2": 0.9086
+              },
+              "title": "indicator assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96940-44F00",
+              "url": "https://www.amayama.com/en/part/nissan/9694044f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1992-09",
+                "raw": "01.1991 - 09.1992"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96511M",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 84,
+                "x2": 862,
+                "y2": 99
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1637,
+                "x2": 0.8418,
+                "y2": 0.193
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96512P",
+          "name": "brkt-ash tray",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 844,
+                "y1": 141,
+                "x2": 898,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.824,
+                "y1": 0.2762,
+                "x2": 0.8768,
+                "y2": 0.3055
+              },
+              "title": "brkt-ash tray"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96515P",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 494,
+                "y1": 75,
+                "x2": 548,
+                "y2": 90
+              },
+              "norm": {
+                "x1": 0.4822,
+                "y1": 0.1457,
+                "x2": 0.535,
+                "y2": 0.175
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96912A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 912,
+                "y1": 83,
+                "x2": 966,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.8908,
+                "y1": 0.1629,
+                "x2": 0.9436,
+                "y2": 0.1922
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 688,
+                "y1": 91,
+                "x2": 742,
+                "y2": 106
+              },
+              "norm": {
+                "x1": 0.6717,
+                "y1": 0.177,
+                "x2": 0.7244,
+                "y2": 0.2062
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 538,
+                "y1": 92,
+                "x2": 592,
+                "y2": 107
+              },
+              "norm": {
+                "x1": 0.5252,
+                "y1": 0.1793,
+                "x2": 0.5779,
+                "y2": 0.2086
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 146,
+                "x2": 787,
+                "y2": 161
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.2855,
+                "x2": 0.7689,
+                "y2": 0.3148
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 146,
+                "y1": 344,
+                "x2": 200,
+                "y2": 359
+              },
+              "norm": {
+                "x1": 0.1428,
+                "y1": 0.6723,
+                "x2": 0.1955,
+                "y2": 0.7016
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96915A",
+          "name": "grommet-screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 364,
+                "y1": 349,
+                "x2": 418,
+                "y2": 364
+              },
+              "norm": {
+                "x1": 0.3553,
+                "y1": 0.6816,
+                "x2": 0.408,
+                "y2": 0.7109
+              },
+              "title": "grommet-screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96944C",
+          "name": "bulb(12v-1.4w)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 543,
+                "y1": 374,
+                "x2": 600,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.5303,
+                "y1": 0.7301,
+                "x2": 0.5859,
+                "y2": 0.7594
+              },
+              "title": "bulb(12v-1.4w)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96991Q",
+          "name": "sunroof brkt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 818,
+                "y1": 445,
+                "x2": 872,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.7986,
+                "y1": 0.8684,
+                "x2": 0.8514,
+                "y2": 0.8977
+              },
+              "title": "sunroof brkt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "0836361648",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 621,
+                "y1": 435,
+                "x2": 720,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.6064,
+                "y1": 0.8488,
+                "x2": 0.7031,
+                "y2": 0.8781
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-61648",
+              "url": "https://www.amayama.com/en/part/nissan/0836361648",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08363-6162H",
+                  "url": "https://www.amayama.com/en/part/nissan/083636162h",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.15,
+                    "currency": "USD",
+                    "raw": "2.15"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051210",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 478,
+                "y1": 400,
+                "x2": 574,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.4666,
+                "y1": 0.7809,
+                "x2": 0.5604,
+                "y2": 0.8102
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51210",
+              "url": "https://www.amayama.com/en/part/nissan/0854051210",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051212",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 379,
+                "x2": 277,
+                "y2": 394
+              },
+              "norm": {
+                "x1": 0.1764,
+                "y1": 0.7402,
+                "x2": 0.2701,
+                "y2": 0.7695
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0854051212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "969_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/969_001.png",
+      "callouts": [
+        {
+          "pnc": "96515",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 600,
+                "y1": 71,
+                "x2": 645,
+                "y2": 86
+              },
+              "norm": {
+                "x1": 0.5857,
+                "y1": 0.1395,
+                "x2": 0.6297,
+                "y2": 0.1688
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96510-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1991-12",
+                "raw": "01.1991 - 12.1991"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.28,
+                "currency": "USD",
+                "raw": "65.28"
+              },
+              "replacements": [
+                {
+                  "oem": "96510-52F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 61.68,
+                    "currency": "USD",
+                    "raw": "61.68"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-12",
+                "to": "1994-01",
+                "raw": "12.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96510-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/9651052f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 61.68,
+                "currency": "USD",
+                "raw": "61.68"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96910",
+          "name": "console box",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 727,
+                "y1": 23,
+                "x2": 772,
+                "y2": 38
+              },
+              "norm": {
+                "x1": 0.71,
+                "y1": 0.0441,
+                "x2": 0.7539,
+                "y2": 0.0734
+              },
+              "title": "console box"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/9691052f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 321.56,
+                "currency": "USD",
+                "raw": "321.56"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96921",
+          "name": "lid assy-floor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 779,
+                "y1": 208,
+                "x2": 824,
+                "y2": 223
+              },
+              "norm": {
+                "x1": 0.7604,
+                "y1": 0.4059,
+                "x2": 0.8043,
+                "y2": 0.4352
+              },
+              "title": "lid assy-floor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96920-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9692035f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 101.44,
+                "currency": "USD",
+                "raw": "101.44"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96935",
+          "name": "boot console",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 345,
+                "y1": 279,
+                "x2": 393,
+                "y2": 294
+              },
+              "norm": {
+                "x1": 0.3373,
+                "y1": 0.5449,
+                "x2": 0.3842,
+                "y2": 0.5742
+              },
+              "title": "boot console"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            },
+            {
+              "oem": "96935-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/9693535f10",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 56.12,
+                "currency": "USD",
+                "raw": "56.12"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "96940",
+          "name": "indicator assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 450,
+                "x2": 255,
+                "y2": 465
+              },
+              "norm": {
+                "x1": 0.2021,
+                "y1": 0.8793,
+                "x2": 0.249,
+                "y2": 0.9086
+              },
+              "title": "indicator assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96940-44F00",
+              "url": "https://www.amayama.com/en/part/nissan/9694044f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1992-09",
+                "raw": "01.1991 - 09.1992"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.52,
+                "currency": "USD",
+                "raw": "186.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96511M",
+          "name": "ash tray assy-c",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 84,
+                "x2": 862,
+                "y2": 99
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1637,
+                "x2": 0.8418,
+                "y2": 0.193
+              },
+              "title": "ash tray assy-c"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96511-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651135f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 74.77,
+                "currency": "USD",
+                "raw": "74.77"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96512P",
+          "name": "brkt-ash tray",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 844,
+                "y1": 141,
+                "x2": 898,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.824,
+                "y1": 0.2762,
+                "x2": 0.8768,
+                "y2": 0.3055
+              },
+              "title": "brkt-ash tray"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            },
+            {
+              "oem": "96512-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651235f00",
+              "applies": [],
+              "details": {
+                "trim_color": "G, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.38,
+                "currency": "USD",
+                "raw": "20.38"
+              },
+              "replacements": [],
+              "description_raw": "Trim color: G, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96515P",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 494,
+                "y1": 75,
+                "x2": 548,
+                "y2": 90
+              },
+              "norm": {
+                "x1": 0.4822,
+                "y1": 0.1457,
+                "x2": 0.535,
+                "y2": 0.175
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9651535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.99,
+                "currency": "USD",
+                "raw": "4.99"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96912A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 912,
+                "y1": 83,
+                "x2": 966,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.8908,
+                "y1": 0.1629,
+                "x2": 0.9436,
+                "y2": 0.1922
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 688,
+                "y1": 91,
+                "x2": 742,
+                "y2": 106
+              },
+              "norm": {
+                "x1": 0.6717,
+                "y1": 0.177,
+                "x2": 0.7244,
+                "y2": 0.2062
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 538,
+                "y1": 92,
+                "x2": 592,
+                "y2": 107
+              },
+              "norm": {
+                "x1": 0.5252,
+                "y1": 0.1793,
+                "x2": 0.5779,
+                "y2": 0.2086
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 146,
+                "x2": 787,
+                "y2": 161
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.2855,
+                "x2": 0.7689,
+                "y2": 0.3148
+              },
+              "title": "screw"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 146,
+                "y1": 344,
+                "x2": 200,
+                "y2": 359
+              },
+              "norm": {
+                "x1": 0.1428,
+                "y1": 0.6723,
+                "x2": 0.1955,
+                "y2": 0.7016
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            },
+            {
+              "oem": "01451-00581",
+              "url": "https://www.amayama.com/en/part/nissan/0145100581",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96915A",
+          "name": "grommet-screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 364,
+                "y1": 349,
+                "x2": 418,
+                "y2": 364
+              },
+              "norm": {
+                "x1": 0.3553,
+                "y1": 0.6816,
+                "x2": 0.408,
+                "y2": 0.7109
+              },
+              "title": "grommet-screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            },
+            {
+              "oem": "01454-00331",
+              "url": "https://www.amayama.com/en/part/nissan/0145400331",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "96944C",
+          "name": "bulb(12v-1.4w)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 543,
+                "y1": 374,
+                "x2": 600,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.5303,
+                "y1": 0.7301,
+                "x2": 0.5859,
+                "y2": 0.7594
+              },
+              "title": "bulb(12v-1.4w)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "26261-89906",
+              "url": "https://www.amayama.com/en/part/nissan/2626189906",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.11,
+                "currency": "USD",
+                "raw": "1.11"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "96991Q",
+          "name": "sunroof brkt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 818,
+                "y1": 445,
+                "x2": 872,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.7986,
+                "y1": 0.8684,
+                "x2": 0.8514,
+                "y2": 0.8977
+              },
+              "title": "sunroof brkt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "96991-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/9699135f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 60.05,
+                "currency": "USD",
+                "raw": "60.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "0836361648",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 621,
+                "y1": 435,
+                "x2": 720,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.6064,
+                "y1": 0.8488,
+                "x2": 0.7031,
+                "y2": 0.8781
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-61648",
+              "url": "https://www.amayama.com/en/part/nissan/0836361648",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [
+                {
+                  "oem": "08363-6162H",
+                  "url": "https://www.amayama.com/en/part/nissan/083636162h",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.15,
+                    "currency": "USD",
+                    "raw": "2.15"
+                  }
+                }
+              ],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051210",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 478,
+                "y1": 400,
+                "x2": 574,
+                "y2": 415
+              },
+              "norm": {
+                "x1": 0.4666,
+                "y1": 0.7809,
+                "x2": 0.5604,
+                "y2": 0.8102
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51210",
+              "url": "https://www.amayama.com/en/part/nissan/0854051210",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "0854051212",
+          "name": "screw-tapping",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 379,
+                "x2": 277,
+                "y2": 394
+              },
+              "norm": {
+                "x1": 0.1764,
+                "y1": 0.7402,
+                "x2": 0.2701,
+                "y2": 0.7695
+              },
+              "title": "screw-tapping"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08540-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0854051212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

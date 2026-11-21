@@ -1,0 +1,1367 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "310",
+    "name": "automatic transmission transaxle & fit",
+    "title_raw": "automatic transmission transaxle & fit (trans) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/310_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/da7ae07b7f6f299f01c96d257e82151d.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/310_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/0cf78b31dbd21737d8ad95120e97b6c9.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "310_001_0",
+      "index": 1,
+      "of": 6,
+      "applies": [
+        "MT",
+        "AT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/310_001.png",
+      "callouts": [
+        {
+          "pnc": "081210651E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 446,
+                "x2": 836,
+                "y2": 461
+              },
+              "norm": {
+                "x1": 0.7252,
+                "y1": 0.8707,
+                "x2": 0.816,
+                "y2": 0.9
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0651E",
+              "url": "https://www.amayama.com/en/part/nissan/081210651e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 881,
+                "y1": 130,
+                "x2": 974,
+                "y2": 145
+              },
+              "norm": {
+                "x1": 0.8607,
+                "y1": 0.2543,
+                "x2": 0.9516,
+                "y2": 0.2836
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 821,
+                "y1": 333,
+                "x2": 914,
+                "y2": 348
+              },
+              "norm": {
+                "x1": 0.8018,
+                "y1": 0.6496,
+                "x2": 0.8926,
+                "y2": 0.6789
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 774,
+                "y1": 390,
+                "x2": 867,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.7561,
+                "y1": 0.7613,
+                "x2": 0.8469,
+                "y2": 0.7906
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 374,
+                "y1": 436,
+                "x2": 467,
+                "y2": 451
+              },
+              "norm": {
+                "x1": 0.365,
+                "y1": 0.8512,
+                "x2": 0.4559,
+                "y2": 0.8805
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 328,
+                "y1": 121,
+                "x2": 421,
+                "y2": 136
+              },
+              "norm": {
+                "x1": 0.3205,
+                "y1": 0.2355,
+                "x2": 0.4113,
+                "y2": 0.2648
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 394,
+                "y1": 221,
+                "x2": 493,
+                "y2": 236
+              },
+              "norm": {
+                "x1": 0.385,
+                "y1": 0.4324,
+                "x2": 0.4816,
+                "y2": 0.4617
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 110,
+                "y1": 357,
+                "x2": 209,
+                "y2": 372
+              },
+              "norm": {
+                "x1": 0.1076,
+                "y1": 0.6973,
+                "x2": 0.2043,
+                "y2": 0.7266
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 312,
+                "y1": 160,
+                "x2": 408,
+                "y2": 175
+              },
+              "norm": {
+                "x1": 0.3049,
+                "y1": 0.3129,
+                "x2": 0.3986,
+                "y2": 0.3422
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 876,
+                "y1": 161,
+                "x2": 972,
+                "y2": 176
+              },
+              "norm": {
+                "x1": 0.8553,
+                "y1": 0.3137,
+                "x2": 0.949,
+                "y2": 0.343
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 820,
+                "y1": 361,
+                "x2": 916,
+                "y2": 376
+              },
+              "norm": {
+                "x1": 0.8006,
+                "y1": 0.7051,
+                "x2": 0.8943,
+                "y2": 0.7344
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 456,
+                "y1": 391,
+                "x2": 552,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.4451,
+                "y1": 0.7645,
+                "x2": 0.5389,
+                "y2": 0.7937
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 773,
+                "y1": 418,
+                "x2": 869,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.7553,
+                "y1": 0.8168,
+                "x2": 0.849,
+                "y2": 0.8461
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310_001_1",
+      "index": 2,
+      "of": 6,
+      "applies": [
+        "MT",
+        "AT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/310_001.png",
+      "callouts": [
+        {
+          "pnc": "081210651E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 446,
+                "x2": 836,
+                "y2": 461
+              },
+              "norm": {
+                "x1": 0.7252,
+                "y1": 0.8707,
+                "x2": 0.816,
+                "y2": 0.9
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0651E",
+              "url": "https://www.amayama.com/en/part/nissan/081210651e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 881,
+                "y1": 130,
+                "x2": 974,
+                "y2": 145
+              },
+              "norm": {
+                "x1": 0.8607,
+                "y1": 0.2543,
+                "x2": 0.9516,
+                "y2": 0.2836
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 821,
+                "y1": 333,
+                "x2": 914,
+                "y2": 348
+              },
+              "norm": {
+                "x1": 0.8018,
+                "y1": 0.6496,
+                "x2": 0.8926,
+                "y2": 0.6789
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 774,
+                "y1": 390,
+                "x2": 867,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.7561,
+                "y1": 0.7613,
+                "x2": 0.8469,
+                "y2": 0.7906
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 374,
+                "y1": 436,
+                "x2": 467,
+                "y2": 451
+              },
+              "norm": {
+                "x1": 0.365,
+                "y1": 0.8512,
+                "x2": 0.4559,
+                "y2": 0.8805
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 328,
+                "y1": 121,
+                "x2": 421,
+                "y2": 136
+              },
+              "norm": {
+                "x1": 0.3205,
+                "y1": 0.2355,
+                "x2": 0.4113,
+                "y2": 0.2648
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 394,
+                "y1": 221,
+                "x2": 493,
+                "y2": 236
+              },
+              "norm": {
+                "x1": 0.385,
+                "y1": 0.4324,
+                "x2": 0.4816,
+                "y2": 0.4617
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 110,
+                "y1": 357,
+                "x2": 209,
+                "y2": 372
+              },
+              "norm": {
+                "x1": 0.1076,
+                "y1": 0.6973,
+                "x2": 0.2043,
+                "y2": 0.7266
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 312,
+                "y1": 160,
+                "x2": 408,
+                "y2": 175
+              },
+              "norm": {
+                "x1": 0.3049,
+                "y1": 0.3129,
+                "x2": 0.3986,
+                "y2": 0.3422
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 876,
+                "y1": 161,
+                "x2": 972,
+                "y2": 176
+              },
+              "norm": {
+                "x1": 0.8553,
+                "y1": 0.3137,
+                "x2": 0.949,
+                "y2": 0.343
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 820,
+                "y1": 361,
+                "x2": 916,
+                "y2": 376
+              },
+              "norm": {
+                "x1": 0.8006,
+                "y1": 0.7051,
+                "x2": 0.8943,
+                "y2": 0.7344
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 456,
+                "y1": 391,
+                "x2": 552,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.4451,
+                "y1": 0.7645,
+                "x2": 0.5389,
+                "y2": 0.7937
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 773,
+                "y1": 418,
+                "x2": 869,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.7553,
+                "y1": 0.8168,
+                "x2": 0.849,
+                "y2": 0.8461
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310_001_2",
+      "index": 3,
+      "of": 6,
+      "applies": [
+        "MT",
+        "AT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/310_001.png",
+      "callouts": [
+        {
+          "pnc": "081210651E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 446,
+                "x2": 836,
+                "y2": 461
+              },
+              "norm": {
+                "x1": 0.7252,
+                "y1": 0.8707,
+                "x2": 0.816,
+                "y2": 0.9
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0651E",
+              "url": "https://www.amayama.com/en/part/nissan/081210651e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 881,
+                "y1": 130,
+                "x2": 974,
+                "y2": 145
+              },
+              "norm": {
+                "x1": 0.8607,
+                "y1": 0.2543,
+                "x2": 0.9516,
+                "y2": 0.2836
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 821,
+                "y1": 333,
+                "x2": 914,
+                "y2": 348
+              },
+              "norm": {
+                "x1": 0.8018,
+                "y1": 0.6496,
+                "x2": 0.8926,
+                "y2": 0.6789
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 774,
+                "y1": 390,
+                "x2": 867,
+                "y2": 405
+              },
+              "norm": {
+                "x1": 0.7561,
+                "y1": 0.7613,
+                "x2": 0.8469,
+                "y2": 0.7906
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 374,
+                "y1": 436,
+                "x2": 467,
+                "y2": 451
+              },
+              "norm": {
+                "x1": 0.365,
+                "y1": 0.8512,
+                "x2": 0.4559,
+                "y2": 0.8805
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 328,
+                "y1": 121,
+                "x2": 421,
+                "y2": 136
+              },
+              "norm": {
+                "x1": 0.3205,
+                "y1": 0.2355,
+                "x2": 0.4113,
+                "y2": 0.2648
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "083636122G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 394,
+                "y1": 221,
+                "x2": 493,
+                "y2": 236
+              },
+              "norm": {
+                "x1": 0.385,
+                "y1": 0.4324,
+                "x2": 0.4816,
+                "y2": 0.4617
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 110,
+                "y1": 357,
+                "x2": 209,
+                "y2": 372
+              },
+              "norm": {
+                "x1": 0.1076,
+                "y1": 0.6973,
+                "x2": 0.2043,
+                "y2": 0.7266
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6122G",
+              "url": "https://www.amayama.com/en/part/nissan/083636122g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 312,
+                "y1": 160,
+                "x2": 408,
+                "y2": 175
+              },
+              "norm": {
+                "x1": 0.3049,
+                "y1": 0.3129,
+                "x2": 0.3986,
+                "y2": 0.3422
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 876,
+                "y1": 161,
+                "x2": 972,
+                "y2": 176
+              },
+              "norm": {
+                "x1": 0.8553,
+                "y1": 0.3137,
+                "x2": 0.949,
+                "y2": 0.343
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 820,
+                "y1": 361,
+                "x2": 916,
+                "y2": 376
+              },
+              "norm": {
+                "x1": 0.8006,
+                "y1": 0.7051,
+                "x2": 0.8943,
+                "y2": 0.7344
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 456,
+                "y1": 391,
+                "x2": 552,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.4451,
+                "y1": 0.7645,
+                "x2": 0.5389,
+                "y2": 0.7937
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 773,
+                "y1": 418,
+                "x2": 869,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.7553,
+                "y1": 0.8168,
+                "x2": 0.849,
+                "y2": 0.8461
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310_002_3",
+      "index": 4,
+      "of": 6,
+      "applies": [
+        "MT",
+        "AT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/310_002.png",
+      "callouts": [
+        {
+          "pnc": "083636162G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 154,
+                "y1": 141,
+                "x2": 253,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.1502,
+                "y1": 0.2762,
+                "x2": 0.2469,
+                "y2": 0.3055
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 116,
+                "y1": 197,
+                "x2": 215,
+                "y2": 212
+              },
+              "norm": {
+                "x1": 0.1135,
+                "y1": 0.3855,
+                "x2": 0.2102,
+                "y2": 0.4148
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 832,
+                "y1": 320,
+                "x2": 931,
+                "y2": 335
+              },
+              "norm": {
+                "x1": 0.8123,
+                "y1": 0.6246,
+                "x2": 0.909,
+                "y2": 0.6539
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6162G",
+              "url": "https://www.amayama.com/en/part/nissan/083636162g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310_002_4",
+      "index": 5,
+      "of": 6,
+      "applies": [
+        "MT",
+        "AT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/310_002.png",
+      "callouts": [
+        {
+          "pnc": "083636162G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 154,
+                "y1": 141,
+                "x2": 253,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.1502,
+                "y1": 0.2762,
+                "x2": 0.2469,
+                "y2": 0.3055
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 116,
+                "y1": 197,
+                "x2": 215,
+                "y2": 212
+              },
+              "norm": {
+                "x1": 0.1135,
+                "y1": 0.3855,
+                "x2": 0.2102,
+                "y2": 0.4148
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 832,
+                "y1": 320,
+                "x2": 931,
+                "y2": 335
+              },
+              "norm": {
+                "x1": 0.8123,
+                "y1": 0.6246,
+                "x2": 0.909,
+                "y2": 0.6539
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6162G",
+              "url": "https://www.amayama.com/en/part/nissan/083636162g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310_002_5",
+      "index": 6,
+      "of": 6,
+      "applies": [
+        "SR20DET.MT",
+        "SR20DET.AT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/310_002.png",
+      "callouts": [
+        {
+          "pnc": "083636162G",
+          "name": "screw-machine",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 154,
+                "y1": 141,
+                "x2": 253,
+                "y2": 156
+              },
+              "norm": {
+                "x1": 0.1502,
+                "y1": 0.2762,
+                "x2": 0.2469,
+                "y2": 0.3055
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 116,
+                "y1": 197,
+                "x2": 215,
+                "y2": 212
+              },
+              "norm": {
+                "x1": 0.1135,
+                "y1": 0.3855,
+                "x2": 0.2102,
+                "y2": 0.4148
+              },
+              "title": "screw-machine"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 832,
+                "y1": 320,
+                "x2": 931,
+                "y2": 335
+              },
+              "norm": {
+                "x1": 0.8123,
+                "y1": 0.6246,
+                "x2": 0.909,
+                "y2": 0.6539
+              },
+              "title": "screw-machine"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08363-6162G",
+              "url": "https://www.amayama.com/en/part/nissan/083636162g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

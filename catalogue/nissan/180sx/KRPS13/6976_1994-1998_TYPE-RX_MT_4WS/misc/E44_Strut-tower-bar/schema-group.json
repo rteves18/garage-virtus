@@ -1,0 +1,265 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "E44",
+    "name": "strut tower bar",
+    "title_raw": "strut tower bar (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/E44_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/d78b104e3aa91b165f557329862dfdde.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/E44_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/9f407b4dc8d9903023002ac31c9c67cf.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "E44_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/E44_001.png",
+      "callouts": [
+        {
+          "pnc": "KE4494",
+          "name": "bar, strut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 682,
+                "y1": 273,
+                "x2": 739,
+                "y2": 288
+              },
+              "norm": {
+                "x1": 0.6662,
+                "y1": 0.5324,
+                "x2": 0.7219,
+                "y2": 0.5617
+              },
+              "title": "bar, strut"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "E4390-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/e439050f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            },
+            {
+              "oem": "E4390-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/e439060f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾛﾝﾄﾖｳ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 395.02,
+                "currency": "USD",
+                "raw": "395.02"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾛﾝﾄﾖｳ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "E4420-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/e4420rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 528.87,
+                "currency": "USD",
+                "raw": "528.87"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E44_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/E44_002.png",
+      "callouts": [
+        {
+          "pnc": "KE4494",
+          "name": "bar, strut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 281,
+                "y1": 190,
+                "x2": 338,
+                "y2": 205
+              },
+              "norm": {
+                "x1": 0.2748,
+                "y1": 0.3707,
+                "x2": 0.3305,
+                "y2": 0.4
+              },
+              "title": "bar, strut"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "E4390-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/e439050f00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            },
+            {
+              "oem": "E4390-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/e439060f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾛﾝﾄﾖｳ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 395.02,
+                "currency": "USD",
+                "raw": "395.02"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾛﾝﾄﾖｳ,ﾌｧｲﾝﾁｭｰﾆﾝｸﾞﾊﾟｯｹｰｼﾞ[K504], App. model: HB"
+            },
+            {
+              "oem": "E4420-RN521",
+              "url": "https://www.amayama.com/en/part/nissan/e4420rn521",
+              "applies": [],
+              "details": {
+                "specification": "ﾆｽﾓ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 528.87,
+                "currency": "USD",
+                "raw": "528.87"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾆｽﾓ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

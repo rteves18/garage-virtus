@@ -15,6 +15,9 @@ public struct Source: Codable {
     public let site: String
     public let url: String
     public let scrapedAt: String?
+
+    /// The site's name for link labels: "amayama" -> "Amayama", "megazip" -> "Megazip".
+    public var siteName: String { site.capitalized }
 }
 
 public struct Vehicle: Codable {

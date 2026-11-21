@@ -1,0 +1,2924 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "D33",
+    "name": "road wheel",
+    "title_raw": "road wheel (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/D33_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/75e127413645c165ed45462b9831dfa6.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/D33_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/35c6dbae879423c604fb29e739f762a8.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "D33_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/D33_001.png",
+      "callouts": [
+        {
+          "pnc": "K40224",
+          "name": "nut-road wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 213,
+                "y1": 316,
+                "x2": 270,
+                "y2": 331
+              },
+              "norm": {
+                "x1": 0.208,
+                "y1": 0.6176,
+                "x2": 0.2637,
+                "y2": 0.6469
+              },
+              "title": "nut-road wheel"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 771,
+                "y1": 351,
+                "x2": 828,
+                "y2": 366
+              },
+              "norm": {
+                "x1": 0.7529,
+                "y1": 0.6848,
+                "x2": 0.8086,
+                "y2": 0.7141
+              },
+              "title": "nut-road wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40224-21001",
+              "url": "https://www.amayama.com/en/part/nissan/4022421001",
+              "applies": [],
+              "details": {
+                "specification": "ﾋｮｳｼﾞｭﾝﾅｯﾄ, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "40224-EJ20A",
+                  "url": "https://www.amayama.com/en/part/nissan/40224ej20a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.65,
+                    "currency": "USD",
+                    "raw": "1.65"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋｮｳｼﾞｭﾝﾅｯﾄ, App. model: HB Required: 16 pcs"
+            },
+            {
+              "oem": "40224-V5500",
+              "url": "https://www.amayama.com/en/part/nissan/40224v5500",
+              "applies": [],
+              "details": {
+                "specification": "ﾎｲｰﾙﾅｯﾄ,4L090,4L190,5L090,5L190,4L085, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Available",
+                "amount": 4.21,
+                "currency": "USD",
+                "raw": "4.21"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎｲｰﾙﾅｯﾄ,4L090,4L190,5L090,5L190,4L085, App. model: HB Required: 16 pcs"
+            },
+            {
+              "oem": "40224-V5510",
+              "url": "https://www.amayama.com/en/part/nissan/40224v5510",
+              "applies": [],
+              "details": {
+                "specification": "ﾌｸﾛﾅｯﾄ,ﾌｸﾛ ﾅｯﾄ, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Available",
+                "amount": 2.86,
+                "currency": "USD",
+                "raw": "2.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌｸﾛﾅｯﾄ,ﾌｸﾛ ﾅｯﾄ, App. model: HB Required: 16 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40300",
+          "name": "wheel assy-road",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 185,
+                "y1": 99,
+                "x2": 242,
+                "y2": 114
+              },
+              "norm": {
+                "x1": 0.1803,
+                "y1": 0.1941,
+                "x2": 0.2359,
+                "y2": 0.2234
+              },
+              "title": "wheel assy-road"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40300-38F00",
+              "url": "https://www.amayama.com/en/part/nissan/4030038f00",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ[A408], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 324.83,
+                "currency": "USD",
+                "raw": "324.83"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ[A408], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "40300-38F08",
+              "url": "https://www.amayama.com/en/part/nissan/4030038f08",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ,ﾌﾞﾗｯｸ,205/60R15[A408], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 270.96,
+                "currency": "USD",
+                "raw": "270.96"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ,ﾌﾞﾗｯｸ,205/60R15[A408], App. model: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40300M",
+          "name": "aluminum road wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 650,
+                "y1": 402,
+                "x2": 716,
+                "y2": 417
+              },
+              "norm": {
+                "x1": 0.6346,
+                "y1": 0.7855,
+                "x2": 0.699,
+                "y2": 0.8148
+              },
+              "title": "aluminum road wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40300-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/4030050f27",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[A408], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 611.13,
+                "currency": "USD",
+                "raw": "611.13"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[A408], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "40300-50F27",
+              "url": "https://www.amayama.com/en/part/nissan/4030050f27",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[A408], App. model: HB.2WS.AT +HB.4WS",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-05",
+                "raw": "01.1994 - 05.1995"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 611.13,
+                "currency": "USD",
+                "raw": "611.13"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[A408], App. model: HB.2WS.AT +HB.4WS Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40311",
+          "name": "valve-air",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 281,
+                "y1": 96,
+                "x2": 332,
+                "y2": 111
+              },
+              "norm": {
+                "x1": 0.2748,
+                "y1": 0.1879,
+                "x2": 0.3246,
+                "y2": 0.2172
+              },
+              "title": "valve-air"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 562,
+                "y1": 303,
+                "x2": 613,
+                "y2": 318
+              },
+              "norm": {
+                "x1": 0.5486,
+                "y1": 0.5926,
+                "x2": 0.5984,
+                "y2": 0.6219
+              },
+              "title": "valve-air"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40311-60Y00",
+              "url": "https://www.amayama.com/en/part/nissan/4031160y00",
+              "applies": [],
+              "details": {
+                "specification": "TR413, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 4.44,
+                "currency": "USD",
+                "raw": "4.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: TR413, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "40311-60Y00",
+              "url": "https://www.amayama.com/en/part/nissan/4031160y00",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ,ﾌﾞﾗｯｸ,TR413, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 4.44,
+                "currency": "USD",
+                "raw": "4.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ,ﾌﾞﾗｯｸ,TR413, App. model: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40315",
+          "name": "cap-road wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 353,
+                "y1": 200,
+                "x2": 407,
+                "y2": 215
+              },
+              "norm": {
+                "x1": 0.3447,
+                "y1": 0.391,
+                "x2": 0.3975,
+                "y2": 0.4203
+              },
+              "title": "cap-road wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40315-17U00",
+              "url": "https://www.amayama.com/en/part/nissan/4031517u00",
+              "applies": [],
+              "details": {
+                "specification": "15ｲﾝﾁ, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 270.96,
+                "currency": "USD",
+                "raw": "270.96"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15ｲﾝﾁ, App. model: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40342",
+          "name": "wheel decoration",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 741,
+                "y1": 328,
+                "x2": 798,
+                "y2": 343
+              },
+              "norm": {
+                "x1": 0.724,
+                "y1": 0.6402,
+                "x2": 0.7797,
+                "y2": 0.6695
+              },
+              "title": "wheel decoration"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40342-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4034250f00",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾛｰﾄﾞﾎｲｰﾙｾﾝﾖｳﾀｲﾌﾟ, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 47.45,
+                "currency": "USD",
+                "raw": "47.45"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾛｰﾄﾞﾎｲｰﾙｾﾝﾖｳﾀｲﾌﾟ, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "40342-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/4034250f00",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾛｰﾄﾞﾎｲｰﾙｾﾝﾖｳﾀｲﾌﾟ, App. model: HB.2WS.AT +HB.4WS",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-05",
+                "raw": "01.1994 - 05.1995"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 47.45,
+                "currency": "USD",
+                "raw": "47.45"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾛｰﾄﾞﾎｲｰﾙｾﾝﾖｳﾀｲﾌﾟ, App. model: HB.2WS.AT +HB.4WS Required: 4 pcs"
+            },
+            {
+              "oem": "40342-D4000",
+              "url": "https://www.amayama.com/en/part/nissan/40342d4000",
+              "applies": [],
+              "details": {
+                "specification": "ｽﾉｰﾀｲﾔﾖｳ, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｽﾉｰﾀｲﾔﾖｳ, App. model: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0224A",
+          "name": "magnet lock nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 431,
+                "x2": 247,
+                "y2": 446
+              },
+              "norm": {
+                "x1": 0.1764,
+                "y1": 0.8426,
+                "x2": 0.2408,
+                "y2": 0.8719
+              },
+              "title": "magnet lock nut"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0224-89985",
+              "url": "https://www.amayama.com/en/part/nissan/d022489985",
+              "applies": [],
+              "details": {
+                "specification": "ｺｳﾀｸｸﾛﾑﾒｯｷ,ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺｳﾀｸｸﾛﾑﾒｯｷ,ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89985",
+              "url": "https://www.amayama.com/en/part/nissan/d022489985",
+              "applies": [],
+              "details": {
+                "specification": "ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89986",
+              "url": "https://www.amayama.com/en/part/nissan/d022489986",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｲﾛｸﾛﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｲﾛｸﾛﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89986",
+              "url": "https://www.amayama.com/en/part/nissan/d022489986",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D33_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/D33_002.png",
+      "callouts": [
+        {
+          "pnc": "K40224",
+          "name": "nut-road wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 169,
+                "y1": 194,
+                "x2": 226,
+                "y2": 209
+              },
+              "norm": {
+                "x1": 0.165,
+                "y1": 0.3785,
+                "x2": 0.2207,
+                "y2": 0.4078
+              },
+              "title": "nut-road wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40224-21001",
+              "url": "https://www.amayama.com/en/part/nissan/4022421001",
+              "applies": [],
+              "details": {
+                "specification": "ﾋｮｳｼﾞｭﾝﾅｯﾄ, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "40224-EJ20A",
+                  "url": "https://www.amayama.com/en/part/nissan/40224ej20a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.65,
+                    "currency": "USD",
+                    "raw": "1.65"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋｮｳｼﾞｭﾝﾅｯﾄ, App. model: HB Required: 16 pcs"
+            },
+            {
+              "oem": "40224-V5500",
+              "url": "https://www.amayama.com/en/part/nissan/40224v5500",
+              "applies": [],
+              "details": {
+                "specification": "ﾎｲｰﾙﾅｯﾄ,4L090,4L190,5L090,5L190,4L085, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Available",
+                "amount": 4.21,
+                "currency": "USD",
+                "raw": "4.21"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎｲｰﾙﾅｯﾄ,4L090,4L190,5L090,5L190,4L085, App. model: HB Required: 16 pcs"
+            },
+            {
+              "oem": "40224-V5510",
+              "url": "https://www.amayama.com/en/part/nissan/40224v5510",
+              "applies": [],
+              "details": {
+                "specification": "ﾌｸﾛﾅｯﾄ,ﾌｸﾛ ﾅｯﾄ, App. model: HB",
+                "required": "16 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 16,
+              "qty_raw": "16",
+              "price": {
+                "status": "Available",
+                "amount": 2.86,
+                "currency": "USD",
+                "raw": "2.86"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌｸﾛﾅｯﾄ,ﾌｸﾛ ﾅｯﾄ, App. model: HB Required: 16 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "K40315",
+          "name": "cap-road wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 207,
+                "y1": 424,
+                "x2": 261,
+                "y2": 439
+              },
+              "norm": {
+                "x1": 0.2021,
+                "y1": 0.8277,
+                "x2": 0.2549,
+                "y2": 0.857
+              },
+              "title": "cap-road wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "40315-17U00",
+              "url": "https://www.amayama.com/en/part/nissan/4031517u00",
+              "applies": [],
+              "details": {
+                "specification": "15ｲﾝﾁ, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 270.96,
+                "currency": "USD",
+                "raw": "270.96"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15ｲﾝﾁ, App. model: HB Required: 4 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0224",
+          "name": "wheel nuts",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 896,
+                "y1": 159,
+                "x2": 953,
+                "y2": 174
+              },
+              "norm": {
+                "x1": 0.8748,
+                "y1": 0.3098,
+                "x2": 0.9305,
+                "y2": 0.3391
+              },
+              "title": "wheel nuts"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "99930-1208P",
+              "url": "https://www.amayama.com/en/part/nissan/999301208p",
+              "applies": [],
+              "details": {
+                "specification": "ﾎｲｰﾙﾅｯﾄ,BBSｾﾝﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.5,
+                "currency": "USD",
+                "raw": "6.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎｲｰﾙﾅｯﾄ,BBSｾﾝﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "99930-1208P",
+              "url": "https://www.amayama.com/en/part/nissan/999301208p",
+              "applies": [],
+              "details": {
+                "specification": "BBSｾﾝﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.5,
+                "currency": "USD",
+                "raw": "6.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: BBSｾﾝﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "99930-1208P",
+              "url": "https://www.amayama.com/en/part/nissan/999301208p",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ﾎｲｰﾙﾅｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.5,
+                "currency": "USD",
+                "raw": "6.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ﾎｲｰﾙﾅｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0224-89985",
+              "url": "https://www.amayama.com/en/part/nissan/d022489985",
+              "applies": [],
+              "details": {
+                "specification": "ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89986",
+              "url": "https://www.amayama.com/en/part/nissan/d022489986",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0224A",
+          "name": "magnet lock nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 140,
+                "y1": 403,
+                "x2": 206,
+                "y2": 418
+              },
+              "norm": {
+                "x1": 0.1369,
+                "y1": 0.7879,
+                "x2": 0.2014,
+                "y2": 0.8172
+              },
+              "title": "magnet lock nut"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0224-89985",
+              "url": "https://www.amayama.com/en/part/nissan/d022489985",
+              "applies": [],
+              "details": {
+                "specification": "ｺｳﾀｸｸﾛﾑﾒｯｷ,ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺｳﾀｸｸﾛﾑﾒｯｷ,ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89985",
+              "url": "https://www.amayama.com/en/part/nissan/d022489985",
+              "applies": [],
+              "details": {
+                "specification": "ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｺｳﾀｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89986",
+              "url": "https://www.amayama.com/en/part/nissan/d022489986",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｲﾛｸﾛﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｲﾛｸﾛﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            },
+            {
+              "oem": "D0224-89986",
+              "url": "https://www.amayama.com/en/part/nissan/d022489986",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 65.44,
+                "currency": "USD",
+                "raw": "65.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｲﾛｸﾛｰﾑﾒｯｷ,ｺｸｼｮｸｸﾛｰﾑﾒｯｷ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0224W",
+          "name": "wrench, wheel nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 670,
+                "y1": 213,
+                "x2": 736,
+                "y2": 228
+              },
+              "norm": {
+                "x1": 0.6541,
+                "y1": 0.4168,
+                "x2": 0.7186,
+                "y2": 0.4461
+              },
+              "title": "wrench, wheel nut"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "99930-1206P",
+              "url": "https://www.amayama.com/en/part/nissan/999301206p",
+              "applies": [],
+              "details": {
+                "specification": "ﾚﾝﾁ,ｾﾝﾀｰｷｬｯﾌﾟﾀﾞｯﾁｬｸﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 45.16,
+                "currency": "USD",
+                "raw": "45.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚﾝﾁ,ｾﾝﾀｰｷｬｯﾌﾟﾀﾞｯﾁｬｸﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "99930-1206P",
+              "url": "https://www.amayama.com/en/part/nissan/999301206p",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾝﾀｰｷｬｯﾌﾟﾀﾞｯﾁｬｸﾖｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 45.16,
+                "currency": "USD",
+                "raw": "45.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾝﾀｰｷｬｯﾌﾟﾀﾞｯﾁｬｸﾖｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "99930-1206P",
+              "url": "https://www.amayama.com/en/part/nissan/999301206p",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 45.16,
+                "currency": "USD",
+                "raw": "45.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD030V",
+          "name": "spoke type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 909,
+                "y1": 465,
+                "x2": 966,
+                "y2": 480
+              },
+              "norm": {
+                "x1": 0.8881,
+                "y1": 0.909,
+                "x2": 0.9437,
+                "y2": 0.9383
+              },
+              "title": "spoke type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D030V-5F091",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f091",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰﾒﾀﾘｯｸ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰﾒﾀﾘｯｸ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D030V-5F091",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f091",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰﾒﾀﾘｯｸ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰﾒﾀﾘｯｸ, App. model: HB"
+            },
+            {
+              "oem": "D030V-5F091",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f091",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ[K504], App. model: HB"
+            },
+            {
+              "oem": "D030V-5F191",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f191",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D030V-5F191",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f191",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ, App. model: HB"
+            },
+            {
+              "oem": "D030V-5F191",
+              "url": "https://www.amayama.com/en/part/nissan/d030v5f191",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1012.03,
+                "currency": "USD",
+                "raw": "1,012.03"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0302",
+          "name": "metal type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 122,
+                "y1": 63,
+                "x2": 179,
+                "y2": 78
+              },
+              "norm": {
+                "x1": 0.1189,
+                "y1": 0.1223,
+                "x2": 0.1746,
+                "y2": 0.1516
+              },
+              "title": "metal type aluminum"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 333,
+                "y1": 483,
+                "x2": 390,
+                "y2": 498
+              },
+              "norm": {
+                "x1": 0.3252,
+                "y1": 0.9426,
+                "x2": 0.3809,
+                "y2": 0.9719
+              },
+              "title": "metal type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0302-5F090",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f090",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｸﾞﾚｲ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀﾞｰｸｸﾞﾚｲ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0302-5F090",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f090",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｸﾞﾚｲ,15X6JJ,4H[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀﾞｰｸｸﾞﾚｲ,15X6JJ,4H[K504], App. model: HB"
+            },
+            {
+              "oem": "D0302-5F090",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f090",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｸﾞﾚｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｸﾞﾚｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0302-5F190",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f190",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｰｸｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｰｸｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0302-5F190",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f190",
+              "applies": [],
+              "details": {
+                "specification": "ﾀｰｸｼﾙﾊﾞｰ,15X6JJ,4H[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀｰｸｼﾙﾊﾞｰ,15X6JJ,4H[K504], App. model: HB"
+            },
+            {
+              "oem": "D0302-5F190",
+              "url": "https://www.amayama.com/en/part/nissan/d03025f190",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｼﾙﾊﾞｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｼﾙﾊﾞｰ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0303",
+          "name": "spoke type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 122,
+                "y1": 44,
+                "x2": 179,
+                "y2": 59
+              },
+              "norm": {
+                "x1": 0.1189,
+                "y1": 0.0863,
+                "x2": 0.1746,
+                "y2": 0.1156
+              },
+              "title": "spoke type aluminum"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 324,
+                "y1": 265,
+                "x2": 381,
+                "y2": 280
+              },
+              "norm": {
+                "x1": 0.3166,
+                "y1": 0.5184,
+                "x2": 0.3723,
+                "y2": 0.5477
+              },
+              "title": "spoke type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0303-55085",
+              "url": "https://www.amayama.com/en/part/nissan/d030355085",
+              "applies": [],
+              "details": {
+                "specification": "ｾｯｻｸ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾｯｻｸ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0303-55285",
+              "url": "https://www.amayama.com/en/part/nissan/d030355285",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0303-5F000",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f000",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾎﾝﾀｲﾉﾐ,ｼﾙﾊﾞｰ,5F092[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾎﾝﾀｲﾉﾐ,ｼﾙﾊﾞｰ,5F092[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F000",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f000",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾎﾝﾀｲﾉﾐ,5F092[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾎﾝﾀｲﾉﾐ,5F092[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F000",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f000",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F092",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f092",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0303-5F092",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f092",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,15X6JJ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,15X6JJ, App. model: HB"
+            },
+            {
+              "oem": "D0303-5F100",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f100",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾎﾝﾀｲﾉﾐ,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ,5F192[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾎﾝﾀｲﾉﾐ,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ,5F192[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F100",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f100",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾎﾝﾀｲﾉﾐ,5F192[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾎﾝﾀｲﾉﾐ,5F192[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F100",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f100",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+            },
+            {
+              "oem": "D0303-5F192",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f192",
+              "applies": [],
+              "details": {
+                "specification": "ｼｬﾝﾍﾟｰﾝｺﾞｰﾙﾄﾞ,15ｻX6JJ,O/S=40,PCD=114.3, App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼｬﾝﾍﾟｰﾝｺﾞｰﾙﾄﾞ,15ｻX6JJ,O/S=40,PCD=114.3, App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0303-5F192",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f192",
+              "applies": [],
+              "details": {
+                "specification": "ｼｬﾝﾍﾟｰﾝｺﾞｰﾙﾄﾞ,15ｻX6JJ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼｬﾝﾍﾟｰﾝｺﾞｰﾙﾄﾞ,15ｻX6JJ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0303-5F192",
+              "url": "https://www.amayama.com/en/part/nissan/d03035f192",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 375.43,
+                "currency": "USD",
+                "raw": "375.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0304",
+          "name": "fin type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 122,
+                "y1": 81,
+                "x2": 179,
+                "y2": 96
+              },
+              "norm": {
+                "x1": 0.1189,
+                "y1": 0.1582,
+                "x2": 0.1746,
+                "y2": 0.1875
+              },
+              "title": "fin type aluminum"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 513,
+                "y1": 264,
+                "x2": 570,
+                "y2": 279
+              },
+              "norm": {
+                "x1": 0.5014,
+                "y1": 0.516,
+                "x2": 0.557,
+                "y2": 0.5453
+              },
+              "title": "fin type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0304-5F085",
+              "url": "https://www.amayama.com/en/part/nissan/d03045f085",
+              "applies": [],
+              "details": {
+                "specification": "ｾｯｻｸｶｺｳ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾｯｻｸｶｺｳ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0304-5F085",
+              "url": "https://www.amayama.com/en/part/nissan/d03045f085",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｾｯｻｸ,ｾｯｻｸｶｺｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｾｯｻｸ,ｾｯｻｸｶｺｳ, App. model: HB"
+            },
+            {
+              "oem": "D0304-5F085",
+              "url": "https://www.amayama.com/en/part/nissan/d03045f085",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0304-5F185",
+              "url": "https://www.amayama.com/en/part/nissan/d03045f185",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB",
+                "required": "4 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H[K504], App. model: HB Required: 4 pcs"
+            },
+            {
+              "oem": "D0304-5F185",
+              "url": "https://www.amayama.com/en/part/nissan/d03045f185",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,15X6JJ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 440.72,
+                "currency": "USD",
+                "raw": "440.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,15X6JJ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0309",
+          "name": "metal type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 808,
+                "y1": 200,
+                "x2": 865,
+                "y2": 215
+              },
+              "norm": {
+                "x1": 0.7893,
+                "y1": 0.391,
+                "x2": 0.8449,
+                "y2": 0.4203
+              },
+              "title": "metal type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0309-01U25",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u25",
+              "applies": [],
+              "details": {
+                "specification": "ﾚﾝﾁﾂｷ,ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚﾝﾁﾂｷ,ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB"
+            },
+            {
+              "oem": "D0309-01U26",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u26",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁﾅｼ,ｼﾙﾊﾞｰ, App. model: HB",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁﾅｼ,ｼﾙﾊﾞｰ, App. model: HB Required: 3 pcs"
+            },
+            {
+              "oem": "D0309-01U26",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u26",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ[K504], App. model: HB",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ[K504], App. model: HB Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0309M",
+          "name": "metal type aluminum",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 808,
+                "y1": 217,
+                "x2": 874,
+                "y2": 232
+              },
+              "norm": {
+                "x1": 0.7893,
+                "y1": 0.4246,
+                "x2": 0.8537,
+                "y2": 0.4539
+              },
+              "title": "metal type aluminum"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0309-01U25",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u25",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁﾂｷ,ｼﾙﾊﾞｰ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ﾚﾝﾁﾂｷ,ｼﾙﾊﾞｰ, App. model: HB"
+            },
+            {
+              "oem": "D0309-01U25",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u25",
+              "applies": [],
+              "details": {
+                "specification": "15X6JJ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15X6JJ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0309-01U26",
+              "url": "https://www.amayama.com/en/part/nissan/d030901u26",
+              "applies": [],
+              "details": {
+                "specification": "ﾚﾝﾁﾅｼ,ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 914.09,
+                "currency": "USD",
+                "raw": "914.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚﾝﾁﾅｼ,ｼﾙﾊﾞｰ,15X6JJ,O/S=40,PCD=114.3,4H, App. model: HB Required: 3 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0343",
+          "name": "ornament, disk hoi",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 54,
+                "x2": 910,
+                "y2": 69
+              },
+              "norm": {
+                "x1": 0.8326,
+                "y1": 0.1059,
+                "x2": 0.8883,
+                "y2": 0.1352
+              },
+              "title": "ornament, disk hoi"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 645,
+                "y1": 417,
+                "x2": 702,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.6303,
+                "y1": 0.8137,
+                "x2": 0.6859,
+                "y2": 0.843
+              },
+              "title": "ornament, disk hoi"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 555,
+                "y1": 417,
+                "x2": 612,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.5424,
+                "y1": 0.8145,
+                "x2": 0.598,
+                "y2": 0.8438
+              },
+              "title": "ornament, disk hoi"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 457,
+                "y1": 418,
+                "x2": 514,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.4459,
+                "y1": 0.8168,
+                "x2": 0.5016,
+                "y2": 0.8461
+              },
+              "title": "ornament, disk hoi"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0343-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/d034301u00",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐﾎｲｰﾙ,ｾﾝﾀｰｷｬｯﾌﾟ,50J25,50J26,01U25, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 143.32,
+                "currency": "USD",
+                "raw": "143.32"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐﾎｲｰﾙ,ｾﾝﾀｰｷｬｯﾌﾟ,50J25,50J26,01U25, App. model: HB"
+            },
+            {
+              "oem": "D0343-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/d034301u00",
+              "applies": [],
+              "details": {
+                "specification": "ｾﾝﾀｰｷｬｯﾌﾟ,50J25,50J26,01U25[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 143.32,
+                "currency": "USD",
+                "raw": "143.32"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾﾝﾀｰｷｬｯﾌﾟ,50J25,50J26,01U25[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/d034301u00",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｱﾙﾐﾎｲｰﾙ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 143.32,
+                "currency": "USD",
+                "raw": "143.32"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｱﾙﾐﾎｲｰﾙ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-4M090",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m090",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｸﾞﾚｰ,ｵｰﾅﾒﾝﾄ,3E090,7E090,5F090, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀﾞｰｸｸﾞﾚｰ,ｵｰﾅﾒﾝﾄ,3E090,7E090,5F090, App. model: HB"
+            },
+            {
+              "oem": "D0343-4M090",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m090",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｸﾞﾚｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｸﾞﾚｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+            },
+            {
+              "oem": "D0343-4M090",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m090",
+              "applies": [],
+              "details": {
+                "specification": "3E090,7E090,5F090, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 3E090,7E090,5F090, App. model: HB"
+            },
+            {
+              "oem": "D0343-4M190",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m190",
+              "applies": [],
+              "details": {
+                "specification": "ﾀﾞｰｸｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ,3E190,7E190,5F190, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾀﾞｰｸｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ,3E190,7E190,5F190, App. model: HB"
+            },
+            {
+              "oem": "D0343-4M190",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m190",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,ﾀﾞｰｸｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+            },
+            {
+              "oem": "D0343-4M190",
+              "url": "https://www.amayama.com/en/part/nissan/d03434m190",
+              "applies": [],
+              "details": {
+                "specification": "3E190,7E190,5F190, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 75.59,
+                "currency": "USD",
+                "raw": "75.59"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 3E190,7E190,5F190, App. model: HB"
+            },
+            {
+              "oem": "D0343-4S092",
+              "url": "https://www.amayama.com/en/part/nissan/d03434s092",
+              "applies": [],
+              "details": {
+                "specification": "ｽﾎﾟｰｸﾖｳ,ｾﾝﾀｰｷｬｯﾌﾟ,7E092,5F092,5F192, App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｽﾎﾟｰｸﾖｳ,ｾﾝﾀｰｷｬｯﾌﾟ,7E092,5F092,5F192, App. model: HB"
+            },
+            {
+              "oem": "D0343-4S092",
+              "url": "https://www.amayama.com/en/part/nissan/d03434s092",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼｬﾝﾍﾟﾝｺﾞｰﾙﾄﾞ, App. model: HB"
+            },
+            {
+              "oem": "D0343-4S092",
+              "url": "https://www.amayama.com/en/part/nissan/d03434s092",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-89970",
+              "url": "https://www.amayama.com/en/part/nissan/d034389970",
+              "applies": [],
+              "details": {
+                "specification": "ｾｯｻｸﾖｳ,ｾﾝﾀｰｷｬｯﾌﾟ,36085,F6085, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾｯｻｸﾖｳ,ｾﾝﾀｰｷｬｯﾌﾟ,36085,F6085, App. model: HB"
+            },
+            {
+              "oem": "D0343-89974",
+              "url": "https://www.amayama.com/en/part/nissan/d034389974",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｽﾎﾟｰｸﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｽﾎﾟｰｸﾀｲﾌﾟ, App. model: HB"
+            },
+            {
+              "oem": "D0343-89980",
+              "url": "https://www.amayama.com/en/part/nissan/d034389980",
+              "applies": [],
+              "details": {
+                "specification": "ｾｯｻｸｼｱｹﾞ,ｵｰﾅﾒﾝﾄ,3E085,7E085,5F085, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｾｯｻｸｼｱｹﾞ,ｵｰﾅﾒﾝﾄ,3E085,7E085,5F085, App. model: HB"
+            },
+            {
+              "oem": "D0343-89980",
+              "url": "https://www.amayama.com/en/part/nissan/d034389980",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾅﾒﾝﾄ,3E085,7E085,5F085, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾅﾒﾝﾄ,3E085,7E085,5F085, App. model: HB"
+            },
+            {
+              "oem": "D0343-89980",
+              "url": "https://www.amayama.com/en/part/nissan/d034389980",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｾｯｻｸ,ｾｯｻｸｼｱｹﾞ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｾｯｻｸ,ｾｯｻｸｼｱｹﾞ, App. model: HB"
+            },
+            {
+              "oem": "D0343-89982",
+              "url": "https://www.amayama.com/en/part/nissan/d034389982",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ,3E185,7E185,5F185, App. model: HB"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ,3E185,7E185,5F185, App. model: HB"
+            },
+            {
+              "oem": "D0343-89982",
+              "url": "https://www.amayama.com/en/part/nissan/d034389982",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰ,ｵｰﾅﾒﾝﾄ, App. model: HB"
+            },
+            {
+              "oem": "D0343-89982",
+              "url": "https://www.amayama.com/en/part/nissan/d034389982",
+              "applies": [],
+              "details": {
+                "specification": "3E185,7E185,5F185, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 27.81,
+                "currency": "USD",
+                "raw": "27.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 3E185,7E185,5F185, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0343N",
+          "name": "center key",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 930,
+                "y1": 307,
+                "x2": 996,
+                "y2": 322
+              },
+              "norm": {
+                "x1": 0.908,
+                "y1": 0.5988,
+                "x2": 0.9725,
+                "y2": 0.6281
+              },
+              "title": "center key"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0343-4V091",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v091",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾙﾊﾞｰﾒﾀﾘｯｸ,15ｲﾝﾁ,4H,5F091[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 81.81,
+                "currency": "USD",
+                "raw": "81.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾙﾊﾞｰﾒﾀﾘｯｸ,15ｲﾝﾁ,4H,5F091[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-4V091",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v091",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰﾒﾀﾘｯｸ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 81.81,
+                "currency": "USD",
+                "raw": "81.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｼﾙﾊﾞｰﾒﾀﾘｯｸ, App. model: HB"
+            },
+            {
+              "oem": "D0343-4V091",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v091",
+              "applies": [],
+              "details": {
+                "specification": "15ｲﾝﾁ,5F091[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 81.81,
+                "currency": "USD",
+                "raw": "81.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15ｲﾝﾁ,5F091[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-4V191",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v191",
+              "applies": [],
+              "details": {
+                "specification": "ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ,15ｲﾝﾁ,4H,5F191[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ,15ｲﾝﾁ,4H,5F191[K504], App. model: HB"
+            },
+            {
+              "oem": "D0343-4V191",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v191",
+              "applies": [],
+              "details": {
+                "specification": "15*6JJ,O/S=40,PCD=114.3,4H,ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15*6JJ,O/S=40,PCD=114.3,4H,ｶﾞﾝｸﾞﾚｰﾒﾀﾘｯｸ, App. model: HB"
+            },
+            {
+              "oem": "D0343-4V191",
+              "url": "https://www.amayama.com/en/part/nissan/d03434v191",
+              "applies": [],
+              "details": {
+                "specification": "15ｲﾝﾁ,5F191[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: 15ｲﾝﾁ,5F191[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

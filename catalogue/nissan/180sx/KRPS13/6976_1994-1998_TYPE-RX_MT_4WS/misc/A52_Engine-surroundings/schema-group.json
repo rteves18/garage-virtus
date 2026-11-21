@@ -1,0 +1,239 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "A52",
+    "name": "engine surroundings",
+    "title_raw": "engine surroundings (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/A52_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/6d90aabd935bfe426b53f9f188db3e48.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/A52_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/b08176822557944b2bf1db63c449afe4.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/A52_003.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/0eb9edf5337c4f105e1dc36005dca46a.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "A52_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/A52_001.png",
+      "callouts": [
+        {
+          "pnc": "KA5255",
+          "name": "cap-oil filler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 92,
+                "y1": 44,
+                "x2": 149,
+                "y2": 59
+              },
+              "norm": {
+                "x1": 0.0896,
+                "y1": 0.0855,
+                "x2": 0.1453,
+                "y2": 0.1148
+              },
+              "title": "cap-oil filler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "A5255-78E00",
+              "url": "https://www.amayama.com/en/part/nissan/a525578e00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: SR20DET"
+            },
+            {
+              "oem": "A5255-89900",
+              "url": "https://www.amayama.com/en/part/nissan/a525589900",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐｾｲ[K504], App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.9,
+                "currency": "USD",
+                "raw": "58.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐｾｲ[K504], App. model: SR20DE +SR20DET"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A52_002_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/A52_002.png",
+      "callouts": [
+        {
+          "pnc": "KA5255",
+          "name": "cap-oil filler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 144,
+                "y1": 222,
+                "x2": 201,
+                "y2": 237
+              },
+              "norm": {
+                "x1": 0.1408,
+                "y1": 0.434,
+                "x2": 0.1965,
+                "y2": 0.4633
+              },
+              "title": "cap-oil filler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "A5255-78E00",
+              "url": "https://www.amayama.com/en/part/nissan/a525578e00",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: SR20DET"
+            },
+            {
+              "oem": "A5255-89900",
+              "url": "https://www.amayama.com/en/part/nissan/a525589900",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾙﾐｾｲ[K504], App. model: SR20DE +SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.9,
+                "currency": "USD",
+                "raw": "58.90"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾙﾐｾｲ[K504], App. model: SR20DE +SR20DET"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A52_003_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1991-01",
+        "raw": "03.1989 - 01.1991"
+      },
+      "image": "megazip/RS13/A52_003.png",
+      "callouts": []
+    }
+  ]
+}

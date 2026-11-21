@@ -94,21 +94,32 @@ private struct GroupHeader: View {
                 Text(file.group.name.localizedCapitalized).font(.title3.weight(.semibold))
                 Spacer()
                 if let url = URL(string: file.source.url) {
-                    Link("View on Amayama", destination: url).font(.callout)
+                    Link("View on \(file.source.siteName)", destination: url).font(.callout)
                 }
             }
             Text(model.vehicleSummary)
                 .font(.callout).foregroundStyle(.secondary)
 
             if file.schemas.count > 1 {
-                Picker("Schema", selection: $model.schemaIndex) {
-                    ForEach(file.schemas.indices, id: \.self) { index in
-                        Text(model.segmentTitle(for: file.schemas[index])).tag(index)
+                if GroupDetailViewModel.fitsSegmentedPicker(schemaCount: file.schemas.count) {
+                    Picker("Schema", selection: $model.schemaIndex) {
+                        ForEach(file.schemas.indices, id: \.self) { index in
+                            Text(model.segmentTitle(for: file.schemas[index])).tag(index)
+                        }
                     }
+                    .pickerStyle(.segmented)
+                    .labelsHidden()
+                    .fixedSize()
+                } else {
+                    Picker("Schema", selection: $model.schemaIndex) {
+                        ForEach(file.schemas.indices, id: \.self) { index in
+                            Text(model.label(for: file.schemas[index])).tag(index)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                    .labelsHidden()
+                    .frame(maxWidth: 360, alignment: .leading)
                 }
-                .pickerStyle(.segmented)
-                .labelsHidden()
-                .fixedSize()
             }
             Text(model.label(for: schema))
                 .font(.callout)

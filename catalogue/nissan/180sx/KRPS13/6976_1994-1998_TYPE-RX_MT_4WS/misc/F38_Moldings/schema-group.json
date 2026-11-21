@@ -1,0 +1,337 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F38",
+    "name": "moldings",
+    "title_raw": "moldings (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/F38_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/814dc35b3f7a9e19eb9569e9467d4554.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "F38_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F38_001.png",
+      "callouts": [
+        {
+          "pnc": "KH0870",
+          "name": "door edge molding set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 884,
+                "y1": 323,
+                "x2": 941,
+                "y2": 338
+              },
+              "norm": {
+                "x1": 0.8635,
+                "y1": 0.6301,
+                "x2": 0.9191,
+                "y2": 0.6594
+              },
+              "title": "door edge molding set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H0870-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087035f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛﾑｺｳﾀｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛﾑｺｳﾀｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "H0870-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087035f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｰﾑｺｳﾀｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｰﾑｺｳﾀｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "H0870-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/h087035f10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1998-12",
+                "raw": "01.1991 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 42.54,
+                "currency": "USD",
+                "raw": "42.54"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KH0872",
+          "name": "molding",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 741,
+                "y1": 375,
+                "x2": 798,
+                "y2": 390
+              },
+              "norm": {
+                "x1": 0.724,
+                "y1": 0.7324,
+                "x2": 0.7797,
+                "y2": 0.7617
+              },
+              "title": "molding"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H0871-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087135f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+            },
+            {
+              "oem": "H0871-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087135f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｰﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｰﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+            },
+            {
+              "oem": "H0871-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/h087135f10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ,OYA  H087035F10[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1998-12",
+                "raw": "01.1991 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ,OYA  H087035F10[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KH0873",
+          "name": "molding",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 741,
+                "y1": 391,
+                "x2": 798,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.724,
+                "y1": 0.7645,
+                "x2": 0.7797,
+                "y2": 0.7937
+              },
+              "title": "molding"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H0872-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087235f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+            },
+            {
+              "oem": "H0872-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/h087235f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾛｰﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾛｰﾑｺｳﾀｸ,OYA  H087035F00[K504], App. model: HB"
+            },
+            {
+              "oem": "H0872-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/h087235f10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ,OYA  H087035F10[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1998-12",
+                "raw": "01.1991 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 36.81,
+                "currency": "USD",
+                "raw": "36.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸｼﾞｭｼｺｰﾃｨﾝｸﾞ,OYA  H087035F10[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

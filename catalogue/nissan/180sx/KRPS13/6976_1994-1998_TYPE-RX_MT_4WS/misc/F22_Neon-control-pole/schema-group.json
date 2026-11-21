@@ -1,0 +1,896 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F22",
+    "name": "neon control pole",
+    "title_raw": "neon control pole (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/F22_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/36a29734dd44e089bbd9d8f533c78816.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/F22_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/42edb84d9d9352299ead35b87d95c3fa.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "F22_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F22_001.png",
+      "callouts": [
+        {
+          "pnc": "KF2020",
+          "name": "neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 202,
+                "y1": 351,
+                "x2": 259,
+                "y2": 366
+              },
+              "norm": {
+                "x1": 0.1971,
+                "y1": 0.6863,
+                "x2": 0.2527,
+                "y2": 0.7156
+              },
+              "title": "neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB Required: 3 pcs"
+            },
+            {
+              "oem": "F2020-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 366.29,
+                "currency": "USD",
+                "raw": "366.29"
+              },
+              "replacements": [
+                {
+                  "oem": "F2020-51F15",
+                  "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+                  "price": {
+                    "status": "Available",
+                    "amount": 305.24,
+                    "currency": "USD",
+                    "raw": "305.24"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2020-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 305.24,
+                "currency": "USD",
+                "raw": "305.24"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2022",
+          "name": "key, neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 775,
+                "y1": 359,
+                "x2": 832,
+                "y2": 374
+              },
+              "norm": {
+                "x1": 0.7572,
+                "y1": 0.702,
+                "x2": 0.8129,
+                "y2": 0.7312
+              },
+              "title": "key, neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.05,
+                "currency": "USD",
+                "raw": "20.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.05,
+                "currency": "USD",
+                "raw": "20.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2024",
+          "name": "motor, neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 731,
+                "y1": 241,
+                "x2": 788,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.7143,
+                "y1": 0.4707,
+                "x2": 0.7699,
+                "y2": 0.5
+              },
+              "title": "motor, neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2024-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2024-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f15",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202051F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 163.61,
+                "currency": "USD",
+                "raw": "163.61"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202051F00[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2026",
+          "name": "switch neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 870,
+                "y1": 198,
+                "x2": 927,
+                "y2": 213
+              },
+              "norm": {
+                "x1": 0.8498,
+                "y1": 0.3863,
+                "x2": 0.9055,
+                "y2": 0.4156
+              },
+              "title": "switch neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2026-50C10",
+              "url": "https://www.amayama.com/en/part/nissan/f202650c10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2026-70N00",
+              "url": "https://www.amayama.com/en/part/nissan/f202670n00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2026-89920",
+              "url": "https://www.amayama.com/en/part/nissan/f202689920",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F22_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/F22_002.png",
+      "callouts": [
+        {
+          "pnc": "KF2020",
+          "name": "neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 197,
+                "y1": 383,
+                "x2": 254,
+                "y2": 398
+              },
+              "norm": {
+                "x1": 0.192,
+                "y1": 0.7488,
+                "x2": 0.2477,
+                "y2": 0.7781
+              },
+              "title": "neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB Required: 2 pcs"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB",
+                "required": "3 pcs"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202060R00[K504], App. model: HB Required: 3 pcs"
+            },
+            {
+              "oem": "F2020-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 366.29,
+                "currency": "USD",
+                "raw": "366.29"
+              },
+              "replacements": [
+                {
+                  "oem": "F2020-51F15",
+                  "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+                  "price": {
+                    "status": "Available",
+                    "amount": 305.24,
+                    "currency": "USD",
+                    "raw": "305.24"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2020-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 305.24,
+                "currency": "USD",
+                "raw": "305.24"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2022",
+          "name": "key, neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 784,
+                "y1": 362,
+                "x2": 841,
+                "y2": 377
+              },
+              "norm": {
+                "x1": 0.7654,
+                "y1": 0.7074,
+                "x2": 0.8211,
+                "y2": 0.7367
+              },
+              "title": "key, neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.05,
+                "currency": "USD",
+                "raw": "20.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.05,
+                "currency": "USD",
+                "raw": "20.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2024",
+          "name": "motor, neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 887,
+                "y1": 403,
+                "x2": 944,
+                "y2": 418
+              },
+              "norm": {
+                "x1": 0.8662,
+                "y1": 0.7871,
+                "x2": 0.9219,
+                "y2": 0.8164
+              },
+              "title": "motor, neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2024-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2024-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f15",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202051F00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 163.61,
+                "currency": "USD",
+                "raw": "163.61"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ,OYA  F202051F00[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2026",
+          "name": "switch neon control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 897,
+                "y1": 84,
+                "x2": 954,
+                "y2": 99
+              },
+              "norm": {
+                "x1": 0.8756,
+                "y1": 0.1645,
+                "x2": 0.9313,
+                "y2": 0.1938
+              },
+              "title": "switch neon control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2026-50C10",
+              "url": "https://www.amayama.com/en/part/nissan/f202650c10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2026-70N00",
+              "url": "https://www.amayama.com/en/part/nissan/f202670n00",
+              "applies": [],
+              "details": {
+                "specification": "ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾏﾆｭｱﾙﾀｲﾌﾟ[K504], App. model: HB"
+            },
+            {
+              "oem": "F2026-89920",
+              "url": "https://www.amayama.com/en/part/nissan/f202689920",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.72,
+                "currency": "USD",
+                "raw": "32.72"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2029",
+          "name": "controller, pole",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 901,
+                "y1": 252,
+                "x2": 958,
+                "y2": 267
+              },
+              "norm": {
+                "x1": 0.8799,
+                "y1": 0.4918,
+                "x2": 0.9355,
+                "y2": 0.5211
+              },
+              "title": "controller, pole"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2029-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202951f10",
+              "applies": [],
+              "details": {
+                "specification": "ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 186.6,
+                "currency": "USD",
+                "raw": "186.60"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｵｰﾄﾀｲﾌﾟ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

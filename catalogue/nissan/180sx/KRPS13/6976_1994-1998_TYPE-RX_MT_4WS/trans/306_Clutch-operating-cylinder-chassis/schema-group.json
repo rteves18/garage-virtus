@@ -1,0 +1,4756 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "306",
+    "name": "clutch operating cylinder chassis",
+    "title_raw": "clutch operating cylinder chassis (trans) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/306_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/7735bf7d48424c7d62e2de253a631cb5.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/306_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/ff09d65080cf54577af18eb9beb2864b.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "306_001_0",
+      "index": 1,
+      "of": 4,
+      "applies": [
+        "SR20DT.MT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1993-06",
+        "raw": "01.1991 - 06.1993"
+      },
+      "image": "megazip/RS13/306_001.png",
+      "callouts": [
+        {
+          "pnc": "30620",
+          "name": "cylinder-assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 327,
+                "y1": 53,
+                "x2": 375,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.3189,
+                "y1": 0.1027,
+                "x2": 0.3658,
+                "y2": 0.132
+              },
+              "title": "cylinder-assy"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 866,
+                "y1": 193,
+                "x2": 914,
+                "y2": 208
+              },
+              "norm": {
+                "x1": 0.8455,
+                "y1": 0.3777,
+                "x2": 0.8924,
+                "y2": 0.407
+              },
+              "title": "cylinder-assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30620-0H620",
+              "url": "https://www.amayama.com/en/part/nissan/306200h620",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 97.02,
+                "currency": "USD",
+                "raw": "97.02"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-0H660",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h660",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                },
+                {
+                  "oem": "30620-0H60A",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h60a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-18V01",
+              "url": "https://www.amayama.com/en/part/nissan/3062018v01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 116.66,
+                "currency": "USD",
+                "raw": "116.66"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F01",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-02",
+                "raw": "10.1995 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1996-08",
+                "raw": "02.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30624",
+          "name": "cup piston",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 366,
+                "y1": 181,
+                "x2": 414,
+                "y2": 196
+              },
+              "norm": {
+                "x1": 0.3572,
+                "y1": 0.3543,
+                "x2": 0.4041,
+                "y2": 0.3836
+              },
+              "title": "cup piston"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30624-21000",
+              "url": "https://www.amayama.com/en/part/nissan/3062421000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.44,
+                "currency": "USD",
+                "raw": "1.44"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30627",
+          "name": "cover dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 189,
+                "y1": 131,
+                "x2": 237,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.1842,
+                "y1": 0.2559,
+                "x2": 0.2311,
+                "y2": 0.2852
+              },
+              "title": "cover dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30627-0T000",
+              "url": "https://www.amayama.com/en/part/nissan/306270t000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.94,
+                "currency": "USD",
+                "raw": "8.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30628",
+          "name": "rod-push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 209,
+                "y1": 294,
+                "x2": 257,
+                "y2": 309
+              },
+              "norm": {
+                "x1": 0.2037,
+                "y1": 0.5746,
+                "x2": 0.2506,
+                "y2": 0.6039
+              },
+              "title": "rod-push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-02",
+                "raw": "01.1994 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30628-50G00",
+              "url": "https://www.amayama.com/en/part/nissan/3062850g00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "30628-50G0A",
+                  "url": "https://www.amayama.com/en/part/nissan/3062850g0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.21,
+                    "currency": "USD",
+                    "raw": "16.21"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-U7000",
+              "url": "https://www.amayama.com/en/part/nissan/30628u7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1998-12",
+                "raw": "02.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.77,
+                "currency": "USD",
+                "raw": "13.77"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30620K",
+          "name": "k cup clutch",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 55,
+                "y1": 330,
+                "x2": 112,
+                "y2": 345
+              },
+              "norm": {
+                "x1": 0.0541,
+                "y1": 0.6449,
+                "x2": 0.1098,
+                "y2": 0.6742
+              },
+              "title": "k cup clutch"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30622-26E25",
+              "url": "https://www.amayama.com/en/part/nissan/3062226e25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.53,
+                "currency": "USD",
+                "raw": "11.53"
+              },
+              "replacements": [
+                {
+                  "oem": "30622-16E25",
+                  "url": "https://www.amayama.com/en/part/nissan/3062216e25",
+                  "price": {
+                    "status": "Available",
+                    "amount": 9.91,
+                    "currency": "USD",
+                    "raw": "9.91"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30620L",
+          "name": "piston kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 229,
+                "y1": 461,
+                "x2": 286,
+                "y2": 476
+              },
+              "norm": {
+                "x1": 0.224,
+                "y1": 0.8996,
+                "x2": 0.2797,
+                "y2": 0.9289
+              },
+              "title": "piston kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-26E25",
+              "url": "https://www.amayama.com/en/part/nissan/3062126e25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.36,
+                "currency": "USD",
+                "raw": "22.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-69F29",
+              "url": "https://www.amayama.com/en/part/nissan/3062169f29",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.94,
+                "currency": "USD",
+                "raw": "16.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30621A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 575,
+                "y1": 284,
+                "x2": 629,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.5611,
+                "y1": 0.5551,
+                "x2": 0.6139,
+                "y2": 0.5844
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-45P00",
+              "url": "https://www.amayama.com/en/part/nissan/4112845p00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1998-12",
+                "raw": "10.1995 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "41128-45P0A",
+                  "url": "https://www.amayama.com/en/part/nissan/4112845p0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.3,
+                    "currency": "USD",
+                    "raw": "4.30"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-W7001",
+              "url": "https://www.amayama.com/en/part/nissan/41128w7001",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.89,
+                "currency": "USD",
+                "raw": "4.89"
+              },
+              "replacements": [
+                {
+                  "oem": "41128-U0201",
+                  "url": "https://www.amayama.com/en/part/nissan/41128u0201",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "41128-JS10A",
+                  "url": "https://www.amayama.com/en/part/nissan/41128js10a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.99,
+                    "currency": "USD",
+                    "raw": "4.99"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30621B",
+          "name": "cap bleed screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 432,
+                "y1": 156,
+                "x2": 486,
+                "y2": 171
+              },
+              "norm": {
+                "x1": 0.4217,
+                "y1": 0.3051,
+                "x2": 0.4744,
+                "y2": 0.3344
+              },
+              "title": "cap bleed screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "41129-U0201",
+              "url": "https://www.amayama.com/en/part/nissan/41129u0201",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.22,
+                "currency": "USD",
+                "raw": "1.22"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30625A",
+          "name": "spring-piston",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 405,
+                "y1": 393,
+                "x2": 462,
+                "y2": 408
+              },
+              "norm": {
+                "x1": 0.3951,
+                "y1": 0.7684,
+                "x2": 0.4508,
+                "y2": 0.7977
+              },
+              "title": "spring-piston"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            },
+            {
+              "oem": "30622-W7000",
+              "url": "https://www.amayama.com/en/part/nissan/30622w7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.16,
+                "currency": "USD",
+                "raw": "2.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210251E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 856,
+                "y1": 409,
+                "x2": 949,
+                "y2": 424
+              },
+              "norm": {
+                "x1": 0.8357,
+                "y1": 0.7988,
+                "x2": 0.9266,
+                "y2": 0.8281
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0251E",
+              "url": "https://www.amayama.com/en/part/nissan/081210251e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.24,
+                "currency": "USD",
+                "raw": "1.24"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "306_002_1",
+      "index": 2,
+      "of": 4,
+      "applies": [
+        "SR20DT.MT"
+      ],
+      "period": {
+        "from": "1993-06",
+        "to": "1994-01",
+        "raw": "06.1993 - 01.1994"
+      },
+      "image": "megazip/RS13/306_002.png",
+      "callouts": [
+        {
+          "pnc": "30620",
+          "name": "cylinder-assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 675,
+                "y1": 31,
+                "x2": 723,
+                "y2": 46
+              },
+              "norm": {
+                "x1": 0.6592,
+                "y1": 0.0598,
+                "x2": 0.7061,
+                "y2": 0.0891
+              },
+              "title": "cylinder-assy"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 347,
+                "y1": 355,
+                "x2": 395,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.3393,
+                "y1": 0.6934,
+                "x2": 0.3861,
+                "y2": 0.7227
+              },
+              "title": "cylinder-assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30620-0H620",
+              "url": "https://www.amayama.com/en/part/nissan/306200h620",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 97.02,
+                "currency": "USD",
+                "raw": "97.02"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-0H660",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h660",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                },
+                {
+                  "oem": "30620-0H60A",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h60a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-18V01",
+              "url": "https://www.amayama.com/en/part/nissan/3062018v01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 116.66,
+                "currency": "USD",
+                "raw": "116.66"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F01",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-02",
+                "raw": "10.1995 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1996-08",
+                "raw": "02.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30627",
+          "name": "cover dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 502,
+                "y1": 116,
+                "x2": 550,
+                "y2": 131
+              },
+              "norm": {
+                "x1": 0.4904,
+                "y1": 0.2262,
+                "x2": 0.5373,
+                "y2": 0.2555
+              },
+              "title": "cover dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30627-0T000",
+              "url": "https://www.amayama.com/en/part/nissan/306270t000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.94,
+                "currency": "USD",
+                "raw": "8.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30628",
+          "name": "rod-push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 556,
+                "y1": 149,
+                "x2": 604,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.5432,
+                "y1": 0.2902,
+                "x2": 0.59,
+                "y2": 0.3195
+              },
+              "title": "rod-push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-02",
+                "raw": "01.1994 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30628-50G00",
+              "url": "https://www.amayama.com/en/part/nissan/3062850g00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "30628-50G0A",
+                  "url": "https://www.amayama.com/en/part/nissan/3062850g0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.21,
+                    "currency": "USD",
+                    "raw": "16.21"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-U7000",
+              "url": "https://www.amayama.com/en/part/nissan/30628u7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1998-12",
+                "raw": "02.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.77,
+                "currency": "USD",
+                "raw": "13.77"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30620L",
+          "name": "piston kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 567,
+                "y1": 313,
+                "x2": 624,
+                "y2": 328
+              },
+              "norm": {
+                "x1": 0.5537,
+                "y1": 0.6113,
+                "x2": 0.6094,
+                "y2": 0.6406
+              },
+              "title": "piston kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-26E25",
+              "url": "https://www.amayama.com/en/part/nissan/3062126e25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.36,
+                "currency": "USD",
+                "raw": "22.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-69F29",
+              "url": "https://www.amayama.com/en/part/nissan/3062169f29",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.94,
+                "currency": "USD",
+                "raw": "16.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30621A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 817,
+                "y1": 310,
+                "x2": 871,
+                "y2": 325
+              },
+              "norm": {
+                "x1": 0.7975,
+                "y1": 0.6051,
+                "x2": 0.8502,
+                "y2": 0.6344
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-45P00",
+              "url": "https://www.amayama.com/en/part/nissan/4112845p00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1998-12",
+                "raw": "10.1995 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "41128-45P0A",
+                  "url": "https://www.amayama.com/en/part/nissan/4112845p0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.3,
+                    "currency": "USD",
+                    "raw": "4.30"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-W7001",
+              "url": "https://www.amayama.com/en/part/nissan/41128w7001",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.89,
+                "currency": "USD",
+                "raw": "4.89"
+              },
+              "replacements": [
+                {
+                  "oem": "41128-U0201",
+                  "url": "https://www.amayama.com/en/part/nissan/41128u0201",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "41128-JS10A",
+                  "url": "https://www.amayama.com/en/part/nissan/41128js10a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.99,
+                    "currency": "USD",
+                    "raw": "4.99"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30625A",
+          "name": "spring-piston",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 664,
+                "y1": 217,
+                "x2": 721,
+                "y2": 232
+              },
+              "norm": {
+                "x1": 0.6482,
+                "y1": 0.4238,
+                "x2": 0.7039,
+                "y2": 0.4531
+              },
+              "title": "spring-piston"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            },
+            {
+              "oem": "30622-W7000",
+              "url": "https://www.amayama.com/en/part/nissan/30622w7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.16,
+                "currency": "USD",
+                "raw": "2.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210251E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 58,
+                "y1": 369,
+                "x2": 151,
+                "y2": 384
+              },
+              "norm": {
+                "x1": 0.0564,
+                "y1": 0.7207,
+                "x2": 0.1473,
+                "y2": 0.75
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0251E",
+              "url": "https://www.amayama.com/en/part/nissan/081210251e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.24,
+                "currency": "USD",
+                "raw": "1.24"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "306_002_2",
+      "index": 3,
+      "of": 4,
+      "applies": [
+        "SR20DET.MT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/306_002.png",
+      "callouts": [
+        {
+          "pnc": "30620",
+          "name": "cylinder-assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 675,
+                "y1": 31,
+                "x2": 723,
+                "y2": 46
+              },
+              "norm": {
+                "x1": 0.6592,
+                "y1": 0.0598,
+                "x2": 0.7061,
+                "y2": 0.0891
+              },
+              "title": "cylinder-assy"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 347,
+                "y1": 355,
+                "x2": 395,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.3393,
+                "y1": 0.6934,
+                "x2": 0.3861,
+                "y2": 0.7227
+              },
+              "title": "cylinder-assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30620-0H620",
+              "url": "https://www.amayama.com/en/part/nissan/306200h620",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 97.02,
+                "currency": "USD",
+                "raw": "97.02"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-0H660",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h660",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                },
+                {
+                  "oem": "30620-0H60A",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h60a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-18V01",
+              "url": "https://www.amayama.com/en/part/nissan/3062018v01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 116.66,
+                "currency": "USD",
+                "raw": "116.66"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F01",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-02",
+                "raw": "10.1995 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1996-08",
+                "raw": "02.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30627",
+          "name": "cover dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 502,
+                "y1": 116,
+                "x2": 550,
+                "y2": 131
+              },
+              "norm": {
+                "x1": 0.4904,
+                "y1": 0.2262,
+                "x2": 0.5373,
+                "y2": 0.2555
+              },
+              "title": "cover dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30627-0T000",
+              "url": "https://www.amayama.com/en/part/nissan/306270t000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.94,
+                "currency": "USD",
+                "raw": "8.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30628",
+          "name": "rod-push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 556,
+                "y1": 149,
+                "x2": 604,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.5432,
+                "y1": 0.2902,
+                "x2": 0.59,
+                "y2": 0.3195
+              },
+              "title": "rod-push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-02",
+                "raw": "01.1994 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30628-50G00",
+              "url": "https://www.amayama.com/en/part/nissan/3062850g00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "30628-50G0A",
+                  "url": "https://www.amayama.com/en/part/nissan/3062850g0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.21,
+                    "currency": "USD",
+                    "raw": "16.21"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-U7000",
+              "url": "https://www.amayama.com/en/part/nissan/30628u7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1998-12",
+                "raw": "02.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.77,
+                "currency": "USD",
+                "raw": "13.77"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30620L",
+          "name": "piston kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 567,
+                "y1": 313,
+                "x2": 624,
+                "y2": 328
+              },
+              "norm": {
+                "x1": 0.5537,
+                "y1": 0.6113,
+                "x2": 0.6094,
+                "y2": 0.6406
+              },
+              "title": "piston kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-26E25",
+              "url": "https://www.amayama.com/en/part/nissan/3062126e25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.36,
+                "currency": "USD",
+                "raw": "22.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-69F29",
+              "url": "https://www.amayama.com/en/part/nissan/3062169f29",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.94,
+                "currency": "USD",
+                "raw": "16.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30621A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 817,
+                "y1": 310,
+                "x2": 871,
+                "y2": 325
+              },
+              "norm": {
+                "x1": 0.7975,
+                "y1": 0.6051,
+                "x2": 0.8502,
+                "y2": 0.6344
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-45P00",
+              "url": "https://www.amayama.com/en/part/nissan/4112845p00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1998-12",
+                "raw": "10.1995 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "41128-45P0A",
+                  "url": "https://www.amayama.com/en/part/nissan/4112845p0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.3,
+                    "currency": "USD",
+                    "raw": "4.30"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-W7001",
+              "url": "https://www.amayama.com/en/part/nissan/41128w7001",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.89,
+                "currency": "USD",
+                "raw": "4.89"
+              },
+              "replacements": [
+                {
+                  "oem": "41128-U0201",
+                  "url": "https://www.amayama.com/en/part/nissan/41128u0201",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "41128-JS10A",
+                  "url": "https://www.amayama.com/en/part/nissan/41128js10a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.99,
+                    "currency": "USD",
+                    "raw": "4.99"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30625A",
+          "name": "spring-piston",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 664,
+                "y1": 217,
+                "x2": 721,
+                "y2": 232
+              },
+              "norm": {
+                "x1": 0.6482,
+                "y1": 0.4238,
+                "x2": 0.7039,
+                "y2": 0.4531
+              },
+              "title": "spring-piston"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            },
+            {
+              "oem": "30622-W7000",
+              "url": "https://www.amayama.com/en/part/nissan/30622w7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.16,
+                "currency": "USD",
+                "raw": "2.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210251E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 58,
+                "y1": 369,
+                "x2": 151,
+                "y2": 384
+              },
+              "norm": {
+                "x1": 0.0564,
+                "y1": 0.7207,
+                "x2": 0.1473,
+                "y2": 0.75
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0251E",
+              "url": "https://www.amayama.com/en/part/nissan/081210251e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.24,
+                "currency": "USD",
+                "raw": "1.24"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "306_002_3",
+      "index": 4,
+      "of": 4,
+      "applies": [
+        "SR20DE.MT",
+        "SR20DET.MT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/306_002.png",
+      "callouts": [
+        {
+          "pnc": "30620",
+          "name": "cylinder-assy",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 675,
+                "y1": 31,
+                "x2": 723,
+                "y2": 46
+              },
+              "norm": {
+                "x1": 0.6592,
+                "y1": 0.0598,
+                "x2": 0.7061,
+                "y2": 0.0891
+              },
+              "title": "cylinder-assy"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 347,
+                "y1": 355,
+                "x2": 395,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.3393,
+                "y1": 0.6934,
+                "x2": 0.3861,
+                "y2": 0.7227
+              },
+              "title": "cylinder-assy"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30620-0H620",
+              "url": "https://www.amayama.com/en/part/nissan/306200h620",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 97.02,
+                "currency": "USD",
+                "raw": "97.02"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-0H660",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h660",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                },
+                {
+                  "oem": "30620-0H60A",
+                  "url": "https://www.amayama.com/en/part/nissan/306200h60a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 88.19,
+                    "currency": "USD",
+                    "raw": "88.19"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-18V01",
+              "url": "https://www.amayama.com/en/part/nissan/3062018v01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 116.66,
+                "currency": "USD",
+                "raw": "116.66"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F01",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30620-69F01",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F02",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+                  "price": {
+                    "status": "Available",
+                    "amount": 129.25,
+                    "currency": "USD",
+                    "raw": "129.25"
+                  }
+                },
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-02",
+                "raw": "10.1995 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 129.25,
+                "currency": "USD",
+                "raw": "129.25"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F03",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 159.36,
+                    "currency": "USD",
+                    "raw": "159.36"
+                  }
+                },
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1996-08",
+                "raw": "02.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30620-69F03",
+              "url": "https://www.amayama.com/en/part/nissan/3062069f03",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 159.36,
+                "currency": "USD",
+                "raw": "159.36"
+              },
+              "replacements": [
+                {
+                  "oem": "30620-69F70",
+                  "url": "https://www.amayama.com/en/part/nissan/3062069f70",
+                  "price": {
+                    "status": "Available",
+                    "amount": 108.8,
+                    "currency": "USD",
+                    "raw": "108.80"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30627",
+          "name": "cover dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 502,
+                "y1": 116,
+                "x2": 550,
+                "y2": 131
+              },
+              "norm": {
+                "x1": 0.4904,
+                "y1": 0.2262,
+                "x2": 0.5373,
+                "y2": 0.2555
+              },
+              "title": "cover dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30627-0T000",
+              "url": "https://www.amayama.com/en/part/nissan/306270t000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.94,
+                "currency": "USD",
+                "raw": "8.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30627-16E00",
+              "url": "https://www.amayama.com/en/part/nissan/3062716e00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.43,
+                "currency": "USD",
+                "raw": "3.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30628",
+          "name": "rod-push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 556,
+                "y1": 149,
+                "x2": 604,
+                "y2": 164
+              },
+              "norm": {
+                "x1": 0.5432,
+                "y1": 0.2902,
+                "x2": 0.59,
+                "y2": 0.3195
+              },
+              "title": "rod-push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-05U00",
+              "url": "https://www.amayama.com/en/part/nissan/3062805u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-02",
+                "raw": "01.1994 - 02.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.81,
+                "currency": "USD",
+                "raw": "16.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30628-50G00",
+              "url": "https://www.amayama.com/en/part/nissan/3062850g00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "30628-50G0A",
+                  "url": "https://www.amayama.com/en/part/nissan/3062850g0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 16.21,
+                    "currency": "USD",
+                    "raw": "16.21"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30628-U7000",
+              "url": "https://www.amayama.com/en/part/nissan/30628u7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-02",
+                "to": "1998-12",
+                "raw": "02.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.77,
+                "currency": "USD",
+                "raw": "13.77"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30620L",
+          "name": "piston kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 567,
+                "y1": 313,
+                "x2": 624,
+                "y2": 328
+              },
+              "norm": {
+                "x1": 0.5537,
+                "y1": 0.6113,
+                "x2": 0.6094,
+                "y2": 0.6406
+              },
+              "title": "piston kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-0T090",
+              "url": "https://www.amayama.com/en/part/nissan/306210t090",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.45,
+                "currency": "USD",
+                "raw": "21.45"
+              },
+              "replacements": [
+                {
+                  "oem": "30621-0W025",
+                  "url": "https://www.amayama.com/en/part/nissan/306210w025",
+                  "price": {
+                    "status": "Available",
+                    "amount": 10.46,
+                    "currency": "USD",
+                    "raw": "10.46"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 19.05(3/4), App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-0W025",
+              "url": "https://www.amayama.com/en/part/nissan/306210w025",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-03",
+                "raw": "08.1996 - 03.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.46,
+                "currency": "USD",
+                "raw": "10.46"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30621-26E25",
+              "url": "https://www.amayama.com/en/part/nissan/3062126e25",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 22.36,
+                "currency": "USD",
+                "raw": "22.36"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30621-69F29",
+              "url": "https://www.amayama.com/en/part/nissan/3062169f29",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1997-03",
+                "to": "1998-12",
+                "raw": "03.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.94,
+                "currency": "USD",
+                "raw": "16.94"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ 3/4, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30621A",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 817,
+                "y1": 310,
+                "x2": 871,
+                "y2": 325
+              },
+              "norm": {
+                "x1": 0.7975,
+                "y1": 0.6051,
+                "x2": 0.8502,
+                "y2": 0.6344
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "41128-35J00",
+              "url": "https://www.amayama.com/en/part/nissan/4112835j00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.71,
+                "currency": "USD",
+                "raw": "6.71"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-45P00",
+              "url": "https://www.amayama.com/en/part/nissan/4112845p00",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1998-12",
+                "raw": "10.1995 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "41128-45P0A",
+                  "url": "https://www.amayama.com/en/part/nissan/4112845p0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.3,
+                    "currency": "USD",
+                    "raw": "4.30"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "41128-W7001",
+              "url": "https://www.amayama.com/en/part/nissan/41128w7001",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.89,
+                "currency": "USD",
+                "raw": "4.89"
+              },
+              "replacements": [
+                {
+                  "oem": "41128-U0201",
+                  "url": "https://www.amayama.com/en/part/nissan/41128u0201",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                },
+                {
+                  "oem": "41128-JS10A",
+                  "url": "https://www.amayama.com/en/part/nissan/41128js10a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4.99,
+                    "currency": "USD",
+                    "raw": "4.99"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "30625A",
+          "name": "spring-piston",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 664,
+                "y1": 217,
+                "x2": 721,
+                "y2": 232
+              },
+              "norm": {
+                "x1": 0.6482,
+                "y1": 0.4238,
+                "x2": 0.7039,
+                "y2": 0.4531
+              },
+              "title": "spring-piston"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            },
+            {
+              "oem": "30622-21U01",
+              "url": "https://www.amayama.com/en/part/nissan/3062221u01",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-10",
+                "raw": "01.1994 - 10.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.05,
+                "currency": "USD",
+                "raw": "3.05"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1995-10",
+                "to": "1996-08",
+                "raw": "10.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DET.MT"
+            },
+            {
+              "oem": "30622-69F02",
+              "url": "https://www.amayama.com/en/part/nissan/3062269f02",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 10.91,
+                "currency": "USD",
+                "raw": "10.91"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DE.MT +SR20DET.MT"
+            },
+            {
+              "oem": "30622-W7000",
+              "url": "https://www.amayama.com/en/part/nissan/30622w7000",
+              "applies": [],
+              "details": {
+                "specification": "ﾅﾌﾞｺ, App. model: SR20DT.MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-06",
+                "raw": "01.1991 - 06.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.16,
+                "currency": "USD",
+                "raw": "2.16"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾅﾌﾞｺ, App. model: SR20DT.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210251E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 58,
+                "y1": 369,
+                "x2": 151,
+                "y2": 384
+              },
+              "norm": {
+                "x1": 0.0564,
+                "y1": 0.7207,
+                "x2": 0.1473,
+                "y2": 0.75
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0251E",
+              "url": "https://www.amayama.com/en/part/nissan/081210251e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.24,
+                "currency": "USD",
+                "raw": "1.24"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

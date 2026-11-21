@@ -1,0 +1,105 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B48",
+    "name": "meter clock",
+    "title_raw": "meter clock (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B48_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/62f94579fcce96ea7a3561bb004b87c3.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B48_001_0",
+      "index": 1,
+      "of": 1,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B48_001.png",
+      "callouts": [
+        {
+          "pnc": "KB4815",
+          "name": "power, meter",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 641,
+                "y1": 68,
+                "x2": 695,
+                "y2": 83
+              },
+              "norm": {
+                "x1": 0.6256,
+                "y1": 0.1332,
+                "x2": 0.6783,
+                "y2": 0.1625
+              },
+              "title": "power, meter"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B4840-50F25",
+              "url": "https://www.amayama.com/en/part/nissan/b484050f25",
+              "applies": [],
+              "details": {
+                "specification": "[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1175.26,
+                "currency": "USD",
+                "raw": "1,175.26"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

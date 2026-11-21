@@ -1,0 +1,1839 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "electric",
+    "code": "267",
+    "name": "lamp other denso",
+    "title_raw": "lamp other denso (electric) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/267_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/839a67ef0971398971610b59e4198342.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "267_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/267_001.png",
+      "callouts": [
+        {
+          "pnc": "26480",
+          "name": "lamp foot well",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 183,
+                "y1": 215,
+                "x2": 231,
+                "y2": 230
+              },
+              "norm": {
+                "x1": 0.1783,
+                "y1": 0.4191,
+                "x2": 0.2252,
+                "y2": 0.4484
+              },
+              "title": "lamp foot well"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26480-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648001f00",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26481",
+          "name": "lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 194,
+                "y1": 432,
+                "x2": 239,
+                "y2": 447
+              },
+              "norm": {
+                "x1": 0.1893,
+                "y1": 0.8441,
+                "x2": 0.2332,
+                "y2": 0.8734
+              },
+              "title": "lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26481-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648101f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 10.36,
+                "currency": "USD",
+                "raw": "10.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26490",
+          "name": "lamp assy-lugga",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 712,
+                "y1": 41,
+                "x2": 760,
+                "y2": 56
+              },
+              "norm": {
+                "x1": 0.6951,
+                "y1": 0.0809,
+                "x2": 0.742,
+                "y2": 0.1102
+              },
+              "title": "lamp assy-lugga"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26491",
+          "name": "a lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 925,
+                "y1": 53,
+                "x2": 970,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.9029,
+                "y1": 0.1035,
+                "x2": 0.9469,
+                "y2": 0.1328
+              },
+              "title": "a lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26890",
+          "name": "fusee",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 580,
+                "y1": 435,
+                "x2": 628,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.5662,
+                "y1": 0.8488,
+                "x2": 0.6131,
+                "y2": 0.8781
+              },
+              "title": "fusee"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26490A",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 833,
+                "y1": 187,
+                "x2": 890,
+                "y2": 202
+              },
+              "norm": {
+                "x1": 0.8131,
+                "y1": 0.366,
+                "x2": 0.8688,
+                "y2": 0.3953
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26590A",
+          "name": "valve 12v3w",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 184,
+                "y1": 292,
+                "x2": 241,
+                "y2": 307
+              },
+              "norm": {
+                "x1": 0.1799,
+                "y1": 0.5707,
+                "x2": 0.2355,
+                "y2": 0.6
+              },
+              "title": "valve 12v3w"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY080-00054",
+              "url": "https://www.amayama.com/en/part/nissan/ay08000054",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "267_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/267_001.png",
+      "callouts": [
+        {
+          "pnc": "26480",
+          "name": "lamp foot well",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 183,
+                "y1": 215,
+                "x2": 231,
+                "y2": 230
+              },
+              "norm": {
+                "x1": 0.1783,
+                "y1": 0.4191,
+                "x2": 0.2252,
+                "y2": 0.4484
+              },
+              "title": "lamp foot well"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26480-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648001f00",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26481",
+          "name": "lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 194,
+                "y1": 432,
+                "x2": 239,
+                "y2": 447
+              },
+              "norm": {
+                "x1": 0.1893,
+                "y1": 0.8441,
+                "x2": 0.2332,
+                "y2": 0.8734
+              },
+              "title": "lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26481-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648101f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 10.36,
+                "currency": "USD",
+                "raw": "10.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26490",
+          "name": "lamp assy-lugga",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 712,
+                "y1": 41,
+                "x2": 760,
+                "y2": 56
+              },
+              "norm": {
+                "x1": 0.6951,
+                "y1": 0.0809,
+                "x2": 0.742,
+                "y2": 0.1102
+              },
+              "title": "lamp assy-lugga"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26491",
+          "name": "a lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 925,
+                "y1": 53,
+                "x2": 970,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.9029,
+                "y1": 0.1035,
+                "x2": 0.9469,
+                "y2": 0.1328
+              },
+              "title": "a lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26890",
+          "name": "fusee",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 580,
+                "y1": 435,
+                "x2": 628,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.5662,
+                "y1": 0.8488,
+                "x2": 0.6131,
+                "y2": 0.8781
+              },
+              "title": "fusee"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26490A",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 833,
+                "y1": 187,
+                "x2": 890,
+                "y2": 202
+              },
+              "norm": {
+                "x1": 0.8131,
+                "y1": 0.366,
+                "x2": 0.8688,
+                "y2": 0.3953
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26590A",
+          "name": "valve 12v3w",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 184,
+                "y1": 292,
+                "x2": 241,
+                "y2": 307
+              },
+              "norm": {
+                "x1": 0.1799,
+                "y1": 0.5707,
+                "x2": 0.2355,
+                "y2": 0.6
+              },
+              "title": "valve 12v3w"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY080-00054",
+              "url": "https://www.amayama.com/en/part/nissan/ay08000054",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "267_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/267_001.png",
+      "callouts": [
+        {
+          "pnc": "26480",
+          "name": "lamp foot well",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 183,
+                "y1": 215,
+                "x2": 231,
+                "y2": 230
+              },
+              "norm": {
+                "x1": 0.1783,
+                "y1": 0.4191,
+                "x2": 0.2252,
+                "y2": 0.4484
+              },
+              "title": "lamp foot well"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26480-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648001f00",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26481",
+          "name": "lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 194,
+                "y1": 432,
+                "x2": 239,
+                "y2": 447
+              },
+              "norm": {
+                "x1": 0.1893,
+                "y1": 0.8441,
+                "x2": 0.2332,
+                "y2": 0.8734
+              },
+              "title": "lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26481-01F00",
+              "url": "https://www.amayama.com/en/part/nissan/2648101f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 10.36,
+                "currency": "USD",
+                "raw": "10.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "26490",
+          "name": "lamp assy-lugga",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 712,
+                "y1": 41,
+                "x2": 760,
+                "y2": 56
+              },
+              "norm": {
+                "x1": 0.6951,
+                "y1": 0.0809,
+                "x2": 0.742,
+                "y2": 0.1102
+              },
+              "title": "lamp assy-lugga"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26490-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649015f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 48.43,
+                "currency": "USD",
+                "raw": "48.43"
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26491",
+          "name": "a lens",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 925,
+                "y1": 53,
+                "x2": 970,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.9029,
+                "y1": 0.1035,
+                "x2": 0.9469,
+                "y2": 0.1328
+              },
+              "title": "a lens"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            },
+            {
+              "oem": "26491-15F10",
+              "url": "https://www.amayama.com/en/part/nissan/2649115f10",
+              "applies": [],
+              "details": {
+                "specification": "[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26890",
+          "name": "fusee",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 580,
+                "y1": 435,
+                "x2": 628,
+                "y2": 450
+              },
+              "norm": {
+                "x1": 0.5662,
+                "y1": 0.8488,
+                "x2": 0.6131,
+                "y2": 0.8781
+              },
+              "title": "fusee"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            },
+            {
+              "oem": "26890-89900",
+              "url": "https://www.amayama.com/en/part/nissan/2689089900",
+              "applies": [],
+              "details": {
+                "specification": "[K516], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: [K516], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26490A",
+          "name": "bulb",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 833,
+                "y1": 187,
+                "x2": 890,
+                "y2": 202
+              },
+              "norm": {
+                "x1": 0.8131,
+                "y1": 0.366,
+                "x2": 0.8688,
+                "y2": 0.3953
+              },
+              "title": "bulb"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            },
+            {
+              "oem": "26261-89903",
+              "url": "https://www.amayama.com/en/part/nissan/2626189903",
+              "applies": [],
+              "details": {
+                "specification": "12V-5W[B113], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "26261-C9909",
+                  "url": "https://www.amayama.com/en/part/nissan/26261c9909",
+                  "price": {
+                    "status": "Available",
+                    "amount": 1.98,
+                    "currency": "USD",
+                    "raw": "1.98"
+                  }
+                },
+                {
+                  "oem": "26261-89965",
+                  "url": "https://www.amayama.com/en/part/nissan/2626189965",
+                  "price": {
+                    "status": "Available",
+                    "amount": 0.89,
+                    "currency": "USD",
+                    "raw": "0.89"
+                  }
+                }
+              ],
+              "description_raw": "Specification: 12V-5W[B113], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "26590A",
+          "name": "valve 12v3w",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 184,
+                "y1": 292,
+                "x2": 241,
+                "y2": 307
+              },
+              "norm": {
+                "x1": 0.1799,
+                "y1": 0.5707,
+                "x2": 0.2355,
+                "y2": 0.6
+              },
+              "title": "valve 12v3w"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY080-00054",
+              "url": "https://www.amayama.com/en/part/nissan/ay08000054",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.28,
+                "currency": "USD",
+                "raw": "2.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2 Required: 2 pcs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

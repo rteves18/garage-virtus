@@ -1,0 +1,3597 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "320",
+    "name": "manual transmission transaxle & fit",
+    "title_raw": "manual transmission transaxle & fit (trans) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/320_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/98b646b08bc06bed3354cec50d1ca56e.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/320_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/94ac1c88da2c8ec4e5d958a7c072086a.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/320_003.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/cf6af0b8fe918a9c4b117984dec410cb.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "320_001_0",
+      "index": 1,
+      "of": 5,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/320_001.png",
+      "callouts": [
+        {
+          "pnc": "32010",
+          "name": "transformer transmission",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 551,
+                "y1": 359,
+                "x2": 596,
+                "y2": 374
+              },
+              "norm": {
+                "x1": 0.5385,
+                "y1": 0.702,
+                "x2": 0.5824,
+                "y2": 0.7312
+              },
+              "title": "transformer transmission"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f00",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-01",
+                "raw": "01.1991 - 01.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-01",
+                "to": "1993-07",
+                "raw": "01.1993 - 07.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-11",
+                "to": "1994-01",
+                "raw": "11.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-04",
+                "raw": "01.1994 - 04.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F21",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f21",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-07",
+                "to": "1993-11",
+                "raw": "07.1993 - 11.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F22",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1996-04",
+                "to": "1996-08",
+                "raw": "04.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-69F10",
+              "url": "https://www.amayama.com/en/part/nissan/3201069f10",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2970.79,
+                "currency": "USD",
+                "raw": "2,970.79"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: SR20DET.MT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "320_001_1",
+      "index": 2,
+      "of": 5,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/320_001.png",
+      "callouts": [
+        {
+          "pnc": "32010",
+          "name": "transformer transmission",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 551,
+                "y1": 359,
+                "x2": 596,
+                "y2": 374
+              },
+              "norm": {
+                "x1": 0.5385,
+                "y1": 0.702,
+                "x2": 0.5824,
+                "y2": 0.7312
+              },
+              "title": "transformer transmission"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f00",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-01",
+                "raw": "01.1991 - 01.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-01",
+                "to": "1993-07",
+                "raw": "01.1993 - 07.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-11",
+                "to": "1994-01",
+                "raw": "11.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-04",
+                "raw": "01.1994 - 04.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F21",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f21",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-07",
+                "to": "1993-11",
+                "raw": "07.1993 - 11.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F22",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1996-04",
+                "to": "1996-08",
+                "raw": "04.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-69F10",
+              "url": "https://www.amayama.com/en/part/nissan/3201069f10",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2970.79,
+                "currency": "USD",
+                "raw": "2,970.79"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: SR20DET.MT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "320_002_2",
+      "index": 3,
+      "of": 5,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/320_002.png",
+      "callouts": [
+        {
+          "pnc": "32088D",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 439,
+                "y1": 167,
+                "x2": 496,
+                "y2": 182
+              },
+              "norm": {
+                "x1": 0.4283,
+                "y1": 0.327,
+                "x2": 0.484,
+                "y2": 0.3563
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088E",
+          "name": "clip-harness",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 764,
+                "y1": 38,
+                "x2": 821,
+                "y2": 53
+              },
+              "norm": {
+                "x1": 0.7463,
+                "y1": 0.0738,
+                "x2": 0.802,
+                "y2": 0.1031
+              },
+              "title": "clip-harness"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 268,
+                "y1": 114,
+                "x2": 325,
+                "y2": 129
+              },
+              "norm": {
+                "x1": 0.2619,
+                "y1": 0.2223,
+                "x2": 0.3176,
+                "y2": 0.2516
+              },
+              "title": "clip-harness"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "32088EA",
+          "name": "clip-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 521,
+                "y1": 177,
+                "x2": 587,
+                "y2": 192
+              },
+              "norm": {
+                "x1": 0.5088,
+                "y1": 0.3465,
+                "x2": 0.5732,
+                "y2": 0.3758
+              },
+              "title": "clip-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088M",
+          "name": "hose-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 545,
+                "y1": 62,
+                "x2": 602,
+                "y2": 77
+              },
+              "norm": {
+                "x1": 0.5318,
+                "y1": 0.1215,
+                "x2": 0.5875,
+                "y2": 0.1508
+              },
+              "title": "hose-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31098-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109851f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [
+                {
+                  "oem": "31098-65F00",
+                  "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.7,
+                    "currency": "USD",
+                    "raw": "6.70"
+                  }
+                }
+              ],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-81F10",
+              "url": "https://www.amayama.com/en/part/nissan/3109881f10",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088R",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 470,
+                "y1": 53,
+                "x2": 527,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.4592,
+                "y1": 0.1043,
+                "x2": 0.5148,
+                "y2": 0.1336
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210301E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 412,
+                "y1": 480,
+                "x2": 505,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.4021,
+                "y1": 0.9371,
+                "x2": 0.493,
+                "y2": 0.9664
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0301E",
+              "url": "https://www.amayama.com/en/part/nissan/081210301e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.16,
+                "currency": "USD",
+                "raw": "1.16"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081210601E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 89,
+                "y1": 131,
+                "x2": 182,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.0865,
+                "y1": 0.2566,
+                "x2": 0.1773,
+                "y2": 0.2859
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 645,
+                "y1": 445,
+                "x2": 738,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.6303,
+                "y1": 0.8691,
+                "x2": 0.7211,
+                "y2": 0.8984
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0601E",
+              "url": "https://www.amayama.com/en/part/nissan/081210601e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712651A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 465,
+                "y1": 9,
+                "x2": 558,
+                "y2": 24
+              },
+              "norm": {
+                "x1": 0.4541,
+                "y1": 0.0176,
+                "x2": 0.5449,
+                "y2": 0.0469
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 760,
+                "y1": 381,
+                "x2": 853,
+                "y2": 396
+              },
+              "norm": {
+                "x1": 0.742,
+                "y1": 0.7441,
+                "x2": 0.8328,
+                "y2": 0.7734
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2651A",
+              "url": "https://www.amayama.com/en/part/nissan/081712651a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.64,
+                "currency": "USD",
+                "raw": "0.64"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 815,
+                "y1": 293,
+                "x2": 908,
+                "y2": 308
+              },
+              "norm": {
+                "x1": 0.7959,
+                "y1": 0.5723,
+                "x2": 0.8867,
+                "y2": 0.6016
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 56,
+                "x2": 289,
+                "y2": 71
+              },
+              "norm": {
+                "x1": 0.1916,
+                "y1": 0.1098,
+                "x2": 0.2824,
+                "y2": 0.1391
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 316,
+                "y1": 26,
+                "x2": 412,
+                "y2": 41
+              },
+              "norm": {
+                "x1": 0.3088,
+                "y1": 0.0504,
+                "x2": 0.4025,
+                "y2": 0.0797
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 87,
+                "x2": 292,
+                "y2": 102
+              },
+              "norm": {
+                "x1": 0.1912,
+                "y1": 0.1707,
+                "x2": 0.285,
+                "y2": 0.2
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 798,
+                "y1": 328,
+                "x2": 894,
+                "y2": 343
+              },
+              "norm": {
+                "x1": 0.7791,
+                "y1": 0.6402,
+                "x2": 0.8729,
+                "y2": 0.6695
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 417,
+                "x2": 829,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.8137,
+                "x2": 0.81,
+                "y2": 0.843
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "320_002_3",
+      "index": 4,
+      "of": 5,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/320_002.png",
+      "callouts": [
+        {
+          "pnc": "32088D",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 439,
+                "y1": 167,
+                "x2": 496,
+                "y2": 182
+              },
+              "norm": {
+                "x1": 0.4283,
+                "y1": 0.327,
+                "x2": 0.484,
+                "y2": 0.3563
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088E",
+          "name": "clip-harness",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 764,
+                "y1": 38,
+                "x2": 821,
+                "y2": 53
+              },
+              "norm": {
+                "x1": 0.7463,
+                "y1": 0.0738,
+                "x2": 0.802,
+                "y2": 0.1031
+              },
+              "title": "clip-harness"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 268,
+                "y1": 114,
+                "x2": 325,
+                "y2": 129
+              },
+              "norm": {
+                "x1": 0.2619,
+                "y1": 0.2223,
+                "x2": 0.3176,
+                "y2": 0.2516
+              },
+              "title": "clip-harness"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "32088EA",
+          "name": "clip-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 521,
+                "y1": 177,
+                "x2": 587,
+                "y2": 192
+              },
+              "norm": {
+                "x1": 0.5088,
+                "y1": 0.3465,
+                "x2": 0.5732,
+                "y2": 0.3758
+              },
+              "title": "clip-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088M",
+          "name": "hose-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 545,
+                "y1": 62,
+                "x2": 602,
+                "y2": 77
+              },
+              "norm": {
+                "x1": 0.5318,
+                "y1": 0.1215,
+                "x2": 0.5875,
+                "y2": 0.1508
+              },
+              "title": "hose-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31098-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109851f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [
+                {
+                  "oem": "31098-65F00",
+                  "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.7,
+                    "currency": "USD",
+                    "raw": "6.70"
+                  }
+                }
+              ],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-81F10",
+              "url": "https://www.amayama.com/en/part/nissan/3109881f10",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088R",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 470,
+                "y1": 53,
+                "x2": 527,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.4592,
+                "y1": 0.1043,
+                "x2": 0.5148,
+                "y2": 0.1336
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210301E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 412,
+                "y1": 480,
+                "x2": 505,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.4021,
+                "y1": 0.9371,
+                "x2": 0.493,
+                "y2": 0.9664
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0301E",
+              "url": "https://www.amayama.com/en/part/nissan/081210301e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.16,
+                "currency": "USD",
+                "raw": "1.16"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081210601E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 89,
+                "y1": 131,
+                "x2": 182,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.0865,
+                "y1": 0.2566,
+                "x2": 0.1773,
+                "y2": 0.2859
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 645,
+                "y1": 445,
+                "x2": 738,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.6303,
+                "y1": 0.8691,
+                "x2": 0.7211,
+                "y2": 0.8984
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0601E",
+              "url": "https://www.amayama.com/en/part/nissan/081210601e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712651A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 465,
+                "y1": 9,
+                "x2": 558,
+                "y2": 24
+              },
+              "norm": {
+                "x1": 0.4541,
+                "y1": 0.0176,
+                "x2": 0.5449,
+                "y2": 0.0469
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 760,
+                "y1": 381,
+                "x2": 853,
+                "y2": 396
+              },
+              "norm": {
+                "x1": 0.742,
+                "y1": 0.7441,
+                "x2": 0.8328,
+                "y2": 0.7734
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2651A",
+              "url": "https://www.amayama.com/en/part/nissan/081712651a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.64,
+                "currency": "USD",
+                "raw": "0.64"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 815,
+                "y1": 293,
+                "x2": 908,
+                "y2": 308
+              },
+              "norm": {
+                "x1": 0.7959,
+                "y1": 0.5723,
+                "x2": 0.8867,
+                "y2": 0.6016
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 56,
+                "x2": 289,
+                "y2": 71
+              },
+              "norm": {
+                "x1": 0.1916,
+                "y1": 0.1098,
+                "x2": 0.2824,
+                "y2": 0.1391
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 316,
+                "y1": 26,
+                "x2": 412,
+                "y2": 41
+              },
+              "norm": {
+                "x1": 0.3088,
+                "y1": 0.0504,
+                "x2": 0.4025,
+                "y2": 0.0797
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 87,
+                "x2": 292,
+                "y2": 102
+              },
+              "norm": {
+                "x1": 0.1912,
+                "y1": 0.1707,
+                "x2": 0.285,
+                "y2": 0.2
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 798,
+                "y1": 328,
+                "x2": 894,
+                "y2": 343
+              },
+              "norm": {
+                "x1": 0.7791,
+                "y1": 0.6402,
+                "x2": 0.8729,
+                "y2": 0.6695
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 417,
+                "x2": 829,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.8137,
+                "x2": 0.81,
+                "y2": 0.843
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "320_003_4",
+      "index": 5,
+      "of": 5,
+      "applies": [
+        "MT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/320_003.png",
+      "callouts": [
+        {
+          "pnc": "32010",
+          "name": "transformer transmission",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 799,
+                "y1": 146,
+                "x2": 844,
+                "y2": 161
+              },
+              "norm": {
+                "x1": 0.7803,
+                "y1": 0.2848,
+                "x2": 0.8242,
+                "y2": 0.3141
+              },
+              "title": "transformer transmission"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "32010-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f00",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1993-01",
+                "raw": "01.1991 - 01.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-01",
+                "to": "1993-07",
+                "raw": "01.1993 - 07.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-11",
+                "to": "1994-01",
+                "raw": "11.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F20",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-04",
+                "raw": "01.1994 - 04.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F21",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f21",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1993-07",
+                "to": "1993-11",
+                "raw": "07.1993 - 11.1993"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [
+                {
+                  "oem": "32010-50F20",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f20",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                },
+                {
+                  "oem": "32010-50F22",
+                  "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2905.5,
+                    "currency": "USD",
+                    "raw": "2,905.50"
+                  }
+                }
+              ],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-50F22",
+              "url": "https://www.amayama.com/en/part/nissan/3201050f22",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: MT"
+              },
+              "period": {
+                "from": "1996-04",
+                "to": "1996-08",
+                "raw": "04.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2905.5,
+                "currency": "USD",
+                "raw": "2,905.50"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: MT"
+            },
+            {
+              "oem": "32010-69F10",
+              "url": "https://www.amayama.com/en/part/nissan/3201069f10",
+              "applies": [],
+              "details": {
+                "specification": "FS5W71C, App. model: SR20DET.MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2970.79,
+                "currency": "USD",
+                "raw": "2,970.79"
+              },
+              "replacements": [],
+              "description_raw": "Specification: FS5W71C, App. model: SR20DET.MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32067",
+          "name": "tube-joint",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 582,
+                "y1": 45,
+                "x2": 630,
+                "y2": 60
+              },
+              "norm": {
+                "x1": 0.5682,
+                "y1": 0.0871,
+                "x2": 0.615,
+                "y2": 0.1164
+              },
+              "title": "tube-joint"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 507,
+                "y1": 179,
+                "x2": 555,
+                "y2": 194
+              },
+              "norm": {
+                "x1": 0.4955,
+                "y1": 0.3496,
+                "x2": 0.5424,
+                "y2": 0.3789
+              },
+              "title": "tube-joint"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31067-0W000",
+              "url": "https://www.amayama.com/en/part/nissan/310670w000",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 15.82,
+                "currency": "USD",
+                "raw": "15.82"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "32088D",
+          "name": "bracket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 458,
+                "y1": 157,
+                "x2": 515,
+                "y2": 172
+              },
+              "norm": {
+                "x1": 0.4471,
+                "y1": 0.3059,
+                "x2": 0.5027,
+                "y2": 0.3352
+              },
+              "title": "bracket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31069-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/3106950f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 15.54,
+                "currency": "USD",
+                "raw": "15.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088E",
+          "name": "clip-harness",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 828,
+                "y1": 38,
+                "x2": 885,
+                "y2": 53
+              },
+              "norm": {
+                "x1": 0.8084,
+                "y1": 0.0746,
+                "x2": 0.8641,
+                "y2": 0.1039
+              },
+              "title": "clip-harness"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 268,
+                "y1": 114,
+                "x2": 325,
+                "y2": 129
+              },
+              "norm": {
+                "x1": 0.2619,
+                "y1": 0.2223,
+                "x2": 0.3176,
+                "y2": 0.2516
+              },
+              "title": "clip-harness"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            },
+            {
+              "oem": "24220-31G00",
+              "url": "https://www.amayama.com/en/part/nissan/2422031g00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 0.94,
+                "currency": "USD",
+                "raw": "0.94"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "32088EA",
+          "name": "clip-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 552,
+                "y1": 148,
+                "x2": 618,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.5389,
+                "y1": 0.2895,
+                "x2": 0.6033,
+                "y2": 0.3187
+              },
+              "title": "clip-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "24210-73L00",
+              "url": "https://www.amayama.com/en/part/nissan/2421073l00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.93,
+                "currency": "USD",
+                "raw": "5.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088M",
+          "name": "hose-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 450,
+                "y1": 90,
+                "x2": 507,
+                "y2": 105
+              },
+              "norm": {
+                "x1": 0.4393,
+                "y1": 0.1754,
+                "x2": 0.4949,
+                "y2": 0.2047
+              },
+              "title": "hose-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31098-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109851f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [
+                {
+                  "oem": "31098-65F00",
+                  "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.7,
+                    "currency": "USD",
+                    "raw": "6.70"
+                  }
+                }
+              ],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/3109865f00",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.7,
+                "currency": "USD",
+                "raw": "6.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "31098-81F10",
+              "url": "https://www.amayama.com/en/part/nissan/3109881f10",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "32088MA",
+          "name": "hose-breather",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 640,
+                "y1": 9,
+                "x2": 706,
+                "y2": 24
+              },
+              "norm": {
+                "x1": 0.6252,
+                "y1": 0.0168,
+                "x2": 0.6896,
+                "y2": 0.0461
+              },
+              "title": "hose-breather"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 529,
+                "y1": 65,
+                "x2": 595,
+                "y2": 80
+              },
+              "norm": {
+                "x1": 0.5162,
+                "y1": 0.1277,
+                "x2": 0.5807,
+                "y2": 0.157
+              },
+              "title": "hose-breather"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "31098-81F15",
+              "url": "https://www.amayama.com/en/part/nissan/3109881f15",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT",
+                "required": "2 pcs"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT Required: 2 pcs"
+            }
+          ]
+        },
+        {
+          "pnc": "32088R",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 503,
+                "y1": 36,
+                "x2": 560,
+                "y2": 51
+              },
+              "norm": {
+                "x1": 0.4912,
+                "y1": 0.0699,
+                "x2": 0.5469,
+                "y2": 0.0992
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            },
+            {
+              "oem": "01466-00071",
+              "url": "https://www.amayama.com/en/part/nissan/0146600071",
+              "applies": [
+                "MT"
+              ],
+              "details": {
+                "applies": "MT"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.15,
+                "currency": "USD",
+                "raw": "2.15"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT"
+            }
+          ]
+        },
+        {
+          "pnc": "081210301E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 412,
+                "y1": 480,
+                "x2": 505,
+                "y2": 495
+              },
+              "norm": {
+                "x1": 0.4021,
+                "y1": 0.9371,
+                "x2": 0.493,
+                "y2": 0.9664
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0301E",
+              "url": "https://www.amayama.com/en/part/nissan/081210301e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.16,
+                "currency": "USD",
+                "raw": "1.16"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081210601E",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 89,
+                "y1": 131,
+                "x2": 182,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.0865,
+                "y1": 0.2566,
+                "x2": 0.1773,
+                "y2": 0.2859
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 645,
+                "y1": 445,
+                "x2": 738,
+                "y2": 460
+              },
+              "norm": {
+                "x1": 0.6303,
+                "y1": 0.8691,
+                "x2": 0.7211,
+                "y2": 0.8984
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08121-0601E",
+              "url": "https://www.amayama.com/en/part/nissan/081210601e",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.52,
+                "currency": "USD",
+                "raw": "3.52"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712651A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 465,
+                "y1": 9,
+                "x2": 558,
+                "y2": 24
+              },
+              "norm": {
+                "x1": 0.4541,
+                "y1": 0.0176,
+                "x2": 0.5449,
+                "y2": 0.0469
+              },
+              "title": "bolt-hex"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 760,
+                "y1": 381,
+                "x2": 853,
+                "y2": 396
+              },
+              "norm": {
+                "x1": 0.742,
+                "y1": 0.7441,
+                "x2": 0.8328,
+                "y2": 0.7734
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2651A",
+              "url": "https://www.amayama.com/en/part/nissan/081712651a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.64,
+                "currency": "USD",
+                "raw": "0.64"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712701A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 815,
+                "y1": 293,
+                "x2": 908,
+                "y2": 308
+              },
+              "norm": {
+                "x1": 0.7959,
+                "y1": 0.5723,
+                "x2": 0.8867,
+                "y2": 0.6016
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2701A",
+              "url": "https://www.amayama.com/en/part/nissan/081712701a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "081712801A",
+          "name": "bolt-hex",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 56,
+                "x2": 289,
+                "y2": 71
+              },
+              "norm": {
+                "x1": 0.1916,
+                "y1": 0.1098,
+                "x2": 0.2824,
+                "y2": 0.1391
+              },
+              "title": "bolt-hex"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08171-2801A",
+              "url": "https://www.amayama.com/en/part/nissan/081712801a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.42,
+                "currency": "USD",
+                "raw": "2.42"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        },
+        {
+          "pnc": "089152421A",
+          "name": "washer-spring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 316,
+                "y1": 26,
+                "x2": 412,
+                "y2": 41
+              },
+              "norm": {
+                "x1": 0.3088,
+                "y1": 0.0504,
+                "x2": 0.4025,
+                "y2": 0.0797
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 196,
+                "y1": 87,
+                "x2": 292,
+                "y2": 102
+              },
+              "norm": {
+                "x1": 0.1912,
+                "y1": 0.1707,
+                "x2": 0.285,
+                "y2": 0.2
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 798,
+                "y1": 328,
+                "x2": 894,
+                "y2": 343
+              },
+              "norm": {
+                "x1": 0.7791,
+                "y1": 0.6402,
+                "x2": 0.8729,
+                "y2": 0.6695
+              },
+              "title": "washer-spring"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 733,
+                "y1": 417,
+                "x2": 829,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.7162,
+                "y1": 0.8137,
+                "x2": 0.81,
+                "y2": 0.843
+              },
+              "title": "washer-spring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2421A",
+              "url": "https://www.amayama.com/en/part/nissan/089152421a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 0.68,
+                "currency": "USD",
+                "raw": "0.68"
+              },
+              "replacements": [],
+              "description_raw": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "H79",
+    "name": "seat cover",
+    "title_raw": "seat cover (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/H79_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/4bac1e4faf59f123e2f65ebfda4f391b.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/H79_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/e0cea0243667ca7fff5a550e7a8ffa8d.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "H79_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/H79_001.png",
+      "callouts": [
+        {
+          "pnc": "KH7900",
+          "name": "full seat cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 444,
+                "y1": 28,
+                "x2": 501,
+                "y2": 43
+              },
+              "norm": {
+                "x1": 0.4338,
+                "y1": 0.0551,
+                "x2": 0.4895,
+                "y2": 0.0844
+              },
+              "title": "full seat cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H7900-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/h790060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 269.33,
+                "currency": "USD",
+                "raw": "269.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7950-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/h795051f00",
+              "applies": [],
+              "details": {
+                "specification": "ｼﾛ,ｼﾞｬｶﾞｰﾄﾞ,ﾀｲﾃﾞﾝﾎﾞｳｼ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 853.24,
+                "currency": "USD",
+                "raw": "853.24"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｼﾛ,ｼﾞｬｶﾞｰﾄﾞ,ﾀｲﾃﾞﾝﾎﾞｳｼ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7950-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/h795051f10",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ,ｶｼﾞｭｱﾙ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 723.96,
+                "currency": "USD",
+                "raw": "723.96"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ,ｶｼﾞｭｱﾙ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7950-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/h795051f10",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ,ｺｳｷｭｳ,ｶｼﾞｭｱﾙ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 723.96,
+                "currency": "USD",
+                "raw": "723.96"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ,ｺｳｷｭｳ,ｶｼﾞｭｱﾙ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7950-51F20",
+              "url": "https://www.amayama.com/en/part/nissan/h795051f20",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ,ｽﾎﾟｰﾃｨ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 775.67,
+                "currency": "USD",
+                "raw": "775.67"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ,ｽﾎﾟｰﾃｨ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7950-51F20",
+              "url": "https://www.amayama.com/en/part/nissan/h795051f20",
+              "applies": [],
+              "details": {
+                "specification": "ｸﾞﾚｰ,ｻｲｺｳｷｭｳ,ｽﾎﾟｰﾃｨ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 775.67,
+                "currency": "USD",
+                "raw": "775.67"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｸﾞﾚｰ,ｻｲｺｳｷｭｳ,ｽﾎﾟｰﾃｨ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H79_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/H79_002.png",
+      "callouts": [
+        {
+          "pnc": "KH7910",
+          "name": "half seat cover",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 449,
+                "y1": 36,
+                "x2": 503,
+                "y2": 51
+              },
+              "norm": {
+                "x1": 0.4385,
+                "y1": 0.0707,
+                "x2": 0.4912,
+                "y2": 0.1
+              },
+              "title": "half seat cover"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H7910-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/h791060f00",
+              "applies": [],
+              "details": {
+                "specification": "ｻｰｷｯﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｻｰｷｯﾄ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7970-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/h797051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾚｰｽ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 207.33,
+                "currency": "USD",
+                "raw": "207.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚｰｽ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7970-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/h797051f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾚｰｽ,ｺｳｷｭｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 207.33,
+                "currency": "USD",
+                "raw": "207.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚｰｽ,ｺｳｷｭｳ[K504], App. model: HB"
+            },
+            {
+              "oem": "H7970-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/h797051f10",
+              "applies": [],
+              "details": {
+                "specification": "ﾚｰｽ,ﾎﾝｶﾞﾜｼｰﾄ[K504], App. model: HB.TYPE2/3"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 207.33,
+                "currency": "USD",
+                "raw": "207.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚｰｽ,ﾎﾝｶﾞﾜｼｰﾄ[K504], App. model: HB.TYPE2/3"
+            },
+            {
+              "oem": "H7970-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/h797051f10",
+              "applies": [],
+              "details": {
+                "specification": "ﾚｰｽ,ﾎﾝｶﾞﾜｼｰﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-05",
+                "raw": "01.1994 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 207.33,
+                "currency": "USD",
+                "raw": "207.33"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾚｰｽ,ﾎﾝｶﾞﾜｼｰﾄ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

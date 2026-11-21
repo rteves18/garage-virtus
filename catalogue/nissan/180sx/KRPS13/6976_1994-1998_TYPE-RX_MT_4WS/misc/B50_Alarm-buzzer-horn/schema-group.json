@@ -1,0 +1,219 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B50",
+    "name": "alarm buzzer horn",
+    "title_raw": "alarm buzzer horn (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/B50_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/491fe52db29f7f20f7194b1220870bc0.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/B50_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/7088b4e32910feea90ad179bd8db96fa.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "B50_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/B50_001.png",
+      "callouts": [
+        {
+          "pnc": "KB6350",
+          "name": "speed buzzer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 724,
+                "y1": 108,
+                "x2": 781,
+                "y2": 123
+              },
+              "norm": {
+                "x1": 0.7072,
+                "y1": 0.2105,
+                "x2": 0.7629,
+                "y2": 0.2398
+              },
+              "title": "speed buzzer"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B4814-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b481435f00",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 89.66,
+                "currency": "USD",
+                "raw": "89.66"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B4814-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/b481440f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾃﾞｼﾞﾀﾙﾒｰﾀｰﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 89.66,
+                "currency": "USD",
+                "raw": "89.66"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾃﾞｼﾞﾀﾙﾒｰﾀｰﾖｳ, App. model: HB"
+            },
+            {
+              "oem": "B6350-15U00",
+              "url": "https://www.amayama.com/en/part/nissan/b635015u00",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B50_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/B50_002.png",
+      "callouts": [
+        {
+          "pnc": "KB5610",
+          "name": "horn high",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 251,
+                "y1": 198,
+                "x2": 305,
+                "y2": 213
+              },
+              "norm": {
+                "x1": 0.2455,
+                "y1": 0.3863,
+                "x2": 0.2982,
+                "y2": 0.4156
+              },
+              "title": "horn high"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B5610-40F25",
+              "url": "https://www.amayama.com/en/part/nissan/b561040f25",
+              "applies": [],
+              "details": {
+                "specification": "ｽﾎﾟｰﾂﾀｲﾌﾟ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.17,
+                "currency": "USD",
+                "raw": "98.17"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ｽﾎﾟｰﾂﾀｲﾌﾟ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

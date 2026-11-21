@@ -31,4 +31,9 @@ struct DecodingTests {
         #expect(page.offers.count == 1)
         #expect(page.diagrams.count == 8)
     }
+
+    @Test(arguments: [("amayama", "Amayama"), ("megazip", "Megazip")])
+    func sourceNamesTheSiteForLinks(site: String, expected: String) {
+        #expect(Source(site: site, url: "https://example.com", scrapedAt: nil).siteName == expected)
+    }
 }

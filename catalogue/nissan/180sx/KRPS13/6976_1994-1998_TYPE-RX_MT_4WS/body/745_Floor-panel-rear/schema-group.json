@@ -1,0 +1,4872 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "body",
+    "code": "745",
+    "name": "floor panel rear",
+    "title_raw": "floor panel rear (body) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/745_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/87ff6f035821779bb08f9e9622c2302a.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "745_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "megazip/RS13/745_001.png",
+      "callouts": [
+        {
+          "pnc": "74511",
+          "name": "bracket rr seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 122,
+                "x2": 311,
+                "y2": 137
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2379,
+                "x2": 0.3033,
+                "y2": 0.2672
+              },
+              "title": "bracket rr seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74512",
+          "name": "floor rr front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 260,
+                "y1": 209,
+                "x2": 305,
+                "y2": 224
+              },
+              "norm": {
+                "x1": 0.2541,
+                "y1": 0.4082,
+                "x2": 0.298,
+                "y2": 0.4375
+              },
+              "title": "floor rr front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74512-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f30",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514",
+          "name": "floor rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 453,
+                "y1": 83,
+                "x2": 498,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4428,
+                "y1": 0.1629,
+                "x2": 0.4867,
+                "y2": 0.1922
+              },
+              "title": "floor rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74516",
+          "name": "ext-rr floor,fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 155,
+                "y1": 280,
+                "x2": 200,
+                "y2": 295
+              },
+              "norm": {
+                "x1": 0.1518,
+                "y1": 0.5473,
+                "x2": 0.1957,
+                "y2": 0.5766
+              },
+              "title": "ext-rr floor,fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74543",
+          "name": "brkt assy-s/whe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 746,
+                "y1": 60,
+                "x2": 794,
+                "y2": 75
+              },
+              "norm": {
+                "x1": 0.7283,
+                "y1": 0.1168,
+                "x2": 0.7752,
+                "y2": 0.1461
+              },
+              "title": "brkt assy-s/whe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 33,
+                "x2": 556,
+                "y2": 48
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.0645,
+                "x2": 0.5428,
+                "y2": 0.0938
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74511M",
+          "name": "brkt assy fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 139,
+                "x2": 320,
+                "y2": 154
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2707,
+                "x2": 0.3121,
+                "y2": 0.3
+              },
+              "title": "brkt assy fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514A",
+          "name": "plate-bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 148,
+                "x2": 954,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.8791,
+                "y1": 0.2887,
+                "x2": 0.9318,
+                "y2": 0.318
+              },
+              "title": "plate-bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514M",
+          "name": "floor, rear rear side rh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 228,
+                "x2": 907,
+                "y2": 243
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4457,
+                "x2": 0.8861,
+                "y2": 0.475
+              },
+              "title": "floor, rear rear side rh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514N",
+          "name": "floor, rear rear side lh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 245,
+                "x2": 907,
+                "y2": 260
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4777,
+                "x2": 0.8861,
+                "y2": 0.507
+              },
+              "title": "floor, rear rear side lh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74562V",
+          "name": "stfnr assy-towi",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 53,
+                "x2": 565,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.1027,
+                "x2": 0.5516,
+                "y2": 0.132
+              },
+              "title": "stfnr assy-towi"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570N",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 528,
+                "y1": 401,
+                "x2": 585,
+                "y2": 416
+              },
+              "norm": {
+                "x1": 0.5154,
+                "y1": 0.784,
+                "x2": 0.5711,
+                "y2": 0.8133
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570NA",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 418,
+                "x2": 593,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.515,
+                "y1": 0.816,
+                "x2": 0.5795,
+                "y2": 0.8453
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655+A",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 93,
+                "x2": 877,
+                "y2": 108
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1824,
+                "x2": 0.8564,
+                "y2": 0.2117
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "745_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "megazip/RS13/745_001.png",
+      "callouts": [
+        {
+          "pnc": "74511",
+          "name": "bracket rr seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 122,
+                "x2": 311,
+                "y2": 137
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2379,
+                "x2": 0.3033,
+                "y2": 0.2672
+              },
+              "title": "bracket rr seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74512",
+          "name": "floor rr front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 260,
+                "y1": 209,
+                "x2": 305,
+                "y2": 224
+              },
+              "norm": {
+                "x1": 0.2541,
+                "y1": 0.4082,
+                "x2": 0.298,
+                "y2": 0.4375
+              },
+              "title": "floor rr front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74512-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f30",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514",
+          "name": "floor rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 453,
+                "y1": 83,
+                "x2": 498,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4428,
+                "y1": 0.1629,
+                "x2": 0.4867,
+                "y2": 0.1922
+              },
+              "title": "floor rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74516",
+          "name": "ext-rr floor,fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 155,
+                "y1": 280,
+                "x2": 200,
+                "y2": 295
+              },
+              "norm": {
+                "x1": 0.1518,
+                "y1": 0.5473,
+                "x2": 0.1957,
+                "y2": 0.5766
+              },
+              "title": "ext-rr floor,fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74543",
+          "name": "brkt assy-s/whe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 746,
+                "y1": 60,
+                "x2": 794,
+                "y2": 75
+              },
+              "norm": {
+                "x1": 0.7283,
+                "y1": 0.1168,
+                "x2": 0.7752,
+                "y2": 0.1461
+              },
+              "title": "brkt assy-s/whe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 33,
+                "x2": 556,
+                "y2": 48
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.0645,
+                "x2": 0.5428,
+                "y2": 0.0938
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74511M",
+          "name": "brkt assy fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 139,
+                "x2": 320,
+                "y2": 154
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2707,
+                "x2": 0.3121,
+                "y2": 0.3
+              },
+              "title": "brkt assy fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514A",
+          "name": "plate-bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 148,
+                "x2": 954,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.8791,
+                "y1": 0.2887,
+                "x2": 0.9318,
+                "y2": 0.318
+              },
+              "title": "plate-bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514M",
+          "name": "floor, rear rear side rh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 228,
+                "x2": 907,
+                "y2": 243
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4457,
+                "x2": 0.8861,
+                "y2": 0.475
+              },
+              "title": "floor, rear rear side rh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514N",
+          "name": "floor, rear rear side lh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 245,
+                "x2": 907,
+                "y2": 260
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4777,
+                "x2": 0.8861,
+                "y2": 0.507
+              },
+              "title": "floor, rear rear side lh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74562V",
+          "name": "stfnr assy-towi",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 53,
+                "x2": 565,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.1027,
+                "x2": 0.5516,
+                "y2": 0.132
+              },
+              "title": "stfnr assy-towi"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570N",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 528,
+                "y1": 401,
+                "x2": 585,
+                "y2": 416
+              },
+              "norm": {
+                "x1": 0.5154,
+                "y1": 0.784,
+                "x2": 0.5711,
+                "y2": 0.8133
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570NA",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 418,
+                "x2": 593,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.515,
+                "y1": 0.816,
+                "x2": 0.5795,
+                "y2": 0.8453
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655+A",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 93,
+                "x2": 877,
+                "y2": 108
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1824,
+                "x2": 0.8564,
+                "y2": 0.2117
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "745_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/745_001.png",
+      "callouts": [
+        {
+          "pnc": "74511",
+          "name": "bracket rr seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 122,
+                "x2": 311,
+                "y2": 137
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2379,
+                "x2": 0.3033,
+                "y2": 0.2672
+              },
+              "title": "bracket rr seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76778-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74512",
+          "name": "floor rr front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 260,
+                "y1": 209,
+                "x2": 305,
+                "y2": 224
+              },
+              "norm": {
+                "x1": 0.2541,
+                "y1": 0.4082,
+                "x2": 0.298,
+                "y2": 0.4375
+              },
+              "title": "floor rr front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74512-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f30",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [
+                "HB.4WS"
+              ],
+              "details": {
+                "applies": "HB.4WS"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.4WS"
+            },
+            {
+              "oem": "74512-35F35",
+              "url": "https://www.amayama.com/en/part/nissan/7451235f35",
+              "applies": [],
+              "details": {
+                "specification": "ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 865.12,
+                "currency": "USD",
+                "raw": "865.12"
+              },
+              "replacements": [
+                {
+                  "oem": "74512-42F35",
+                  "url": "https://www.amayama.com/en/part/nissan/7451242f35",
+                  "price": {
+                    "status": "Available",
+                    "amount": 930.41,
+                    "currency": "USD",
+                    "raw": "930.41"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ｱﾝﾁ ｽｷﾂﾄﾞ ﾂｷ, App. model: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514",
+          "name": "floor rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 453,
+                "y1": 83,
+                "x2": 498,
+                "y2": 98
+              },
+              "norm": {
+                "x1": 0.4428,
+                "y1": 0.1629,
+                "x2": 0.4867,
+                "y2": 0.1922
+              },
+              "title": "floor rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74514-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7451435f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74514-42F30",
+                  "url": "https://www.amayama.com/en/part/nissan/7451442f30",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74516",
+          "name": "ext-rr floor,fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 155,
+                "y1": 280,
+                "x2": 200,
+                "y2": 295
+              },
+              "norm": {
+                "x1": 0.1518,
+                "y1": 0.5473,
+                "x2": 0.1957,
+                "y2": 0.5766
+              },
+              "title": "ext-rr floor,fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74515-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451535f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 173.43,
+                "currency": "USD",
+                "raw": "173.43"
+              },
+              "replacements": [
+                {
+                  "oem": "74515-57F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7451557f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 186.52,
+                    "currency": "USD",
+                    "raw": "186.52"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74543",
+          "name": "brkt assy-s/whe",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 746,
+                "y1": 60,
+                "x2": 794,
+                "y2": 75
+              },
+              "norm": {
+                "x1": 0.7283,
+                "y1": 0.1168,
+                "x2": 0.7752,
+                "y2": 0.1461
+              },
+              "title": "brkt assy-s/whe"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74548-V5000",
+              "url": "https://www.amayama.com/en/part/nissan/74548v5000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "74588-50A00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458850a00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 7.04,
+                    "currency": "USD",
+                    "raw": "7.04"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 33,
+                "x2": 556,
+                "y2": 48
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.0645,
+                "x2": 0.5428,
+                "y2": 0.0938
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74511M",
+          "name": "brkt assy fr",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 269,
+                "y1": 139,
+                "x2": 320,
+                "y2": 154
+              },
+              "norm": {
+                "x1": 0.2623,
+                "y1": 0.2707,
+                "x2": 0.3121,
+                "y2": 0.3
+              },
+              "title": "brkt assy fr"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "76779-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7677935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.01,
+                "currency": "USD",
+                "raw": "35.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514A",
+          "name": "plate-bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 900,
+                "y1": 148,
+                "x2": 954,
+                "y2": 163
+              },
+              "norm": {
+                "x1": 0.8791,
+                "y1": 0.2887,
+                "x2": 0.9318,
+                "y2": 0.318
+              },
+              "title": "plate-bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74529-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/7452940f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.2,
+                "currency": "USD",
+                "raw": "13.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514M",
+          "name": "floor, rear rear side rh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 228,
+                "x2": 907,
+                "y2": 243
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4457,
+                "x2": 0.8861,
+                "y2": 0.475
+              },
+              "title": "floor, rear rear side rh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74530-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453035f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74514N",
+          "name": "floor, rear rear side lh",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 853,
+                "y1": 245,
+                "x2": 907,
+                "y2": 260
+              },
+              "norm": {
+                "x1": 0.8334,
+                "y1": 0.4777,
+                "x2": 0.8861,
+                "y2": 0.507
+              },
+              "title": "floor, rear rear side lh"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74531-35F30",
+              "url": "https://www.amayama.com/en/part/nissan/7453135f30",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74562V",
+          "name": "stfnr assy-towi",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 508,
+                "y1": 53,
+                "x2": 565,
+                "y2": 68
+              },
+              "norm": {
+                "x1": 0.4959,
+                "y1": 0.1027,
+                "x2": 0.5516,
+                "y2": 0.132
+              },
+              "title": "stfnr assy-towi"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "74519-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7451935f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570N",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 528,
+                "y1": 401,
+                "x2": 585,
+                "y2": 416
+              },
+              "norm": {
+                "x1": 0.5154,
+                "y1": 0.784,
+                "x2": 0.5711,
+                "y2": 0.8133
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74580-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458035f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾐｷﾞｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74580-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458042f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾐｷﾞｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "74570NA",
+          "name": "stfnr assy-seat",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 527,
+                "y1": 418,
+                "x2": 593,
+                "y2": 433
+              },
+              "norm": {
+                "x1": 0.515,
+                "y1": 0.816,
+                "x2": 0.5795,
+                "y2": 0.8453
+              },
+              "title": "stfnr assy-seat"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "74581-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/7458135f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 96.37,
+                "currency": "USD",
+                "raw": "96.37"
+              },
+              "replacements": [
+                {
+                  "oem": "74581-42F00",
+                  "url": "https://www.amayama.com/en/part/nissan/7458142f00",
+                  "price": {
+                    "status": "Available",
+                    "amount": 104.22,
+                    "currency": "USD",
+                    "raw": "104.22"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "75655+A",
+          "name": "brkt assy-fuel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 811,
+                "y1": 93,
+                "x2": 877,
+                "y2": 108
+              },
+              "norm": {
+                "x1": 0.792,
+                "y1": 0.1824,
+                "x2": 0.8564,
+                "y2": 0.2117
+              },
+              "title": "brkt assy-fuel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            },
+            {
+              "oem": "75656-35F01",
+              "url": "https://www.amayama.com/en/part/nissan/7565635f01",
+              "applies": [],
+              "details": {
+                "specification": "ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾋﾀﾞﾘｶﾞﾜ, App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

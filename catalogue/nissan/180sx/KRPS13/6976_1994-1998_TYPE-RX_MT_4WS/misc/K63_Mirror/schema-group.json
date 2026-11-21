@@ -1,0 +1,438 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "megazip",
+    "url": "https://www.megazip.net/parts/nissan/diagrams/180sx/krps13-hb-sr20det-mt-typer_x-4ws",
+    "scraped_at": "2026-11-02T05:00:43.964Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "Jan 1994 – unsure"
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "K63",
+    "name": "mirror",
+    "title_raw": "mirror (misc) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "megazip/RS13/K63_001.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/d841d347754d6d25e45ba954ba8eae7c.png",
+      "width": 1024,
+      "height": 512
+    },
+    "megazip/RS13/K63_002.png": {
+      "url": "https://epc.partsbooster.com/schemas/nissan/72cfd17670d1107d11ea3a4ae0644930.png",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "schemas": [
+    {
+      "id": "K63_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "megazip/RS13/K63_001.png",
+      "callouts": [
+        {
+          "pnc": "KK6370",
+          "name": "door mirror visor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 441,
+                "y1": 69,
+                "x2": 498,
+                "y2": 84
+              },
+              "norm": {
+                "x1": 0.4307,
+                "y1": 0.1348,
+                "x2": 0.4863,
+                "y2": 0.1641
+              },
+              "title": "door mirror visor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6395-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/k639501u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [
+                {
+                  "oem": "K6395-01U10",
+                  "url": "https://www.amayama.com/en/part/nissan/k639501u10",
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": null
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6395-01U10",
+              "url": "https://www.amayama.com/en/part/nissan/k639501u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Not available",
+                "amount": null,
+                "currency": "USD",
+                "raw": null
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ[K504], App. model: HB"
+            },
+            {
+              "oem": "K6395-01U18",
+              "url": "https://www.amayama.com/en/part/nissan/k639501u18",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 45.81,
+                "currency": "USD",
+                "raw": "45.81"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KK6371",
+          "name": "visor-",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 327,
+                "y1": 60,
+                "x2": 381,
+                "y2": 75
+              },
+              "norm": {
+                "x1": 0.3197,
+                "y1": 0.1176,
+                "x2": 0.3725,
+                "y2": 0.1469
+              },
+              "title": "visor-"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6396-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/k639601u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,OYA  K639501U00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [
+                {
+                  "oem": "K6396-01U10",
+                  "url": "https://www.amayama.com/en/part/nissan/k639601u10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 31.09,
+                    "currency": "USD",
+                    "raw": "31.09"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,OYA  K639501U00[K504], App. model: HB"
+            },
+            {
+              "oem": "K6396-01U10",
+              "url": "https://www.amayama.com/en/part/nissan/k639601u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,OYA  K639501U10[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,OYA  K639501U10[K504], App. model: HB"
+            },
+            {
+              "oem": "K6396-01U18",
+              "url": "https://www.amayama.com/en/part/nissan/k639601u18",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,OYA  K639501U18[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,OYA  K639501U18[K504], App. model: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "KK6372",
+          "name": "visor-",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 327,
+                "y1": 77,
+                "x2": 384,
+                "y2": 92
+              },
+              "norm": {
+                "x1": 0.3197,
+                "y1": 0.1504,
+                "x2": 0.3754,
+                "y2": 0.1797
+              },
+              "title": "visor-"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6397-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/k639701u00",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,OYA  K639501U00[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [
+                {
+                  "oem": "K6397-01U10",
+                  "url": "https://www.amayama.com/en/part/nissan/k639701u10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 31.09,
+                    "currency": "USD",
+                    "raw": "31.09"
+                  }
+                }
+              ],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,OYA  K639501U00[K504], App. model: HB"
+            },
+            {
+              "oem": "K6397-01U10",
+              "url": "https://www.amayama.com/en/part/nissan/k639701u10",
+              "applies": [],
+              "details": {
+                "specification": "ﾌﾞﾗｯｸ,OYA  K639501U10[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾌﾞﾗｯｸ,OYA  K639501U10[K504], App. model: HB"
+            },
+            {
+              "oem": "K6397-01U18",
+              "url": "https://www.amayama.com/en/part/nissan/k639701u18",
+              "applies": [],
+              "details": {
+                "specification": "ﾎﾜｲﾄ,OYA  K639501U18[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.09,
+                "currency": "USD",
+                "raw": "31.09"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾎﾜｲﾄ,OYA  K639501U18[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K63_002_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "megazip/RS13/K63_002.png",
+      "callouts": [
+        {
+          "pnc": "KB5570",
+          "name": "auto mirror close",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 724,
+                "y1": 290,
+                "x2": 781,
+                "y2": 305
+              },
+              "norm": {
+                "x1": 0.7068,
+                "y1": 0.566,
+                "x2": 0.7625,
+                "y2": 0.5953
+              },
+              "title": "auto mirror close"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B5570-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/b557080f00",
+              "applies": [],
+              "details": {
+                "specification": "ﾄﾞｱﾛｯｸﾚﾝﾄﾞｳ[K504], App. model: HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 179.97,
+                "currency": "USD",
+                "raw": "179.97"
+              },
+              "replacements": [],
+              "description_raw": "Specification: ﾄﾞｱﾛｯｸﾚﾝﾄﾞｳ[K504], App. model: HB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
