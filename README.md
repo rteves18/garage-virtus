@@ -29,10 +29,10 @@ The car picker at the top of **My garage** in the sidebar switches cars. The app
 
 Tools:
 
-- `search_parts`: find a part number
+- `search_parts`: find a part number, one row per source with that source's price
 - `list_groups`: list the schema groups
-- `get_section`: one group's diagrams, parts, prices, and have/need. Takes an optional build year.
-- `build_parts_list`: priced lines and a total
+- `get_section`: one group's diagrams, parts, prices, and have/need. Takes an optional build year and an optional `source` (`amayama` is primary and the default, `megazip` is secondary).
+- `build_parts_list`: priced lines and a total, from each part's primary source or from a chosen `source`
 - `garage_status`: counts, total spent, and needs still short
 - `add_to_garage`: record needs or wants for the current car
 

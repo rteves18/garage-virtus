@@ -60,17 +60,19 @@ let itemsSchema: Value = .object([
 
 let toolList: [Tool] = [
     Tool(name: "search_parts",
-         description: "Find a Nissan part number (full or partial, any dashes) or an Amayama part link in the 180SX catalogue: which groups and diagram callouts use it, and its price.",
+         description: "Find a Nissan part number (full or partial, any dashes) or an Amayama part link in the 180SX catalogue: which groups and diagram callouts use it, with one row per source (amayama is primary, megazip secondary) and that source's price, so you can compare providers.",
          inputSchema: schema(["query": .object(["type": .string("string")])], required: ["query"])),
     Tool(name: "list_groups",
          description: "List the catalogue's schema groups (code, name, category, whether scraped). Categories: engine, body, trans, electric, misc.",
          inputSchema: schema(["category": .object(["type": .string("string")])])),
     Tool(name: "get_section",
-         description: "Everything in one schema group (e.g. 431 rear suspension): diagrams, callouts, part numbers, quantity per car, price or availability, replacements, and how many Ryan has / needs. Pass year (e.g. '1995' or '1995-03') to keep only diagrams for that build date; Ryan's car is a 1994+ SR20DET MT Type X.",
-         inputSchema: schema(["group_code": .object(["type": .string("string")]), "year": .object(["type": .string("string")])], required: ["group_code"])),
+         description: "Everything in one schema group (e.g. 431 rear suspension): diagrams, callouts, part numbers, quantity per car, price or availability, replacements, and how many Ryan has / needs. Pass year (e.g. '1995' or '1995-03') to keep only diagrams for that build date; Ryan's car is a 1994+ SR20DET MT Type X. Data comes from the primary source (amayama) unless you pass source (e.g. 'megazip'); the reply lists available_sources.",
+         inputSchema: schema(["group_code": .object(["type": .string("string")]), "year": .object(["type": .string("string")]),
+                              "source": .object(["type": .string("string"), "description": .string("amayama (primary, default) or megazip")])], required: ["group_code"])),
     Tool(name: "build_parts_list",
-         description: "Price a list of catalogue part numbers with quantities. Returns line totals and the grand total computed from catalogue prices; use this total rather than adding prices yourself.",
-         inputSchema: schema(["title": .object(["type": .string("string")]), "items": itemsSchema], required: ["title", "items"])),
+         description: "Price a list of catalogue part numbers with quantities. Returns line totals and the grand total computed from catalogue prices; use this total rather than adding prices yourself. Prices come from each part's primary source (amayama) unless you pass source (e.g. 'megazip') to price the whole list from that provider.",
+         inputSchema: schema(["title": .object(["type": .string("string")]), "items": itemsSchema,
+                              "source": .object(["type": .string("string"), "description": .string("amayama (primary, default) or megazip")])], required: ["title", "items"])),
     Tool(name: "garage_status",
          description: "Ryan's My garage for the current car: parts per status (need, want, in storage, waiting to install, installed), total spent, and needs still short.",
          inputSchema: schema([:])),
@@ -97,8 +99,12 @@ final class ToolRouter {
     switch name {
     case "search_parts": try tools.searchParts(query: arguments["query"]?.stringValue ?? "")
     case "list_groups": try tools.listGroups(category: arguments["category"]?.stringValue)
-    case "get_section": try tools.section(groupCode: arguments["group_code"]?.stringValue ?? "", year: arguments["year"]?.stringValue)
-    case "build_parts_list": try tools.buildPartsList(title: arguments["title"]?.stringValue ?? "Parts list", items: items(arguments["items"]))
+    case "get_section":
+        try tools.section(groupCode: arguments["group_code"]?.stringValue ?? "", year: arguments["year"]?.stringValue,
+                          source: arguments["source"]?.stringValue)
+    case "build_parts_list":
+        try tools.buildPartsList(title: arguments["title"]?.stringValue ?? "Parts list", items: items(arguments["items"]),
+                                 source: arguments["source"]?.stringValue)
     case "garage_status": try tools.garageStatus()
     case "add_to_garage":
         try tools.addToGarage(items: items(arguments["items"]),

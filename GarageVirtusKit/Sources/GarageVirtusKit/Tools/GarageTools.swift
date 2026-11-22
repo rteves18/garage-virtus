@@ -6,11 +6,14 @@ import Foundation
 public final class GarageTools {
     public enum Failure: Error, Equatable, LocalizedError {
         case unknownGroup(String)
+        case unknownSource(String, available: [String])
         case statusNotAllowed(String)
 
         public var errorDescription: String? {
             switch self {
             case .unknownGroup(let code): "No scraped group with code \(code). Use list_groups to see what's available."
+            case .unknownSource(let site, let available):
+                "No \(site) data for this group. Available sources: \(available.joined(separator: ", "))."
             case .statusNotAllowed(let status): "add_to_garage records needs and wants only, not \(status)."
             }
         }
@@ -24,13 +27,19 @@ public final class GarageTools {
         self.garage = garage
     }
 
-    /// Where a part number (or partial number, or Amayama link) appears, with its price.
+    /// Where a part number (or partial number, or Amayama link) appears, one row per source that lists it, each
+    /// with that source's price, primary source first.
     public func searchParts(query: String) throws -> String {
-        let results = catalogue.searchParts(query).prefix(40).map { ref -> [String: Any] in
-            var row: [String: Any] = ["oem": ref.oem, "group_code": ref.groupCode, "group_name": ref.groupName,
-                                      "variant": ref.variantTitle, "diagram": ref.schemaId, "pnc": ref.pnc,
-                                      "callout": ref.calloutName, "price": ref.priceText]
-            if let replaced = ref.replacementOf { row["replaces"] = replaced }
+        var oems: [String] = []
+        for ref in catalogue.searchParts(query) where !oems.contains(CatalogueStore.normalize(ref.oem)) {
+            oems.append(CatalogueStore.normalize(ref.oem))
+        }
+        let results = oems.prefix(25).flatMap { listings(of: $0) }.prefix(60).map { listing -> [String: Any] in
+            var row: [String: Any] = ["oem": listing.part.oem, "source": listing.site, "group_code": listing.group.code,
+                                      "group_name": listing.group.name, "variant": listing.group.variantTitle,
+                                      "diagram": listing.schemaId, "pnc": listing.pnc, "callout": listing.part.name,
+                                      "price": Self.priceText(listing.part.price)]
+            if let replaced = listing.replacementOf { row["replaces"] = replaced }
             return row
         }
         return Self.json(["query": query, "results": Array(results)])
@@ -55,9 +64,10 @@ public final class GarageTools {
     }
 
     /// A group's diagrams, callouts and parts with quantity, price, replacements and My garage coverage.
-    /// `year` ("1995" or "1995-03") keeps only diagrams for that build date.
-    public func section(groupCode: String, year: String?) throws -> String {
-        let (group, file) = try loadGroup(groupCode)
+    /// `year` ("1995" or "1995-03") keeps only diagrams for that build date. `source` ("amayama", "megazip")
+    /// picks a site; nil means the primary source (Amayama when it has the group).
+    public func section(groupCode: String, year: String?, source: String? = nil) throws -> String {
+        let (group, file) = try loadGroup(groupCode, site: source)
         let coverage = coverageByKey()
         let schemas = file.schemas.filter { schema in
             guard let year, let period = schema.period else { return true }
@@ -75,6 +85,8 @@ public final class GarageTools {
             ]
         }
         return Self.json([
+            "source": file.source.site,
+            "available_sources": sites(of: group),
             "group": ["code": group.code, "name": file.group.name, "category": file.group.category],
             "vehicle": [file.vehicle.model, file.vehicle.frame, file.vehicle.grade, file.vehicle.engine,
                         file.vehicle.transmission].compactMap { $0 }.joined(separator: " "),
@@ -82,11 +94,14 @@ public final class GarageTools {
         ])
     }
 
-    /// A priced list with line totals and a grand total.
-    public func buildPartsList(title: String, items: [PartsListBuilder.Item]) throws -> String {
-        let list = PartsListBuilder(parts: items.compactMap { cataloguePart($0.oem) }).build(title: title, items: items)
+    /// A priced list with line totals and a grand total, priced from `source` (nil: each part's primary source).
+    public func buildPartsList(title: String, items: [PartsListBuilder.Item], source: String? = nil) throws -> String {
+        let parts = items.compactMap { cataloguePart($0.oem, site: source) }
+        let list = PartsListBuilder(parts: parts.map(\.part)).build(title: title, items: items)
+        let usedSites = Set(parts.map(\.site)).sorted()
         return Self.json([
             "title": list.title,
+            "source": source ?? (usedSites.count == 1 ? usedSites[0] : usedSites.joined(separator: ", ")),
             "total": "\(list.total)",
             "currency": list.currency,
             "unpriced_lines": list.unpricedCount,
@@ -106,7 +121,7 @@ public final class GarageTools {
     public func addToGarage(items: [PartsListBuilder.Item], status: PartStatus) throws -> String {
         guard !status.isOwned else { throw Failure.statusNotAllowed(status.rawValue) }
         for item in items {
-            let part = cataloguePart(item.oem)
+            let part = cataloguePart(item.oem, site: nil)?.part
             garage.markWanted(oemNumber: part?.oem ?? item.oem, name: part?.name ?? item.oem, status: status,
                               quantity: item.quantity)
         }
@@ -131,11 +146,33 @@ public final class GarageTools {
 
     // MARK: helpers
 
-    private func loadGroup(_ code: String) throws -> (GroupNode, SchemaGroupFile) {
+    private func loadGroup(_ code: String, site: String?) throws -> (GroupNode, SchemaGroupFile) {
         let groups = catalogue.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups)
-        guard let group = groups.first(where: { $0.code.caseInsensitiveCompare(code) == .orderedSame && $0.isScraped }),
-              let file = try? catalogue.load(group) else { throw Failure.unknownGroup(code) }
+        guard let group = groups.first(where: { $0.code.caseInsensitiveCompare(code) == .orderedSame && $0.isScraped })
+        else { throw Failure.unknownGroup(code) }
+        if let site {
+            guard let file = load(group, site: site) else {
+                throw Failure.unknownSource(site.lowercased(), available: sites(of: group))
+            }
+            return (group, file)
+        }
+        guard let file = try? catalogue.load(group) else { throw Failure.unknownGroup(code) }
         return (group, file)
+    }
+
+    /// The group's sites, primary first. A legacy schema-group.json counts as the site written inside it.
+    private func sites(of group: GroupNode) -> [String] {
+        group.sources.map { source in
+            source.site == "legacy" ? ((try? catalogue.load(group, site: "legacy"))?.source.site ?? "legacy") : source.site
+        }
+    }
+
+    /// Loads `site`'s file for the group, including a legacy file whose inner site matches.
+    private func load(_ group: GroupNode, site: String) -> SchemaGroupFile? {
+        let site = site.lowercased()
+        if let file = try? catalogue.load(group, site: site) { return file }
+        if let legacy = try? catalogue.load(group, site: "legacy"), legacy.source.site == site { return legacy }
+        return nil
     }
 
     private func coverageByKey() -> [String: Coverage] {
@@ -158,23 +195,62 @@ public final class GarageTools {
         return row
     }
 
-    /// The catalogue's entry for a part number (as a part or a replacement), with the callout name and price.
-    private func cataloguePart(_ oem: String) -> PartsListBuilder.CataloguePart? {
+    /// One source's listing of a part number in a group's diagram.
+    private struct Listing {
+        let site: String
+        let group: GroupNode
+        let schemaId: String
+        let pnc: String
+        let part: PartsListBuilder.CataloguePart
+        /// Set when the number is listed as a replacement for another part.
+        let replacementOf: String?
+    }
+
+    /// Every source's listings of a part number (as a part or a replacement), primary source first. Reads each
+    /// group's source files directly, because the store's index keeps only the best source per group.
+    private func listings(of oem: String) -> [Listing] {
         let key = CatalogueStore.normalize(oem)
-        for ref in catalogue.refs(for: oem) {
-            guard let group = catalogue.group(id: ref.groupID), let file = try? catalogue.load(group) else { continue }
-            for callout in file.schemas.flatMap(\.callouts) {
-                for part in callout.parts {
-                    if CatalogueStore.normalize(part.oem) == key {
-                        return .init(oem: part.oem, name: callout.name ?? part.oem, price: part.price)
-                    }
-                    if let replacement = part.replacements.first(where: { CatalogueStore.normalize($0.oem) == key }) {
-                        return .init(oem: replacement.oem, name: callout.name ?? replacement.oem, price: replacement.price)
+        var groupIDs: [String] = []
+        for ref in catalogue.refs(for: oem) where !groupIDs.contains(ref.groupID) { groupIDs.append(ref.groupID) }
+        var found: [Listing] = []
+        for groupID in groupIDs {
+            guard let group = catalogue.group(id: groupID) else { continue }
+            for site in sites(of: group) {
+                guard let file = load(group, site: site) else { continue }
+                for schema in file.schemas {
+                    for callout in schema.callouts {
+                        for part in callout.parts {
+                            let name = callout.name ?? part.oem
+                            if CatalogueStore.normalize(part.oem) == key {
+                                found.append(.init(site: site, group: group, schemaId: schema.id, pnc: callout.pnc,
+                                                   part: .init(oem: part.oem, name: name, price: part.price), replacementOf: nil))
+                            }
+                            for replacement in part.replacements where CatalogueStore.normalize(replacement.oem) == key {
+                                found.append(.init(site: site, group: group, schemaId: schema.id, pnc: callout.pnc,
+                                                   part: .init(oem: replacement.oem, name: name, price: replacement.price),
+                                                   replacementOf: part.oem))
+                            }
+                        }
                     }
                 }
             }
         }
-        return nil
+        return found.enumerated()
+            .sorted { lhs, rhs in
+                let left = CatalogueStore.siteRank(lhs.element.site), right = CatalogueStore.siteRank(rhs.element.site)
+                return left != right ? left < right : lhs.offset < rhs.offset
+            }
+            .map(\.element)
+    }
+
+    /// A part number's catalogue entry and price from `site`, or from the first source listing it (primary first).
+    private func cataloguePart(_ oem: String, site: String?) -> (part: PartsListBuilder.CataloguePart, site: String)? {
+        listings(of: oem).first { site == nil || $0.site == site?.lowercased() }.map { ($0.part, $0.site) }
+    }
+
+    private static func priceText(_ price: Price) -> String {
+        if let amount = price.amount { return amount.formatted(.currency(code: price.currency)) }
+        return price.status ?? "no price"
     }
 
     /// True when a "YYYY-MM" period overlaps the year ("1995") or month ("1995-03").
