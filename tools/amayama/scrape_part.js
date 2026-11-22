@@ -1,7 +1,7 @@
 // Amayama part-page scraper. Run in the browser on any amayama.com page:
 //   await window.__gvScrapePart('1010250fr2')
 // Fetches /en/part/nissan/<slug> and /en/part/nissan/<slug>/diagrams (no navigation needed)
-// and returns the JSON stored at catalogue/<make>/_parts/<key[0..1]>/<key>.json
+// and returns the JSON stored at catalogue/<make>/_parts/<key[0..1]>/<key>/amayama.json
 window.__gvScrapePart = async (slug, make = 'nissan') => {
   const clean = s => (s || '').replace(/\s+/g, ' ').trim();
   const parse = html => new DOMParser().parseFromString(html, 'text/html');

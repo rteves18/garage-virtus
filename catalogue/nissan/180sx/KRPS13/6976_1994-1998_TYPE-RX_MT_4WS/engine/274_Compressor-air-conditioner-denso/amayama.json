@@ -1,0 +1,2238 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/274",
+    "scraped_at": "2026-11-21T23:34:15.047Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "274",
+    "name": "compressor (air conditioner)",
+    "title_raw": "compressor (air conditioner) (Denso) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/274-_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/274-_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "274-_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/274-_001.png",
+      "callouts": [
+        {
+          "pnc": "27630",
+          "kind": "pnc",
+          "name": "compressor, cooler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 48,
+                "x2": 829,
+                "y2": 64
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.0751,
+                "x2": 0.6477,
+                "y2": 0.1002
+              },
+              "title": "compressor, cooler"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 287,
+                "y1": 447,
+                "x2": 346,
+                "y2": 463
+              },
+              "norm": {
+                "x1": 0.2242,
+                "y1": 0.6995,
+                "x2": 0.2703,
+                "y2": 0.7246
+              },
+              "title": "compressor, cooler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92600-52F03",
+              "url": "https://www.amayama.com/en/part/nissan/9260052f03",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "air conditioner [B421]"
+              },
+              "period": {
+                "from": "1992-03",
+                "to": "1994-01",
+                "raw": "03.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: air conditioner [B421]"
+            },
+            {
+              "oem": "92600-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F11",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F11",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-01",
+                "raw": "09.1995 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F12",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F12",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "9260065F13",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92600-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F16",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92600-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27633",
+          "kind": "pnc",
+          "name": "clutch assembly, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 638,
+                "y1": 127,
+                "x2": 697,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.4984,
+                "y1": 0.1987,
+                "x2": 0.5445,
+                "y2": 0.2238
+              },
+              "title": "clutch assembly, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92660-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9266065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92660-75F01",
+                  "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-08",
+                "raw": "09.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-09",
+                "raw": "01.1997 - 09.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F02",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f02",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-09",
+                "to": "1998-12",
+                "raw": "09.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 260.88,
+                "currency": "USD",
+                "raw": "260.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27631",
+          "kind": "pnc",
+          "name": "compressor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 127,
+                "x2": 829,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.1987,
+                "x2": 0.6477,
+                "y2": 0.2238
+              },
+              "title": "compressor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92610-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9261065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 974.05,
+                "currency": "USD",
+                "raw": "974.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [
+                {
+                  "oem": "92610-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+                  "price": {
+                    "status": "Available",
+                    "amount": 796.95,
+                    "currency": "USD",
+                    "raw": "796.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92610-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 796.95,
+                "currency": "USD",
+                "raw": "796.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 946.81,
+                "currency": "USD",
+                "raw": "946.81"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27630E",
+          "kind": "pnc",
+          "name": "fuse assembly, temperature",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 891,
+                "y1": 129,
+                "x2": 962,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6961,
+                "y1": 0.2019,
+                "x2": 0.7516,
+                "y2": 0.2238
+              },
+              "title": "fuse assembly, temperature"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92657-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265765f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch [B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-01",
+                "raw": "01.1994 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.55,
+                "currency": "USD",
+                "raw": "19.55"
+              },
+              "replacements": [
+                {
+                  "oem": "92657-75F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.89,
+                    "currency": "USD",
+                    "raw": "19.89"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: thermo switch [B421]"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "276",
+          "title": "AIR CONDITIONER (ENGINE ROOM)",
+          "category": "engine",
+          "group": "276",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/276",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1127,
+                "y1": 308,
+                "x2": 1163,
+                "y2": 322
+              },
+              "norm": {
+                "x1": 0.8805,
+                "y1": 0.482,
+                "x2": 0.9086,
+                "y2": 0.5039
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "274-_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "amayama/imgjp16/RS13/274-_001.png",
+      "callouts": [
+        {
+          "pnc": "27630",
+          "kind": "pnc",
+          "name": "compressor, cooler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 48,
+                "x2": 829,
+                "y2": 64
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.0751,
+                "x2": 0.6477,
+                "y2": 0.1002
+              },
+              "title": "compressor, cooler"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 287,
+                "y1": 447,
+                "x2": 346,
+                "y2": 463
+              },
+              "norm": {
+                "x1": 0.2242,
+                "y1": 0.6995,
+                "x2": 0.2703,
+                "y2": 0.7246
+              },
+              "title": "compressor, cooler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92600-52F03",
+              "url": "https://www.amayama.com/en/part/nissan/9260052f03",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "air conditioner [B421]"
+              },
+              "period": {
+                "from": "1992-03",
+                "to": "1994-01",
+                "raw": "03.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: air conditioner [B421]"
+            },
+            {
+              "oem": "92600-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F11",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F11",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-01",
+                "raw": "09.1995 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F12",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F12",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "9260065F13",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92600-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F16",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92600-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27633",
+          "kind": "pnc",
+          "name": "clutch assembly, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 638,
+                "y1": 127,
+                "x2": 697,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.4984,
+                "y1": 0.1987,
+                "x2": 0.5445,
+                "y2": 0.2238
+              },
+              "title": "clutch assembly, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92660-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9266065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92660-75F01",
+                  "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-08",
+                "raw": "09.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-09",
+                "raw": "01.1997 - 09.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F02",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f02",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-09",
+                "to": "1998-12",
+                "raw": "09.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 260.88,
+                "currency": "USD",
+                "raw": "260.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27631",
+          "kind": "pnc",
+          "name": "compressor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 127,
+                "x2": 829,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.1987,
+                "x2": 0.6477,
+                "y2": 0.2238
+              },
+              "title": "compressor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92610-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9261065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 974.05,
+                "currency": "USD",
+                "raw": "974.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [
+                {
+                  "oem": "92610-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+                  "price": {
+                    "status": "Available",
+                    "amount": 796.95,
+                    "currency": "USD",
+                    "raw": "796.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92610-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 796.95,
+                "currency": "USD",
+                "raw": "796.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 946.81,
+                "currency": "USD",
+                "raw": "946.81"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27630E",
+          "kind": "pnc",
+          "name": "fuse assembly, temperature",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 891,
+                "y1": 129,
+                "x2": 962,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6961,
+                "y1": 0.2019,
+                "x2": 0.7516,
+                "y2": 0.2238
+              },
+              "title": "fuse assembly, temperature"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92657-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265765f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch [B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-01",
+                "raw": "01.1994 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.55,
+                "currency": "USD",
+                "raw": "19.55"
+              },
+              "replacements": [
+                {
+                  "oem": "92657-75F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.89,
+                    "currency": "USD",
+                    "raw": "19.89"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: thermo switch [B421]"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "276",
+          "title": "AIR CONDITIONER (ENGINE ROOM)",
+          "category": "engine",
+          "group": "276",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/276",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1127,
+                "y1": 308,
+                "x2": 1163,
+                "y2": 322
+              },
+              "norm": {
+                "x1": 0.8805,
+                "y1": 0.482,
+                "x2": 0.9086,
+                "y2": 0.5039
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "274-_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/274-_001.png",
+      "callouts": [
+        {
+          "pnc": "27630",
+          "kind": "pnc",
+          "name": "compressor, cooler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 48,
+                "x2": 829,
+                "y2": 64
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.0751,
+                "x2": 0.6477,
+                "y2": 0.1002
+              },
+              "title": "compressor, cooler"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 287,
+                "y1": 447,
+                "x2": 346,
+                "y2": 463
+              },
+              "norm": {
+                "x1": 0.2242,
+                "y1": 0.6995,
+                "x2": 0.2703,
+                "y2": 0.7246
+              },
+              "title": "compressor, cooler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92600-52F03",
+              "url": "https://www.amayama.com/en/part/nissan/9260052f03",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "air conditioner [B421]"
+              },
+              "period": {
+                "from": "1992-03",
+                "to": "1994-01",
+                "raw": "03.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: air conditioner [B421]"
+            },
+            {
+              "oem": "92600-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F11",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F11",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f11",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-01",
+                "raw": "09.1995 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-65F12",
+                  "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+                  "price": {
+                    "status": "Available",
+                    "amount": 851.45,
+                    "currency": "USD",
+                    "raw": "851.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-65F12",
+              "url": "https://www.amayama.com/en/part/nissan/9260065f12",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "(type X)[B421]"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 851.45,
+                "currency": "USD",
+                "raw": "851.45"
+              },
+              "replacements": [
+                {
+                  "oem": "9260065F13",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: (type X)[B421]"
+            },
+            {
+              "oem": "92600-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92600-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92600-80F16",
+                  "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92600-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9260080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27633",
+          "kind": "pnc",
+          "name": "clutch assembly, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 638,
+                "y1": 127,
+                "x2": 697,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.4984,
+                "y1": 0.1987,
+                "x2": 0.5445,
+                "y2": 0.2238
+              },
+              "title": "clutch assembly, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92660-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9266065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1995-09",
+                "raw": "01.1994 - 09.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "92660-75F01",
+                  "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1995-09",
+                "to": "1996-08",
+                "raw": "09.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92660-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266075f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F01",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-09",
+                "raw": "01.1997 - 09.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92665-75F02",
+              "url": "https://www.amayama.com/en/part/nissan/9266575f02",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-09",
+                "to": "1998-12",
+                "raw": "09.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 260.88,
+                "currency": "USD",
+                "raw": "260.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27631",
+          "kind": "pnc",
+          "name": "compressor unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 769,
+                "y1": 127,
+                "x2": 829,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6008,
+                "y1": 0.1987,
+                "x2": 0.6477,
+                "y2": 0.2238
+              },
+              "title": "compressor unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92610-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9261065f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 974.05,
+                "currency": "USD",
+                "raw": "974.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F00",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [
+                {
+                  "oem": "92610-80F15",
+                  "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+                  "price": {
+                    "status": "Available",
+                    "amount": 796.95,
+                    "currency": "USD",
+                    "raw": "796.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: [B421]"
+            },
+            {
+              "oem": "92610-80F15",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-01",
+                "to": "1997-07",
+                "raw": "01.1997 - 07.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 796.95,
+                "currency": "USD",
+                "raw": "796.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "92610-80F16",
+              "url": "https://www.amayama.com/en/part/nissan/9261080f16",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1997-07",
+                "to": "1998-12",
+                "raw": "07.1997 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 946.81,
+                "currency": "USD",
+                "raw": "946.81"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27630E",
+          "kind": "pnc",
+          "name": "fuse assembly, temperature",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 891,
+                "y1": 129,
+                "x2": 962,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.6961,
+                "y1": 0.2019,
+                "x2": 0.7516,
+                "y2": 0.2238
+              },
+              "title": "fuse assembly, temperature"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "92657-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265765f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch [B421]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-01",
+                "raw": "01.1994 - 01.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.55,
+                "currency": "USD",
+                "raw": "19.55"
+              },
+              "replacements": [
+                {
+                  "oem": "92657-75F10",
+                  "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 19.89,
+                    "currency": "USD",
+                    "raw": "19.89"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: thermo switch [B421]"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-01",
+                "to": "1996-08",
+                "raw": "01.1996 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            },
+            {
+              "oem": "92657-75F10",
+              "url": "https://www.amayama.com/en/part/nissan/9265775f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "thermo switch"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1997-01",
+                "raw": "08.1996 - 01.1997"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.89,
+                "currency": "USD",
+                "raw": "19.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: thermo switch"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "276",
+          "title": "AIR CONDITIONER (ENGINE ROOM)",
+          "category": "engine",
+          "group": "276",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/276",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1127,
+                "y1": 308,
+                "x2": 1163,
+                "y2": 322
+              },
+              "norm": {
+                "x1": 0.8805,
+                "y1": 0.482,
+                "x2": 0.9086,
+                "y2": 0.5039
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

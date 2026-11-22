@@ -1,0 +1,235 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/B50",
+    "scraped_at": "2026-11-21T23:51:17.735Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B50",
+    "name": "alarm, buzzer, horn",
+    "title_raw": "alarm, buzzer, horn for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/B50__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B50__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/B50__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B50__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "B50__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B50__001.png",
+      "callouts": [
+        {
+          "pnc": "KB6350",
+          "kind": "pnc",
+          "name": "100KM/H warning equipment",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 907,
+                "y1": 139,
+                "x2": 979,
+                "y2": 153
+              },
+              "norm": {
+                "x1": 0.7086,
+                "y1": 0.2196,
+                "x2": 0.7648,
+                "y2": 0.2417
+              },
+              "title": "100KM/H warning equipment"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B4814-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/b481435f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 41.01,
+                "currency": "USD",
+                "raw": "41.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ"
+            },
+            {
+              "oem": "B4814-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/b481440f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "digital meter"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 41.01,
+                "currency": "USD",
+                "raw": "41.01"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: digital meter"
+            },
+            {
+              "oem": "B6350-15U00",
+              "url": "https://www.amayama.com/en/part/nissan/b635015u00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 31.88,
+                "currency": "USD",
+                "raw": "31.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: ｱﾅﾛｸﾞﾒｰﾀｰﾖｳ"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "B50__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B50__002.png",
+      "callouts": [
+        {
+          "pnc": "KB5610",
+          "kind": "pnc",
+          "name": "horn kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 318,
+                "y1": 251,
+                "x2": 389,
+                "y2": 265
+              },
+              "norm": {
+                "x1": 0.2484,
+                "y1": 0.3965,
+                "x2": 0.3039,
+                "y2": 0.4186
+              },
+              "title": "horn kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B5610-40F25",
+              "url": "https://www.amayama.com/en/part/nissan/b561040f25",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "sports type"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: sports type"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

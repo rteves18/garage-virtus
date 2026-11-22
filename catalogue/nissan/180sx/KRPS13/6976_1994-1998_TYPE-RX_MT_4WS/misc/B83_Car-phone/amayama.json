@@ -1,0 +1,343 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/B83",
+    "scraped_at": "2026-11-21T23:58:25.932Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B83",
+    "name": "car phone",
+    "title_raw": "car phone for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/B83__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B83__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/B83__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B83__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "B83__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B83__001.png",
+      "callouts": [
+        {
+          "pnc": "KB8301",
+          "kind": "pnc",
+          "name": "hand set, sub kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1003,
+                "y1": 547,
+                "x2": 1075,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.7836,
+                "y1": 0.8641,
+                "x2": 0.8398,
+                "y2": 0.891
+              },
+              "title": "hand set, sub kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8301-52F50",
+              "url": "https://www.amayama.com/en/part/nissan/b830152f50",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "Calsonic, multi use handset, sub kit [B517]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 106.26,
+                "currency": "USD",
+                "raw": "106.26"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: Calsonic, multi use handset, sub kit [B517]"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8300",
+          "kind": "pnc",
+          "name": "hand set, main kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 719,
+                "y1": 566,
+                "x2": 790,
+                "y2": 583
+              },
+              "norm": {
+                "x1": 0.5617,
+                "y1": 0.8942,
+                "x2": 0.6172,
+                "y2": 0.921
+              },
+              "title": "hand set, main kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8300-89928",
+              "url": "https://www.amayama.com/en/part/nissan/b830089928",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "Calsonic, multi use handset, multi use receiver set, main kit"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: Calsonic, multi use handset, multi use receiver set, main kit"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "B83__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1997-02",
+        "to": "1998-12",
+        "raw": "02.1997 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B83__002.png",
+      "callouts": [
+        {
+          "pnc": "KB8311",
+          "kind": "pnc",
+          "name": "hands free main kit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 936,
+                "y1": 239,
+                "x2": 1008,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.7312,
+                "y1": 0.3776,
+                "x2": 0.7875,
+                "y2": 0.4044
+              },
+              "title": "hands free main kit"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 936,
+                "y1": 239,
+                "x2": 1008,
+                "y2": 256
+              },
+              "norm": {
+                "x1": 0.7312,
+                "y1": 0.3776,
+                "x2": 0.7875,
+                "y2": 0.4044
+              },
+              "title": "hands free main kit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8311-89910",
+              "url": "https://www.amayama.com/en/part/nissan/b831189910",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "hands free unit"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: hands free unit"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8331",
+          "kind": "pnc",
+          "name": "attachment, telephone",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 353,
+                "y1": 284,
+                "x2": 425,
+                "y2": 301
+              },
+              "norm": {
+                "x1": 0.2758,
+                "y1": 0.4487,
+                "x2": 0.332,
+                "y2": 0.4755
+              },
+              "title": "attachment, telephone"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 353,
+                "y1": 284,
+                "x2": 425,
+                "y2": 301
+              },
+              "norm": {
+                "x1": 0.2758,
+                "y1": 0.4487,
+                "x2": 0.332,
+                "y2": 0.4755
+              },
+              "title": "attachment, telephone"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8331-3H000",
+              "url": "https://www.amayama.com/en/part/nissan/b83313h000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "ｹｲﾀｲﾃﾞﾝﾜｵｷﾀﾞｲ"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 40.87,
+                "currency": "USD",
+                "raw": "40.87"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: ｹｲﾀｲﾃﾞﾝﾜｵｷﾀﾞｲ"
+            },
+            {
+              "oem": "B8331-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b833189900",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "ｺﾝｿｰﾙﾘｯﾄﾞﾄﾘﾂｹﾍﾞﾙﾄ"
+              },
+              "period": {
+                "from": "1998-12",
+                "to": "1999-03",
+                "raw": "12.1998 - 03.1999"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.41,
+                "currency": "USD",
+                "raw": "3.41"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: ｺﾝｿｰﾙﾘｯﾄﾞﾄﾘﾂｹﾍﾞﾙﾄ"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/B88",
+    "scraped_at": "2026-11-21T23:58:26.058Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B88",
+    "name": "front wiper",
+    "title_raw": "front wiper for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/B88__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B88__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/B88__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B88__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "B88__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B88__001.png",
+      "callouts": [
+        {
+          "pnc": "KB8891",
+          "kind": "pnc",
+          "name": "refill wiper blade,RH (water repellent)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 153,
+                "y1": 105,
+                "x2": 224,
+                "y2": 122
+              },
+              "norm": {
+                "x1": 0.1195,
+                "y1": 0.1659,
+                "x2": 0.175,
+                "y2": 0.1927
+              },
+              "title": "refill wiper blade,RH (water repellent)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8891-N1500",
+              "url": "https://www.amayama.com/en/part/nissan/b8891n1500",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "500mm,ﾋﾗｶﾞﾀ"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 10.1,
+                "currency": "USD",
+                "raw": "10.10"
+              },
+              "replacements": [
+                {
+                  "oem": "B8891-N2500",
+                  "url": "https://www.amayama.com/en/part/nissan/b8891n2500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 8.51,
+                    "currency": "USD",
+                    "raw": "8.51"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 500mm,ﾋﾗｶﾞﾀ"
+            },
+            {
+              "oem": "B8891-N1500",
+              "url": "https://www.amayama.com/en/part/nissan/b8891n1500",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH:500mm,LH:500mm,500mm,ﾋﾗｶﾞﾀ"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 10.1,
+                "currency": "USD",
+                "raw": "10.10"
+              },
+              "replacements": [
+                {
+                  "oem": "B8891-N2500",
+                  "url": "https://www.amayama.com/en/part/nissan/b8891n2500",
+                  "price": {
+                    "status": "Available",
+                    "amount": 8.51,
+                    "currency": "USD",
+                    "raw": "8.51"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: RH:500mm,LH:500mm,500mm,ﾋﾗｶﾞﾀ"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8890",
+          "kind": "pnc",
+          "name": "winter blade RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 659,
+                "y1": 174,
+                "x2": 731,
+                "y2": 191
+              },
+              "norm": {
+                "x1": 0.5148,
+                "y1": 0.2749,
+                "x2": 0.5711,
+                "y2": 0.3017
+              },
+              "title": "winter blade RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY000-U50US",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u50us",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "500MM high speed type"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.28,
+                "currency": "USD",
+                "raw": "35.28"
+              },
+              "replacements": [
+                {
+                  "oem": "AY002-U50US",
+                  "url": "https://www.amayama.com/en/part/nissan/ay002u50us",
+                  "price": {
+                    "status": "Available",
+                    "amount": 35.28,
+                    "currency": "USD",
+                    "raw": "35.28"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 500MM high speed type"
+            },
+            {
+              "oem": "AY000-U50US",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u50us",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH:500MM,LH:500MM,500MM high speed type"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.28,
+                "currency": "USD",
+                "raw": "35.28"
+              },
+              "replacements": [
+                {
+                  "oem": "AY002-U50US",
+                  "url": "https://www.amayama.com/en/part/nissan/ay002u50us",
+                  "price": {
+                    "status": "Available",
+                    "amount": 35.28,
+                    "currency": "USD",
+                    "raw": "35.28"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: RH:500MM,LH:500MM,500MM high speed type"
+            },
+            {
+              "oem": "B6365-89935",
+              "url": "https://www.amayama.com/en/part/nissan/b636589935",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "500mm, U hook [B113]"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 25.6,
+                "currency": "USD",
+                "raw": "25.60"
+              },
+              "replacements": [
+                {
+                  "oem": "AY000-U475S",
+                  "url": "https://www.amayama.com/en/part/nissan/ay000u475s",
+                  "price": {
+                    "status": "Available",
+                    "amount": 25.6,
+                    "currency": "USD",
+                    "raw": "25.60"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 500mm, U hook [B113]"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8895",
+          "kind": "pnc",
+          "name": "winter blade without fin RH(water repellent)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 155,
+                "y1": 327,
+                "x2": 227,
+                "y2": 344
+              },
+              "norm": {
+                "x1": 0.1211,
+                "y1": 0.5166,
+                "x2": 0.1773,
+                "y2": 0.5434
+              },
+              "title": "winter blade without fin RH(water repellent)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY010-U50US",
+              "url": "https://www.amayama.com/en/part/nissan/ay010u50us",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "water-repellent winter blade 500MM"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 30.8,
+                "currency": "USD",
+                "raw": "30.80"
+              },
+              "replacements": [
+                {
+                  "oem": "AY0R0-U50US",
+                  "url": "https://www.amayama.com/en/part/nissan/ay0r0u50us",
+                  "price": {
+                    "status": "Available",
+                    "amount": 30.8,
+                    "currency": "USD",
+                    "raw": "30.80"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: water-repellent winter blade 500MM"
+            },
+            {
+              "oem": "AY010-U50US",
+              "url": "https://www.amayama.com/en/part/nissan/ay010u50us",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH:500MM,LH:500MM, water-repellent winter blade 500MM"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 30.8,
+                "currency": "USD",
+                "raw": "30.80"
+              },
+              "replacements": [
+                {
+                  "oem": "AY0R0-U50US",
+                  "url": "https://www.amayama.com/en/part/nissan/ay0r0u50us",
+                  "price": {
+                    "status": "Available",
+                    "amount": 30.8,
+                    "currency": "USD",
+                    "raw": "30.80"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: RH:500MM,LH:500MM, water-repellent winter blade 500MM"
+            },
+            {
+              "oem": "B8890-89935",
+              "url": "https://www.amayama.com/en/part/nissan/b889089935",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "500mm, U hook"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 29.29,
+                "currency": "USD",
+                "raw": "29.29"
+              },
+              "replacements": [
+                {
+                  "oem": "AY010-U500S",
+                  "url": "https://www.amayama.com/en/part/nissan/ay010u500s",
+                  "price": {
+                    "status": "Available",
+                    "amount": 29.29,
+                    "currency": "USD",
+                    "raw": "29.29"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 500mm, U hook"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8890A",
+          "kind": "pnc",
+          "name": "winter blade LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 989,
+                "y1": 363,
+                "x2": 1072,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.7727,
+                "y1": 0.5735,
+                "x2": 0.8375,
+                "y2": 0.6003
+              },
+              "title": "winter blade LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY000-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u500s",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "L=500"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1996-08",
+                "raw": "03.1989 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.28,
+                "currency": "USD",
+                "raw": "35.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: L=500"
+            },
+            {
+              "oem": "AY000-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay000u500s",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH:500MM,LH:500MM,L=500"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 35.28,
+                "currency": "USD",
+                "raw": "35.28"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH:500MM,LH:500MM,L=500"
+            }
+          ]
+        },
+        {
+          "pnc": "KB8895A",
+          "kind": "pnc",
+          "name": "winter blade LH(water repellent)",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 399,
+                "y1": 478,
+                "x2": 485,
+                "y2": 494
+              },
+              "norm": {
+                "x1": 0.3117,
+                "y1": 0.7551,
+                "x2": 0.3789,
+                "y2": 0.7804
+              },
+              "title": "winter blade LH(water repellent)"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY010-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay010u500s",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 29.29,
+                "currency": "USD",
+                "raw": "29.29"
+              },
+              "replacements": [
+                {
+                  "oem": "AY0R0-U500S",
+                  "url": "https://www.amayama.com/en/part/nissan/ay0r0u500s",
+                  "price": {
+                    "status": "Out of stock",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Out of stock"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "AY010-U500S",
+              "url": "https://www.amayama.com/en/part/nissan/ay010u500s",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH:500MM,LH:500MM"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 29.29,
+                "currency": "USD",
+                "raw": "29.29"
+              },
+              "replacements": [
+                {
+                  "oem": "AY0R0-U500S",
+                  "url": "https://www.amayama.com/en/part/nissan/ay0r0u500s",
+                  "price": {
+                    "status": "Out of stock",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Out of stock"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: RH:500MM,LH:500MM"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "B88__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B88__002.png",
+      "callouts": [
+        {
+          "pnc": "KB8883",
+          "kind": "pnc",
+          "name": "wiper spoiler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 540,
+                "y1": 504,
+                "x2": 611,
+                "y2": 521
+              },
+              "norm": {
+                "x1": 0.4219,
+                "y1": 0.7962,
+                "x2": 0.4773,
+                "y2": 0.8231
+              },
+              "title": "wiper spoiler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B8883-01U00",
+              "url": "https://www.amayama.com/en/part/nissan/b888301u00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

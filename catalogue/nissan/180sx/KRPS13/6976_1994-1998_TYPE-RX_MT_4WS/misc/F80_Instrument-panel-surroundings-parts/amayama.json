@@ -1,0 +1,336 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/F80",
+    "scraped_at": "2026-11-21T23:59:02.172Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F80",
+    "name": "instrument panel surroundings parts",
+    "title_raw": "instrument panel surroundings parts for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/F80__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F80__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/F80__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F80__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "F80__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F80__001.png",
+      "callouts": [
+        {
+          "pnc": "KF8810",
+          "kind": "pnc",
+          "name": "no smoking box",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1022,
+                "y1": 213,
+                "x2": 1094,
+                "y2": 227
+              },
+              "norm": {
+                "x1": 0.7984,
+                "y1": 0.3365,
+                "x2": 0.8547,
+                "y2": 0.3586
+              },
+              "title": "no smoking box"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "G8820-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/g882035f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1998-12",
+                "raw": "03.1989 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "F80__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F80__002.png",
+      "callouts": [
+        {
+          "pnc": "KF8260",
+          "kind": "pnc",
+          "name": "cluster lid C",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 898,
+                "y1": 96,
+                "x2": 970,
+                "y2": 112
+              },
+              "norm": {
+                "x1": 0.7016,
+                "y1": 0.1517,
+                "x2": 0.7578,
+                "y2": 0.1769
+              },
+              "title": "cluster lid C"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F8260-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/f826060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "faux carbon kevlar, sticky type,OYA F826260F00"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: faux carbon kevlar, sticky type,OYA F826260F00"
+            }
+          ]
+        },
+        {
+          "pnc": "KF8821",
+          "kind": "pnc",
+          "name": "ashtray finisher",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1027,
+                "y1": 153,
+                "x2": 1101,
+                "y2": 170
+              },
+              "norm": {
+                "x1": 0.8023,
+                "y1": 0.2417,
+                "x2": 0.8602,
+                "y2": 0.2686
+              },
+              "title": "ashtray finisher"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6510-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k651060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "faux carbon kevlar, sticky type,OYA F826260F00"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: faux carbon kevlar, sticky type,OYA F826260F00"
+            }
+          ]
+        },
+        {
+          "pnc": "KG6941",
+          "kind": "pnc",
+          "name": "console panel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1127,
+                "y1": 344,
+                "x2": 1199,
+                "y2": 361
+              },
+              "norm": {
+                "x1": 0.8805,
+                "y1": 0.5434,
+                "x2": 0.9367,
+                "y2": 0.5703
+              },
+              "title": "console panel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K6910-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k691060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "faux carbon kevlar, sticky type,OYA F826260F00"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: faux carbon kevlar, sticky type,OYA F826260F00"
+            }
+          ]
+        },
+        {
+          "pnc": "KF8262",
+          "kind": "pnc",
+          "name": "lid cluster,C",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 910,
+                "y1": 547,
+                "x2": 981,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.7109,
+                "y1": 0.8641,
+                "x2": 0.7664,
+                "y2": 0.891
+              },
+              "title": "lid cluster,C"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F8262-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/f826260f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "faux carbon kevlar, sticky type [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: faux carbon kevlar, sticky type [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

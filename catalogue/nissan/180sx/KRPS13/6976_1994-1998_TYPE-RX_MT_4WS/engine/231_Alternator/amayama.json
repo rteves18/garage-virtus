@@ -1,0 +1,4661 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/231",
+    "scraped_at": "2026-11-21T22:36:57.528Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "231",
+    "name": "alternator",
+    "title_raw": "alternator (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/231R_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/231R_001.png",
+      "width": 1280,
+      "height": 639
+    },
+    "amayama/imgjp16/RS13/231R_002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/231R_002.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "231R_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/231R_001.png",
+      "callouts": [
+        {
+          "pnc": "23127",
+          "kind": "pnc",
+          "name": "cover assembly, rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1041,
+                "y1": 129,
+                "x2": 1101,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.8133,
+                "y1": 0.2019,
+                "x2": 0.8602,
+                "y2": 0.2285
+              },
+              "title": "cover assembly, rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312765f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 628.03,
+                "currency": "USD",
+                "raw": "628.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23100",
+          "kind": "pnc",
+          "name": "alternator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 284,
+                "y1": 162,
+                "x2": 344,
+                "y2": 179
+              },
+              "norm": {
+                "x1": 0.2219,
+                "y1": 0.2535,
+                "x2": 0.2687,
+                "y2": 0.2801
+              },
+              "title": "alternator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-65F17",
+              "url": "https://www.amayama.com/en/part/nissan/2310065f17",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 940,
+                "currency": "USD",
+                "raw": "940.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23102",
+          "kind": "pnc",
+          "name": "stator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 781,
+                "y1": 189,
+                "x2": 843,
+                "y2": 203
+              },
+              "norm": {
+                "x1": 0.6102,
+                "y1": 0.2958,
+                "x2": 0.6586,
+                "y2": 0.3177
+              },
+              "title": "stator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-85L10",
+              "url": "https://www.amayama.com/en/part/nissan/2310285l10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 194.13,
+                "currency": "USD",
+                "raw": "194.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23165",
+          "kind": "pnc",
+          "name": "plate, terminal",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1008,
+                "y1": 203,
+                "x2": 1067,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.7875,
+                "y1": 0.3177,
+                "x2": 0.8336,
+                "y2": 0.3443
+              },
+              "title": "plate, terminal"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23156-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315652f10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.92,
+                "currency": "USD",
+                "raw": "8.92"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23156-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315652f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.92,
+                "currency": "USD",
+                "raw": "8.92"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23120M",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 690,
+                "y1": 222,
+                "x2": 762,
+                "y2": 239
+              },
+              "norm": {
+                "x1": 0.5391,
+                "y1": 0.3474,
+                "x2": 0.5953,
+                "y2": 0.374
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23108",
+          "kind": "pnc",
+          "name": "rotor assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 642,
+                "y1": 310,
+                "x2": 702,
+                "y2": 327
+              },
+              "norm": {
+                "x1": 0.5016,
+                "y1": 0.4851,
+                "x2": 0.5484,
+                "y2": 0.5117
+              },
+              "title": "rotor assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23108-0P610",
+              "url": "https://www.amayama.com/en/part/nissan/231080p610",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 211.84,
+                "currency": "USD",
+                "raw": "211.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23215",
+          "kind": "pnc",
+          "name": "regulator assembly,IC",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 767,
+                "y1": 322,
+                "x2": 826,
+                "y2": 339
+              },
+              "norm": {
+                "x1": 0.5992,
+                "y1": 0.5039,
+                "x2": 0.6453,
+                "y2": 0.5305
+              },
+              "title": "regulator assembly,IC"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23215-0V010",
+              "url": "https://www.amayama.com/en/part/nissan/232150v010",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 164.84,
+                "currency": "USD",
+                "raw": "164.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23138",
+          "kind": "pnc",
+          "name": "spring, brush",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 771,
+                "y1": 365,
+                "x2": 831,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.6023,
+                "y1": 0.5712,
+                "x2": 0.6492,
+                "y2": 0.5978
+              },
+              "title": "spring, brush"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23138-W1710",
+              "url": "https://www.amayama.com/en/part/nissan/23138w1710",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.79,
+                "currency": "USD",
+                "raw": "2.79"
+              },
+              "replacements": [
+                {
+                  "oem": "23138-V5511",
+                  "url": "https://www.amayama.com/en/part/nissan/23138v5511",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.79,
+                    "currency": "USD",
+                    "raw": "2.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23138-W1710",
+              "url": "https://www.amayama.com/en/part/nissan/23138w1710",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.79,
+                "currency": "USD",
+                "raw": "2.79"
+              },
+              "replacements": [
+                {
+                  "oem": "23138-V5511",
+                  "url": "https://www.amayama.com/en/part/nissan/23138v5511",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.79,
+                    "currency": "USD",
+                    "raw": "2.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23150",
+          "kind": "pnc",
+          "name": "pulley assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 172,
+                "y1": 373,
+                "x2": 232,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.1344,
+                "y1": 0.5837,
+                "x2": 0.1812,
+                "y2": 0.6088
+              },
+              "title": "pulley assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23150-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315065f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23120MA",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 375,
+                "x2": 513,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.3359,
+                "y1": 0.5869,
+                "x2": 0.4008,
+                "y2": 0.6088
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23135",
+          "kind": "pnc",
+          "name": "brush assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 726,
+                "y1": 392,
+                "x2": 786,
+                "y2": 408
+              },
+              "norm": {
+                "x1": 0.5672,
+                "y1": 0.6135,
+                "x2": 0.6141,
+                "y2": 0.6385
+              },
+              "title": "brush assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23135-64J12",
+              "url": "https://www.amayama.com/en/part/nissan/2313564j12",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.7,
+                "currency": "USD",
+                "raw": "4.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23135-64J12",
+              "url": "https://www.amayama.com/en/part/nissan/2313564j12",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.7,
+                "currency": "USD",
+                "raw": "4.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23124",
+          "kind": "pnc",
+          "name": "rectifier assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 681,
+                "y1": 416,
+                "x2": 740,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.532,
+                "y1": 0.651,
+                "x2": 0.5781,
+                "y2": 0.6761
+              },
+              "title": "rectifier assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312465f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 153.26,
+                "currency": "USD",
+                "raw": "153.26"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23200",
+          "kind": "pnc",
+          "name": "screw set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 289,
+                "y1": 475,
+                "x2": 349,
+                "y2": 492
+              },
+              "norm": {
+                "x1": 0.2258,
+                "y1": 0.7433,
+                "x2": 0.2727,
+                "y2": 0.77
+              },
+              "title": "screw set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23118",
+          "kind": "pnc",
+          "name": "cover assembly, front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 363,
+                "y1": 521,
+                "x2": 423,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.2836,
+                "y1": 0.8153,
+                "x2": 0.3305,
+                "y2": 0.8372
+              },
+              "title": "cover assembly, front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23118-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2311865f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23127A",
+          "kind": "pnc",
+          "name": "bolt, through",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1087,
+                "y1": 523,
+                "x2": 1158,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8492,
+                "y1": 0.8185,
+                "x2": 0.9047,
+                "y2": 0.8451
+              },
+              "title": "bolt, through"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23165+A",
+          "kind": "pnc",
+          "name": "plate, terminal",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 100,
+                "y1": 559,
+                "x2": 184,
+                "y2": 576
+              },
+              "norm": {
+                "x1": 0.0781,
+                "y1": 0.8748,
+                "x2": 0.1437,
+                "y2": 0.9014
+              },
+              "title": "plate, terminal"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23153-70T12",
+              "url": "https://www.amayama.com/en/part/nissan/2315370t12",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23153-J5500",
+              "url": "https://www.amayama.com/en/part/nissan/23153j5500",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.89,
+                "currency": "USD",
+                "raw": "16.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "231R_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "amayama/imgjp16/RS13/231R_001.png",
+      "callouts": [
+        {
+          "pnc": "23127",
+          "kind": "pnc",
+          "name": "cover assembly, rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1041,
+                "y1": 129,
+                "x2": 1101,
+                "y2": 146
+              },
+              "norm": {
+                "x1": 0.8133,
+                "y1": 0.2019,
+                "x2": 0.8602,
+                "y2": 0.2285
+              },
+              "title": "cover assembly, rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312765f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 628.03,
+                "currency": "USD",
+                "raw": "628.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23100",
+          "kind": "pnc",
+          "name": "alternator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 284,
+                "y1": 162,
+                "x2": 344,
+                "y2": 179
+              },
+              "norm": {
+                "x1": 0.2219,
+                "y1": 0.2535,
+                "x2": 0.2687,
+                "y2": 0.2801
+              },
+              "title": "alternator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-65F17",
+              "url": "https://www.amayama.com/en/part/nissan/2310065f17",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 940,
+                "currency": "USD",
+                "raw": "940.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23102",
+          "kind": "pnc",
+          "name": "stator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 781,
+                "y1": 189,
+                "x2": 843,
+                "y2": 203
+              },
+              "norm": {
+                "x1": 0.6102,
+                "y1": 0.2958,
+                "x2": 0.6586,
+                "y2": 0.3177
+              },
+              "title": "stator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-85L10",
+              "url": "https://www.amayama.com/en/part/nissan/2310285l10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 194.13,
+                "currency": "USD",
+                "raw": "194.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23165",
+          "kind": "pnc",
+          "name": "plate, terminal",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1008,
+                "y1": 203,
+                "x2": 1067,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.7875,
+                "y1": 0.3177,
+                "x2": 0.8336,
+                "y2": 0.3443
+              },
+              "title": "plate, terminal"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23156-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315652f10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.92,
+                "currency": "USD",
+                "raw": "8.92"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23156-52F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315652f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.92,
+                "currency": "USD",
+                "raw": "8.92"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23120M",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 690,
+                "y1": 222,
+                "x2": 762,
+                "y2": 239
+              },
+              "norm": {
+                "x1": 0.5391,
+                "y1": 0.3474,
+                "x2": 0.5953,
+                "y2": 0.374
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23108",
+          "kind": "pnc",
+          "name": "rotor assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 642,
+                "y1": 310,
+                "x2": 702,
+                "y2": 327
+              },
+              "norm": {
+                "x1": 0.5016,
+                "y1": 0.4851,
+                "x2": 0.5484,
+                "y2": 0.5117
+              },
+              "title": "rotor assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23108-0P610",
+              "url": "https://www.amayama.com/en/part/nissan/231080p610",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 211.84,
+                "currency": "USD",
+                "raw": "211.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23215",
+          "kind": "pnc",
+          "name": "regulator assembly,IC",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 767,
+                "y1": 322,
+                "x2": 826,
+                "y2": 339
+              },
+              "norm": {
+                "x1": 0.5992,
+                "y1": 0.5039,
+                "x2": 0.6453,
+                "y2": 0.5305
+              },
+              "title": "regulator assembly,IC"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23215-0V010",
+              "url": "https://www.amayama.com/en/part/nissan/232150v010",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 164.84,
+                "currency": "USD",
+                "raw": "164.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23138",
+          "kind": "pnc",
+          "name": "spring, brush",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 771,
+                "y1": 365,
+                "x2": 831,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.6023,
+                "y1": 0.5712,
+                "x2": 0.6492,
+                "y2": 0.5978
+              },
+              "title": "spring, brush"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23138-W1710",
+              "url": "https://www.amayama.com/en/part/nissan/23138w1710",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.79,
+                "currency": "USD",
+                "raw": "2.79"
+              },
+              "replacements": [
+                {
+                  "oem": "23138-V5511",
+                  "url": "https://www.amayama.com/en/part/nissan/23138v5511",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.79,
+                    "currency": "USD",
+                    "raw": "2.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23138-W1710",
+              "url": "https://www.amayama.com/en/part/nissan/23138w1710",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.79,
+                "currency": "USD",
+                "raw": "2.79"
+              },
+              "replacements": [
+                {
+                  "oem": "23138-V5511",
+                  "url": "https://www.amayama.com/en/part/nissan/23138v5511",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2.79,
+                    "currency": "USD",
+                    "raw": "2.79"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23150",
+          "kind": "pnc",
+          "name": "pulley assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 172,
+                "y1": 373,
+                "x2": 232,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.1344,
+                "y1": 0.5837,
+                "x2": 0.1812,
+                "y2": 0.6088
+              },
+              "title": "pulley assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23150-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315065f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23120MA",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 375,
+                "x2": 513,
+                "y2": 389
+              },
+              "norm": {
+                "x1": 0.3359,
+                "y1": 0.5869,
+                "x2": 0.4008,
+                "y2": 0.6088
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23135",
+          "kind": "pnc",
+          "name": "brush assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 726,
+                "y1": 392,
+                "x2": 786,
+                "y2": 408
+              },
+              "norm": {
+                "x1": 0.5672,
+                "y1": 0.6135,
+                "x2": 0.6141,
+                "y2": 0.6385
+              },
+              "title": "brush assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23135-64J12",
+              "url": "https://www.amayama.com/en/part/nissan/2313564j12",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.7,
+                "currency": "USD",
+                "raw": "4.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23135-64J12",
+              "url": "https://www.amayama.com/en/part/nissan/2313564j12",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 4.7,
+                "currency": "USD",
+                "raw": "4.70"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23124",
+          "kind": "pnc",
+          "name": "rectifier assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 681,
+                "y1": 416,
+                "x2": 740,
+                "y2": 432
+              },
+              "norm": {
+                "x1": 0.532,
+                "y1": 0.651,
+                "x2": 0.5781,
+                "y2": 0.6761
+              },
+              "title": "rectifier assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312465f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 153.26,
+                "currency": "USD",
+                "raw": "153.26"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23200",
+          "kind": "pnc",
+          "name": "screw set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 289,
+                "y1": 475,
+                "x2": 349,
+                "y2": 492
+              },
+              "norm": {
+                "x1": 0.2258,
+                "y1": 0.7433,
+                "x2": 0.2727,
+                "y2": 0.77
+              },
+              "title": "screw set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23118",
+          "kind": "pnc",
+          "name": "cover assembly, front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 363,
+                "y1": 521,
+                "x2": 423,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.2836,
+                "y1": 0.8153,
+                "x2": 0.3305,
+                "y2": 0.8372
+              },
+              "title": "cover assembly, front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23118-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2311865f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23127A",
+          "kind": "pnc",
+          "name": "bolt, through",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1087,
+                "y1": 523,
+                "x2": 1158,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8492,
+                "y1": 0.8185,
+                "x2": 0.9047,
+                "y2": 0.8451
+              },
+              "title": "bolt, through"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23165+A",
+          "kind": "pnc",
+          "name": "plate, terminal",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 100,
+                "y1": 559,
+                "x2": 184,
+                "y2": 576
+              },
+              "norm": {
+                "x1": 0.0781,
+                "y1": 0.8748,
+                "x2": 0.1437,
+                "y2": 0.9014
+              },
+              "title": "plate, terminal"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23153-70T12",
+              "url": "https://www.amayama.com/en/part/nissan/2315370t12",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23153-J5500",
+              "url": "https://www.amayama.com/en/part/nissan/23153j5500",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.89,
+                "currency": "USD",
+                "raw": "16.89"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "231R_002_0",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/231R_002.png",
+      "callouts": [
+        {
+          "pnc": "23100",
+          "kind": "pnc",
+          "name": "alternator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 148,
+                "y1": 48,
+                "x2": 208,
+                "y2": 62
+              },
+              "norm": {
+                "x1": 0.1156,
+                "y1": 0.0751,
+                "x2": 0.1625,
+                "y2": 0.097
+              },
+              "title": "alternator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2310052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 912.75,
+                "currency": "USD",
+                "raw": "912.75"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23100-65F17",
+              "url": "https://www.amayama.com/en/part/nissan/2310065f17",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 940,
+                "currency": "USD",
+                "raw": "940.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23108",
+          "kind": "pnc",
+          "name": "rotor assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 556,
+                "y1": 53,
+                "x2": 616,
+                "y2": 67
+              },
+              "norm": {
+                "x1": 0.4344,
+                "y1": 0.0829,
+                "x2": 0.4813,
+                "y2": 0.1049
+              },
+              "title": "rotor assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23108-0P610",
+              "url": "https://www.amayama.com/en/part/nissan/231080p610",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 211.84,
+                "currency": "USD",
+                "raw": "211.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23108-30R70",
+              "url": "https://www.amayama.com/en/part/nissan/2310830r70",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 298.35,
+                "currency": "USD",
+                "raw": "298.35"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23120M",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 587,
+                "y1": 115,
+                "x2": 659,
+                "y2": 131
+              },
+              "norm": {
+                "x1": 0.4586,
+                "y1": 0.18,
+                "x2": 0.5148,
+                "y2": 0.205
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312030r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.76,
+                "currency": "USD",
+                "raw": "5.76"
+              },
+              "replacements": [
+                {
+                  "oem": "23120-51E10",
+                  "url": "https://www.amayama.com/en/part/nissan/2312051e10",
+                  "price": {
+                    "status": "Available",
+                    "amount": 5.76,
+                    "currency": "USD",
+                    "raw": "5.76"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23118",
+          "kind": "pnc",
+          "name": "cover assembly, front",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 299,
+                "y1": 129,
+                "x2": 358,
+                "y2": 143
+              },
+              "norm": {
+                "x1": 0.2336,
+                "y1": 0.2019,
+                "x2": 0.2797,
+                "y2": 0.2238
+              },
+              "title": "cover assembly, front"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23118-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2311852f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 98.09,
+                "currency": "USD",
+                "raw": "98.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23118-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2311865f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23156",
+          "kind": "pnc",
+          "name": "terminal assembly,B",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1110,
+                "y1": 167,
+                "x2": 1170,
+                "y2": 184
+              },
+              "norm": {
+                "x1": 0.8672,
+                "y1": 0.2613,
+                "x2": 0.9141,
+                "y2": 0.2879
+              },
+              "title": "terminal assembly,B"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23156-1E810",
+              "url": "https://www.amayama.com/en/part/nissan/231561e810",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.81,
+                "currency": "USD",
+                "raw": "6.81"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23102",
+          "kind": "pnc",
+          "name": "stator assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 721,
+                "y1": 234,
+                "x2": 781,
+                "y2": 251
+              },
+              "norm": {
+                "x1": 0.5633,
+                "y1": 0.3662,
+                "x2": 0.6102,
+                "y2": 0.3928
+              },
+              "title": "stator assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-25V10",
+              "url": "https://www.amayama.com/en/part/nissan/2310225v10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 148.49,
+                "currency": "USD",
+                "raw": "148.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23102-85L10",
+              "url": "https://www.amayama.com/en/part/nissan/2310285l10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 194.13,
+                "currency": "USD",
+                "raw": "194.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23120MA",
+          "kind": "pnc",
+          "name": "bearing, ball",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 334,
+                "y1": 251,
+                "x2": 418,
+                "y2": 267
+              },
+              "norm": {
+                "x1": 0.2609,
+                "y1": 0.3928,
+                "x2": 0.3266,
+                "y2": 0.4178
+              },
+              "title": "bearing, ball"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23120-22J20",
+              "url": "https://www.amayama.com/en/part/nissan/2312022j20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.63,
+                "currency": "USD",
+                "raw": "2.63"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23200",
+          "kind": "pnc",
+          "name": "screw set",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 155,
+                "y1": 289,
+                "x2": 215,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.1211,
+                "y1": 0.4523,
+                "x2": 0.168,
+                "y2": 0.4789
+              },
+              "title": "screw set"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23115-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2311520p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "23200-20P10",
+                  "url": "https://www.amayama.com/en/part/nissan/2320020p10",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23150",
+          "kind": "pnc",
+          "name": "pulley assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 103,
+                "y1": 363,
+                "x2": 162,
+                "y2": 377
+              },
+              "norm": {
+                "x1": 0.0805,
+                "y1": 0.5681,
+                "x2": 0.1266,
+                "y2": 0.59
+              },
+              "title": "pulley assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "23150-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2315052f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23150-65F10",
+              "url": "https://www.amayama.com/en/part/nissan/2315065f10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23124",
+          "kind": "pnc",
+          "name": "rectifier assembly",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 907,
+                "y1": 439,
+                "x2": 967,
+                "y2": 456
+              },
+              "norm": {
+                "x1": 0.7086,
+                "y1": 0.687,
+                "x2": 0.7555,
+                "y2": 0.7136
+              },
+              "title": "rectifier assembly"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-30R10",
+              "url": "https://www.amayama.com/en/part/nissan/2312430r10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 175.74,
+                "currency": "USD",
+                "raw": "175.74"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23124-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312465f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 153.26,
+                "currency": "USD",
+                "raw": "153.26"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23135M",
+          "kind": "pnc",
+          "name": "brush,F",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 795,
+                "y1": 442,
+                "x2": 867,
+                "y2": 459
+              },
+              "norm": {
+                "x1": 0.6211,
+                "y1": 0.6917,
+                "x2": 0.6773,
+                "y2": 0.7183
+              },
+              "title": "brush,F"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23142-0B000",
+              "url": "https://www.amayama.com/en/part/nissan/231420b000",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 8.24,
+                "currency": "USD",
+                "raw": "8.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23127",
+          "kind": "pnc",
+          "name": "cover assembly, rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1005,
+                "y1": 528,
+                "x2": 1065,
+                "y2": 544
+              },
+              "norm": {
+                "x1": 0.7852,
+                "y1": 0.8263,
+                "x2": 0.832,
+                "y2": 0.8513
+              },
+              "title": "cover assembly, rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2312752f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 553.78,
+                "currency": "USD",
+                "raw": "553.78"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23127-65F20",
+              "url": "https://www.amayama.com/en/part/nissan/2312765f20",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 628.03,
+                "currency": "USD",
+                "raw": "628.03"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23215",
+          "kind": "pnc",
+          "name": "regulator assembly,IC",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 533,
+                "x2": 805,
+                "y2": 549
+              },
+              "norm": {
+                "x1": 0.5805,
+                "y1": 0.8341,
+                "x2": 0.6289,
+                "y2": 0.8592
+              },
+              "title": "regulator assembly,IC"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23215-0V010",
+              "url": "https://www.amayama.com/en/part/nissan/232150v010",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 164.84,
+                "currency": "USD",
+                "raw": "164.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1992-12",
+                "to": "1994-01",
+                "raw": "12.1992 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23215-52F11",
+              "url": "https://www.amayama.com/en/part/nissan/2321552f11",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 212.52,
+                "currency": "USD",
+                "raw": "212.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            }
+          ]
+        },
+        {
+          "pnc": "23127A",
+          "kind": "pnc",
+          "name": "bolt, through",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 203,
+                "y1": 559,
+                "x2": 275,
+                "y2": 576
+              },
+              "norm": {
+                "x1": 0.1586,
+                "y1": 0.8748,
+                "x2": 0.2148,
+                "y2": 0.9014
+              },
+              "title": "bolt, through"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Mitsubishi"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Mitsubishi"
+            },
+            {
+              "oem": "23131-20P10",
+              "url": "https://www.amayama.com/en/part/nissan/2313120p10",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "23150B",
+          "kind": "pnc",
+          "name": "nut assembly, pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 72,
+                "y1": 571,
+                "x2": 146,
+                "y2": 587
+              },
+              "norm": {
+                "x1": 0.0563,
+                "y1": 0.8936,
+                "x2": 0.1141,
+                "y2": 0.9186
+              },
+              "title": "nut assembly, pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "23153-70T12",
+              "url": "https://www.amayama.com/en/part/nissan/2315370t12",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

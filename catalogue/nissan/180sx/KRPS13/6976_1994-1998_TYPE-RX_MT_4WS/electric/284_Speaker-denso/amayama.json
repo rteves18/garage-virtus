@@ -1,0 +1,5121 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/electric/284",
+    "scraped_at": "2026-11-21T23:34:15.274Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "electric",
+    "code": "284",
+    "name": "speaker",
+    "title_raw": "speaker (Denso) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/284-_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/284-_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "284-_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/284-_001.png",
+      "callouts": [
+        {
+          "pnc": "0851361223",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 602,
+                "y1": 451,
+                "x2": 721,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.4703,
+                "y1": 0.7058,
+                "x2": 0.5633,
+                "y2": 0.7324
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-61223",
+              "url": "https://www.amayama.com/en/part/nissan/0851361223",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "0851351212",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 413,
+                "y1": 494,
+                "x2": 535,
+                "y2": 511
+              },
+              "norm": {
+                "x1": 0.3227,
+                "y1": 0.7731,
+                "x2": 0.418,
+                "y2": 0.7997
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0851351212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1.23,
+                "currency": "USD",
+                "raw": "1.23"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "28060M",
+          "kind": "pnc",
+          "name": "amp assembly, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1103,
+                "y1": 203,
+                "x2": 1175,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.8617,
+                "y1": 0.3177,
+                "x2": 0.918,
+                "y2": 0.3443
+              },
+              "title": "amp assembly, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "rear speaker active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: rear speaker active sound"
+            },
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "28168",
+          "kind": "pnc",
+          "name": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 284,
+                "x2": 389,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4444,
+                "x2": 0.3039,
+                "y2": 0.4679
+              },
+              "title": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front stereo-less"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "28167",
+          "kind": "pnc",
+          "name": "bracket, front speaker LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 303,
+                "x2": 389,
+                "y2": 318
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4742,
+                "x2": 0.3039,
+                "y2": 0.4977
+              },
+              "title": "bracket, front speaker LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front stereo-less"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "27933",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 253,
+                "y1": 353,
+                "x2": 313,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.1977,
+                "y1": 0.5524,
+                "x2": 0.2445,
+                "y2": 0.579
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Clarion [A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Clarion [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28175",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1032,
+                "y1": 394,
+                "x2": 1091,
+                "y2": 411
+              },
+              "norm": {
+                "x1": 0.8063,
+                "y1": 0.6166,
+                "x2": 0.8523,
+                "y2": 0.6432
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28175+A",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1029,
+                "y1": 416,
+                "x2": 1113,
+                "y2": 430
+              },
+              "norm": {
+                "x1": 0.8039,
+                "y1": 0.651,
+                "x2": 0.8695,
+                "y2": 0.6729
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28176W",
+          "kind": "pnc",
+          "name": "grille, speaker front RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 432,
+                "x2": 105,
+                "y2": 449
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.6761,
+                "x2": 0.082,
+                "y2": 0.7027
+              },
+              "title": "grille, speaker front RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front active sound Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: RH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28177W",
+          "kind": "pnc",
+          "name": "grille, speaker front LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 451,
+                "x2": 105,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.7058,
+                "x2": 0.082,
+                "y2": 0.7324
+              },
+              "title": "grille, speaker front LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front active sound Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: LH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "27361A",
+          "kind": "pnc",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 888,
+                "y1": 487,
+                "x2": 960,
+                "y2": 501
+              },
+              "norm": {
+                "x1": 0.6937,
+                "y1": 0.7621,
+                "x2": 0.75,
+                "y2": 0.784
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27933+A",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1027,
+                "y1": 537,
+                "x2": 1110,
+                "y2": 554
+              },
+              "norm": {
+                "x1": 0.8023,
+                "y1": 0.8404,
+                "x2": 0.8672,
+                "y2": 0.867
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: [A403]"
+            },
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28178",
+          "kind": "pnc",
+          "name": "ornament, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 150,
+                "y1": 547,
+                "x2": 210,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.1172,
+                "y1": 0.856,
+                "x2": 0.1641,
+                "y2": 0.8826
+              },
+              "title": "ornament, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: active sound"
+            },
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: active sound"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "284-_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "amayama/imgjp16/RS13/284-_001.png",
+      "callouts": [
+        {
+          "pnc": "0851361223",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 602,
+                "y1": 451,
+                "x2": 721,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.4703,
+                "y1": 0.7058,
+                "x2": 0.5633,
+                "y2": 0.7324
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-61223",
+              "url": "https://www.amayama.com/en/part/nissan/0851361223",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "0851351212",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 413,
+                "y1": 494,
+                "x2": 535,
+                "y2": 511
+              },
+              "norm": {
+                "x1": 0.3227,
+                "y1": 0.7731,
+                "x2": 0.418,
+                "y2": 0.7997
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0851351212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1.23,
+                "currency": "USD",
+                "raw": "1.23"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "28060M",
+          "kind": "pnc",
+          "name": "amp assembly, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1103,
+                "y1": 203,
+                "x2": 1175,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.8617,
+                "y1": 0.3177,
+                "x2": 0.918,
+                "y2": 0.3443
+              },
+              "title": "amp assembly, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "rear speaker active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: rear speaker active sound"
+            },
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "28168",
+          "kind": "pnc",
+          "name": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 284,
+                "x2": 389,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4444,
+                "x2": 0.3039,
+                "y2": 0.4679
+              },
+              "title": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front stereo-less"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "28167",
+          "kind": "pnc",
+          "name": "bracket, front speaker LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 303,
+                "x2": 389,
+                "y2": 318
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4742,
+                "x2": 0.3039,
+                "y2": 0.4977
+              },
+              "title": "bracket, front speaker LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front stereo-less"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "27933",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 253,
+                "y1": 353,
+                "x2": 313,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.1977,
+                "y1": 0.5524,
+                "x2": 0.2445,
+                "y2": 0.579
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Clarion [A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Clarion [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28175",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1032,
+                "y1": 394,
+                "x2": 1091,
+                "y2": 411
+              },
+              "norm": {
+                "x1": 0.8063,
+                "y1": 0.6166,
+                "x2": 0.8523,
+                "y2": 0.6432
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28175+A",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1029,
+                "y1": 416,
+                "x2": 1113,
+                "y2": 430
+              },
+              "norm": {
+                "x1": 0.8039,
+                "y1": 0.651,
+                "x2": 0.8695,
+                "y2": 0.6729
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28176W",
+          "kind": "pnc",
+          "name": "grille, speaker front RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 432,
+                "x2": 105,
+                "y2": 449
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.6761,
+                "x2": 0.082,
+                "y2": 0.7027
+              },
+              "title": "grille, speaker front RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front active sound Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: RH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28177W",
+          "kind": "pnc",
+          "name": "grille, speaker front LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 451,
+                "x2": 105,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.7058,
+                "x2": 0.082,
+                "y2": 0.7324
+              },
+              "title": "grille, speaker front LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front active sound Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: LH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "27361A",
+          "kind": "pnc",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 888,
+                "y1": 487,
+                "x2": 960,
+                "y2": 501
+              },
+              "norm": {
+                "x1": 0.6937,
+                "y1": 0.7621,
+                "x2": 0.75,
+                "y2": 0.784
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27933+A",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1027,
+                "y1": 537,
+                "x2": 1110,
+                "y2": 554
+              },
+              "norm": {
+                "x1": 0.8023,
+                "y1": 0.8404,
+                "x2": 0.8672,
+                "y2": 0.867
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: [A403]"
+            },
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28178",
+          "kind": "pnc",
+          "name": "ornament, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 150,
+                "y1": 547,
+                "x2": 210,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.1172,
+                "y1": 0.856,
+                "x2": 0.1641,
+                "y2": 0.8826
+              },
+              "title": "ornament, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: active sound"
+            },
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: active sound"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "284-_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "HB"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/284-_001.png",
+      "callouts": [
+        {
+          "pnc": "0851361223",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 602,
+                "y1": 451,
+                "x2": 721,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.4703,
+                "y1": 0.7058,
+                "x2": 0.5633,
+                "y2": 0.7324
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-61223",
+              "url": "https://www.amayama.com/en/part/nissan/0851361223",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "0851351212",
+          "kind": "common",
+          "name": "Screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 413,
+                "y1": 494,
+                "x2": 535,
+                "y2": 511
+              },
+              "norm": {
+                "x1": 0.3227,
+                "y1": 0.7731,
+                "x2": 0.418,
+                "y2": 0.7997
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08513-51212",
+              "url": "https://www.amayama.com/en/part/nissan/0851351212",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1.23,
+                "currency": "USD",
+                "raw": "1.23"
+              },
+              "replacements": [],
+              "description_raw": "Screw"
+            }
+          ]
+        },
+        {
+          "pnc": "28060M",
+          "kind": "pnc",
+          "name": "amp assembly, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1103,
+                "y1": 203,
+                "x2": 1175,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.8617,
+                "y1": 0.3177,
+                "x2": 0.918,
+                "y2": 0.3443
+              },
+              "title": "amp assembly, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "rear speaker active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: rear speaker active sound"
+            },
+            {
+              "oem": "28060-40F05",
+              "url": "https://www.amayama.com/en/part/nissan/2806040f05",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB"
+            }
+          ]
+        },
+        {
+          "pnc": "28168",
+          "kind": "pnc",
+          "name": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 284,
+                "x2": 389,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4444,
+                "x2": 0.3039,
+                "y2": 0.4679
+              },
+              "title": "ﾌﾞﾗｹﾂﾄ,ｽﾋﾟ-ｶ- RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front right"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [
+                {
+                  "oem": "28166-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front right"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front stereo-less"
+            },
+            {
+              "oem": "28166-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816640f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "28167",
+          "kind": "pnc",
+          "name": "bracket, front speaker LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 330,
+                "y1": 303,
+                "x2": 389,
+                "y2": 318
+              },
+              "norm": {
+                "x1": 0.2578,
+                "y1": 0.4742,
+                "x2": 0.3039,
+                "y2": 0.4977
+              },
+              "title": "bracket, front speaker LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB.TYPE2; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F00",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front left"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28167-40F01",
+                  "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+                  "price": {
+                    "status": "Available",
+                    "amount": 53.13,
+                    "currency": "USD",
+                    "raw": "53.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: front left"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front stereo-less"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front stereo-less"
+            },
+            {
+              "oem": "28167-40F01",
+              "url": "https://www.amayama.com/en/part/nissan/2816740f01",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left audio-less"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 53.13,
+                "currency": "USD",
+                "raw": "53.13"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left audio-less"
+            }
+          ]
+        },
+        {
+          "pnc": "27933",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 253,
+                "y1": 353,
+                "x2": 313,
+                "y2": 370
+              },
+              "norm": {
+                "x1": 0.1977,
+                "y1": 0.5524,
+                "x2": 0.2445,
+                "y2": 0.579
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28148-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814853f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front right bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 168.93,
+                "currency": "USD",
+                "raw": "168.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front right bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28149-53F00",
+              "url": "https://www.amayama.com/en/part/nissan/2814953f00",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "front left bracket integrated active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 418.91,
+                "currency": "USD",
+                "raw": "418.91"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: front left bracket integrated active sound"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-10V01",
+              "url": "https://www.amayama.com/en/part/nissan/2815810v01",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "front Matsushita"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 70.84,
+                "currency": "USD",
+                "raw": "70.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: front Matsushita"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "front Clarion [A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: front Clarion [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28175",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1032,
+                "y1": 394,
+                "x2": 1091,
+                "y2": 411
+              },
+              "norm": {
+                "x1": 0.8063,
+                "y1": 0.6166,
+                "x2": 0.8523,
+                "y2": 0.6432
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            },
+            {
+              "oem": "28174-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817442f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28175+A",
+          "kind": "pnc",
+          "name": "grille, speaker rear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1029,
+                "y1": 416,
+                "x2": 1113,
+                "y2": 430
+              },
+              "norm": {
+                "x1": 0.8039,
+                "y1": 0.651,
+                "x2": 0.8695,
+                "y2": 0.6729
+              },
+              "title": "grille, speaker rear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-06",
+                "to": "1994-01",
+                "raw": "06.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            },
+            {
+              "oem": "28175-42F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817542f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, rear",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, rear Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28176W",
+          "kind": "pnc",
+          "name": "grille, speaker front RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 432,
+                "x2": 105,
+                "y2": 449
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.6761,
+                "x2": 0.082,
+                "y2": 0.7027
+              },
+              "title": "grille, speaker front RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "RH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: RH, front Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: RH, front active sound Interior: G"
+            },
+            {
+              "oem": "28176-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817635f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "RH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28176-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817635f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: RH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "28177W",
+          "kind": "pnc",
+          "name": "grille, speaker front LH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 33,
+                "y1": 451,
+                "x2": 105,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.0258,
+                "y1": 0.7058,
+                "x2": 0.082,
+                "y2": 0.7324
+              },
+              "title": "grille, speaker front LH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "LH, front",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: LH, front Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB.TYPE2; Notes: LH, front active sound Interior: G"
+            },
+            {
+              "oem": "28177-35F10",
+              "url": "https://www.amayama.com/en/part/nissan/2817735f10",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "LH, front active sound",
+                "interior": "G"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "28177-35F00",
+                  "url": "https://www.amayama.com/en/part/nissan/2817735f00",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *HB; Notes: LH, front active sound Interior: G"
+            }
+          ]
+        },
+        {
+          "pnc": "27361A",
+          "kind": "pnc",
+          "name": "screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 888,
+                "y1": 487,
+                "x2": 960,
+                "y2": 501
+              },
+              "norm": {
+                "x1": 0.6937,
+                "y1": 0.7621,
+                "x2": 0.75,
+                "y2": 0.784
+              },
+              "title": "screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 6,
+              "qty_raw": "06",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            },
+            {
+              "oem": "01456-00371",
+              "url": "https://www.amayama.com/en/part/nissan/0145600371",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 8,
+              "qty_raw": "08",
+              "price": {
+                "status": "Available",
+                "amount": 1.29,
+                "currency": "USD",
+                "raw": "1.29"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        },
+        {
+          "pnc": "27933+A",
+          "kind": "pnc",
+          "name": "speaker unit",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1027,
+                "y1": 537,
+                "x2": 1110,
+                "y2": 554
+              },
+              "norm": {
+                "x1": 0.8023,
+                "y1": 0.8404,
+                "x2": 0.8672,
+                "y2": 0.867
+              },
+              "title": "speaker unit"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB.TYPE2"
+              ],
+              "details": {
+                "applies": "HB.TYPE2;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2; Notes: [A403]"
+            },
+            {
+              "oem": "28138-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2813835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1994-07",
+                "raw": "01.1994 - 07.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Out of stock",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Out of stock"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1994-07",
+                "to": "1996-08",
+                "raw": "07.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            },
+            {
+              "oem": "28158-35F00",
+              "url": "https://www.amayama.com/en/part/nissan/2815835f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[A403]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 17.71,
+                "currency": "USD",
+                "raw": "17.71"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [A403]"
+            }
+          ]
+        },
+        {
+          "pnc": "28178",
+          "kind": "pnc",
+          "name": "ornament, speaker",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 150,
+                "y1": 547,
+                "x2": 210,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.1172,
+                "y1": 0.856,
+                "x2": 0.1641,
+                "y2": 0.8826
+              },
+              "title": "ornament, speaker"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB.TYPE2"
+              ],
+              "details": {
+                "applies": "*HB.TYPE2;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB.TYPE2; Notes: active sound"
+            },
+            {
+              "oem": "28178-35F11",
+              "url": "https://www.amayama.com/en/part/nissan/2817835f11",
+              "applies": [
+                "*HB"
+              ],
+              "details": {
+                "applies": "*HB;",
+                "notes": "active sound"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *HB; Notes: active sound"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

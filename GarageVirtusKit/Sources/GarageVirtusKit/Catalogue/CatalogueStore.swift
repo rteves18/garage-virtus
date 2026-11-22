@@ -23,9 +23,13 @@ public final class CatalogueStore {
     @ObservationIgnored private var partIndex: [String: [PartRef]] = [:]
     @ObservationIgnored private var imageCache: [URL: CGImage] = [:]
     @ObservationIgnored private var partsDirs: [URL] = []
-    @ObservationIgnored private var partPageCache: [String: PartPage?] = [:]
+    @ObservationIgnored private var partPageCache: [String: [PartPage]] = [:]
 
+    /// Legacy single-source file name, still read (as site "legacy") when a group has no per-source files.
     nonisolated static let fileName = "schema-group.json"
+    /// Which source wins when a group or part has several: the first listed that exists. Unlisted sites follow,
+    /// alphabetically. Amayama is primary; Megazip is the alternative.
+    nonisolated static let sourcePriority = ["amayama", "megazip"]
     nonisolated static let categoryOrder = ["engine", "body", "trans", "electric", "misc"]
     nonisolated static let categoryTitles = [
         "engine": "Engine & fuel system",
@@ -96,11 +100,10 @@ public final class CatalogueStore {
                             .map { catDir -> CategoryNode in
                                 let key = catDir.lastPathComponent
                                 let groups = Self.subdirs(catDir).map { g -> GroupNode in
-                                    let json = g.appendingPathComponent(Self.fileName)
                                     let (code, name) = Self.splitCodeName(g.lastPathComponent)
                                     let node = GroupNode(
                                         id: g.path, code: code, name: name, folder: g,
-                                        jsonURL: FileManager.default.fileExists(atPath: json.path) ? json : nil,
+                                        sources: Self.sourceFiles(in: g),
                                         imagesDir: imagesDir, legacyImagesDir: legacyImagesDir,
                                         variantId: vid, variantTitle: vtitle)
                                     byID[node.id] = node
@@ -135,28 +138,33 @@ public final class CatalogueStore {
         return price.status ?? "—"
     }
 
-    /// Reads every scraped schema-group.json once and indexes each OEM number (parts and replacements).
+    /// Reads every source file of every scraped group once and indexes each OEM number (parts and replacements),
+    /// tagging each listing with its site.
     private nonisolated static func partIndex(for groups: [GroupNode]) -> [String: [PartRef]] {
         var index: [String: [PartRef]] = [:]
         var seen = Set<String>()
-        for group in groups where group.isScraped {
-            guard let url = group.jsonURL, let data = try? Data(contentsOf: url),
-                  let file = try? makeDecoder().decode(SchemaGroupFile.self, from: data) else { continue }
-            for schema in file.schemas {
-                for callout in schema.callouts {
-                    func add(_ oem: String, replacementOf: String?, price: Price) {
-                        let ref = PartRef(
-                            oem: oem, groupID: group.id, groupCode: group.code, groupName: group.name,
-                            variantId: group.variantId, variantTitle: group.variantTitle,
-                            schemaId: schema.id, schemaIndex: schema.index, pnc: callout.pnc,
-                            calloutName: callout.displayName, replacementOf: replacementOf,
-                            priceText: Self.priceText(price))
-                        guard seen.insert(ref.id).inserted else { return }
-                        index[Self.normalize(oem), default: []].append(ref)
-                    }
-                    for part in callout.parts {
-                        add(part.oem, replacementOf: nil, price: part.price)
-                        for r in part.replacements { add(r.oem, replacementOf: part.oem, price: r.price) }
+        let decoder = makeDecoder()
+        for group in groups {
+            for source in group.sources {
+                guard let data = try? Data(contentsOf: source.url),
+                      let file = try? decoder.decode(SchemaGroupFile.self, from: data) else { continue }
+                let site = source.site == "legacy" ? file.source.site : source.site
+                for schema in file.schemas {
+                    for callout in schema.callouts {
+                        func add(_ oem: String, replacementOf: String?, price: Price, url: String?) {
+                            let ref = PartRef(
+                                site: site, oem: oem, groupID: group.id, groupCode: group.code, groupName: group.name,
+                                variantId: group.variantId, variantTitle: group.variantTitle,
+                                schemaId: schema.id, schemaIndex: schema.index, pnc: callout.pnc,
+                                calloutName: callout.displayName, replacementOf: replacementOf,
+                                priceText: Self.priceText(price), price: price, partURL: url)
+                            guard seen.insert(ref.id).inserted else { return }
+                            index[Self.normalize(oem), default: []].append(ref)
+                        }
+                        for part in callout.parts {
+                            add(part.oem, replacementOf: nil, price: part.price, url: part.url)
+                            for r in part.replacements { add(r.oem, replacementOf: part.oem, price: r.price, url: r.url) }
+                        }
                     }
                 }
             }
@@ -164,9 +172,37 @@ public final class CatalogueStore {
         return index
     }
 
-    /// Every place an OEM number appears.
+    /// Rank of a site in `sourcePriority` (unlisted sites after, in name order).
+    nonisolated static func siteRank(_ site: String) -> (Int, String) {
+        (sourcePriority.firstIndex(of: site) ?? sourcePriority.count, site)
+    }
+
+    /// Every place an OEM number appears, in each group's primary source only (so a group scraped from two
+    /// sites isn't listed twice). Use `offers(for:)` for every source's price.
     public func refs(for oem: String) -> [PartRef] {
-        (partIndex[Self.normalize(oem)] ?? []).sorted { ($0.variantId, $0.groupCode, $0.schemaIndex) < ($1.variantId, $1.groupCode, $1.schemaIndex) }
+        let all = partIndex[Self.normalize(oem)] ?? []
+        // Per group, the highest-priority site that lists this number.
+        var bestSite: [String: String] = [:]
+        for ref in all where bestSite[ref.groupID].map({ Self.siteRank(ref.site) < Self.siteRank($0) }) ?? true {
+            bestSite[ref.groupID] = ref.site
+        }
+        return all.filter { bestSite[$0.groupID] == $0.site }.sorted { ($0.variantId, $0.groupCode, $0.schemaIndex) < ($1.variantId, $1.groupCode, $1.schemaIndex) }
+    }
+
+    /// Where to get an OEM number: one entry per source site that lists it (catalogue price + part page + link),
+    /// primary first. Sources that only have a part page for it are included too.
+    public func offers(for oem: String) -> [SourceOffer] {
+        let all = partIndex[Self.normalize(oem)] ?? []
+        let pages = partPages(for: oem)
+        var sites = Set(all.map(\.site)).union(pages.map(\.source.site))
+        sites.remove("legacy")
+        return sites.sorted { Self.siteRank($0) < Self.siteRank($1) }.map { site in
+            // Prefer a direct listing over a "replaced by" listing for the price.
+            let listing = all.first { $0.site == site && $0.replacementOf == nil } ?? all.first { $0.site == site }
+            let page = pages.first { $0.source.site == site }
+            return SourceOffer(site: site, price: listing?.price, page: page,
+                               url: page?.source.url ?? listing?.partURL)
+        }
     }
 
     /// Accepts an OEM number (any dash/case form, partial ok) or an Amayama part URL
@@ -195,7 +231,7 @@ public final class CatalogueStore {
         let page = partPage(for: oem)
         let local = Set(usedIn.map { "\($0.variantId)|\($0.groupCode)" })
         let elsewhere = page?.diagrams.filter { !local.contains("\($0.variantId)|\($0.group)") } ?? []
-        return PartUsage(usedIn: usedIn, replaces: replaces, page: page, elsewhere: elsewhere)
+        return PartUsage(usedIn: usedIn, replaces: replaces, page: page, offers: offers(for: oem), elsewhere: elsewhere)
     }
 
     nonisolated static func parseAmayamaPartURL(_ string: String) -> (oem: String, schemaId: String?, pnc: String?)? {
@@ -219,15 +255,31 @@ public final class CatalogueStore {
         return decoder
     }
 
-    /// Decodes the group's `schema-group.json`.
-    /// - Throws: `CocoaError(.fileNoSuchFile)` for an unscraped group, or a decoding error.
-    public func load(_ group: GroupNode) throws -> SchemaGroupFile {
-        guard let url = group.jsonURL else { throw CocoaError(.fileNoSuchFile) }
+    /// Decodes the group's primary source file (or `site`'s, when given).
+    /// - Throws: `CocoaError(.fileNoSuchFile)` for an unscraped group or a site it doesn't have, or a decoding error.
+    public func load(_ group: GroupNode, site: String? = nil) throws -> SchemaGroupFile {
+        let source = site.map { site in group.sources.first { $0.site == site } } ?? group.sources.first
+        guard let url = source?.url else { throw CocoaError(.fileNoSuchFile) }
         return try Self.makeDecoder().decode(SchemaGroupFile.self, from: Data(contentsOf: url))
     }
 
+    /// The group's source files on disk, primary first: `<site>.json` for any site, plus a legacy
+    /// `schema-group.json` (as "legacy", last) when present.
+    nonisolated static func sourceFiles(in folder: URL) -> [SourceFile] {
+        let files = (try? FileManager.default.contentsOfDirectory(at: folder, includingPropertiesForKeys: nil,
+                                                                  options: [.skipsHiddenFiles])) ?? []
+        var sources = files
+            .filter { $0.pathExtension == "json" && $0.lastPathComponent != fileName }
+            .map { SourceFile(site: $0.deletingPathExtension().lastPathComponent.lowercased(), url: $0) }
+            .sorted { siteRank($0.site) < siteRank($1.site) }
+        if let legacy = files.first(where: { $0.lastPathComponent == fileName }) {
+            sources.append(SourceFile(site: "legacy", url: legacy))
+        }
+        return sources
+    }
+
     /// The schema's diagram, decoded once with ImageIO and cached. `path` is the schema's image key, e.g.
-    /// "imgjp16/RS13/101B_001.png" (v2) or "101B_001.png" (v1). Platform-neutral, so iOS can use it too.
+    /// "amayama/imgjp16/RS13/101B_001.png" or "megazip/RS13/140_001.png". Platform-neutral, so iOS can use it too.
     public func image(named path: String, for group: GroupNode) -> CGImage? {
         let candidates = [
             group.imagesDir.appendingPathComponent(path),
@@ -249,21 +301,31 @@ public final class CatalogueStore {
         return CGImageSourceCreateImageAtIndex(source, 0, [kCGImageSourceShouldCacheImmediately: true] as CFDictionary)
     }
 
-    /// Scraped Amayama part page for an OEM number, if present: _parts/<key[0..<2]>/<key>.json
-    public func partPage(for oem: String) -> PartPage? {
+    /// The primary source's scraped part page for an OEM number, if any.
+    public func partPage(for oem: String) -> PartPage? { partPages(for: oem).first }
+
+    /// Every source's scraped part page for an OEM number, primary first:
+    /// _parts/<key[0..<2]>/<key>/<site>.json, plus a legacy _parts/<key[0..<2]>/<key>.json.
+    public func partPages(for oem: String) -> [PartPage] {
         let key = Self.normalize(oem)
         if let cached = partPageCache[key] { return cached }
         let decoder = Self.makeDecoder()
-        var page: PartPage?
+        var pages: [PartPage] = []
         for dir in partsDirs {
-            let url = dir.appendingPathComponent(String(key.prefix(2))).appendingPathComponent("\(key).json")
-            if let data = try? Data(contentsOf: url), let decoded = try? decoder.decode(PartPage.self, from: data) {
-                page = decoded
-                break
+            let shard = dir.appendingPathComponent(String(key.prefix(2)), isDirectory: true)
+            let folder = shard.appendingPathComponent(key, isDirectory: true)
+            let files = ((try? FileManager.default.contentsOfDirectory(at: folder, includingPropertiesForKeys: nil)) ?? [])
+                .filter { $0.pathExtension == "json" } + [shard.appendingPathComponent("\(key).json")]
+            for url in files {
+                if let data = try? Data(contentsOf: url), let page = try? decoder.decode(PartPage.self, from: data),
+                   !pages.contains(where: { $0.source.site == page.source.site }) {
+                    pages.append(page)
+                }
             }
         }
-        partPageCache[key] = page
-        return page
+        pages.sort { Self.siteRank($0.source.site) < Self.siteRank($1.source.site) }
+        partPageCache[key] = pages
+        return pages
     }
 
     // MARK: helpers

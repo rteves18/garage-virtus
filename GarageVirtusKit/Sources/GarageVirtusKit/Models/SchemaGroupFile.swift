@@ -1,7 +1,7 @@
 import CoreGraphics
 import Foundation
 
-/// Mirrors `schema-group.json` written by tools/amayama/scrape_page.js (format_version 1).
+/// Mirrors a group's per-source file (`amayama.json`, `megazip.json`; legacy `schema-group.json`), format_version 2.
 /// Decoded with `.convertFromSnakeCase`, so `variant_id` -> `variantId`, etc.
 public struct SchemaGroupFile: Codable {
     public let formatVersion: Int
@@ -63,7 +63,7 @@ public struct Schema: Codable, Identifiable {
     public let of: Int?
     public let applies: [String]
     public let period: Period?
-    public let image: String       // file name in the frame's _images/ folder
+    public let image: String       // key under catalogue/<make>/_images/, e.g. amayama/imgjp16/RS13/101B_001.png
     public let callouts: [Callout]
 }
 
@@ -121,7 +121,7 @@ public struct Replacement: Codable {
     public let price: Price
 }
 
-public struct Price: Codable {
+public struct Price: Codable, Hashable, Sendable {
     /// "Available", or the site's own wording, e.g. "Discontinued", "Not available".
     public let status: String?
     public let amount: Double?

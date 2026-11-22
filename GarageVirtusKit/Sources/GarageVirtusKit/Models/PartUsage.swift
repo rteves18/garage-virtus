@@ -7,8 +7,10 @@ public struct PartUsage {
     public let usedIn: [PartRef]
     /// Part numbers this number replaces, sorted and unique.
     public let replaces: [String]
-    /// The scraped Amayama part page, if one exists in `_parts/`.
+    /// The primary source's scraped part page, if one exists in `_parts/`.
     public let page: PartPage?
+    /// Where to get this number, one entry per source site, primary first — like comparing shops.
+    public let offers: [SourceOffer]
     /// Diagrams on Amayama listing this number whose variant and group aren't among `usedIn`.
     public let elsewhere: [PartPage.DiagramRef]
 }
