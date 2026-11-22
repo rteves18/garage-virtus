@@ -24,6 +24,7 @@ public final class CatalogueStore {
     @ObservationIgnored private var imageCache: [URL: CGImage] = [:]
     @ObservationIgnored private var partsDirs: [URL] = []
     @ObservationIgnored private var partPageCache: [String: [PartPage]] = [:]
+    @ObservationIgnored private var amayamaURLCache: [String: URL?] = [:]
 
     /// Legacy single-source file name, still read (as site "legacy") when a group has no per-source files.
     nonisolated static let fileName = "schema-group.json"
@@ -72,6 +73,7 @@ public final class CatalogueStore {
     private func apply(_ snapshot: Snapshot) {
         imageCache.removeAll()
         partPageCache.removeAll()
+        amayamaURLCache.removeAll()
         groupsByID = snapshot.groupsByID
         partsDirs = snapshot.partsDirs
         frames = snapshot.frames
@@ -261,6 +263,32 @@ public final class CatalogueStore {
         let source = site.map { site in group.sources.first { $0.site == site } } ?? group.sources.first
         guard let url = source?.url else { throw CocoaError(.fileNoSuchFile) }
         return try Self.makeDecoder().decode(SchemaGroupFile.self, from: Data(contentsOf: url))
+    }
+
+    /// The group's page on Amayama (the primary source), for "View on Amayama". Groups with an `amayama.json` use
+    /// its URL. Groups without one (empty on Amayama for this variant) get a URL built from a sibling group's:
+    /// …/<variant>/<category>/<code>, swapping in this group's category and code.
+    public func amayamaURL(for group: GroupNode) -> URL? {
+        if let cached = amayamaURLCache[group.id] { return cached }
+        let url = Self.amayamaURL(for: group, in: groupsByID.values) { try? self.load($0, site: "amayama") }
+        amayamaURLCache[group.id] = url
+        return url
+    }
+
+    nonisolated static func amayamaURL(for group: GroupNode, in groups: some Sequence<GroupNode>,
+                                       load: (GroupNode) -> SchemaGroupFile?) -> URL? {
+        let hasAmayama = { (g: GroupNode) in g.sources.contains { $0.site == "amayama" } }
+        if hasAmayama(group), let file = load(group), let url = URL(string: file.source.url) { return url }
+        let variantDir = group.folder.deletingLastPathComponent().deletingLastPathComponent()
+        guard let sibling = groups.first(where: {
+                  hasAmayama($0) && $0.folder.deletingLastPathComponent().deletingLastPathComponent() == variantDir }),
+              let file = load(sibling), var comps = URLComponents(string: file.source.url) else { return nil }
+        var parts = comps.path.split(separator: "/").map(String.init)
+        guard parts.count >= 2 else { return nil }
+        parts[parts.count - 2] = group.folder.deletingLastPathComponent().lastPathComponent   // category
+        parts[parts.count - 1] = group.code
+        comps.path = "/" + parts.joined(separator: "/")
+        return comps.url
     }
 
     /// The group's source files on disk, primary first: `<site>.json` for any site, plus a legacy

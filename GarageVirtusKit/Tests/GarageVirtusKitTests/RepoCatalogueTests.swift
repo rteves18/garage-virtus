@@ -69,6 +69,19 @@ struct RepoCatalogueTests {
         #expect(try store.load(both, site: "megazip").source.site == "megazip")
     }
 
+    @Test @MainActor func everyGroupLinksToAmayama() throws {
+        let store = CatalogueStore(folder: Self.catalogue)
+        let groups = store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups).filter(\.isScraped)
+        for group in groups {
+            let url = try #require(store.amayamaURL(for: group), "\(group.id)")
+            #expect(url.host == "www.amayama.com")
+            #expect(url.path.hasSuffix("/\(group.code)"), "\(group.id): \(url)")
+        }
+        // A group whose diagrams come from Megazip (Amayama's H80 page lists no parts) still links to Amayama.
+        let megazipOnly = try #require(groups.first { $0.code == "H80" && $0.primarySite == "megazip" })
+        #expect(store.amayamaURL(for: megazipOnly)?.path.hasSuffix("/misc/H80") == true)
+    }
+
     @Test @MainActor func missingDiagramIsNil() throws {
         let store = CatalogueStore(folder: Self.catalogue)
         let group = try #require(store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups).first { $0.isScraped })

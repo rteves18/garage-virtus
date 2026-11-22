@@ -100,17 +100,14 @@ private struct GroupHeader: View {
             HStack(alignment: .firstTextBaseline) {
                 Text(file.group.name.localizedCapitalized).font(.title3.weight(.semibold))
                 Spacer()
-                if let url = URL(string: file.source.url) {
-                    Link("View on \(file.source.siteName)", destination: url).font(.callout)
+                if let url = model.amayamaURL {
+                    Link("View on Amayama", destination: url).font(.callout)
                 }
             }
             Text(model.vehicleSummary)
                 .font(.callout).foregroundStyle(.secondary)
 
             HStack(spacing: 12) {
-                if model.sources.count > 1 {
-                    SourcePicker(model: model, currentSite: file.source.site)
-                }
                 if !model.yearWindows.isEmpty {
                     YearWindowPicker(model: model)
                 }
@@ -129,24 +126,6 @@ private struct GroupHeader: View {
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
-    }
-}
-
-/// Switches between the group's sources (Amayama primary, Megazip alternative). Each site has its own diagrams.
-private struct SourcePicker: View {
-    let model: GroupDetailViewModel
-    let currentSite: String
-
-    var body: some View {
-        Picker("Source", selection: Binding(get: { currentSite }, set: { model.showSource($0) })) {
-            ForEach(model.sources, id: \.site) { source in
-                Text(source.site == model.sources.first?.site ? "\(source.siteName) (primary)" : source.siteName)
-                    .tag(source.site)
-            }
-        }
-        .pickerStyle(.menu)   // a menu, like the other header pickers (segments can't shrink on resize)
-        .frame(minWidth: 120, maxWidth: 220, alignment: .leading)
-        .help("Which site's diagram and part list to show")
     }
 }
 

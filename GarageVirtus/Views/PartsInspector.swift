@@ -356,14 +356,21 @@ struct PartDetailView: View {
             }
             Divider()
             if let page {
-                Text("Part page scraped \(page.source.scrapedAt ?? "?"). Offers change often.")
+                Text("\(page.source.siteName) part page scraped \(page.source.scrapedAt ?? "?"). Offers change often.")
                     .font(.caption).foregroundStyle(.secondary)
             } else {
                 Text("Weight, offers and fitment come from the part's page on the source site, which hasn't been scraped for this part yet.")
                     .font(.caption).foregroundStyle(.secondary)
             }
-            if let link = URL(string: page?.source.url ?? url ?? "") {
-                Link("View on \(page?.source.siteName ?? "Amayama")", destination: link).font(.callout)
+            // Amayama is the primary source: always link it first, then the other sites.
+            let amayama = usage.offers.first { $0.site == "amayama" }
+            if let link = URL(string: amayama?.url ?? url ?? "") {
+                Link("View on Amayama", destination: link).font(.callout)
+            }
+            ForEach(usage.offers.filter { $0.site != "amayama" }) { offer in
+                if let urlString = offer.url, let link = URL(string: urlString) {
+                    Link("Also on \(offer.siteName)", destination: link).font(.caption)
+                }
             }
         }
         .padding(16)
