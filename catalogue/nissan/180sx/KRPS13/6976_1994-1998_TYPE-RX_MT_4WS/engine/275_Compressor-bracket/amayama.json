@@ -1,0 +1,2858 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/275",
+    "scraped_at": "2026-11-21T23:34:15.077Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "275",
+    "name": "compressor bracket",
+    "title_raw": "compressor bracket (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/275B_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/275B_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "275B_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/275B_001.png",
+      "callouts": [
+        {
+          "pnc": "089113401A",
+          "kind": "common",
+          "name": "Nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 62,
+                "y1": 583,
+                "x2": 181,
+                "y2": 597
+              },
+              "norm": {
+                "x1": 0.0484,
+                "y1": 0.9124,
+                "x2": 0.1414,
+                "y2": 0.9343
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Nut"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 929,
+                "y1": 189,
+                "x2": 1015,
+                "y2": 205
+              },
+              "norm": {
+                "x1": 0.7258,
+                "y1": 0.2958,
+                "x2": 0.793,
+                "y2": 0.3208
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1015,
+                "y1": 291,
+                "x2": 1089,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.793,
+                "y1": 0.4554,
+                "x2": 0.8508,
+                "y2": 0.4789
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "kind": "pnc",
+          "name": "shaft, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 246,
+                "y1": 351,
+                "x2": 306,
+                "y2": 365
+              },
+              "norm": {
+                "x1": 0.1922,
+                "y1": 0.5493,
+                "x2": 0.2391,
+                "y2": 0.5712
+              },
+              "title": "shaft, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "kind": "pnc",
+          "name": "collar, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 389,
+                "x2": 241,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.1414,
+                "y1": 0.6088,
+                "x2": 0.1883,
+                "y2": 0.6354
+              },
+              "title": "collar, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "kind": "pnc",
+          "name": "pulley, idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 432,
+                "x2": 492,
+                "y2": 449
+              },
+              "norm": {
+                "x1": 0.3359,
+                "y1": 0.6761,
+                "x2": 0.3844,
+                "y2": 0.7027
+              },
+              "title": "pulley, idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "kind": "pnc",
+          "name": "spacer, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 76,
+                "y1": 459,
+                "x2": 136,
+                "y2": 475
+              },
+              "norm": {
+                "x1": 0.0594,
+                "y1": 0.7183,
+                "x2": 0.1062,
+                "y2": 0.7433
+              },
+              "title": "spacer, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "kind": "pnc",
+          "name": "pulley assembly, idler compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 540,
+                "y1": 475,
+                "x2": 611,
+                "y2": 492
+              },
+              "norm": {
+                "x1": 0.4219,
+                "y1": 0.7433,
+                "x2": 0.4773,
+                "y2": 0.77
+              },
+              "title": "pulley assembly, idler compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910",
+          "kind": "pnc",
+          "name": "bracket, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 776,
+                "y1": 490,
+                "x2": 836,
+                "y2": 506
+              },
+              "norm": {
+                "x1": 0.6062,
+                "y1": 0.7668,
+                "x2": 0.6531,
+                "y2": 0.7919
+              },
+              "title": "bracket, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 166.88,
+                "currency": "USD",
+                "raw": "166.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 223.42,
+                "currency": "USD",
+                "raw": "223.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 223.42,
+                "currency": "USD",
+                "raw": "223.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "kind": "pnc",
+          "name": "cover, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 38,
+                "y1": 509,
+                "x2": 98,
+                "y2": 525
+              },
+              "norm": {
+                "x1": 0.0297,
+                "y1": 0.7966,
+                "x2": 0.0766,
+                "y2": 0.8216
+              },
+              "title": "cover, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "kind": "pnc",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 406,
+                "y1": 518,
+                "x2": 478,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.3172,
+                "y1": 0.8106,
+                "x2": 0.3734,
+                "y2": 0.8372
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1125,
+                "y1": 580,
+                "x2": 1208,
+                "y2": 595
+              },
+              "norm": {
+                "x1": 0.8789,
+                "y1": 0.9077,
+                "x2": 0.9437,
+                "y2": 0.9311
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 939,
+                "y1": 604,
+                "x2": 1022,
+                "y2": 621
+              },
+              "norm": {
+                "x1": 0.7336,
+                "y1": 0.9452,
+                "x2": 0.7984,
+                "y2": 0.9718
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "274",
+          "title": "COMPRESSOR (AIR CONDITIONER) (DENSO) ",
+          "category": "engine",
+          "group": "274",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/274",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 838,
+                "y1": 573,
+                "x2": 874,
+                "y2": 590
+              },
+              "norm": {
+                "x1": 0.6547,
+                "y1": 0.8967,
+                "x2": 0.6828,
+                "y2": 0.9233
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "275B_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/275B_001.png",
+      "callouts": [
+        {
+          "pnc": "089113401A",
+          "kind": "common",
+          "name": "Nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 62,
+                "y1": 583,
+                "x2": 181,
+                "y2": 597
+              },
+              "norm": {
+                "x1": 0.0484,
+                "y1": 0.9124,
+                "x2": 0.1414,
+                "y2": 0.9343
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-3401A",
+              "url": "https://www.amayama.com/en/part/nissan/089113401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Nut"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AA",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 929,
+                "y1": 189,
+                "x2": 1015,
+                "y2": 205
+              },
+              "norm": {
+                "x1": 0.7258,
+                "y1": 0.2958,
+                "x2": 0.793,
+                "y2": 0.3208
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910A",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1015,
+                "y1": 291,
+                "x2": 1089,
+                "y2": 306
+              },
+              "norm": {
+                "x1": 0.793,
+                "y1": 0.4554,
+                "x2": 0.8508,
+                "y2": 0.4789
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-60U01",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-60U02",
+              "url": "https://www.amayama.com/en/part/nissan/1191660u02",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Available",
+                "amount": 1.84,
+                "currency": "USD",
+                "raw": "1.84"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11926",
+          "kind": "pnc",
+          "name": "shaft, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 246,
+                "y1": 351,
+                "x2": 306,
+                "y2": 365
+              },
+              "norm": {
+                "x1": 0.1922,
+                "y1": 0.5493,
+                "x2": 0.2391,
+                "y2": 0.5712
+              },
+              "title": "shaft, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11928-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192842l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.95,
+                "currency": "USD",
+                "raw": "6.95"
+              },
+              "replacements": [
+                {
+                  "oem": "11928-AN301",
+                  "url": "https://www.amayama.com/en/part/nissan/11928an301",
+                  "price": {
+                    "status": "Available",
+                    "amount": 6.95,
+                    "currency": "USD",
+                    "raw": "6.95"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11932",
+          "kind": "pnc",
+          "name": "collar, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 181,
+                "y1": 389,
+                "x2": 241,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.1414,
+                "y1": 0.6088,
+                "x2": 0.1883,
+                "y2": 0.6354
+              },
+              "title": "collar, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11932-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193242l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.13,
+                "currency": "USD",
+                "raw": "3.13"
+              },
+              "replacements": [
+                {
+                  "oem": "11932-42L0A",
+                  "url": "https://www.amayama.com/en/part/nissan/1193242l0a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3.13,
+                    "currency": "USD",
+                    "raw": "3.13"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11927",
+          "kind": "pnc",
+          "name": "pulley, idler",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 430,
+                "y1": 432,
+                "x2": 492,
+                "y2": 449
+              },
+              "norm": {
+                "x1": 0.3359,
+                "y1": 0.6761,
+                "x2": 0.3844,
+                "y2": 0.7027
+              },
+              "title": "pulley, idler"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11927-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1192752f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 58.51,
+                "currency": "USD",
+                "raw": "58.51"
+              },
+              "replacements": [
+                {
+                  "oem": "11927-65F03",
+                  "url": "https://www.amayama.com/en/part/nissan/1192765f03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 103.54,
+                    "currency": "USD",
+                    "raw": "103.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11931",
+          "kind": "pnc",
+          "name": "spacer, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 76,
+                "y1": 459,
+                "x2": 136,
+                "y2": 475
+              },
+              "norm": {
+                "x1": 0.0594,
+                "y1": 0.7183,
+                "x2": 0.1062,
+                "y2": 0.7433
+              },
+              "title": "spacer, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11931-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1193142l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925M",
+          "kind": "pnc",
+          "name": "pulley assembly, idler compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 540,
+                "y1": 475,
+                "x2": 611,
+                "y2": 492
+              },
+              "norm": {
+                "x1": 0.4219,
+                "y1": 0.7433,
+                "x2": 0.4773,
+                "y2": 0.77
+              },
+              "title": "pulley assembly, idler compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11925-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1192565f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 103.54,
+                "currency": "USD",
+                "raw": "103.54"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910",
+          "kind": "pnc",
+          "name": "bracket, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 776,
+                "y1": 490,
+                "x2": 836,
+                "y2": 506
+              },
+              "norm": {
+                "x1": 0.6062,
+                "y1": 0.7668,
+                "x2": 0.6531,
+                "y2": 0.7919
+              },
+              "title": "bracket, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11910-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191052f00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 166.88,
+                "currency": "USD",
+                "raw": "166.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 223.42,
+                "currency": "USD",
+                "raw": "223.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11910-65F00",
+              "url": "https://www.amayama.com/en/part/nissan/1191065f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 223.42,
+                "currency": "USD",
+                "raw": "223.42"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11929",
+          "kind": "pnc",
+          "name": "cover, idler pulley",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 38,
+                "y1": 509,
+                "x2": 98,
+                "y2": 525
+              },
+              "norm": {
+                "x1": 0.0297,
+                "y1": 0.7966,
+                "x2": 0.0766,
+                "y2": 0.8216
+              },
+              "title": "cover, idler pulley"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11929-42L00",
+              "url": "https://www.amayama.com/en/part/nissan/1192942l00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11925G",
+          "kind": "pnc",
+          "name": "bolt adjust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 406,
+                "y1": 518,
+                "x2": 478,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.3172,
+                "y1": 0.8106,
+                "x2": 0.3734,
+                "y2": 0.8372
+              },
+              "title": "bolt adjust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1993-09",
+                "to": "1994-01",
+                "raw": "09.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11948-65F01",
+              "url": "https://www.amayama.com/en/part/nissan/1194865f01",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.9,
+                "currency": "USD",
+                "raw": "7.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AB",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1125,
+                "y1": 580,
+                "x2": 1208,
+                "y2": 595
+              },
+              "norm": {
+                "x1": 0.8789,
+                "y1": 0.9077,
+                "x2": 0.9437,
+                "y2": 0.9311
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-53Y00",
+              "url": "https://www.amayama.com/en/part/nissan/1191653y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11910AC",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 939,
+                "y1": 604,
+                "x2": 1022,
+                "y2": 621
+              },
+              "norm": {
+                "x1": 0.7336,
+                "y1": 0.9452,
+                "x2": 0.7984,
+                "y2": 0.9718
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "*SR20DT"
+              ],
+              "details": {
+                "applies": "*SR20DT;",
+                "notes": "semi auto air conditioner"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DT; Notes: semi auto air conditioner"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "*SR20DET"
+              ],
+              "details": {
+                "applies": "*SR20DET;",
+                "notes": "type X"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: *SR20DET; Notes: type X"
+            },
+            {
+              "oem": "11916-52F05",
+              "url": "https://www.amayama.com/en/part/nissan/1191652f05",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 50.61,
+                "currency": "USD",
+                "raw": "50.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "274",
+          "title": "COMPRESSOR (AIR CONDITIONER) (DENSO) ",
+          "category": "engine",
+          "group": "274",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/274",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 838,
+                "y1": 573,
+                "x2": 874,
+                "y2": 590
+              },
+              "norm": {
+                "x1": 0.6547,
+                "y1": 0.8967,
+                "x2": 0.6828,
+                "y2": 0.9233
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

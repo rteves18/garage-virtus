@@ -1,0 +1,405 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/D84",
+    "scraped_at": "2026-11-21T23:58:26.209Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "D84",
+    "name": "steering",
+    "title_raw": "steering for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/D84__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/D84__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/D84__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/D84__002.png",
+      "width": 1280,
+      "height": 637
+    }
+  },
+  "schemas": [
+    {
+      "id": "D84__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/D84__001.png",
+      "callouts": [
+        {
+          "pnc": "KD842V",
+          "kind": "pnc",
+          "name": "horn pad",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 831,
+                "y1": 341,
+                "x2": 903,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.6492,
+                "y1": 0.5387,
+                "x2": 0.7055,
+                "y2": 0.5656
+              },
+              "title": "horn pad"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 831,
+                "y1": 341,
+                "x2": 903,
+                "y2": 358
+              },
+              "norm": {
+                "x1": 0.6492,
+                "y1": 0.5387,
+                "x2": 0.7055,
+                "y2": 0.5656
+              },
+              "title": "horn pad"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D842V-11100",
+              "url": "https://www.amayama.com/en/part/nissan/d842v11100",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KD840V",
+          "kind": "pnc",
+          "name": "steering wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 475,
+                "y1": 547,
+                "x2": 547,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.3711,
+                "y1": 0.8641,
+                "x2": 0.4273,
+                "y2": 0.891
+              },
+              "title": "steering wheel"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 475,
+                "y1": 547,
+                "x2": 547,
+                "y2": 564
+              },
+              "norm": {
+                "x1": 0.3711,
+                "y1": 0.8641,
+                "x2": 0.4273,
+                "y2": 0.891
+              },
+              "title": "steering wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D840V-11100",
+              "url": "https://www.amayama.com/en/part/nissan/d840v11100",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "standard type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: standard type [K504]"
+            },
+            {
+              "oem": "D840V-11130",
+              "url": "https://www.amayama.com/en/part/nissan/d840v11130",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "super HICAS type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 292.9,
+                "currency": "USD",
+                "raw": "292.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: super HICAS type [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "D84__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/D84__002.png",
+      "callouts": [
+        {
+          "pnc": "KD8400",
+          "kind": "pnc",
+          "name": "steering wheel",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 387,
+                "y1": 43,
+                "x2": 459,
+                "y2": 57
+              },
+              "norm": {
+                "x1": 0.3023,
+                "y1": 0.0675,
+                "x2": 0.3586,
+                "y2": 0.0895
+              },
+              "title": "steering wheel"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D8400-C9901",
+              "url": "https://www.amayama.com/en/part/nissan/d8400c9901",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "leather 4-spoke"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "D8400C9921",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: leather 4-spoke"
+            }
+          ]
+        },
+        {
+          "pnc": "K48433A",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1087,
+                "y1": 389,
+                "x2": 1170,
+                "y2": 406
+              },
+              "norm": {
+                "x1": 0.8492,
+                "y1": 0.6107,
+                "x2": 0.9141,
+                "y2": 0.6374
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "01141-00411",
+              "url": "https://www.amayama.com/en/part/nissan/0114100411",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "MOMO steering wood steering"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: MOMO steering wood steering"
+            }
+          ]
+        },
+        {
+          "pnc": "KD8465",
+          "kind": "pnc",
+          "name": "steering lid RH",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 571,
+                "y1": 504,
+                "x2": 642,
+                "y2": 518
+              },
+              "norm": {
+                "x1": 0.4461,
+                "y1": 0.7912,
+                "x2": 0.5016,
+                "y2": 0.8132
+              },
+              "title": "steering lid RH"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D8465-C9900",
+              "url": "https://www.amayama.com/en/part/nissan/d8465c9900",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "MOMO wood"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: MOMO wood"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

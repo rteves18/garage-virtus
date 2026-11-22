@@ -47,6 +47,8 @@ final class GroupDetailViewModel {
         }
     }
     var highlightedOEM: String?
+    /// The source whose diagrams are on screen, e.g. "amayama"; nil means the group's primary source.
+    private(set) var selectedSite: String?
     var showInspector = true
     /// True when the right-hand panel shows the AI chat instead of the parts list.
     var showAssistant = false
@@ -176,11 +178,27 @@ final class GroupDetailViewModel {
                                    parts: assistantParts())
     }
 
-    /// Reads the group's schema-group.json.
+    /// The group's sources for the source picker, primary first. A legacy file shows under its real site.
+    var sources: [SourceFile] { group.sources }
+
+    /// The site on screen: the picked one, else the primary.
+    var currentSite: String? { file?.source.site ?? selectedSite ?? group.primarySite }
+
+    /// Shows another source's diagrams. Callout labels differ between sites, so the selection is cleared.
+    func showSource(_ site: String) {
+        guard site != selectedSite else { return }
+        selectedSite = site
+        selectedPNC = nil
+        hoveredPNC = nil
+        schemaIndex = 0
+        load()
+    }
+
+    /// Reads the selected source's file (the primary source by default).
     func load() {
         guard group.isScraped else { content = .notScraped; return }
         do {
-            let file = try store.load(group)
+            let file = try store.load(group, site: selectedSite)
             content = file.schemas.isEmpty ? .noSchemas : .loaded(file)
         } catch {
             content = .failed(message: String(describing: error))

@@ -1,0 +1,235 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/A52",
+    "scraped_at": "2026-11-21T23:51:17.644Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "A52",
+    "name": "engine surroundings",
+    "title_raw": "engine surroundings for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/A52__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/A52__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/A52__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/A52__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "A52__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/A52__001.png",
+      "callouts": [
+        {
+          "pnc": "KA5255",
+          "kind": "pnc",
+          "name": "oil filler cap",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 117,
+                "y1": 57,
+                "x2": 189,
+                "y2": 74
+              },
+              "norm": {
+                "x1": 0.0914,
+                "y1": 0.09,
+                "x2": 0.1477,
+                "y2": 0.1169
+              },
+              "title": "oil filler cap"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "A5255-78E00",
+              "url": "https://www.amayama.com/en/part/nissan/a525578e00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: [K504]"
+            },
+            {
+              "oem": "A5255-89900",
+              "url": "https://www.amayama.com/en/part/nissan/a525589900",
+              "applies": [
+                "SR20DE +SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DE +SR20DET;",
+                "notes": "aluminum [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE +SR20DET; Notes: aluminum [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "A52__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/A52__002.png",
+      "callouts": [
+        {
+          "pnc": "KA5255",
+          "kind": "pnc",
+          "name": "oil filler cap",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 184,
+                "y1": 282,
+                "x2": 256,
+                "y2": 296
+              },
+              "norm": {
+                "x1": 0.1437,
+                "y1": 0.4455,
+                "x2": 0.2,
+                "y2": 0.4676
+              },
+              "title": "oil filler cap"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "A5255-78E00",
+              "url": "https://www.amayama.com/en/part/nissan/a525578e00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: [K504]"
+            },
+            {
+              "oem": "A5255-89900",
+              "url": "https://www.amayama.com/en/part/nissan/a525589900",
+              "applies": [
+                "SR20DE +SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DE +SR20DET;",
+                "notes": "aluminum [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE +SR20DET; Notes: aluminum [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

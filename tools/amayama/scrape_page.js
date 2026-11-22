@@ -1,7 +1,7 @@
 // Amayama EPC schema-group scraper. Run in the browser on a schema-group page, e.g.
 // .../genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/101
 // Returns a JSON-serializable object and stashes it on window.__gv.
-// Writes to catalogue/<make>/<model>/<frame>/<variant>/<category>/<group>/schema-group.json
+// Writes to catalogue/<make>/<model>/<frame>/<variant>/<category>/<group>/amayama.json
 (async () => {
   const OPEN_END = { year: 1998, month: 12 }; // "..." => last production month of the 180SX
   const clean = s => (s || '').replace(/\s+/g, ' ').trim();
@@ -75,8 +75,8 @@
     const picId = sc.dataset.id; // e.g. 101B_001_0
     const img = sc.querySelector('img.imgMap');
     const src = new URL(img.getAttribute('src'), location.origin).href.split('?')[0];
-    // v2: image key = path on the image server (e.g. imgjp16/RS13/101B_001.png), stored under catalogue/<make>/_images/
-    const file = new URL(src).pathname.replace(/^\/+/, '');
+    // image key = amayama/<path on the image server>; each source keeps its own folder under _images/
+    const file = 'amayama/' + new URL(src).pathname.replace(/^\/+/, ''); // -> catalogue/<make>/_images/amayama/imgjp16/RS13/101B_001.png
     const natW = img.naturalWidth, natH = img.naturalHeight;
     const scale = natW / img.width; // area coords are in rendered pixels
     result.images[file] = { url: src, width: natW, height: natH };
@@ -87,10 +87,23 @@
     const period = (desc.match(/Period:\s*(.*)$/) || [])[1];
 
     // hotspots grouped by PNC
+    // hotspots grouped by PNC; areas that link to another schema group (e.g. "110" on the gasket-kit
+    // diagram -> engine/110) go to `links` instead of callouts
     const hotspots = {};
+    const linkMap = {};
     for (const a of sc.querySelectorAll('area')) {
       const pnc = a.dataset.key.slice(picId.length + 1);
       const [x1, y1, x2, y2] = a.coords.split(',').map(Number).map(v => Math.round(v * scale));
+      const hrefPath = a.getAttribute('href') ? new URL(a.getAttribute('href'), location.origin).pathname : '';
+      const target = hrefPath.split('/genuine-catalogs/epc/')[1]?.split('/');
+      if (target && target.length >= 6) {
+        const link = (linkMap[pnc] = linkMap[pnc] || {
+          code: pnc, title: a.title || null, category: target[4], group: target[5],
+          variant_id: target[3].split('-')[0], url: location.origin + hrefPath, hotspots: [] });
+        link.hotspots.push({ shape: a.getAttribute('shape') || 'rect', rect: { x1, y1, x2, y2 },
+          norm: { x1: +(x1 / natW).toFixed(4), y1: +(y1 / natH).toFixed(4), x2: +(x2 / natW).toFixed(4), y2: +(y2 / natH).toFixed(4) } });
+        continue;
+      }
       (hotspots[pnc] = hotspots[pnc] || []).push({
         shape: a.getAttribute('shape') || 'rect',
         rect: { x1, y1, x2, y2 },
@@ -104,12 +117,36 @@
     for (const tb of sc.querySelectorAll('tbody')) {
       // only tbodies that directly hold a PNC group header (skip index + nested detail tables)
       const header = tb.querySelector(':scope > tr > .entriesPncTable__groupHeader');
-      if (!header) continue;
+      if (!header) {
+        // "Common parts" (bolts, clips…): a header-less tbody, one row per part keyed <picId>-<part key>.
+        // Each becomes its own callout (kind "common") so its diagram label still selects it.
+        let lastCommon = null;
+        for (const r of tb.querySelectorAll(':scope > tr[data-key]')) {
+          const num = r.querySelector(':scope > .entriesTable__number');
+          if (!num) continue;
+          const oem = clean(num.textContent);
+          const link = num.querySelector('a')?.href?.split('?')[0] || null;
+          const descRaw = clean(r.querySelector(':scope > .entriesTable__description')?.textContent);
+          const price = parsePrice(r.querySelector(':scope > .entriesTable__price')?.textContent);
+          if (descRaw === 'Replacement' && lastCommon) { lastCommon.replacements.push({ oem, url: link, price }); continue; }
+          const pnc = r.dataset.key.slice(picId.length + 1);
+          if (linkMap[pnc]) continue; // a row in the "Subschemes" list, already stored as a link
+          const qtyRaw = clean(r.querySelector(':scope > .entriesTable__required')?.textContent);
+          lastCommon = { oem, url: link, applies: [], details: {}, period: parsePeriod(r.querySelector(':scope > .entriesTable__period')?.textContent),
+            qty: qtyRaw ? parseInt(qtyRaw, 10) : null, qty_raw: qtyRaw || null, price, replacements: [], description_raw: descRaw };
+          const existing = callouts.find(c => c.pnc === pnc);
+          if (existing) existing.parts.push(lastCommon);
+          else callouts.push({ pnc, kind: 'common', name: descRaw, hotspots: hotspots[pnc] || [], parts: [lastCommon] });
+        }
+        continue;
+      }
       const headerText = clean(header.textContent); // "10102 - ENGINE ASSEMBLY, BEAR"
+      if (/^(subschemes|common parts)$/i.test(headerText)) continue; // section labels, not callouts
       const firstRow = tb.querySelector('tr[data-pnc]');
       const pnc = firstRow?.dataset.pnc || headerText.split(/\s+-\s+/)[0];
       const callout = {
         pnc,
+        kind: 'pnc',
         name: headerText.split(/\s+-\s+/).slice(1).join(' - '),
         hotspots: hotspots[pnc] || [],
         parts: [],
@@ -157,6 +194,7 @@
       period: parsePeriod(period),
       image: file,
       callouts,
+      links: Object.values(linkMap),
     });
   }
 

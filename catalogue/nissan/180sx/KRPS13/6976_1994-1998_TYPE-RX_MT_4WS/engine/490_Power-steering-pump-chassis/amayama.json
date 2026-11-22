@@ -1,0 +1,3906 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/490",
+    "scraped_at": "2026-11-21T23:44:34.410Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "490",
+    "name": "power steering pump",
+    "title_raw": "power steering pump (chassis) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/490D_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/490D_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "490D_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "4WS.SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/490D_001.png",
+      "callouts": [
+        {
+          "pnc": "089152401A",
+          "kind": "common",
+          "name": "Washer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 131,
+                "x2": 1242,
+                "y2": 148
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.205,
+                "x2": 0.9703,
+                "y2": 0.2316
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2401A",
+              "url": "https://www.amayama.com/en/part/nissan/089152401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Washer"
+            }
+          ]
+        },
+        {
+          "pnc": "49110K",
+          "kind": "pnc",
+          "name": "seal kit, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 251,
+                "y1": 24,
+                "x2": 322,
+                "y2": 38
+              },
+              "norm": {
+                "x1": 0.1961,
+                "y1": 0.0376,
+                "x2": 0.2516,
+                "y2": 0.0595
+              },
+              "title": "seal kit, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49128-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4912835f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.48,
+                "currency": "USD",
+                "raw": "16.48"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49128-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4912835f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.48,
+                "currency": "USD",
+                "raw": "16.48"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49175K",
+          "kind": "pnc",
+          "name": "seal kit, connector",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 251,
+                "y1": 50,
+                "x2": 322,
+                "y2": 67
+              },
+              "norm": {
+                "x1": 0.1961,
+                "y1": 0.0782,
+                "x2": 0.2516,
+                "y2": 0.1049
+              },
+              "title": "seal kit, connector"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49175-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4917535f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.88,
+                "currency": "USD",
+                "raw": "9.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49175-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4917535f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.88,
+                "currency": "USD",
+                "raw": "9.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170M",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 76,
+                "x2": 817,
+                "y2": 93
+              },
+              "norm": {
+                "x1": 0.5805,
+                "y1": 0.1189,
+                "x2": 0.6383,
+                "y2": 0.1455
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49161-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 18.12,
+                "currency": "USD",
+                "raw": "18.12"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49161-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 18.12,
+                "currency": "USD",
+                "raw": "18.12"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149+A",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 79,
+                "x2": 702,
+                "y2": 93
+              },
+              "norm": {
+                "x1": 0.4836,
+                "y1": 0.1236,
+                "x2": 0.5484,
+                "y2": 0.1455
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-04U02",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u02",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-04U02",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u02",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49130",
+          "kind": "pnc",
+          "name": "shaft, drive power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 953,
+                "y1": 127,
+                "x2": 1013,
+                "y2": 141
+              },
+              "norm": {
+                "x1": 0.7445,
+                "y1": 0.1987,
+                "x2": 0.7914,
+                "y2": 0.2207
+              },
+              "title": "shaft, drive power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49130-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4913052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49130-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4913052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49140+A",
+          "kind": "pnc",
+          "name": "rotor & cam ring set, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 406,
+                "y1": 172,
+                "x2": 490,
+                "y2": 186
+              },
+              "norm": {
+                "x1": 0.3172,
+                "y1": 0.2692,
+                "x2": 0.3828,
+                "y2": 0.2911
+              },
+              "title": "rotor & cam ring set, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49140-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49140-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49110",
+          "kind": "pnc",
+          "name": "pump assembly, power steering",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 160,
+                "y1": 174,
+                "x2": 220,
+                "y2": 191
+              },
+              "norm": {
+                "x1": 0.125,
+                "y1": 0.2723,
+                "x2": 0.1719,
+                "y2": 0.2989
+              },
+              "title": "pump assembly, power steering"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49110-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4911052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49110-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4911052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+B",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 270,
+                "y1": 253,
+                "x2": 353,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.2109,
+                "y1": 0.3959,
+                "x2": 0.2758,
+                "y2": 0.4225
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4914835f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4914835f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49110A",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1180,
+                "y1": 294,
+                "x2": 1251,
+                "y2": 310
+              },
+              "norm": {
+                "x1": 0.9219,
+                "y1": 0.4601,
+                "x2": 0.9773,
+                "y2": 0.4851
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "48361-58S00",
+              "url": "https://www.amayama.com/en/part/nissan/4836158s00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.95,
+                "currency": "USD",
+                "raw": "3.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "48361-58S00",
+              "url": "https://www.amayama.com/en/part/nissan/4836158s00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.95,
+                "currency": "USD",
+                "raw": "3.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49121",
+          "kind": "pnc",
+          "name": "bracket assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 72,
+                "y1": 363,
+                "x2": 131,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0563,
+                "y1": 0.5681,
+                "x2": 0.1023,
+                "y2": 0.5947
+              },
+              "title": "bracket assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49125-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4912504u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.93,
+                "currency": "USD",
+                "raw": "21.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49125-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4912504u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.93,
+                "currency": "USD",
+                "raw": "21.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49144",
+          "kind": "pnc",
+          "name": "plate, side power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 626,
+                "y1": 365,
+                "x2": 685,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.4891,
+                "y1": 0.5712,
+                "x2": 0.5352,
+                "y2": 0.5978
+              },
+              "title": "plate, side power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49144-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914471l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.57,
+                "currency": "USD",
+                "raw": "20.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49144-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914471l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.57,
+                "currency": "USD",
+                "raw": "20.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49121+A",
+          "kind": "pnc",
+          "name": "bracket assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1173,
+                "y1": 370,
+                "x2": 1256,
+                "y2": 384
+              },
+              "norm": {
+                "x1": 0.9164,
+                "y1": 0.579,
+                "x2": 0.9812,
+                "y2": 0.6009
+              },
+              "title": "bracket assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49121-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4912152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.96,
+                "currency": "USD",
+                "raw": "19.96"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49121-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4912152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.96,
+                "currency": "USD",
+                "raw": "19.96"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+C",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 439,
+                "y1": 392,
+                "x2": 523,
+                "y2": 408
+              },
+              "norm": {
+                "x1": 0.343,
+                "y1": 0.6135,
+                "x2": 0.4086,
+                "y2": 0.6385
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49162M",
+          "kind": "pnc",
+          "name": "spring, flow control valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 783,
+                "y1": 437,
+                "x2": 855,
+                "y2": 454
+              },
+              "norm": {
+                "x1": 0.6117,
+                "y1": 0.6839,
+                "x2": 0.668,
+                "y2": 0.7105
+              },
+              "title": "spring, flow control valve"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 236,
+                "y1": 580,
+                "x2": 308,
+                "y2": 595
+              },
+              "norm": {
+                "x1": 0.1844,
+                "y1": 0.9077,
+                "x2": 0.2406,
+                "y2": 0.9311
+              },
+              "title": "spring, flow control valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49167-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916735f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.2,
+                "currency": "USD",
+                "raw": "3.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49167-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916735f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.2,
+                "currency": "USD",
+                "raw": "3.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+A",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 299,
+                "y1": 444,
+                "x2": 382,
+                "y2": 459
+              },
+              "norm": {
+                "x1": 0.2336,
+                "y1": 0.6948,
+                "x2": 0.2984,
+                "y2": 0.7183
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49160MA",
+          "kind": "pnc",
+          "name": "valve assembly, flow control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 325,
+                "y1": 466,
+                "x2": 411,
+                "y2": 482
+              },
+              "norm": {
+                "x1": 0.2539,
+                "y1": 0.7293,
+                "x2": 0.3211,
+                "y2": 0.7543
+              },
+              "title": "valve assembly, flow control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49165-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4916504u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49165-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4916504u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 702,
+                "y1": 468,
+                "x2": 762,
+                "y2": 485
+              },
+              "norm": {
+                "x1": 0.5484,
+                "y1": 0.7324,
+                "x2": 0.5953,
+                "y2": 0.759
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914871l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.57,
+                "currency": "USD",
+                "raw": "1.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914871l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.57,
+                "currency": "USD",
+                "raw": "1.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49160M",
+          "kind": "pnc",
+          "name": "valve assembly, flow control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 831,
+                "y1": 480,
+                "x2": 903,
+                "y2": 497
+              },
+              "norm": {
+                "x1": 0.6492,
+                "y1": 0.7512,
+                "x2": 0.7055,
+                "y2": 0.7778
+              },
+              "title": "valve assembly, flow control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49165-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916552f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49165-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916552f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170MA",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 943,
+                "y1": 506,
+                "x2": 1027,
+                "y2": 523
+              },
+              "norm": {
+                "x1": 0.7367,
+                "y1": 0.7919,
+                "x2": 0.8023,
+                "y2": 0.8185
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49170-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4917052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49170-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4917052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 38,
+                "y1": 521,
+                "x2": 98,
+                "y2": 537
+              },
+              "norm": {
+                "x1": 0.0297,
+                "y1": 0.8153,
+                "x2": 0.0766,
+                "y2": 0.8404
+              },
+              "title": "bolt, bracket power steering pump"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 110,
+                "y1": 597,
+                "x2": 170,
+                "y2": 614
+              },
+              "norm": {
+                "x1": 0.0859,
+                "y1": 0.9343,
+                "x2": 0.1328,
+                "y2": 0.9609
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149+B",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 523,
+                "x2": 1206,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.8185,
+                "x2": 0.9422,
+                "y2": 0.8451
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-71L06",
+              "url": "https://www.amayama.com/en/part/nissan/4914971l06",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-71L06",
+              "url": "https://www.amayama.com/en/part/nissan/4914971l06",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49140",
+          "kind": "pnc",
+          "name": "rotor & cam ring set, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 578,
+                "y1": 542,
+                "x2": 638,
+                "y2": 559
+              },
+              "norm": {
+                "x1": 0.4516,
+                "y1": 0.8482,
+                "x2": 0.4984,
+                "y2": 0.8748
+              },
+              "title": "rotor & cam ring set, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49140-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49140-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49116",
+          "kind": "pnc",
+          "name": "cover, rear power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 177,
+                "y1": 561,
+                "x2": 236,
+                "y2": 576
+              },
+              "norm": {
+                "x1": 0.1383,
+                "y1": 0.8779,
+                "x2": 0.1844,
+                "y2": 0.9014
+              },
+              "title": "cover, rear power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49116-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4911604u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.9,
+                "currency": "USD",
+                "raw": "32.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49116-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4911604u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.9,
+                "currency": "USD",
+                "raw": "32.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170MB",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 463,
+                "y1": 592,
+                "x2": 547,
+                "y2": 607
+              },
+              "norm": {
+                "x1": 0.3617,
+                "y1": 0.9264,
+                "x2": 0.4273,
+                "y2": 0.9499
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49170-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4917004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49170-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4917004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "497",
+          "title": "POWER STEERING PIPING (CHASSIS)",
+          "category": "engine",
+          "group": "497",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/497",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 621,
+                "y1": 162,
+                "x2": 657,
+                "y2": 179
+              },
+              "norm": {
+                "x1": 0.4852,
+                "y1": 0.2535,
+                "x2": 0.5133,
+                "y2": 0.2801
+              }
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1096,
+                "y1": 501,
+                "x2": 1132,
+                "y2": 518
+              },
+              "norm": {
+                "x1": 0.8562,
+                "y1": 0.784,
+                "x2": 0.8844,
+                "y2": 0.8106
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "490D_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "4WS.SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/490D_001.png",
+      "callouts": [
+        {
+          "pnc": "089152401A",
+          "kind": "common",
+          "name": "Washer",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 131,
+                "x2": 1242,
+                "y2": 148
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.205,
+                "x2": 0.9703,
+                "y2": 0.2316
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08915-2401A",
+              "url": "https://www.amayama.com/en/part/nissan/089152401a",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Washer"
+            }
+          ]
+        },
+        {
+          "pnc": "49110K",
+          "kind": "pnc",
+          "name": "seal kit, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 251,
+                "y1": 24,
+                "x2": 322,
+                "y2": 38
+              },
+              "norm": {
+                "x1": 0.1961,
+                "y1": 0.0376,
+                "x2": 0.2516,
+                "y2": 0.0595
+              },
+              "title": "seal kit, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49128-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4912835f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.48,
+                "currency": "USD",
+                "raw": "16.48"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49128-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4912835f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 16.48,
+                "currency": "USD",
+                "raw": "16.48"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49175K",
+          "kind": "pnc",
+          "name": "seal kit, connector",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 251,
+                "y1": 50,
+                "x2": 322,
+                "y2": 67
+              },
+              "norm": {
+                "x1": 0.1961,
+                "y1": 0.0782,
+                "x2": 0.2516,
+                "y2": 0.1049
+              },
+              "title": "seal kit, connector"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49175-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4917535f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.88,
+                "currency": "USD",
+                "raw": "9.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49175-35F25",
+              "url": "https://www.amayama.com/en/part/nissan/4917535f25",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.88,
+                "currency": "USD",
+                "raw": "9.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170M",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 743,
+                "y1": 76,
+                "x2": 817,
+                "y2": 93
+              },
+              "norm": {
+                "x1": 0.5805,
+                "y1": 0.1189,
+                "x2": 0.6383,
+                "y2": 0.1455
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49161-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 18.12,
+                "currency": "USD",
+                "raw": "18.12"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49161-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 18.12,
+                "currency": "USD",
+                "raw": "18.12"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149+A",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 619,
+                "y1": 79,
+                "x2": 702,
+                "y2": 93
+              },
+              "norm": {
+                "x1": 0.4836,
+                "y1": 0.1236,
+                "x2": 0.5484,
+                "y2": 0.1455
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-04U02",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u02",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-04U02",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u02",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49130",
+          "kind": "pnc",
+          "name": "shaft, drive power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 953,
+                "y1": 127,
+                "x2": 1013,
+                "y2": 141
+              },
+              "norm": {
+                "x1": 0.7445,
+                "y1": 0.1987,
+                "x2": 0.7914,
+                "y2": 0.2207
+              },
+              "title": "shaft, drive power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49130-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4913052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49130-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4913052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49140+A",
+          "kind": "pnc",
+          "name": "rotor & cam ring set, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 406,
+                "y1": 172,
+                "x2": 490,
+                "y2": 186
+              },
+              "norm": {
+                "x1": 0.3172,
+                "y1": 0.2692,
+                "x2": 0.3828,
+                "y2": 0.2911
+              },
+              "title": "rotor & cam ring set, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49140-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49140-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49110",
+          "kind": "pnc",
+          "name": "pump assembly, power steering",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 160,
+                "y1": 174,
+                "x2": 220,
+                "y2": 191
+              },
+              "norm": {
+                "x1": 0.125,
+                "y1": 0.2723,
+                "x2": 0.1719,
+                "y2": 0.2989
+              },
+              "title": "pump assembly, power steering"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49110-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4911052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49110-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4911052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+B",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 270,
+                "y1": 253,
+                "x2": 353,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.2109,
+                "y1": 0.3959,
+                "x2": 0.2758,
+                "y2": 0.4225
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4914835f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4914835f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49110A",
+          "kind": "pnc",
+          "name": "bolt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1180,
+                "y1": 294,
+                "x2": 1251,
+                "y2": 310
+              },
+              "norm": {
+                "x1": 0.9219,
+                "y1": 0.4601,
+                "x2": 0.9773,
+                "y2": 0.4851
+              },
+              "title": "bolt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "48361-58S00",
+              "url": "https://www.amayama.com/en/part/nissan/4836158s00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.95,
+                "currency": "USD",
+                "raw": "3.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "48361-58S00",
+              "url": "https://www.amayama.com/en/part/nissan/4836158s00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3.95,
+                "currency": "USD",
+                "raw": "3.95"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49121",
+          "kind": "pnc",
+          "name": "bracket assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 72,
+                "y1": 363,
+                "x2": 131,
+                "y2": 380
+              },
+              "norm": {
+                "x1": 0.0563,
+                "y1": 0.5681,
+                "x2": 0.1023,
+                "y2": 0.5947
+              },
+              "title": "bracket assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49125-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4912504u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.93,
+                "currency": "USD",
+                "raw": "21.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49125-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4912504u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 21.93,
+                "currency": "USD",
+                "raw": "21.93"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49144",
+          "kind": "pnc",
+          "name": "plate, side power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 626,
+                "y1": 365,
+                "x2": 685,
+                "y2": 382
+              },
+              "norm": {
+                "x1": 0.4891,
+                "y1": 0.5712,
+                "x2": 0.5352,
+                "y2": 0.5978
+              },
+              "title": "plate, side power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49144-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914471l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.57,
+                "currency": "USD",
+                "raw": "20.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49144-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914471l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 20.57,
+                "currency": "USD",
+                "raw": "20.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49121+A",
+          "kind": "pnc",
+          "name": "bracket assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1173,
+                "y1": 370,
+                "x2": 1256,
+                "y2": 384
+              },
+              "norm": {
+                "x1": 0.9164,
+                "y1": 0.579,
+                "x2": 0.9812,
+                "y2": 0.6009
+              },
+              "title": "bracket assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49121-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4912152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.96,
+                "currency": "USD",
+                "raw": "19.96"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49121-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4912152f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 19.96,
+                "currency": "USD",
+                "raw": "19.96"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+C",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 439,
+                "y1": 392,
+                "x2": 523,
+                "y2": 408
+              },
+              "norm": {
+                "x1": 0.343,
+                "y1": 0.6135,
+                "x2": 0.4086,
+                "y2": 0.6385
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49162M",
+          "kind": "pnc",
+          "name": "spring, flow control valve",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 783,
+                "y1": 437,
+                "x2": 855,
+                "y2": 454
+              },
+              "norm": {
+                "x1": 0.6117,
+                "y1": 0.6839,
+                "x2": 0.668,
+                "y2": 0.7105
+              },
+              "title": "spring, flow control valve"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 236,
+                "y1": 580,
+                "x2": 308,
+                "y2": 595
+              },
+              "norm": {
+                "x1": 0.1844,
+                "y1": 0.9077,
+                "x2": 0.2406,
+                "y2": 0.9311
+              },
+              "title": "spring, flow control valve"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49167-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916735f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.2,
+                "currency": "USD",
+                "raw": "3.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49167-35F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916735f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 3.2,
+                "currency": "USD",
+                "raw": "3.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148+A",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 299,
+                "y1": 444,
+                "x2": 382,
+                "y2": 459
+              },
+              "norm": {
+                "x1": 0.2336,
+                "y1": 0.6948,
+                "x2": 0.2984,
+                "y2": 0.7183
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4914804u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.52,
+                "currency": "USD",
+                "raw": "2.52"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49160MA",
+          "kind": "pnc",
+          "name": "valve assembly, flow control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 325,
+                "y1": 466,
+                "x2": 411,
+                "y2": 482
+              },
+              "norm": {
+                "x1": 0.2539,
+                "y1": 0.7293,
+                "x2": 0.3211,
+                "y2": 0.7543
+              },
+              "title": "valve assembly, flow control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49165-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4916504u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49165-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4916504u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49148",
+          "kind": "pnc",
+          "name": "pin, cam ring power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 702,
+                "y1": 468,
+                "x2": 762,
+                "y2": 485
+              },
+              "norm": {
+                "x1": 0.5484,
+                "y1": 0.7324,
+                "x2": 0.5953,
+                "y2": 0.759
+              },
+              "title": "pin, cam ring power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49148-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914871l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.57,
+                "currency": "USD",
+                "raw": "1.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49148-71L00",
+              "url": "https://www.amayama.com/en/part/nissan/4914871l00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.57,
+                "currency": "USD",
+                "raw": "1.57"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49160M",
+          "kind": "pnc",
+          "name": "valve assembly, flow control",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 831,
+                "y1": 480,
+                "x2": 903,
+                "y2": 497
+              },
+              "norm": {
+                "x1": 0.6492,
+                "y1": 0.7512,
+                "x2": 0.7055,
+                "y2": 0.7778
+              },
+              "title": "valve assembly, flow control"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49165-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916552f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49165-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4916552f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170MA",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 943,
+                "y1": 506,
+                "x2": 1027,
+                "y2": 523
+              },
+              "norm": {
+                "x1": 0.7367,
+                "y1": 0.7919,
+                "x2": 0.8023,
+                "y2": 0.8185
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49170-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4917052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49170-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/4917052f60",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 39.58,
+                "currency": "USD",
+                "raw": "39.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 38,
+                "y1": 521,
+                "x2": 98,
+                "y2": 537
+              },
+              "norm": {
+                "x1": 0.0297,
+                "y1": 0.8153,
+                "x2": 0.0766,
+                "y2": 0.8404
+              },
+              "title": "bolt, bracket power steering pump"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 110,
+                "y1": 597,
+                "x2": 170,
+                "y2": 614
+              },
+              "norm": {
+                "x1": 0.0859,
+                "y1": 0.9343,
+                "x2": 0.1328,
+                "y2": 0.9609
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914904u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 4,
+              "qty_raw": "04",
+              "price": {
+                "status": "Available",
+                "amount": 3.07,
+                "currency": "USD",
+                "raw": "3.07"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49149+B",
+          "kind": "pnc",
+          "name": "bolt, bracket power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 523,
+                "x2": 1206,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.8185,
+                "x2": 0.9422,
+                "y2": 0.8451
+              },
+              "title": "bolt, bracket power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49149-71L06",
+              "url": "https://www.amayama.com/en/part/nissan/4914971l06",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49149-71L06",
+              "url": "https://www.amayama.com/en/part/nissan/4914971l06",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 2,
+              "qty_raw": "02",
+              "price": {
+                "status": "Available",
+                "amount": 2.32,
+                "currency": "USD",
+                "raw": "2.32"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49140",
+          "kind": "pnc",
+          "name": "rotor & cam ring set, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 578,
+                "y1": 542,
+                "x2": 638,
+                "y2": 559
+              },
+              "norm": {
+                "x1": 0.4516,
+                "y1": 0.8482,
+                "x2": 0.4984,
+                "y2": 0.8748
+              },
+              "title": "rotor & cam ring set, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49140-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49140-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4914004u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 112.39,
+                "currency": "USD",
+                "raw": "112.39"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49116",
+          "kind": "pnc",
+          "name": "cover, rear power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 177,
+                "y1": 561,
+                "x2": 236,
+                "y2": 576
+              },
+              "norm": {
+                "x1": 0.1383,
+                "y1": 0.8779,
+                "x2": 0.1844,
+                "y2": 0.9014
+              },
+              "title": "cover, rear power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49116-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4911604u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.9,
+                "currency": "USD",
+                "raw": "32.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49116-04U00",
+              "url": "https://www.amayama.com/en/part/nissan/4911604u00",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 32.9,
+                "currency": "USD",
+                "raw": "32.90"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "49170MB",
+          "kind": "pnc",
+          "name": "connector assembly, power steering pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 463,
+                "y1": 592,
+                "x2": 547,
+                "y2": 607
+              },
+              "norm": {
+                "x1": 0.3617,
+                "y1": 0.9264,
+                "x2": 0.4273,
+                "y2": 0.9499
+              },
+              "title": "connector assembly, power steering pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "49170-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4917004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            },
+            {
+              "oem": "49170-04U01",
+              "url": "https://www.amayama.com/en/part/nissan/4917004u01",
+              "applies": [
+                "4WS.SR20DET"
+              ],
+              "details": {
+                "applies": "4WS.SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 43.66,
+                "currency": "USD",
+                "raw": "43.66"
+              },
+              "replacements": [],
+              "description_raw": "Applies: 4WS.SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "497",
+          "title": "POWER STEERING PIPING (CHASSIS)",
+          "category": "engine",
+          "group": "497",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/497",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 621,
+                "y1": 162,
+                "x2": 657,
+                "y2": 179
+              },
+              "norm": {
+                "x1": 0.4852,
+                "y1": 0.2535,
+                "x2": 0.5133,
+                "y2": 0.2801
+              }
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1096,
+                "y1": 501,
+                "x2": 1132,
+                "y2": 518
+              },
+              "norm": {
+                "x1": 0.8562,
+                "y1": 0.784,
+                "x2": 0.8844,
+                "y2": 0.8106
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

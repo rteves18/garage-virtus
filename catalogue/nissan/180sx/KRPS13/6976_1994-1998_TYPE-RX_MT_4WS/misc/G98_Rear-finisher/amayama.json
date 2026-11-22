@@ -1,0 +1,110 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/G98",
+    "scraped_at": "2026-11-21T23:59:02.339Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "G98",
+    "name": "rear finisher",
+    "title_raw": "rear finisher for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/G98__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/G98__001.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "G98__001_0",
+      "index": 1,
+      "of": null,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/G98__001.png",
+      "callouts": [
+        {
+          "pnc": "KK0810",
+          "kind": "pnc",
+          "name": "finisher back door",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 910,
+                "y1": 301,
+                "x2": 981,
+                "y2": 318
+              },
+              "norm": {
+                "x1": 0.7109,
+                "y1": 0.4755,
+                "x2": 0.7664,
+                "y2": 0.5024
+              },
+              "title": "finisher back door"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "K0810-60F00",
+              "url": "https://www.amayama.com/en/part/nissan/k081060f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "faux carbon kevlar [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: faux carbon kevlar [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

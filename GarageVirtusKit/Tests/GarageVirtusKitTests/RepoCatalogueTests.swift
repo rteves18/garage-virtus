@@ -17,8 +17,10 @@ struct RepoCatalogueTests {
         return (enumerator?.allObjects as? [URL] ?? []).filter(predicate)
     }
 
+    /// Every group source file (`amayama.json`, `megazip.json`, legacy `schema-group.json`), not part pages.
     @Test func everySchemaGroupDecodesWithItsImages() throws {
-        let files = Self.files { $0.lastPathComponent == "schema-group.json" }
+        let files = Self.files { $0.pathExtension == "json" && !$0.path.contains("/_parts/")
+            && $0.pathComponents.count > Self.catalogue.pathComponents.count + 6 }
         try #require(files.isEmpty == false)
         for url in files {
             let file = try CatalogueStore.makeDecoder().decode(SchemaGroupFile.self, from: Data(contentsOf: url))
@@ -53,9 +55,18 @@ struct RepoCatalogueTests {
         let store = CatalogueStore(folder: Self.catalogue)
         let group = try #require(store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups)
             .first { $0.code == "101" && $0.isScraped })
-        let image: CGImage = try #require(store.image(named: "imgjp16/RS13/101B_001.png", for: group))
+        let image: CGImage = try #require(store.image(named: "amayama/imgjp16/RS13/101B_001.png", for: group))
         #expect(image.width == 1280)
         #expect(image.height == 639)
+    }
+
+    @Test @MainActor func amayamaIsPrimaryAndMegazipIsAnAlternative() throws {
+        let store = CatalogueStore(folder: Self.catalogue)
+        let groups = store.frames.flatMap(\.variants).flatMap(\.categories).flatMap(\.groups)
+        let both = try #require(groups.first { Set($0.sources.map(\.site)).isSuperset(of: ["amayama", "megazip"]) })
+        #expect(both.primarySite == "amayama")
+        #expect(try store.load(both).source.site == "amayama")
+        #expect(try store.load(both, site: "megazip").source.site == "megazip")
     }
 
     @Test @MainActor func missingDiagramIsNil() throws {

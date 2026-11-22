@@ -1,0 +1,938 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/F22",
+    "scraped_at": "2026-11-21T23:58:26.256Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F22",
+    "name": "neon control, pole",
+    "title_raw": "neon control, pole for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/F22__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F22__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/F22__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F22__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "F22__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F22__001.png",
+      "callouts": [
+        {
+          "pnc": "KF2026",
+          "kind": "pnc",
+          "name": "SW, neon control auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1091,
+                "y1": 251,
+                "x2": 1163,
+                "y2": 265
+              },
+              "norm": {
+                "x1": 0.8523,
+                "y1": 0.3965,
+                "x2": 0.9086,
+                "y2": 0.4186
+              },
+              "title": "SW, neon control auto"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1091,
+                "y1": 251,
+                "x2": 1163,
+                "y2": 265
+              },
+              "norm": {
+                "x1": 0.8523,
+                "y1": 0.3965,
+                "x2": 0.9086,
+                "y2": 0.4186
+              },
+              "title": "SW, neon control auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2026-50C10",
+              "url": "https://www.amayama.com/en/part/nissan/f202650c10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2026-70N00",
+              "url": "https://www.amayama.com/en/part/nissan/f202670n00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type [K504]"
+            },
+            {
+              "oem": "F2026-89920",
+              "url": "https://www.amayama.com/en/part/nissan/f202689920",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.62,
+                "currency": "USD",
+                "raw": "13.62"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2024",
+          "kind": "pnc",
+          "name": "motor neon control auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 917,
+                "y1": 303,
+                "x2": 989,
+                "y2": 320
+              },
+              "norm": {
+                "x1": 0.7164,
+                "y1": 0.4787,
+                "x2": 0.7727,
+                "y2": 0.5055
+              },
+              "title": "motor neon control auto"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 917,
+                "y1": 303,
+                "x2": 989,
+                "y2": 320
+              },
+              "norm": {
+                "x1": 0.7164,
+                "y1": 0.4787,
+                "x2": 0.7727,
+                "y2": 0.5055
+              },
+              "title": "motor neon control auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2024-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2024-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202051F00[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202051F00[K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2020",
+          "kind": "pnc",
+          "name": "corner pole auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 256,
+                "y1": 442,
+                "x2": 327,
+                "y2": 459
+              },
+              "norm": {
+                "x1": 0.2,
+                "y1": 0.6983,
+                "x2": 0.2555,
+                "y2": 0.7251
+              },
+              "title": "corner pole auto"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 256,
+                "y1": 442,
+                "x2": 327,
+                "y2": 459
+              },
+              "norm": {
+                "x1": 0.2,
+                "y1": 0.6983,
+                "x2": 0.2555,
+                "y2": 0.7251
+              },
+              "title": "corner pole auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202060R00[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202060R00[K504]"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202060R00[K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202060R00[K504]"
+            },
+            {
+              "oem": "F2020-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "F2020-51F15",
+                  "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2020-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2022",
+          "kind": "pnc",
+          "name": "pole cap auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 972,
+                "y1": 451,
+                "x2": 1044,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.7594,
+                "y1": 0.7125,
+                "x2": 0.8156,
+                "y2": 0.7393
+              },
+              "title": "pole cap auto"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 972,
+                "y1": 451,
+                "x2": 1044,
+                "y2": 468
+              },
+              "norm": {
+                "x1": 0.7594,
+                "y1": 0.7125,
+                "x2": 0.8156,
+                "y2": 0.7393
+              },
+              "title": "pole cap auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.17,
+                "currency": "USD",
+                "raw": "8.17"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "F22__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F22__002.png",
+      "callouts": [
+        {
+          "pnc": "KF2026",
+          "kind": "pnc",
+          "name": "SW, neon control auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1125,
+                "y1": 107,
+                "x2": 1196,
+                "y2": 124
+              },
+              "norm": {
+                "x1": 0.8789,
+                "y1": 0.169,
+                "x2": 0.9344,
+                "y2": 0.1959
+              },
+              "title": "SW, neon control auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2026-50C10",
+              "url": "https://www.amayama.com/en/part/nissan/f202650c10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2026-70N00",
+              "url": "https://www.amayama.com/en/part/nissan/f202670n00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type [K504]"
+            },
+            {
+              "oem": "F2026-89920",
+              "url": "https://www.amayama.com/en/part/nissan/f202689920",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 13.62,
+                "currency": "USD",
+                "raw": "13.62"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2029",
+          "kind": "pnc",
+          "name": "controller neon control auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1130,
+                "y1": 318,
+                "x2": 1201,
+                "y2": 334
+              },
+              "norm": {
+                "x1": 0.8828,
+                "y1": 0.5024,
+                "x2": 0.9383,
+                "y2": 0.5276
+              },
+              "title": "controller neon control auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2029-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202951f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2022",
+          "kind": "pnc",
+          "name": "pole cap auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 984,
+                "y1": 456,
+                "x2": 1056,
+                "y2": 473
+              },
+              "norm": {
+                "x1": 0.7688,
+                "y1": 0.7204,
+                "x2": 0.825,
+                "y2": 0.7472
+              },
+              "title": "pole cap auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2022-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202251f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.17,
+                "currency": "USD",
+                "raw": "8.17"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2020",
+          "kind": "pnc",
+          "name": "corner pole auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 248,
+                "y1": 482,
+                "x2": 320,
+                "y2": 497
+              },
+              "norm": {
+                "x1": 0.1938,
+                "y1": 0.7615,
+                "x2": 0.25,
+                "y2": 0.7852
+              },
+              "title": "corner pole auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202060R00[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202060R00[K504]"
+            },
+            {
+              "oem": "F2020-51F00",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202060R00[K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 3,
+              "qty_raw": "03",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202060R00[K504]"
+            },
+            {
+              "oem": "F2020-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "F2020-51F15",
+                  "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+                  "price": {
+                    "status": "Discontinued",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Discontinued"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2020-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202051f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KF2024",
+          "kind": "pnc",
+          "name": "motor neon control auto",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1113,
+                "y1": 506,
+                "x2": 1184,
+                "y2": 523
+              },
+              "norm": {
+                "x1": 0.8695,
+                "y1": 0.7994,
+                "x2": 0.925,
+                "y2": 0.8262
+              },
+              "title": "motor neon control auto"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F2024-51F10",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f10",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "auto type [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: auto type [K504]"
+            },
+            {
+              "oem": "F2024-51F15",
+              "url": "https://www.amayama.com/en/part/nissan/f202451f15",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "manual type,OYA F202051F00[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: manual type,OYA F202051F00[K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

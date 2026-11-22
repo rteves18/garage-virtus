@@ -1,0 +1,590 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/117",
+    "scraped_at": "2026-11-21T22:29:26.369Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "117",
+    "name": "fan, compressor & power steering belt",
+    "title_raw": "fan, compressor & power steering belt (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/117B_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/117B_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "117B_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/117B_001.png",
+      "callouts": [
+        {
+          "pnc": "11720N",
+          "kind": "pnc",
+          "name": "belt, fan & alternator",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 77,
+                "y1": 307,
+                "x2": 150,
+                "y2": 323
+              },
+              "norm": {
+                "x1": 0.0602,
+                "y1": 0.4804,
+                "x2": 0.1172,
+                "y2": 0.5055
+              },
+              "title": "belt, fan & alternator"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 585,
+                "y1": 307,
+                "x2": 658,
+                "y2": 323
+              },
+              "norm": {
+                "x1": 0.457,
+                "y1": 0.4804,
+                "x2": 0.5141,
+                "y2": 0.5055
+              },
+              "title": "belt, fan & alternator"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.56,
+                "currency": "USD",
+                "raw": "8.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.56,
+                "currency": "USD",
+                "raw": "8.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11950N",
+          "kind": "pnc",
+          "name": "belt, power steering oil pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 991,
+                "y1": 360,
+                "x2": 1063,
+                "y2": 376
+              },
+              "norm": {
+                "x1": 0.7742,
+                "y1": 0.5634,
+                "x2": 0.8305,
+                "y2": 0.5884
+              },
+              "title": "belt, power steering oil pump"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 410,
+                "y1": 441,
+                "x2": 482,
+                "y2": 457
+              },
+              "norm": {
+                "x1": 0.3203,
+                "y1": 0.6901,
+                "x2": 0.3766,
+                "y2": 0.7152
+              },
+              "title": "belt, power steering oil pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11920N",
+          "kind": "pnc",
+          "name": "belt, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1093,
+                "y1": 470,
+                "x2": 1166,
+                "y2": 486
+              },
+              "norm": {
+                "x1": 0.8539,
+                "y1": 0.7355,
+                "x2": 0.9109,
+                "y2": 0.7606
+              },
+              "title": "belt, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "117B_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/117B_001.png",
+      "callouts": [
+        {
+          "pnc": "11720N",
+          "kind": "pnc",
+          "name": "belt, fan & alternator",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 77,
+                "y1": 307,
+                "x2": 150,
+                "y2": 323
+              },
+              "norm": {
+                "x1": 0.0602,
+                "y1": 0.4804,
+                "x2": 0.1172,
+                "y2": 0.5055
+              },
+              "title": "belt, fan & alternator"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 585,
+                "y1": 307,
+                "x2": 658,
+                "y2": 323
+              },
+              "norm": {
+                "x1": 0.457,
+                "y1": 0.4804,
+                "x2": 0.5141,
+                "y2": 0.5055
+              },
+              "title": "belt, fan & alternator"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.56,
+                "currency": "USD",
+                "raw": "8.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-50935",
+              "url": "https://www.amayama.com/en/part/nissan/ay14050935",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.56,
+                "currency": "USD",
+                "raw": "8.56"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11950N",
+          "kind": "pnc",
+          "name": "belt, power steering oil pump",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 991,
+                "y1": 360,
+                "x2": 1063,
+                "y2": 376
+              },
+              "norm": {
+                "x1": 0.7742,
+                "y1": 0.5634,
+                "x2": 0.8305,
+                "y2": 0.5884
+              },
+              "title": "belt, power steering oil pump"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 410,
+                "y1": 441,
+                "x2": 482,
+                "y2": 457
+              },
+              "norm": {
+                "x1": 0.3203,
+                "y1": 0.6901,
+                "x2": 0.3766,
+                "y2": 0.7152
+              },
+              "title": "belt, power steering oil pump"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "11920N",
+          "kind": "pnc",
+          "name": "belt, compressor",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1093,
+                "y1": 470,
+                "x2": 1166,
+                "y2": 486
+              },
+              "norm": {
+                "x1": 0.8539,
+                "y1": 0.7355,
+                "x2": 0.9109,
+                "y2": 0.7606
+              },
+              "title": "belt, compressor"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "AY140-40880",
+              "url": "https://www.amayama.com/en/part/nissan/ay14040880",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1998-12",
+                "raw": "01.1994 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.36,
+                "currency": "USD",
+                "raw": "5.36"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

@@ -8,6 +8,8 @@ struct PartsInspector: View {
     let schema: GarageVirtusKit.Schema
     /// The schema group's code, recorded with parts marked from here.
     let groupCode: String
+    /// The site this schema comes from; other sites' listings show as alternatives under each part.
+    let site: String
     @Binding var selectedPNC: String?
     @Binding var hoveredPNC: String?
     @Binding var highlightedOEM: String?
@@ -31,6 +33,7 @@ struct PartsInspector: View {
                                     isHovered: callout.pnc == hoveredPNC,
                                     highlightedOEM: highlightedOEM,
                                     groupCode: groupCode,
+                                    site: site,
                                     trackedByKey: trackedByKey,
                                     onSelect: {
                                         selectedFromInspector = true
@@ -64,6 +67,7 @@ private struct CalloutCard: View {
     let isHovered: Bool
     let highlightedOEM: String?
     let groupCode: String
+    let site: String
     let trackedByKey: [String: [GaragePart]]
     let onSelect: () -> Void
 
@@ -86,7 +90,7 @@ private struct CalloutCard: View {
             ForEach(Array(callout.parts.enumerated()), id: \.offset) { index, part in
                 if index > 0 { Divider() }
                 PartRow(part: part, calloutName: callout.displayName, highlightedOEM: highlightedOEM,
-                        groupCode: groupCode, pnc: callout.pnc,
+                        groupCode: groupCode, pnc: callout.pnc, site: site,
                         tracked: trackedByKey[CatalogueStore.normalize(part.oem)] ?? [])
             }
         }
@@ -112,9 +116,16 @@ private struct PartRow: View {
     let highlightedOEM: String?
     let groupCode: String
     let pnc: String
+    /// The site this part list comes from.
+    let site: String
     /// My garage rows for this part number.
     let tracked: [GaragePart]
     @State private var showDetail = false
+
+    /// The same number on other sites, primary-first order.
+    private var alternatives: [SourceOffer] {
+        catalogue.store.offers(for: part.oem).filter { $0.site != site }
+    }
 
     private var isHighlighted: Bool {
         guard let h = highlightedOEM else { return false }
@@ -139,6 +150,10 @@ private struct PartRow: View {
                     GarageBadge(tracked: tracked) { catalogue.selection = CatalogueViewModel.garageTag($0) }
                 }
                 PriceLabel(price: part.price)
+            }
+
+            ForEach(alternatives) { offer in
+                AlternativeRow(offer: offer)
             }
 
             let meta = [
@@ -177,6 +192,40 @@ private struct PartRow: View {
     }
 }
 
+/// "Also on Megazip · $1.18 ↗": another site's listing for the same number, under the primary price.
+private struct AlternativeRow: View {
+    let offer: SourceOffer
+
+    var body: some View {
+        HStack(alignment: .firstTextBaseline, spacing: 6) {
+            Text("Also on \(offer.siteName)").foregroundStyle(.secondary)
+            Spacer()
+            OfferPriceText(offer: offer)
+            if let urlString = offer.url, let url = URL(string: urlString) {
+                Link(destination: url) { Image(systemName: "arrow.up.right") }
+                    .help("Open on \(offer.siteName)")
+            }
+        }
+        .font(.caption)
+    }
+}
+
+/// An offer's best price, else its status ("Discontinued"), else a dash.
+private struct OfferPriceText: View {
+    let offer: SourceOffer
+
+    var body: some View {
+        if let amount = offer.bestAmount {
+            Text(amount, format: .currency(code: offer.price?.currency ?? offer.page?.offers.first?.currency ?? "USD"))
+                .monospacedDigit()
+        } else if let price = offer.price {
+            PriceLabel(price: price)
+        } else {
+            Text("—").foregroundStyle(.secondary)
+        }
+    }
+}
+
 /// In-app part page: every place this OEM number appears, and its replacement chain.
 struct PartDetailView: View {
     @Environment(CatalogueViewModel.self) private var catalogue
@@ -208,10 +257,29 @@ struct PartDetailView: View {
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }
-            HStack {
-                Text("Catalogue price").foregroundStyle(.secondary)
-                Spacer()
-                PriceLabel(price: price)
+            if usage.offers.isEmpty {
+                HStack {
+                    Text("Catalogue price").foregroundStyle(.secondary)
+                    Spacer()
+                    PriceLabel(price: price)
+                }
+            } else {
+                section("Where to get it") {
+                    ForEach(Array(usage.offers.enumerated()), id: \.element.id) { index, offer in
+                        HStack(alignment: .firstTextBaseline) {
+                            Text(offer.siteName).fontWeight(index == 0 ? .semibold : .regular)
+                            if index == 0 {
+                                Text("primary").font(.caption2).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            OfferPriceText(offer: offer)
+                            if let urlString = offer.url, let link = URL(string: urlString) {
+                                Link(destination: link) { Image(systemName: "arrow.up.right") }
+                                    .help("Open on \(offer.siteName)")
+                            }
+                        }
+                    }
+                }
             }
             if let page {
                 ForEach(Array(page.notices.enumerated()), id: \.offset) { _, notice in

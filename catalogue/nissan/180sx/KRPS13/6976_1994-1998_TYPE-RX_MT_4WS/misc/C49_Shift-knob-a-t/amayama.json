@@ -1,0 +1,136 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/C49",
+    "scraped_at": "2026-11-21T23:58:26.106Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "C49",
+    "name": "shift knob A/T",
+    "title_raw": "shift knob A/T for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/C49__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/C49__001.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "C49__001_0",
+      "index": 1,
+      "of": null,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/C49__001.png",
+      "callouts": [
+        {
+          "pnc": "KC491V",
+          "kind": "pnc",
+          "name": "shift knob AT",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 977,
+                "y1": 275,
+                "x2": 1048,
+                "y2": 291
+              },
+              "norm": {
+                "x1": 0.7633,
+                "y1": 0.4344,
+                "x2": 0.8187,
+                "y2": 0.4597
+              },
+              "title": "shift knob AT"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "C491V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c491v52f00",
+              "applies": [
+                "MT +AT"
+              ],
+              "details": {
+                "applies": "MT +AT;",
+                "notes": "A/T, A/T [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.61,
+                "currency": "USD",
+                "raw": "122.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT +AT; Notes: A/T, A/T [K504]"
+            },
+            {
+              "oem": "C491V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c491v52f00",
+              "applies": [
+                "MT +AT"
+              ],
+              "details": {
+                "applies": "MT +AT;",
+                "notes": "A/T [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 122.61,
+                "currency": "USD",
+                "raw": "122.61"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT +AT; Notes: A/T [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

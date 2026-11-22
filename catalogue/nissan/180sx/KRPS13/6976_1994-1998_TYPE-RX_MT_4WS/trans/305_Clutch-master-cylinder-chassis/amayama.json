@@ -1,0 +1,3486 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/trans/305",
+    "scraped_at": "2026-11-21T23:35:30.805Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "trans",
+    "code": "305",
+    "name": "clutch master cylinder",
+    "title_raw": "clutch master cylinder (chassis) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/305-_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/305-_001.png",
+      "width": 1280,
+      "height": 638
+    }
+  },
+  "schemas": [
+    {
+      "id": "305-_001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "SR20DT.MT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/305-_001.png",
+      "callouts": [
+        {
+          "pnc": "089111082G",
+          "kind": "common",
+          "name": "Nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 523,
+                "x2": 1242,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.8197,
+                "x2": 0.9703,
+                "y2": 0.8464
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Nut"
+            }
+          ]
+        },
+        {
+          "pnc": "30602",
+          "kind": "pnc",
+          "name": "cap assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 318,
+                "y1": 67,
+                "x2": 377,
+                "y2": 84
+              },
+              "norm": {
+                "x1": 0.2484,
+                "y1": 0.105,
+                "x2": 0.2945,
+                "y2": 0.1317
+              },
+              "title": "cap assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-3S501",
+              "url": "https://www.amayama.com/en/part/nissan/460203s501",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.4,
+                "currency": "USD",
+                "raw": "6.40"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30609",
+          "kind": "pnc",
+          "name": "reservoir, oil clutch",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 184,
+                "x2": 380,
+                "y2": 201
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.2884,
+                "x2": 0.2969,
+                "y2": 0.315
+              },
+              "title": "reservoir, oil clutch"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30631",
+          "kind": "pnc",
+          "name": "rod assembly, push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 716,
+                "y1": 203,
+                "x2": 776,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.5594,
+                "y1": 0.3182,
+                "x2": 0.6062,
+                "y2": 0.3448
+              },
+              "title": "rod assembly, push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30617",
+          "kind": "pnc",
+          "name": "cover, dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 253,
+                "x2": 979,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.3966,
+                "x2": 0.7648,
+                "y2": 0.4232
+              },
+              "title": "cover, dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30616",
+          "kind": "pnc",
+          "name": "band assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 275,
+                "x2": 380,
+                "y2": 289
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.431,
+                "x2": 0.2969,
+                "y2": 0.453
+              },
+              "title": "band assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30618",
+          "kind": "pnc",
+          "name": "ring, stopper",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 841,
+                "y1": 282,
+                "x2": 900,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.657,
+                "y1": 0.442,
+                "x2": 0.7031,
+                "y2": 0.4687
+              },
+              "title": "ring, stopper"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610",
+          "kind": "pnc",
+          "name": "cylinder assembly, clutch master",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1051,
+                "y1": 318,
+                "x2": 1110,
+                "y2": 332
+              },
+              "norm": {
+                "x1": 0.8211,
+                "y1": 0.4984,
+                "x2": 0.8672,
+                "y2": 0.5204
+              },
+              "title": "cylinder assembly, clutch master"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603A",
+          "kind": "pnc",
+          "name": "gasket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 296,
+                "y1": 518,
+                "x2": 368,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.2313,
+                "y1": 0.8119,
+                "x2": 0.2875,
+                "y2": 0.8386
+              },
+              "title": "gasket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610K",
+          "kind": "pnc",
+          "name": "piston kit, clutch master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 516,
+                "y1": 544,
+                "x2": 590,
+                "y2": 561
+              },
+              "norm": {
+                "x1": 0.4031,
+                "y1": 0.8527,
+                "x2": 0.4609,
+                "y2": 0.8793
+              },
+              "title": "piston kit, clutch master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603",
+          "kind": "pnc",
+          "name": "stopper, screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 306,
+                "y1": 580,
+                "x2": 368,
+                "y2": 597
+              },
+              "norm": {
+                "x1": 0.2391,
+                "y1": 0.9091,
+                "x2": 0.2875,
+                "y2": 0.9357
+              },
+              "title": "stopper, screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "308",
+          "title": "CLUTCH PIPING (CHASSIS)",
+          "category": "trans",
+          "group": "308",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/trans/308",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 616,
+                "x2": 955,
+                "y2": 630
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.9655,
+                "x2": 0.7461,
+                "y2": 0.9875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "305-_001_1",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "SR20DET.MT"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1996-08",
+        "raw": "01.1994 - 08.1996"
+      },
+      "image": "amayama/imgjp16/RS13/305-_001.png",
+      "callouts": [
+        {
+          "pnc": "089111082G",
+          "kind": "common",
+          "name": "Nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 523,
+                "x2": 1242,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.8197,
+                "x2": 0.9703,
+                "y2": 0.8464
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Nut"
+            }
+          ]
+        },
+        {
+          "pnc": "30602",
+          "kind": "pnc",
+          "name": "cap assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 318,
+                "y1": 67,
+                "x2": 377,
+                "y2": 84
+              },
+              "norm": {
+                "x1": 0.2484,
+                "y1": 0.105,
+                "x2": 0.2945,
+                "y2": 0.1317
+              },
+              "title": "cap assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-3S501",
+              "url": "https://www.amayama.com/en/part/nissan/460203s501",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.4,
+                "currency": "USD",
+                "raw": "6.40"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30609",
+          "kind": "pnc",
+          "name": "reservoir, oil clutch",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 184,
+                "x2": 380,
+                "y2": 201
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.2884,
+                "x2": 0.2969,
+                "y2": 0.315
+              },
+              "title": "reservoir, oil clutch"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30631",
+          "kind": "pnc",
+          "name": "rod assembly, push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 716,
+                "y1": 203,
+                "x2": 776,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.5594,
+                "y1": 0.3182,
+                "x2": 0.6062,
+                "y2": 0.3448
+              },
+              "title": "rod assembly, push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30617",
+          "kind": "pnc",
+          "name": "cover, dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 253,
+                "x2": 979,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.3966,
+                "x2": 0.7648,
+                "y2": 0.4232
+              },
+              "title": "cover, dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30616",
+          "kind": "pnc",
+          "name": "band assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 275,
+                "x2": 380,
+                "y2": 289
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.431,
+                "x2": 0.2969,
+                "y2": 0.453
+              },
+              "title": "band assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30618",
+          "kind": "pnc",
+          "name": "ring, stopper",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 841,
+                "y1": 282,
+                "x2": 900,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.657,
+                "y1": 0.442,
+                "x2": 0.7031,
+                "y2": 0.4687
+              },
+              "title": "ring, stopper"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610",
+          "kind": "pnc",
+          "name": "cylinder assembly, clutch master",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1051,
+                "y1": 318,
+                "x2": 1110,
+                "y2": 332
+              },
+              "norm": {
+                "x1": 0.8211,
+                "y1": 0.4984,
+                "x2": 0.8672,
+                "y2": 0.5204
+              },
+              "title": "cylinder assembly, clutch master"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603A",
+          "kind": "pnc",
+          "name": "gasket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 296,
+                "y1": 518,
+                "x2": 368,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.2313,
+                "y1": 0.8119,
+                "x2": 0.2875,
+                "y2": 0.8386
+              },
+              "title": "gasket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610K",
+          "kind": "pnc",
+          "name": "piston kit, clutch master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 516,
+                "y1": 544,
+                "x2": 590,
+                "y2": 561
+              },
+              "norm": {
+                "x1": 0.4031,
+                "y1": 0.8527,
+                "x2": 0.4609,
+                "y2": 0.8793
+              },
+              "title": "piston kit, clutch master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603",
+          "kind": "pnc",
+          "name": "stopper, screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 306,
+                "y1": 580,
+                "x2": 368,
+                "y2": 597
+              },
+              "norm": {
+                "x1": 0.2391,
+                "y1": 0.9091,
+                "x2": 0.2875,
+                "y2": 0.9357
+              },
+              "title": "stopper, screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "308",
+          "title": "CLUTCH PIPING (CHASSIS)",
+          "category": "trans",
+          "group": "308",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/trans/308",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 616,
+                "x2": 955,
+                "y2": 630
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.9655,
+                "x2": 0.7461,
+                "y2": 0.9875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "305-_001_2",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "SR20DE.MT +SR20DET.MT"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/305-_001.png",
+      "callouts": [
+        {
+          "pnc": "089111082G",
+          "kind": "common",
+          "name": "Nut",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1122,
+                "y1": 523,
+                "x2": 1242,
+                "y2": 540
+              },
+              "norm": {
+                "x1": 0.8766,
+                "y1": 0.8197,
+                "x2": 0.9703,
+                "y2": 0.8464
+              },
+              "title": null
+            }
+          ],
+          "parts": [
+            {
+              "oem": "08911-1082G",
+              "url": "https://www.amayama.com/en/part/nissan/089111082g",
+              "applies": [],
+              "details": {},
+              "period": null,
+              "qty": null,
+              "qty_raw": null,
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Nut"
+            }
+          ]
+        },
+        {
+          "pnc": "30602",
+          "kind": "pnc",
+          "name": "cap assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 318,
+                "y1": 67,
+                "x2": 377,
+                "y2": 84
+              },
+              "norm": {
+                "x1": 0.2484,
+                "y1": 0.105,
+                "x2": 0.2945,
+                "y2": 0.1317
+              },
+              "title": "cap assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46020-3S501",
+              "url": "https://www.amayama.com/en/part/nissan/460203s501",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.4,
+                "currency": "USD",
+                "raw": "6.40"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46020-N6000",
+              "url": "https://www.amayama.com/en/part/nissan/46020n6000",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.2,
+                "currency": "USD",
+                "raw": "6.20"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30609",
+          "kind": "pnc",
+          "name": "reservoir, oil clutch",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 184,
+                "x2": 380,
+                "y2": 201
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.2884,
+                "x2": 0.2969,
+                "y2": 0.315
+              },
+              "title": "reservoir, oil clutch"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30617-03Y00",
+              "url": "https://www.amayama.com/en/part/nissan/3061703y00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 7.49,
+                "currency": "USD",
+                "raw": "7.49"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30631",
+          "kind": "pnc",
+          "name": "rod assembly, push",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 716,
+                "y1": 203,
+                "x2": 776,
+                "y2": 220
+              },
+              "norm": {
+                "x1": 0.5594,
+                "y1": 0.3182,
+                "x2": 0.6062,
+                "y2": 0.3448
+              },
+              "title": "rod assembly, push"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30631-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/3063152f00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 11.24,
+                "currency": "USD",
+                "raw": "11.24"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30617",
+          "kind": "pnc",
+          "name": "cover, dust",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 253,
+                "x2": 979,
+                "y2": 270
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.3966,
+                "x2": 0.7648,
+                "y2": 0.4232
+              },
+              "title": "cover, dust"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30618-15R00",
+              "url": "https://www.amayama.com/en/part/nissan/3061815r00",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.58,
+                "currency": "USD",
+                "raw": "2.58"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30616",
+          "kind": "pnc",
+          "name": "band assembly, reservoir",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 320,
+                "y1": 275,
+                "x2": 380,
+                "y2": 289
+              },
+              "norm": {
+                "x1": 0.25,
+                "y1": 0.431,
+                "x2": 0.2969,
+                "y2": 0.453
+              },
+              "title": "band assembly, reservoir"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46016-W0400",
+              "url": "https://www.amayama.com/en/part/nissan/46016w0400",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3,
+                "currency": "USD",
+                "raw": "3.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30618",
+          "kind": "pnc",
+          "name": "ring, stopper",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 841,
+                "y1": 282,
+                "x2": 900,
+                "y2": 299
+              },
+              "norm": {
+                "x1": 0.657,
+                "y1": 0.442,
+                "x2": 0.7031,
+                "y2": 0.4687
+              },
+              "title": "ring, stopper"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46070-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607027260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1,
+                "currency": "USD",
+                "raw": "1.00"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610",
+          "kind": "pnc",
+          "name": "cylinder assembly, clutch master",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1051,
+                "y1": 318,
+                "x2": 1110,
+                "y2": 332
+              },
+              "norm": {
+                "x1": 0.8211,
+                "y1": 0.4984,
+                "x2": 0.8672,
+                "y2": 0.5204
+              },
+              "title": "cylinder assembly, clutch master"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30610-52F60",
+              "url": "https://www.amayama.com/en/part/nissan/3061052f60",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 128.06,
+                "currency": "USD",
+                "raw": "128.06"
+              },
+              "replacements": [
+                {
+                  "oem": "30610-69F90",
+                  "url": "https://www.amayama.com/en/part/nissan/3061069f90",
+                  "price": {
+                    "status": "Available",
+                    "amount": 128.06,
+                    "currency": "USD",
+                    "raw": "128.06"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603A",
+          "kind": "pnc",
+          "name": "gasket",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 296,
+                "y1": 518,
+                "x2": 368,
+                "y2": 535
+              },
+              "norm": {
+                "x1": 0.2313,
+                "y1": 0.8119,
+                "x2": 0.2875,
+                "y2": 0.8386
+              },
+              "title": "gasket"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "46079-27260",
+              "url": "https://www.amayama.com/en/part/nissan/4607927260",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 1.05,
+                "currency": "USD",
+                "raw": "1.05"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        },
+        {
+          "pnc": "30610K",
+          "kind": "pnc",
+          "name": "piston kit, clutch master cylinder",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 516,
+                "y1": 544,
+                "x2": 590,
+                "y2": 561
+              },
+              "norm": {
+                "x1": 0.4031,
+                "y1": 0.8527,
+                "x2": 0.4609,
+                "y2": 0.8793
+              },
+              "title": "piston kit, clutch master cylinder"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1993-06",
+                "to": "1994-01",
+                "raw": "06.1993 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco 5/8"
+            },
+            {
+              "oem": "30611-2T025",
+              "url": "https://www.amayama.com/en/part/nissan/306112t025",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco 5/8"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 14.88,
+                "currency": "USD",
+                "raw": "14.88"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco 5/8"
+            }
+          ]
+        },
+        {
+          "pnc": "30603",
+          "kind": "pnc",
+          "name": "stopper, screw",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 306,
+                "y1": 580,
+                "x2": 368,
+                "y2": 597
+              },
+              "norm": {
+                "x1": 0.2391,
+                "y1": 0.9091,
+                "x2": 0.2875,
+                "y2": 0.9357
+              },
+              "title": "stopper, screw"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DT.MT"
+              ],
+              "details": {
+                "applies": "SR20DT.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT.MT; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET; Notes: Nabco"
+            },
+            {
+              "oem": "30672-C8200",
+              "url": "https://www.amayama.com/en/part/nissan/30672c8200",
+              "applies": [
+                "SR20DE.MT +SR20DET.MT"
+              ],
+              "details": {
+                "applies": "SR20DE.MT +SR20DET.MT;",
+                "notes": "Nabco"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2.45,
+                "currency": "USD",
+                "raw": "2.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DE.MT +SR20DET.MT; Notes: Nabco"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "code": "308",
+          "title": "CLUTCH PIPING (CHASSIS)",
+          "category": "trans",
+          "group": "308",
+          "variant_id": "6976",
+          "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/trans/308",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 919,
+                "y1": 616,
+                "x2": 955,
+                "y2": 630
+              },
+              "norm": {
+                "x1": 0.718,
+                "y1": 0.9655,
+                "x2": 0.7461,
+                "y2": 0.9875
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

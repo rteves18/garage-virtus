@@ -1,0 +1,209 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/C41",
+    "scraped_at": "2026-11-21T23:58:26.084Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "C41",
+    "name": "shift knob M/T",
+    "title_raw": "shift knob M/T for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/C41__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/C41__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/C41__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/C41__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "C41__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/C41__001.png",
+      "callouts": [
+        {
+          "pnc": "KC286V",
+          "kind": "pnc",
+          "name": "shift knob MT",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 996,
+                "y1": 294,
+                "x2": 1070,
+                "y2": 310
+              },
+              "norm": {
+                "x1": 0.7781,
+                "y1": 0.4645,
+                "x2": 0.8359,
+                "y2": 0.4897
+              },
+              "title": "shift knob MT"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "C286V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c286v52f00",
+              "applies": [
+                "MT +AT"
+              ],
+              "details": {
+                "applies": "MT +AT;",
+                "notes": "M/T, M/T [K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT +AT; Notes: M/T, M/T [K504]"
+            },
+            {
+              "oem": "C286V-52F00",
+              "url": "https://www.amayama.com/en/part/nissan/c286v52f00",
+              "applies": [
+                "MT +AT"
+              ],
+              "details": {
+                "applies": "MT +AT;",
+                "notes": "M/T [K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT +AT; Notes: M/T [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "C41__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "ALL"
+      ],
+      "period": {
+        "from": "1996-08",
+        "to": "1998-12",
+        "raw": "08.1996 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/C41__002.png",
+      "callouts": [
+        {
+          "pnc": "KC2865",
+          "kind": "pnc",
+          "name": "shift knob MT",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 893,
+                "y1": 55,
+                "x2": 965,
+                "y2": 69
+              },
+              "norm": {
+                "x1": 0.6977,
+                "y1": 0.0869,
+                "x2": 0.7539,
+                "y2": 0.109
+              },
+              "title": "shift knob MT"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "C2865-26U00",
+              "url": "https://www.amayama.com/en/part/nissan/c286526u00",
+              "applies": [
+                "MT +AT"
+              ],
+              "details": {
+                "applies": "MT +AT;",
+                "notes": "M/T, carbon shift knob [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: MT +AT; Notes: M/T, carbon shift knob [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

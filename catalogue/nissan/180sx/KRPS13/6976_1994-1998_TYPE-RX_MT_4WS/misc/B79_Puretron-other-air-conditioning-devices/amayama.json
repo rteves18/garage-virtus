@@ -1,0 +1,212 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/B79",
+    "scraped_at": "2026-11-21T23:51:17.837Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "B79",
+    "name": "Puretron, other air conditioning devices",
+    "title_raw": "Puretron, other air conditioning devices for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/B79__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/B79__001.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "B79__001_0",
+      "index": 1,
+      "of": null,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/B79__001.png",
+      "callouts": [
+        {
+          "pnc": "KB7400",
+          "kind": "pnc",
+          "name": "Puretron",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 981,
+                "y1": 456,
+                "x2": 1053,
+                "y2": 473
+              },
+              "norm": {
+                "x1": 0.7664,
+                "y1": 0.7204,
+                "x2": 0.8227,
+                "y2": 0.7472
+              },
+              "title": "Puretron"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B7400-89990",
+              "url": "https://www.amayama.com/en/part/nissan/b740089990",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "SR-1B,12V[B421]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: SR-1B,12V[B421]"
+            },
+            {
+              "oem": "B7400-89990",
+              "url": "https://www.amayama.com/en/part/nissan/b740089990",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "12V[B421]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 12V[B421]"
+            }
+          ]
+        },
+        {
+          "pnc": "KB7494",
+          "kind": "pnc",
+          "name": "Puretron filter",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 657,
+                "y1": 480,
+                "x2": 728,
+                "y2": 497
+              },
+              "norm": {
+                "x1": 0.5133,
+                "y1": 0.7583,
+                "x2": 0.5687,
+                "y2": 0.7852
+              },
+              "title": "Puretron filter"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "B7164-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b716489900",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "SR-1B"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.43,
+                "currency": "USD",
+                "raw": "6.43"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: SR-1B"
+            },
+            {
+              "oem": "B7164-89900",
+              "url": "https://www.amayama.com/en/part/nissan/b716489900",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.43,
+                "currency": "USD",
+                "raw": "6.43"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/F78",
+    "scraped_at": "2026-11-21T23:59:02.141Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "F78",
+    "name": "foot rest",
+    "title_raw": "foot rest for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/F78__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F78__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/F78__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/F78__002.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "F78__001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F78__001.png",
+      "callouts": [
+        {
+          "pnc": "KF7840",
+          "kind": "pnc",
+          "name": "foot rest",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 886,
+                "y1": 146,
+                "x2": 960,
+                "y2": 162
+              },
+              "norm": {
+                "x1": 0.6922,
+                "y1": 0.2306,
+                "x2": 0.75,
+                "y2": 0.2559
+              },
+              "title": "foot rest"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "F7840-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/f784050f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [K504]"
+            },
+            {
+              "oem": "F7840-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/f784050f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "driver side [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: driver side [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "F78__002_0",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/F78__002.png",
+      "callouts": [
+        {
+          "pnc": "KF7500",
+          "kind": "pnc",
+          "name": "knee pad",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 836,
+                "y1": 571,
+                "x2": 907,
+                "y2": 585
+              },
+              "norm": {
+                "x1": 0.6531,
+                "y1": 0.9021,
+                "x2": 0.7086,
+                "y2": 0.9242
+              },
+              "title": "knee pad"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [
+                "HB.TYPE2/3"
+              ],
+              "details": {
+                "applies": "HB.TYPE2/3;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB.TYPE2/3; Notes: [K504]"
+            },
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "[K504]"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: [K504]"
+            },
+            {
+              "oem": "H0950-50F00",
+              "url": "https://www.amayama.com/en/part/nissan/h095050f00",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "driver set [K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: driver set [K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}

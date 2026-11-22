@@ -1,0 +1,778 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/engine/101",
+    "scraped_at": "2026-11-21T16:58:44.731Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "engine",
+    "code": "101",
+    "name": "bearing & short engine assembly",
+    "title_raw": "bearing & short engine assembly (engine) for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/101B_001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/101B_001.png",
+      "width": 1280,
+      "height": 639
+    }
+  },
+  "schemas": [
+    {
+      "id": "101B_001_0",
+      "index": 1,
+      "of": 2,
+      "applies": [
+        "SR20DT"
+      ],
+      "period": {
+        "from": "1991-01",
+        "to": "1994-01",
+        "raw": "01.1991 - 01.1994"
+      },
+      "image": "amayama/imgjp16/RS13/101B_001.png",
+      "callouts": [
+        {
+          "pnc": "10102",
+          "name": "engine assembly, bear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 771,
+                "y1": 139,
+                "x2": 831,
+                "y2": 155
+              },
+              "norm": {
+                "x1": 0.6023,
+                "y1": 0.2175,
+                "x2": 0.6492,
+                "y2": 0.2426
+              },
+              "title": "engine assembly, bear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10102-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010250f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10102-50F52",
+              "url": "https://www.amayama.com/en/part/nissan/1010250f52",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10102-50FM2",
+              "url": "https://www.amayama.com/en/part/nissan/1010250fm2",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4577.37,
+                "currency": "USD",
+                "raw": "4,577.37"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "R10102",
+          "name": "engine assembly, bear rebuilt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 762,
+                "y1": 158,
+                "x2": 836,
+                "y2": 172
+              },
+              "norm": {
+                "x1": 0.5953,
+                "y1": 0.2473,
+                "x2": 0.6531,
+                "y2": 0.2692
+              },
+              "title": "engine assembly, bear rebuilt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10102-50FR2",
+              "url": "https://www.amayama.com/en/part/nissan/1010250fr2",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3739.55,
+                "currency": "USD",
+                "raw": "3,739.55"
+              },
+              "replacements": [
+                {
+                  "oem": "10102-50FM2",
+                  "url": "https://www.amayama.com/en/part/nissan/1010250fm2",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4577.37,
+                    "currency": "USD",
+                    "raw": "4,577.37"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "1010B-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010b50f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "1010250FR0",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "1010B-50F52",
+              "url": "https://www.amayama.com/en/part/nissan/1010b50f52",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10102-50FR2",
+                  "url": "https://www.amayama.com/en/part/nissan/1010250fr2",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3739.55,
+                    "currency": "USD",
+                    "raw": "3,739.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "10103",
+          "name": "engine assembly, short",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 294,
+                "y1": 232,
+                "x2": 356,
+                "y2": 248
+              },
+              "norm": {
+                "x1": 0.2297,
+                "y1": 0.3631,
+                "x2": 0.2781,
+                "y2": 0.3881
+              },
+              "title": "engine assembly, short"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10103-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010350f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10103-50FM0",
+                  "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2622.45,
+                    "currency": "USD",
+                    "raw": "2,622.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10103-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010350f50",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10103-50FM0",
+                  "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2622.45,
+                    "currency": "USD",
+                    "raw": "2,622.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10103-50FM0",
+              "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2622.45,
+                "currency": "USD",
+                "raw": "2,622.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "101B_001_1",
+      "index": 2,
+      "of": 2,
+      "applies": [
+        "SR20DET"
+      ],
+      "period": {
+        "from": "1994-01",
+        "to": "1998-12",
+        "raw": "01.1994 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/101B_001.png",
+      "callouts": [
+        {
+          "pnc": "10102",
+          "name": "engine assembly, bear",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 771,
+                "y1": 139,
+                "x2": 831,
+                "y2": 155
+              },
+              "norm": {
+                "x1": 0.6023,
+                "y1": 0.2175,
+                "x2": 0.6492,
+                "y2": 0.2426
+              },
+              "title": "engine assembly, bear"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10102-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010250f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10102-50F52",
+              "url": "https://www.amayama.com/en/part/nissan/1010250f52",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10102-50FM2",
+              "url": "https://www.amayama.com/en/part/nissan/1010250fm2",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4577.37,
+                "currency": "USD",
+                "raw": "4,577.37"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "R10102",
+          "name": "engine assembly, bear rebuilt",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 762,
+                "y1": 158,
+                "x2": 836,
+                "y2": 172
+              },
+              "norm": {
+                "x1": 0.5953,
+                "y1": 0.2473,
+                "x2": 0.6531,
+                "y2": 0.2692
+              },
+              "title": "engine assembly, bear rebuilt"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10102-50FR2",
+              "url": "https://www.amayama.com/en/part/nissan/1010250fr2",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 3739.55,
+                "currency": "USD",
+                "raw": "3,739.55"
+              },
+              "replacements": [
+                {
+                  "oem": "10102-50FM2",
+                  "url": "https://www.amayama.com/en/part/nissan/1010250fm2",
+                  "price": {
+                    "status": "Available",
+                    "amount": 4577.37,
+                    "currency": "USD",
+                    "raw": "4,577.37"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "1010B-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010b50f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "1010250FR0",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "1010B-50F52",
+              "url": "https://www.amayama.com/en/part/nissan/1010b50f52",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10102-50FR2",
+                  "url": "https://www.amayama.com/en/part/nissan/1010250fr2",
+                  "price": {
+                    "status": "Available",
+                    "amount": 3739.55,
+                    "currency": "USD",
+                    "raw": "3,739.55"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        },
+        {
+          "pnc": "10103",
+          "name": "engine assembly, short",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 294,
+                "y1": 232,
+                "x2": 356,
+                "y2": 248
+              },
+              "norm": {
+                "x1": 0.2297,
+                "y1": 0.3631,
+                "x2": 0.2781,
+                "y2": 0.3881
+              },
+              "title": "engine assembly, short"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "10103-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010350f50",
+              "applies": [
+                "SR20DT"
+              ],
+              "details": {
+                "applies": "SR20DT"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1994-01",
+                "raw": "01.1991 - 01.1994"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10103-50FM0",
+                  "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2622.45,
+                    "currency": "USD",
+                    "raw": "2,622.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DT"
+            },
+            {
+              "oem": "10103-50F50",
+              "url": "https://www.amayama.com/en/part/nissan/1010350f50",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1994-01",
+                "to": "1996-08",
+                "raw": "01.1994 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Discontinued",
+                "amount": null,
+                "currency": "USD",
+                "raw": "Discontinued"
+              },
+              "replacements": [
+                {
+                  "oem": "10103-50FM0",
+                  "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+                  "price": {
+                    "status": "Available",
+                    "amount": 2622.45,
+                    "currency": "USD",
+                    "raw": "2,622.45"
+                  }
+                }
+              ],
+              "description_raw": "Applies: SR20DET"
+            },
+            {
+              "oem": "10103-50FM0",
+              "url": "https://www.amayama.com/en/part/nissan/1010350fm0",
+              "applies": [
+                "SR20DET"
+              ],
+              "details": {
+                "applies": "SR20DET"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - ..."
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 2622.45,
+                "currency": "USD",
+                "raw": "2,622.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: SR20DET"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

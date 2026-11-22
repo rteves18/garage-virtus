@@ -1,0 +1,939 @@
+{
+  "format_version": 2,
+  "source": {
+    "site": "amayama",
+    "url": "https://www.amayama.com/en/genuine-catalogs/epc/nissan-japan/180sx/krps13/6976-sr20det/misc/D36",
+    "scraped_at": "2026-11-21T23:58:26.184Z"
+  },
+  "vehicle": {
+    "make": "Nissan",
+    "catalog": "nissan-japan",
+    "model": "180SX",
+    "frame": "KRPS13",
+    "variant_id": "6976",
+    "period": {
+      "from": "1994-01",
+      "to": "1998-12",
+      "raw": "01.1994 - ..."
+    },
+    "engine": "SR20DET",
+    "body": "HB",
+    "grade": "TYPER/X",
+    "transmission": "MT",
+    "options": [
+      "4WS"
+    ]
+  },
+  "group": {
+    "category": "misc",
+    "code": "D36",
+    "name": "tire chain",
+    "title_raw": "tire chain for Nissan 180SX, KRPS13, 01.1994 - ..."
+  },
+  "images": {
+    "amayama/imgjp16/RS13/D36__001.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/D36__001.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/D36__002.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/D36__002.png",
+      "width": 1280,
+      "height": 633
+    },
+    "amayama/imgjp16/RS13/D36__003.png": {
+      "url": "https://nissan-img.amayama.com/imgjp16/RS13/D36__003.png",
+      "width": 1280,
+      "height": 633
+    }
+  },
+  "schemas": [
+    {
+      "id": "D36__001_0",
+      "index": 1,
+      "of": 3,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/D36__001.png",
+      "callouts": [
+        {
+          "pnc": "KD0360",
+          "kind": "pnc",
+          "name": "steel tire chain",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 891,
+                "y1": 50,
+                "x2": 962,
+                "y2": 67
+              },
+              "norm": {
+                "x1": 0.6961,
+                "y1": 0.079,
+                "x2": 0.7516,
+                "y2": 0.1058
+              },
+              "title": "steel tire chain"
+            },
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 432,
+                "y1": 165,
+                "x2": 504,
+                "y2": 181
+              },
+              "norm": {
+                "x1": 0.3375,
+                "y1": 0.2607,
+                "x2": 0.3937,
+                "y2": 0.2859
+              },
+              "title": "steel tire chain"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "KZ452-71L85",
+              "url": "https://www.amayama.com/en/part/nissan/kz45271l85",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "band,205/60R14.5,205/60R15,205/55R16"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 91.41,
+                "currency": "USD",
+                "raw": "91.41"
+              },
+              "replacements": [
+                {
+                  "oem": "D0360-71L85",
+                  "url": "https://www.amayama.com/en/part/nissan/d036071l85",
+                  "price": {
+                    "status": "Available",
+                    "amount": 83.1,
+                    "currency": "USD",
+                    "raw": "83.10"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: band,205/60R14.5,205/60R15,205/55R16"
+            },
+            {
+              "oem": "KZ452-71L85",
+              "url": "https://www.amayama.com/en/part/nissan/kz45271l85",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, band,205/60R14.5,205/55R16"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 91.41,
+                "currency": "USD",
+                "raw": "91.41"
+              },
+              "replacements": [
+                {
+                  "oem": "D0360-71L85",
+                  "url": "https://www.amayama.com/en/part/nissan/d036071l85",
+                  "price": {
+                    "status": "Available",
+                    "amount": 83.1,
+                    "currency": "USD",
+                    "raw": "83.10"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15, band,205/60R14.5,205/55R16"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0361",
+          "kind": "pnc",
+          "name": "band, steel chain",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1082,
+                "y1": 196,
+                "x2": 1153,
+                "y2": 213
+              },
+              "norm": {
+                "x1": 0.8453,
+                "y1": 0.3096,
+                "x2": 0.9008,
+                "y2": 0.3365
+              },
+              "title": "band, steel chain"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AX000-00N04",
+              "url": "https://www.amayama.com/en/part/nissan/ax00000n04",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "steel chain,08E85,07S85,71L85,17V85[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.54,
+                "currency": "USD",
+                "raw": "9.54"
+              },
+              "replacements": [
+                {
+                  "oem": "D0361-00N03",
+                  "url": "https://www.amayama.com/en/part/nissan/d036100n03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 9.54,
+                    "currency": "USD",
+                    "raw": "9.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: steel chain,08E85,07S85,71L85,17V85[K504]"
+            },
+            {
+              "oem": "AX000-00N04",
+              "url": "https://www.amayama.com/en/part/nissan/ax00000n04",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, steel chain,08E85,07S85,71L85"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.54,
+                "currency": "USD",
+                "raw": "9.54"
+              },
+              "replacements": [
+                {
+                  "oem": "D0361-00N03",
+                  "url": "https://www.amayama.com/en/part/nissan/d036100n03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 9.54,
+                    "currency": "USD",
+                    "raw": "9.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15, steel chain,08E85,07S85,71L85"
+            },
+            {
+              "oem": "D0361-89926",
+              "url": "https://www.amayama.com/en/part/nissan/d036189926",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "sile chain,S2120,S2130,S221A,S2460,S2300"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.72,
+                "currency": "USD",
+                "raw": "5.72"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: sile chain,S2120,S2130,S221A,S2460,S2300"
+            },
+            {
+              "oem": "D0361-89926",
+              "url": "https://www.amayama.com/en/part/nissan/d036189926",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, sile chain,S2120,S2130,S221A"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.72,
+                "currency": "USD",
+                "raw": "5.72"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 205/60R15, sile chain,S2120,S2130,S221A"
+            },
+            {
+              "oem": "D0361-89928",
+              "url": "https://www.amayama.com/en/part/nissan/d036189928",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "super sile chain,S2230,S232A[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: super sile chain,S2230,S232A[K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "D36__002_0",
+      "index": 2,
+      "of": 3,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/D36__002.png",
+      "callouts": [
+        {
+          "pnc": "KD036R",
+          "kind": "pnc",
+          "name": "tire chain, ring",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 891,
+                "y1": 45,
+                "x2": 962,
+                "y2": 60
+              },
+              "norm": {
+                "x1": 0.6961,
+                "y1": 0.0711,
+                "x2": 0.7516,
+                "y2": 0.0948
+              },
+              "title": "tire chain, ring"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0360-06926",
+              "url": "https://www.amayama.com/en/part/nissan/d036006926",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 163.48,
+                "currency": "USD",
+                "raw": "163.48"
+              },
+              "replacements": [
+                {
+                  "oem": "D036008035",
+                  "url": null,
+                  "price": {
+                    "status": "Not available",
+                    "amount": null,
+                    "currency": "USD",
+                    "raw": "Not available"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15[K504]"
+            },
+            {
+              "oem": "D0360-08036",
+              "url": "https://www.amayama.com/en/part/nissan/d036008036",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15,195/65R15,195/70SR14[K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 163.48,
+                "currency": "USD",
+                "raw": "163.48"
+              },
+              "replacements": [
+                {
+                  "oem": "D0360-08037",
+                  "url": "https://www.amayama.com/en/part/nissan/d036008037",
+                  "price": {
+                    "status": "Available",
+                    "amount": 163.48,
+                    "currency": "USD",
+                    "raw": "163.48"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15,195/65R15,195/70SR14[K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0363",
+          "kind": "pnc",
+          "name": "tension, hook",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1089,
+                "y1": 265,
+                "x2": 1163,
+                "y2": 282
+              },
+              "norm": {
+                "x1": 0.8508,
+                "y1": 0.4186,
+                "x2": 0.9086,
+                "y2": 0.4455
+              },
+              "title": "tension, hook"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0363-R0000",
+              "url": "https://www.amayama.com/en/part/nissan/d0363r0000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "steel chain,05035,06035[K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.09,
+                "currency": "USD",
+                "raw": "4.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: steel chain,05035,06035[K504]"
+            },
+            {
+              "oem": "D0363-R0000",
+              "url": "https://www.amayama.com/en/part/nissan/d0363r0000",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, steel chain,05035,06035[K504]"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 4.09,
+                "currency": "USD",
+                "raw": "4.09"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 205/60R15, steel chain,05035,06035[K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "D36__003_0",
+      "index": 3,
+      "of": 3,
+      "applies": [
+        "K"
+      ],
+      "period": {
+        "from": "1989-03",
+        "to": "1998-12",
+        "raw": "03.1989 - ..."
+      },
+      "image": "amayama/imgjp16/RS13/D36__003.png",
+      "callouts": [
+        {
+          "pnc": "KD036S",
+          "kind": "pnc",
+          "name": "super sile chain",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 470,
+                "y1": 110,
+                "x2": 542,
+                "y2": 127
+              },
+              "norm": {
+                "x1": 0.3672,
+                "y1": 0.1738,
+                "x2": 0.4234,
+                "y2": 0.2006
+              },
+              "title": "super sile chain"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0360-0232A",
+              "url": "https://www.amayama.com/en/part/nissan/d03600232a",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "195/65R15,205/60R15,215/60-15[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 190.72,
+                "currency": "USD",
+                "raw": "190.72"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 195/65R15,205/60R15,215/60-15[K504]"
+            },
+            {
+              "oem": "D0360-S232A",
+              "url": "https://www.amayama.com/en/part/nissan/d0360s232a",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15,215/60R15,195/65R15[K504]"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1998-12",
+                "raw": "05.1995 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 204.35,
+                "currency": "USD",
+                "raw": "204.35"
+              },
+              "replacements": [
+                {
+                  "oem": "D036S-S232A",
+                  "url": "https://www.amayama.com/en/part/nissan/d036ss232a",
+                  "price": {
+                    "status": "Available",
+                    "amount": 204.35,
+                    "currency": "USD",
+                    "raw": "204.35"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15,215/60R15,195/65R15[K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0362",
+          "kind": "pnc",
+          "name": "attachment, sile chain",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 1013,
+                "y1": 198,
+                "x2": 1084,
+                "y2": 215
+              },
+              "norm": {
+                "x1": 0.7914,
+                "y1": 0.3128,
+                "x2": 0.8469,
+                "y2": 0.3397
+              },
+              "title": "attachment, sile chain"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "D0362-89903",
+              "url": "https://www.amayama.com/en/part/nissan/d036289903",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "SPｻｲﾙﾁｪｰﾝ,205/60R15,215/60R15,195/65R15"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.17,
+                "currency": "USD",
+                "raw": "8.17"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: SPｻｲﾙﾁｪｰﾝ,205/60R15,215/60R15,195/65R15"
+            },
+            {
+              "oem": "D0362-89903",
+              "url": "https://www.amayama.com/en/part/nissan/d036289903",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15,SPｻｲﾙﾁｪｰﾝ,215/60R15,195/65R15"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 8.17,
+                "currency": "USD",
+                "raw": "8.17"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 205/60R15,SPｻｲﾙﾁｪｰﾝ,215/60R15,195/65R15"
+            },
+            {
+              "oem": "D0362-89905",
+              "url": "https://www.amayama.com/en/part/nissan/d036289905",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "ｽｰﾊﾟｰｻｲﾙﾁｪｰﾝﾖｳ,185/70R14[K504]"
+              },
+              "period": {
+                "from": "1989-03",
+                "to": "1995-05",
+                "raw": "03.1989 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 6.81,
+                "currency": "USD",
+                "raw": "6.81"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: ｽｰﾊﾟｰｻｲﾙﾁｪｰﾝﾖｳ,185/70R14[K504]"
+            }
+          ]
+        },
+        {
+          "pnc": "KD0361",
+          "kind": "pnc",
+          "name": "band, steel chain",
+          "hotspots": [
+            {
+              "shape": "rect",
+              "rect": {
+                "x1": 829,
+                "y1": 201,
+                "x2": 903,
+                "y2": 215
+              },
+              "norm": {
+                "x1": 0.6477,
+                "y1": 0.3175,
+                "x2": 0.7055,
+                "y2": 0.3397
+              },
+              "title": "band, steel chain"
+            }
+          ],
+          "parts": [
+            {
+              "oem": "AX000-00N04",
+              "url": "https://www.amayama.com/en/part/nissan/ax00000n04",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "steel chain,08E85,07S85,71L85,17V85[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1996-08",
+                "raw": "01.1991 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.54,
+                "currency": "USD",
+                "raw": "9.54"
+              },
+              "replacements": [
+                {
+                  "oem": "D0361-00N03",
+                  "url": "https://www.amayama.com/en/part/nissan/d036100n03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 9.54,
+                    "currency": "USD",
+                    "raw": "9.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: steel chain,08E85,07S85,71L85,17V85[K504]"
+            },
+            {
+              "oem": "AX000-00N04",
+              "url": "https://www.amayama.com/en/part/nissan/ax00000n04",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, steel chain,08E85,07S85,71L85"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 9.54,
+                "currency": "USD",
+                "raw": "9.54"
+              },
+              "replacements": [
+                {
+                  "oem": "D0361-00N03",
+                  "url": "https://www.amayama.com/en/part/nissan/d036100n03",
+                  "price": {
+                    "status": "Available",
+                    "amount": 9.54,
+                    "currency": "USD",
+                    "raw": "9.54"
+                  }
+                }
+              ],
+              "description_raw": "Applies: HB; Notes: 205/60R15, steel chain,08E85,07S85,71L85"
+            },
+            {
+              "oem": "D0361-89926",
+              "url": "https://www.amayama.com/en/part/nissan/d036189926",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "sile chain,S2120,S2130,S221A,S2460,S2300"
+              },
+              "period": {
+                "from": "1995-05",
+                "to": "1996-08",
+                "raw": "05.1995 - 08.1996"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.72,
+                "currency": "USD",
+                "raw": "5.72"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: sile chain,S2120,S2130,S221A,S2460,S2300"
+            },
+            {
+              "oem": "D0361-89926",
+              "url": "https://www.amayama.com/en/part/nissan/d036189926",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "205/60R15, sile chain,S2120,S2130,S221A"
+              },
+              "period": {
+                "from": "1996-08",
+                "to": "1998-12",
+                "raw": "08.1996 - 12.1998"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.72,
+                "currency": "USD",
+                "raw": "5.72"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: 205/60R15, sile chain,S2120,S2130,S221A"
+            },
+            {
+              "oem": "D0361-89928",
+              "url": "https://www.amayama.com/en/part/nissan/d036189928",
+              "applies": [
+                "HB"
+              ],
+              "details": {
+                "applies": "HB;",
+                "notes": "super sile chain,S2230,S232A[K504]"
+              },
+              "period": {
+                "from": "1991-01",
+                "to": "1995-05",
+                "raw": "01.1991 - 05.1995"
+              },
+              "qty": 1,
+              "qty_raw": "01",
+              "price": {
+                "status": "Available",
+                "amount": 5.45,
+                "currency": "USD",
+                "raw": "5.45"
+              },
+              "replacements": [],
+              "description_raw": "Applies: HB; Notes: super sile chain,S2230,S232A[K504]"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+}
